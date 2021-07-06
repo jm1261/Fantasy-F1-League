@@ -91,7 +91,8 @@ def create_teams(root, managers, info):
 if __name__ == '__main__':
 
     ''' Select Year '''
-    root = os.path.join(os.getcwd(), '2021')
+    year = '2021'
+    root = os.path.join(os.getcwd(), year)
     org.check_dir_exists(dir_path=root)
 
     ''' Load Driver and Team Lineup Files '''
@@ -100,8 +101,7 @@ if __name__ == '__main__':
             root,
             '..',
             'Lineup.config'
-        )
-    )
+        ))
     lineup_dir = os.path.join(root, 'Lineup')
     org.check_dir_exists(dir_path=lineup_dir)
     create_lineup(root=lineup_dir, config=lineup)
@@ -112,17 +112,14 @@ if __name__ == '__main__':
             root,
             '..',
             'Info.config'
-        )
-    )
+        ))
     managers = org.get_config(
         config_path=os.path.join(
             root,
             '..',
             'Managers.config'
-        )
-    )
+        ))
     create_teams(
         root=root,
         managers=managers,
-        info=season_info
-    )
+        info=season_info)

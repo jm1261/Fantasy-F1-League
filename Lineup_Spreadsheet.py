@@ -1,5 +1,6 @@
 import os
 import xlsxwriter as xlsx
+import Functions.Maths as maths
 import Functions.SeasonInfo as si
 import Functions.Organisation as org
 
@@ -56,6 +57,28 @@ team_values = org.get_config(
     config_path=os.path.join(
         lineup_dir,
         'Team_Values.config'
+    )).items()
+
+''' Correct Driver and Team Points '''
+maths.correct_points(
+    points_dict=driver_points,
+    out_path=os.path.join(
+        lineup_dir,
+        'Individual_Driver_Points.config'))
+maths.correct_points(
+    points_dict=team_points,
+    out_path=os.path.join(
+        lineup_dir,
+        'Individual_Team_Points.config'))
+driver_points = org.get_config(
+    config_path=os.path.join(
+        lineup_dir,
+        'Individual_Driver_Points.config'
+    )).items()
+team_points = org.get_config(
+    config_path=os.path.join(
+        lineup_dir,
+        'Individual_Team_Points.config'
     )).items()
 
 ''' Create Spreadsheet '''
