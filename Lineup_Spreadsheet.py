@@ -122,3 +122,122 @@ print(f'The season is {season_length} races long, the races are {races}.\n'
       f'There are {len(teams)} teams, who are {teams}.\n'
       f'There are {len(drivers)} drivers, who are {drivers}.\n'
       f'To date there have been {rsf} races, these races are {races[0: rsf]}.')
+
+''' Add Races Row Headers '''
+driver_sheet.write_column(
+    row=1,
+    col=0,
+    data=races,
+    cell_format=header_format)  # Points
+driver_sheet.write_column(
+    row=1,
+    col=2 + len(drivers),
+    data=races,
+    cell_format=header_format)  # Values
+team_sheet.write_column(
+    row=1,
+    col=0,
+    data=races,
+    cell_format=header_format)  # Points
+team_sheet.write_column(
+    row=1,
+    col=2 + len(teams),
+    data=races,
+    cell_format=header_format)  # Values
+
+''' Update Data From Config '''
+driver_sheet.write(
+    0,
+    0,
+    'Points',
+    red_format)
+column = 1
+for driver, points in driver_points:
+    driver_sheet.write_column(
+        row=1,
+        col=column,
+        data=points,
+        cell_format=data_format)
+    column += 1
+column += 1
+driver_sheet.write(
+    0,
+    column,
+    'Values',
+    red_format)
+column += 1
+for driver, values in driver_values:
+    driver_sheet.write_column(
+        row=1,
+        col=column,
+        data=values,
+        cell_format=data_format)
+    column += 1
+team_sheet.write(
+    0,
+    0,
+    'Points',
+    red_format)
+column = 1
+for team, points in team_points:
+    team_sheet.write_column(
+        row=1,
+        col=column,
+        data=points,
+        cell_format=data_format)
+    column += 1
+column += 1
+team_sheet.write(
+    0,
+    column,
+    'Values',
+    red_format)
+column += 1
+for team, values in team_values:
+    team_sheet.write_column(
+        row=1,
+        col=column,
+        data=values,
+        cell_format=data_format)
+    column += 1
+
+''' Write Names With Colours '''
+for i in range(0, len(drivers)):
+    cell_format = workbook.add_format(
+        org.get_config(
+            config_path=os.path.join(
+                format_dir,
+                f'{index[i]}.config'
+                )
+        ).items())
+    driver_sheet.write(
+        0,
+        1 + i,
+        f'{drivers[i]}',
+        cell_format)
+    driver_sheet.write(
+        0,
+        3 + len(drivers) + i,
+        f'{drivers[i]}',
+        cell_format)
+for i in range(0, len(teams)):
+    cell_format = workbook.add_format(
+        org.get_config(
+            config_path=os.path.join(
+                format_dir,
+                f'{teams[i]}.config'
+            )
+        ).items())
+    team_sheet.write(
+        0,
+        1 + i,
+        f'{teams[i]}',
+        cell_format)
+    team_sheet.write(
+        0,
+        3 + len(teams) + i,
+        f'{teams[i]}',
+        cell_format)
+
+''' Close Workbook '''
+workbook.close()
