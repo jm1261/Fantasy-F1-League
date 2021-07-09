@@ -239,5 +239,87 @@ for i in range(0, len(teams)):
         f'{teams[i]}',
         cell_format)
 
+''' Totals And Averages '''
+dtp, dap = maths.total_average_dict(
+    dictionary=driver_points)  # driver total/average points
+dtv, dav = maths.total_average_dict(
+    dictionary=driver_values)  # driver total/average values
+dxp, dmp, dstdp = maths.min_max_variance_dict(
+    dictionary=driver_points)  # driver min/max/stddev points
+dxv, dmv, dstdv = maths.min_max_variance_dict(
+    dictionary=driver_values)  # driver min/max/stddev values
+dtptv = [dtp[i] / dtv[i]
+         for i in range(0, len(dtp))]  # driver total points/value
+dapav = [dap[i] / dav[i]
+         for i in range(0, len(dap))]  # driver average points/value
+drp = [dxp[i] - dmp[i]
+       for i in range(0, len(dxp))]  # driver range of points
+drv = [dxv[i] - dmv[i]
+       for i in range(0, len(dxv))]  # driver range of values
+ttp, tap = maths.total_average_dict(
+    dictionary=team_points)  # team total/average points
+ttv, tav = maths.total_average_dict(
+    dictionary=team_values)  # team total/average values
+txp, tmp, tstdp = maths.min_max_variance_dict(
+    dictionary=team_points)  # team min/max/stddev points
+txv, tmv, tstdv = maths.min_max_variance_dict(
+    dictionary=team_values)  # team min/max/stddev values
+ttptv = [ttp[i] / ttv[i]
+         for i in range(0, len(ttp))]  # team total points/value
+tapav = [tap[i] / tav[i]
+         for i in range(0, len(tap))]  # team average points/value
+trp = [txp[i] - tmp[i]
+       for i in range(0, len(txp))]  # team range of points
+trv = [txv[i] - tmv[i]
+       for i in range(0, len(txv))]  # team range of values
+
+''' Write Statistics Row Headers '''
+driver_sheet.write_column(
+    2 + len(races),
+    0,
+    stats,
+    header_format)
+driver_sheet.write_column(
+    2 + len(races),
+    2 + len(drivers),
+    stats,
+    header_format)
+team_sheet.write_column(
+    2 + len(races),
+    0,
+    stats,
+    header_format)
+team_sheet.write_column(
+    2 + len(races),
+    2 + len(teams),
+    stats,
+    header_format)
+
+''' Write Statistics To Sheet - Check Order'''
+driver_points_stats = [dtp, dtptv, dap, dapav, dstdp, dxp, dmp, drp]
+driver_values_stats = [dtv, dtptv, dav, dapav, dstdv, dxv, dmv, drv]
+team_points_stats = [ttp, ttptv, tap, tapav, tstdp, txp, tmp, trp]
+team_values_stats = [ttv, ttptv, tav, tapav, tstdv, txv, tmv, trv]
+for i in range(0, len(driver_points_stats)):
+    driver_sheet.write_row(
+        2 + i + len(races),
+        1,
+        driver_points_stats[i],
+        data_format)
+    driver_sheet.write_row(
+        2 + i + len(races),
+        3 + len(drivers),
+        driver_values_stats[i])
+    team_sheet.write_row(
+        2 + i + len(races),
+        1,
+        team_points_stats[i],
+        data_format)
+    team_sheet.write_row(
+        2 + i + len(races),
+        3 + len(teams),
+        team_values_stats[i],
+        data_format)
+
 ''' Close Workbook '''
 workbook.close()
