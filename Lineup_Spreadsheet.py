@@ -321,5 +321,8 @@ for i in range(0, len(driver_points_stats)):
         team_values_stats[i],
         data_format)
 
+''' Get Team Colours For Plotting '''
+driver_colours = plot
+
 ''' Close Workbook '''
 workbook.close()
