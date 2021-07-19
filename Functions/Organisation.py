@@ -17,7 +17,8 @@ def get_config(config_path):
             return json.load(f)
 
 
-def dump_json(out_path, dictionary):
+def dump_json(out_path,
+              dictionary):
     '''
     Add a dictionary to a json dictionary.
     Args:
@@ -25,7 +26,10 @@ def dump_json(out_path, dictionary):
         dictionary: <dict> python dictionary to put in file
     '''
     with open(out_path, 'w') as outfile:
-        json.dump(dictionary, outfile, indent=2)
+        json.dump(
+            dictionary,
+            outfile,
+            indent=2)
         outfile.write('\n')
 
 
