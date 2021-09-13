@@ -6,6 +6,8 @@ import Functions.Plotting as plot
 import Functions.Dictionary as dct
 import Functions.Organisation as org
 
+''' Something is broken, keeps failing to allocate bitmap '''
+
 ''' Organisation '''
 year = '2021'
 root = os.path.join(
@@ -222,7 +224,7 @@ driver_sheet.write(
     'Points',
     red_format)
 column = 1
-for driver, points in driver_points:
+for driver, points in individual_driver_points:
     driver_sheet.write_column(
         row=1,
         col=column,
@@ -249,7 +251,7 @@ team_sheet.write(
     'Points',
     red_format)
 column = 1
-for team, points in team_points:
+for team, points in individual_team_points:
     team_sheet.write_column(
         row=1,
         col=column,
@@ -311,11 +313,11 @@ for i in range(0, len(teams)):
 
 ''' Totals And Averages '''
 dtp, dap = maths.total_average_dict(
-    dictionary=driver_points)  # driver total/average points
+    dictionary=individual_driver_points)  # driver total/average points
 dtv, dav = maths.total_average_dict(
     dictionary=driver_values)  # driver total/average values
 dxp, dmp, dstdp = maths.min_max_variance_dict(
-    dictionary=driver_points)  # driver min/max/stddev points
+    dictionary=individual_driver_points)  # driver min/max/stddev points
 dxv, dmv, dstdv = maths.min_max_variance_dict(
     dictionary=driver_values)  # driver min/max/stddev values
 dtptv = [dtp[i] / dtv[i]
@@ -327,11 +329,11 @@ drp = [dxp[i] - dmp[i]
 drv = [dxv[i] - dmv[i]
        for i in range(0, len(dxv))]  # driver range of values
 ttp, tap = maths.total_average_dict(
-    dictionary=team_points)  # team total/average points
+    dictionary=individual_team_points)  # team total/average points
 ttv, tav = maths.total_average_dict(
     dictionary=team_values)  # team total/average values
 txp, tmp, tstdp = maths.min_max_variance_dict(
-    dictionary=team_points)  # team min/max/stddev points
+    dictionary=individual_team_points)  # team min/max/stddev points
 txv, tmv, tstdv = maths.min_max_variance_dict(
     dictionary=team_values)  # team min/max/stddev values
 ttptv = [ttp[i] / ttv[i]
@@ -404,14 +406,13 @@ team_colours = plot.plotting_colours(
     teams=True)
 
 ''' Plotting '''
+print('')
 for i in range(0, len(races[0: rsf])):
-    print(f'Processing {races[i]}')
+    print(f'Plotting {races[i]} Points Line')
     races_plot_dir = os.path.join(
         plot_dir,
         f'{races[i]}')
     org.check_dir_exists(dir_path=races_plot_dir)
-    
-    ''' Points '''
     plot.season_plot(
         dictionary=individual_driver_points,
         races_array=races[0: i + 1],
@@ -466,8 +467,13 @@ for i in range(0, len(races[0: rsf])):
         out_path=os.path.join(
             races_plot_dir,
             f'{races[i]}_Average_Team_Points_Line.png'))
-
-    ''' Values '''
+print('')
+for i in range(0, len(races[0: rsf])):
+    print(f'Plotting {races[i]} Values Line')
+    races_plot_dir = os.path.join(
+        plot_dir,
+        f'{races[i]}')
+    org.check_dir_exists(dir_path=races_plot_dir)
     plot.season_plot(
         dictionary=driver_values,
         races_array=races[0: i + 1],
@@ -542,8 +548,13 @@ for i in range(0, len(races[0: rsf])):
         out_path=os.path.join(
             races_plot_dir,
             f'{races[i]}_Average_Team_Values_Line.png'))
-
-    ''' Points Per Value '''
+print('')
+for i in range(0, len(races[0: rsf])):
+    print(f'Plotting {races[i]} Points Per Value Line')
+    races_plot_dir = os.path.join(
+        plot_dir,
+        f'{races[i]}')
+    org.check_dir_exists(dir_path=races_plot_dir)
     plot.season_plot(
         dictionary=driver_ppv,
         races_array=races[0: i + 1],
@@ -580,10 +591,15 @@ for i in range(0, len(races[0: rsf])):
         out_path=os.path.join(
             races_plot_dir,
             f'{races[i]}_Team_PPV_Line.png'))
-
-    ''' Bar Plots '''
+print('')
+for i in range(0, len(races[0: rsf])):
+    print(f'Plotting {races[i]} Points Bar')
+    races_plot_dir = os.path.join(
+        plot_dir,
+        f'{races[i]}')
+    org.check_dir_exists(dir_path=races_plot_dir)
     plot.season_bar(
-        dictionary=driver_points,
+        dictionary=individual_driver_points,
         races_array=races[0: i],
         colour_dict=driver_colours,
         title=f'{races[i]} Driver Points',
@@ -594,7 +610,7 @@ for i in range(0, len(races[0: rsf])):
         cumulative=False,
         index=i)
     plot.season_bar(
-        dictionary=driver_points,
+        dictionary=individual_driver_points,
         races_array=races[0: i],
         colour_dict=driver_colours,
         title=f'{races[i]} Total Driver Points',
@@ -604,6 +620,35 @@ for i in range(0, len(races[0: rsf])):
             f'{races[i]}_Total_Driver_Points_Bar.png'),
         cumulative=True,
         index=False)
+    plot.season_bar(
+        dictionary=individual_team_points,
+        races_array=races[0: i],
+        colour_dict=team_colours,
+        title=f'{races[i]} Team Points',
+        x_label='Points',
+        out_path=os.path.join(
+            races_plot_dir,
+            f'{races[i]}_Team_Points_Bar.png'),
+        cumulative=False,
+        index=i)
+    plot.season_bar(
+        dictionary=individual_team_points,
+        races_array=races[0: i],
+        colour_dict=team_colours,
+        title=f'{races[i]} Total Team Points',
+        x_label='Points',
+        out_path=os.path.join(
+            races_plot_dir,
+            f'{races[i]}_Total_Team_Points_Bar.png'),
+        cumulative=True,
+        index=False)
+print('')
+for i in range(0, len(races[0: rsf])):
+    print(f'Plotting {races[i]} Values Bar')
+    races_plot_dir = os.path.join(
+        plot_dir,
+        f'{races[i]}')
+    org.check_dir_exists(dir_path=races_plot_dir)
     plot.season_bar(
         dictionary=driver_values,
         races_array=races[0: i],
@@ -624,28 +669,6 @@ for i in range(0, len(races[0: rsf])):
         out_path=os.path.join(
             races_plot_dir,
             f'{races[i]}_Total_Driver_Values_Bar.png'),
-        cumulative=True,
-        index=False)
-    plot.season_bar(
-        dictionary=team_points,
-        races_array=races[0: i],
-        colour_dict=team_colours,
-        title=f'{races[i]} Team Points',
-        x_label='Points',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Team_Points_Bar.png'),
-        cumulative=False,
-        index=i)
-    plot.season_bar(
-        dictionary=team_points,
-        races_array=races[0: i],
-        colour_dict=team_colours,
-        title=f'{races[i]} Total Team Points',
-        x_label='Points',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Total_Team_Points_Bar.png'),
         cumulative=True,
         index=False)
     plot.season_bar(
@@ -670,6 +693,14 @@ for i in range(0, len(races[0: rsf])):
             f'{races[i]}_Total_Team_Values_Bar.png'),
         cumulative=True,
         index=False)
+print('')
+'''
+for i in range(0, len(races[0: rsf])):
+    print(f'Plotting {races[i]} Delta Values Bar')
+    races_plot_dir = os.path.join(
+        plot_dir,
+        f'{races[i]}')
+    org.check_dir_exists(dir_path=races_plot_dir)
     plot.season_bar(
         dictionary=delta_driver_values,
         races_array=races[0: i],
@@ -714,6 +745,13 @@ for i in range(0, len(races[0: rsf])):
             f'{races[i]}_Total_Delta_Team_Values_Bar.png'),
         cumulative=True,
         index=False)
+print('') '''
+for i in range(0, len(races[0: rsf])):
+    print(f'Plotting {races[i]} Points Per Value Bar')
+    races_plot_dir = os.path.join(
+        plot_dir,
+        f'{races[i]}')
+    org.check_dir_exists(dir_path=races_plot_dir)
     plot.season_bar(
         dictionary=driver_ppv,
         races_array=races[0: i],

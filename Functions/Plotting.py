@@ -263,7 +263,7 @@ def season_bar(dictionary,
     for i, v in enumerate(x):
         if v < 0:
             ax.text(
-                1,
+                -v,
                 i,
                 str(round(v, 2)),
                 color=c[i],
