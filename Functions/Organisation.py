@@ -1,7 +1,5 @@
 import os
 import json
-import tkinter as tk
-from tkinter import filedialog
 
 
 def get_config(config_path):
