@@ -136,8 +136,9 @@ def season_plot(dictionary,
         labelsize=14)
     fig.tight_layout()
     plt.savefig(out_path)
-    fig.clf()
     plt.close(fig)
+    plt.cla()
+    fig.clf()
 
 
 def average_plot(dictionary,
@@ -205,8 +206,9 @@ def average_plot(dictionary,
         labelsize=14)
     fig.tight_layout()
     plt.savefig(out_path)
-    fig.clf()
     plt.close(fig)
+    plt.cla()
+    fig.clf()
 
 
 def season_bar(dictionary,
@@ -290,5 +292,6 @@ def season_bar(dictionary,
         fontsize=18,
         fontweight='bold')
     plt.savefig(out_path)
-    fig.clf()
     plt.close(fig)
+    plt.cla()
+    fig.clf()

@@ -1,3 +1,4 @@
+from collections import Counter
 import Functions.Organisation as org
 
 
@@ -94,3 +95,98 @@ def points_per_value(points_dict,
     org.dump_json(
         out_path=out_path,
         dictionary=pointspervalue)
+
+
+def team_dict(team_name,
+              team_dict,
+              driver_points_dict=False,
+              driver_values_dict=False,
+              team_points_dict=False,
+              team_values_dict=False):
+    '''
+    '''
+    manager_dict = {}
+    if driver_points_dict:
+        for key, values in team_dict:
+            points = []
+            if key == 'Team':
+                for index, name in enumerate(values):
+                    points.append(team_points_dict[f'{name}'][index])
+            elif key == 'Mega Driver':
+                for index, name in enumerate(values):
+                    if name == 'None':
+                        points.append(0)
+                    else:
+                        points.append(2 * driver_points_dict[f'{name}'][index])
+            elif key == 'Penalties':
+                for value in values:
+                    points.append(-10 * value)
+            elif key == 'Wildcard':
+                pass
+            else:
+                for index, name in enumerate(values):
+                    points.append(driver_points_dict[f'{name}'][index])
+            manager_dict.update({key: points})
+    if driver_values_dict:
+        for key, values in team_dict:
+            points = []
+            if key == 'Team':
+                for index, name in enumerate(values):
+                    points.append(team_values_dict[f'{name}'][index])
+            elif key == 'Mega Driver':
+                pass
+            elif key == 'Penalties':
+                pass
+            elif key == 'Wildcard':
+                pass
+            else:
+                for index, name in enumerate(values):
+                    points.append(driver_values_dict[f'{name}'][index])
+            manager_dict.update({key: points})
+    return manager_dict
+
+
+def team_points(manager_dict,
+                races):
+    '''
+    '''
+    season_points = []
+    for i in range(0, races):
+        weekly_points = []
+        for key, points in manager_dict:
+            for index, point in enumerate(points):
+                if index == i:
+                    weekly_points.append(point)
+                else:
+                    pass
+        season_points.append(sum(weekly_points))
+    return season_points
+
+
+def team_counter(manager_dict):
+    '''
+    '''
+    driver = {}
+    team = {}
+    turbo = {}
+    mega = {}
+    for key, values in manager_dict:
+        if key == 'Team':
+            team.update(Counter(values))
+        elif key == 'Turbo Driver':
+            turbo.update(Counter(values))
+        elif key == 'Mega Driver':
+            mega.update(Counter(values))
+        elif key == 'Penalties':
+            pass
+        elif key == 'Wildcard':
+            pass
+        else:
+            count = Counter(values)
+            for countkey, countvalue in count.items():
+                if countkey in driver:
+                    newvalue = countvalue + driver[countkey]
+                    driver.update({countkey: newvalue})
+                else:
+                    driver.update({countkey: countvalue})
+    return driver, team, turbo, mega
