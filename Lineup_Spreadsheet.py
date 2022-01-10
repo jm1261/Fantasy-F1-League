@@ -406,396 +406,294 @@ team_colours = plot.plotting_colours(
     teams=True)
 
 ''' Plotting '''
-print('')
 for i in range(0, len(races[0: rsf])):
-    print(f'Plotting {races[i]} Points Line')
+    print('')
+    print(f'{races[i]} Line')
     races_plot_dir = os.path.join(
         plot_dir,
         f'{races[i]}')
     org.check_dir_exists(dir_path=races_plot_dir)
-    plot.season_plot(
-        dictionary=individual_driver_points,
-        races_array=races[0: i + 1],
-        colour_dict=driver_colours,
-        title=f'{races[i]} Driver Points',
-        y_label='Points',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Driver_Points_Line.png'))
-    plot.season_plot(
-        dictionary=driver_points,
-        races_array=races[0: i + 1],
-        colour_dict=driver_colours,
-        title=f'{races[i]} Cumulative Driver Points',
-        y_label='Points',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Cumulative_Driver_Points_Line.png'))
-    plot.season_plot(
-        dictionary=individual_team_points,
-        races_array=races[0: i + 1],
-        colour_dict=team_colours,
-        title=f'{races[i]} Team Points',
-        y_label='Points',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Team_Points_Line.png'))
-    plot.season_plot(
-        dictionary=team_points,
-        races_array=races[0: i + 1],
-        colour_dict=team_colours,
-        title=f'{races[i]} Cumulative Team Points',
-        y_label='Points',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Cumulative_Team_Points_Line.png'))
-    plot.average_plot(
-        dictionary=individual_driver_points,
-        races_array=races[0: i + 1],
-        colour_dict=driver_colours,
-        y_label='Average Points',
-        title=f'{races[i]} Average Driver Points',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Average_Driver_Points_Line.png'))
-    plot.average_plot(
-        dictionary=individual_team_points,
-        races_array=races[0: i + 1],
-        colour_dict=team_colours,
-        y_label='Average Points',
-        title=f'{races[i]} Average Team Points',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Average_Team_Points_Line.png'))
-print('')
+    filepath = os.path.join(
+        races_plot_dir,
+        f'{races[i]}_Cumulative_Driver_Points_Line.png')
+    if os.path.isfile(filepath):
+        pass
+    else:
+        print(f'Plotting {races[i]} Cumulative Points Line')
+        plot.season_plot(
+            dictionary=driver_points,
+            races_array=races[0: i + 1],
+            colour_dict=driver_colours,
+            title=f'{races[i]} Cumulative Driver Points',
+            y_label='Points',
+            out_path=filepath)
+    filepath = os.path.join(
+        races_plot_dir,
+        f'{races[i]}_Cumulative_Team_Points_Line.png')
+    if os.path.isfile(filepath):
+        pass
+    else:
+        print(f'Plotting {races[i]} Cumulative Team Points Line')
+        plot.season_plot(
+            dictionary=team_points,
+            races_array=races[0: i + 1],
+            colour_dict=team_colours,
+            title=f'{races[i]} Cumulative Team Points',
+            y_label='Points',
+            out_path=filepath)
+    filepath = os.path.join(
+        races_plot_dir,
+        f'{races[i]}_Driver_Values_Line.png')
+    if os.path.isfile(filepath):
+        pass
+    else:
+        print(f'Plotting {races[i]} Driver Values Line')
+        plot.season_plot(
+            dictionary=driver_values,
+            races_array=races[0: i + 1],
+            colour_dict=driver_colours,
+            title=f'{races[i]} Driver Values',
+            y_label='Values [$M]',
+            out_path=filepath)
+    filepath = os.path.join(
+        races_plot_dir,
+        f'{races[i]}_Delta_Driver_Values_Line.png')
+    if os.path.isfile(filepath):
+        pass
+    else:
+        print(f'Plotting {races[i]} Delta Driver Values Line')
+        plot.season_plot(
+            dictionary=delta_driver_values,
+            races_array=races[0: i + 1],
+            colour_dict=driver_colours,
+            title=f'{races[i]} Total Change In Driver Values',
+            y_label='Change In Values [$M]',
+            out_path=filepath,
+            cumulative=True)
+    filepath = os.path.join(
+        races_plot_dir,
+        f'{races[i]}_Team_Values_Line.png')
+    if os.path.isfile(filepath):
+        pass
+    else:
+        print(f'Plotting {races[i]} Team Values Line')
+        plot.season_plot(
+            dictionary=team_values,
+            races_array=races[0: i + 1],
+            colour_dict=team_colours,
+            title=f'{races[i]} Team Values',
+            y_label='Values [$M]',
+            out_path=filepath)
+    filepath = os.path.join(
+        races_plot_dir,
+        f'{races[i]}_Delta_Team_Values_Line.png')
+    if os.path.isfile(filepath):
+        pass
+    else:
+        print(f'Plotting {races[i]} Delta Team Values Line')
+        plot.season_plot(
+            dictionary=delta_team_values,
+            races_array=races[0: i + 1],
+            colour_dict=team_colours,
+            title=f'{races[i]} Total Change In Team Values',
+            y_label='Change In Values [$M]',
+            out_path=filepath,
+            cumulative=True)
+    filepath = os.path.join(
+        races_plot_dir,
+        f'{races[i]}_Average_Driver_PPV_Line.png')
+    if os.path.isfile(filepath):
+        pass
+    else:
+        print(f'Plotting {races[i]} Average Driver PPV Line')
+        plot.season_plot(
+            dictionary=average_driver_ppv,
+            races_array=races[0: i + 1],
+            colour_dict=driver_colours,
+            title=f'{races[i]} Driver Average Points Per Value',
+            y_label='Average Points/Value [1/$M]',
+            out_path=filepath)
+    filepath = os.path.join(
+        races_plot_dir,
+        f'{races[i]}_Average_Team_PPV_Line.png')
+    if os.path.isfile(filepath):
+        pass
+    else:
+        print(f'Plotting {races[i]} Average Team PPV Line')
+        plot.season_plot(
+            dictionary=average_team_ppv,
+            races_array=races[0: i + 1],
+            colour_dict=team_colours,
+            title=f'{races[i]} Team Average Points Per Value',
+            y_label='Average Points/Value [1/$M]',
+            out_path=filepath)
 for i in range(0, len(races[0: rsf])):
-    print(f'Plotting {races[i]} Values Line')
+    print('')
+    print(f'{races[i]} Bar')
     races_plot_dir = os.path.join(
         plot_dir,
         f'{races[i]}')
     org.check_dir_exists(dir_path=races_plot_dir)
-    plot.season_plot(
-        dictionary=driver_values,
-        races_array=races[0: i + 1],
-        colour_dict=driver_colours,
-        title=f'{races[i]} Driver Values',
-        y_label='Values [$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Driver_Values_Line.png'))
-    plot.season_plot(
-        dictionary=delta_driver_values,
-        races_array=races[0: i + 1],
-        colour_dict=driver_colours,
-        title=f'{races[i]} Change In Driver Values',
-        y_label='Change In Values [$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Delta_Driver_Values_Line.png'))
-    plot.season_plot(
-        dictionary=delta_driver_values,
-        races_array=races[0: i + 1],
-        colour_dict=driver_colours,
-        title=f'{races[i]} Total Change In Driver Values',
-        y_label='Change In Values [$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Total_Delta_Driver_Values_Line.png'),
-        cumulative=True)
-    plot.season_plot(
-        dictionary=team_values,
-        races_array=races[0: i + 1],
-        colour_dict=team_colours,
-        title=f'{races[i]} Team Values',
-        y_label='Values [$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Team_Values_Line.png'))
-    plot.season_plot(
-        dictionary=delta_team_values,
-        races_array=races[0: i + 1],
-        colour_dict=team_colours,
-        title=f'{races[i]} Change In Team Values',
-        y_label='Change In Values [$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Delta_Team_Values_Line.png'))
-    plot.season_plot(
-        dictionary=delta_team_values,
-        races_array=races[0: i + 1],
-        colour_dict=team_colours,
-        title=f'{races[i]} Total Change In Team Values',
-        y_label='Change In Values [$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Total_Delta_Team_Values_Line.png'),
-        cumulative=True)    
-    plot.average_plot(
-        dictionary=driver_values,
-        races_array=races[0: i + 1],
-        colour_dict=driver_colours,
-        y_label='Average Values',
-        title=f'{races[i]} Average Driver Values',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Average_Driver_Values_Line.png'))
-    plot.average_plot(
-        dictionary=team_values,
-        races_array=races[0: i + 1],
-        colour_dict=team_colours,
-        y_label='Average Values',
-        title=f'{races[i]} Average Team Values',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Average_Team_Values_Line.png'))
-print('')
-for i in range(0, len(races[0: rsf])):
-    print(f'Plotting {races[i]} Points Per Value Line')
-    races_plot_dir = os.path.join(
-        plot_dir,
-        f'{races[i]}')
-    org.check_dir_exists(dir_path=races_plot_dir)
-    plot.season_plot(
-        dictionary=driver_ppv,
-        races_array=races[0: i + 1],
-        colour_dict=driver_colours,
-        title=f'{races[i]} Driver Points Per Value',
-        y_label='Points/Value [1/$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Driver_PPV_Line.png'))
-    plot.season_plot(
-        dictionary=average_driver_ppv,
-        races_array=races[0: i + 1],
-        colour_dict=driver_colours,
-        title=f'{races[i]} Driver Average Points Per Value',
-        y_label='Average Points/Value [1/$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Driver_PPV_Line.png'))
-    plot.season_plot(
-        dictionary=team_ppv,
-        races_array=races[0: i + 1],
-        colour_dict=team_colours,
-        title=f'{races[i]} Team Points Per Value',
-        y_label='Points/Value [1/$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Team_PPV_Line.png'))
-    plot.season_plot(
-        dictionary=average_team_ppv,
-        races_array=races[0: i + 1],
-        colour_dict=team_colours,
-        title=f'{races[i]} Team Average Points Per Value',
-        y_label='Average Points/Value [1/$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Team_PPV_Line.png'))
-print('')
-for i in range(0, len(races[0: rsf])):
-    print(f'Plotting {races[i]} Points Bar')
-    races_plot_dir = os.path.join(
-        plot_dir,
-        f'{races[i]}')
-    org.check_dir_exists(dir_path=races_plot_dir)
-    plot.season_bar(
-        dictionary=individual_driver_points,
-        races_array=races[0: i],
-        colour_dict=driver_colours,
-        title=f'{races[i]} Driver Points',
-        x_label='Points',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Driver_Points_Bar.png'),
-        cumulative=False,
-        index=i)
-    plot.season_bar(
-        dictionary=individual_driver_points,
-        races_array=races[0: i],
-        colour_dict=driver_colours,
-        title=f'{races[i]} Total Driver Points',
-        x_label='Points',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Total_Driver_Points_Bar.png'),
-        cumulative=True,
-        index=False)
-    plot.season_bar(
-        dictionary=individual_team_points,
-        races_array=races[0: i],
-        colour_dict=team_colours,
-        title=f'{races[i]} Team Points',
-        x_label='Points',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Team_Points_Bar.png'),
-        cumulative=False,
-        index=i)
-    plot.season_bar(
-        dictionary=individual_team_points,
-        races_array=races[0: i],
-        colour_dict=team_colours,
-        title=f'{races[i]} Total Team Points',
-        x_label='Points',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Total_Team_Points_Bar.png'),
-        cumulative=True,
-        index=False)
-print('')
-for i in range(0, len(races[0: rsf])):
-    print(f'Plotting {races[i]} Values Bar')
-    races_plot_dir = os.path.join(
-        plot_dir,
-        f'{races[i]}')
-    org.check_dir_exists(dir_path=races_plot_dir)
-    plot.season_bar(
-        dictionary=driver_values,
-        races_array=races[0: i],
-        colour_dict=driver_colours,
-        title=f'{races[i]} Driver Values',
-        x_label='Values [$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Driver_Values_Bar.png'),
-        cumulative=False,
-        index=i)
-    plot.season_bar(
-        dictionary=driver_values,
-        races_array=races[0: i],
-        colour_dict=driver_colours,
-        title=f'{races[i]} Total Driver Values',
-        x_label='Values [$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Total_Driver_Values_Bar.png'),
-        cumulative=True,
-        index=False)
-    plot.season_bar(
-        dictionary=team_values,
-        races_array=races[0: i],
-        colour_dict=team_colours,
-        title=f'{races[i]} Team Values',
-        x_label='Values [$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Team_Values_Bar.png'),
-        cumulative=False,
-        index=i)
-    plot.season_bar(
-        dictionary=team_values,
-        races_array=races[0: i],
-        colour_dict=team_colours,
-        title=f'{races[i]} Total Team Values',
-        x_label='Values [$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Total_Team_Values_Bar.png'),
-        cumulative=True,
-        index=False)
-print('')
-'''
-for i in range(0, len(races[0: rsf])):
-    print(f'Plotting {races[i]} Delta Values Bar')
-    races_plot_dir = os.path.join(
-        plot_dir,
-        f'{races[i]}')
-    org.check_dir_exists(dir_path=races_plot_dir)
-    plot.season_bar(
-        dictionary=delta_driver_values,
-        races_array=races[0: i],
-        colour_dict=driver_colours,
-        title=f'{races[i]} Change In Driver Values',
-        x_label='Change In Values [$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Delta_Driver_Values_Bar.png'),
-        cumulative=False,
-        index=i)
-    plot.season_bar(
-        dictionary=delta_driver_values,
-        races_array=races[0: i],
-        colour_dict=driver_colours,
-        title=f'{races[i]} Total Change In Driver Values',
-        x_label='Change In Values [$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Total_Delta_Driver_Values_Bar.png'),
-        cumulative=True,
-        index=False)
-    plot.season_bar(
-        dictionary=delta_team_values,
-        races_array=races[0: i],
-        colour_dict=team_colours,
-        title=f'{races[i]} Change In Team Values',
-        x_label='Change In Values [$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Delta_Team_Values_Bar.png'),
-        cumulative=False,
-        index=i)
-    plot.season_bar(
-        dictionary=delta_team_values,
-        races_array=races[0: i],
-        colour_dict=team_colours,
-        title=f'{races[i]} Total Change In Team Values',
-        x_label='Change In Values [$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Total_Delta_Team_Values_Bar.png'),
-        cumulative=True,
-        index=False)
-print('') '''
-for i in range(0, len(races[0: rsf])):
-    print(f'Plotting {races[i]} Points Per Value Bar')
-    races_plot_dir = os.path.join(
-        plot_dir,
-        f'{races[i]}')
-    org.check_dir_exists(dir_path=races_plot_dir)
-    plot.season_bar(
-        dictionary=driver_ppv,
-        races_array=races[0: i],
-        colour_dict=driver_colours,
-        title=f'{races[i]} Driver Points/Value',
-        x_label='Points/Value [1/$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Driver_PPV_Bar.png'),
-        cumulative=False,
-        index=i)
-    plot.season_bar(
-        dictionary=average_driver_ppv,
-        races_array=races[0: i],
-        colour_dict=driver_colours,
-        title=f'{races[i]} Average Driver Points/Value',
-        x_label='Average Points/Value [1/$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Average_Driver_PPV_Bar.png'),
-        cumulative=False,
-        index=i)
-    plot.season_bar(
-        dictionary=team_ppv,
-        races_array=races[0: i],
-        colour_dict=team_colours,
-        title=f'{races[i]} Team Points/Value',
-        x_label='Points/Value [1/$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Team_PPV_Bar.png'),
-        cumulative=False,
-        index=i)
-    plot.season_bar(
-        dictionary=average_team_ppv,
-        races_array=races[0: i],
-        colour_dict=team_colours,
-        title=f'{races[i]} Average Team Points/Value',
-        x_label='Average Points/Value [1/$M]',
-        out_path=os.path.join(
-            races_plot_dir,
-            f'{races[i]}_Average_Team_PPV_Bar.png'),
-        cumulative=False,
-        index=i)
+    filepath = os.path.join(
+        races_plot_dir,
+        f'{races[i]}_Driver_Points_Bar.png')
+    if os.path.isfile(filepath):
+        pass
+    else:
+        print(f'Plotting {races[i]} Driver Points Bar')
+        plot.season_bar(
+            dictionary=individual_driver_points,
+            races_array=races[0: i],
+            colour_dict=driver_colours,
+            title=f'{races[i]} Driver Points',
+            x_label='Points',
+            out_path=filepath,
+            cumulative=False,
+            index=i)
+    filepath = os.path.join(
+        races_plot_dir,
+        f'{races[i]}_Total_Driver_Points_Bar.png')
+    if os.path.isfile(filepath):
+        pass
+    else:
+        print(f'Plotting {races[i]} Total Driver Points Bar')
+        plot.season_bar(
+            dictionary=individual_driver_points,
+            races_array=races[0: i],
+            colour_dict=driver_colours,
+            title=f'{races[i]} Total Driver Points',
+            x_label='Points',
+            out_path=filepath,
+            cumulative=True,
+            index=False)
+    filepath = os.path.join(
+        races_plot_dir,
+        f'{races[i]}_Team_Points_Bar.png')
+    if os.path.isfile(filepath):
+        pass
+    else:
+        print(f'Plotting {races[i]} Team Points Bar')
+        plot.season_bar(
+            dictionary=individual_team_points,
+            races_array=races[0: i],
+            colour_dict=team_colours,
+            title=f'{races[i]} Team Points',
+            x_label='Points',
+            out_path=filepath,
+            cumulative=False,
+            index=i)
+    filepath = os.path.join(
+        races_plot_dir,
+        f'{races[i]}_Total_Team_Points_Bar.png')
+    if os.path.isfile(filepath):
+        pass
+    else:
+        print(f'Plotting {races[i]} Total Team Points Bar')
+        plot.season_bar(
+            dictionary=individual_team_points,
+            races_array=races[0: i],
+            colour_dict=team_colours,
+            title=f'{races[i]} Total Team Points',
+            x_label='Points',
+            out_path=filepath,
+            cumulative=True,
+            index=False)
+    filepath = os.path.join(
+        races_plot_dir,
+        f'{races[i]}_Driver_Values_Bar.png')
+    if os.path.isfile(filepath):
+        pass
+    else:
+        print(f'Plotting {races[i]} Driver Values Bar')
+        plot.season_bar(
+            dictionary=driver_values,
+            races_array=races[0: i],
+            colour_dict=driver_colours,
+            title=f'{races[i]} Driver Values',
+            x_label='Values [$M]',
+            out_path=filepath,
+            cumulative=False,
+            index=i)
+    filepath = os.path.join(
+        races_plot_dir,
+        f'{races[i]}_Team_Values_Bar.png')
+    if os.path.isfile(filepath):
+        pass
+    else:
+        print(f'Plotting {races[i]} Team Values Bar')
+        plot.season_bar(
+            dictionary=team_values,
+            races_array=races[0: i],
+            colour_dict=team_colours,
+            title=f'{races[i]} Team Values',
+            x_label='Values [$M]',
+            out_path=filepath,
+            cumulative=False,
+            index=i)
+    filepath = os.path.join(
+        races_plot_dir,
+        f'{races[i]}_Driver_PPV_Bar.png')
+    if os.path.isfile(filepath):
+        pass
+    else:
+        print(f'Plotting {races[i]} Driver PPV Bar')
+        plot.season_bar(
+            dictionary=driver_ppv,
+            races_array=races[0: i],
+            colour_dict=driver_colours,
+            title=f'{races[i]} Driver Points/Value',
+            x_label='Points/Value [1/$M]',
+            out_path=filepath,
+            cumulative=False,
+            index=i)
+    filepath = os.path.join(
+        races_plot_dir,
+        f'{races[i]}_Average_Driver_PPV_Bar.png')
+    if os.path.isfile(filepath):
+        pass
+    else:
+        print(f'Plotting {races[i]} Average Driver PPV Bar')
+        plot.season_bar(
+            dictionary=average_driver_ppv,
+            races_array=races[0: i],
+            colour_dict=driver_colours,
+            title=f'{races[i]} Average Driver Points/Value',
+            x_label='Average Points/Value [1/$M]',
+            out_path=filepath,
+            cumulative=False,
+            index=i)
+    filepath = os.path.join(
+        races_plot_dir,
+        f'{races[i]}_Team_PPV_Bar.png')
+    if os.path.isfile(filepath):
+        pass
+    else:
+        print(f'Plotting {races[i]} Team PPV Bar')
+        plot.season_bar(
+            dictionary=team_ppv,
+            races_array=races[0: i],
+            colour_dict=team_colours,
+            title=f'{races[i]} Team Points/Value',
+            x_label='Points/Value [1/$M]',
+            out_path=filepath,
+            cumulative=False,
+            index=i)
+    filepath = os.path.join(
+        races_plot_dir,
+        f'{races[i]}_Average_Team_PPV_Bar.png')
+    if os.path.isfile(filepath):
+        pass
+    else:
+        print(f'Plotting {races[i]} Average Team PPV Bar')
+        plot.season_bar(
+            dictionary=average_team_ppv,
+            races_array=races[0: i],
+            colour_dict=team_colours,
+            title=f'{races[i]} Average Team Points/Value',
+            x_label='Average Points/Value [1/$M]',
+            out_path=filepath,
+            cumulative=False,
+            index=i)
 
 ''' Close Workbook '''
 workbook.close()
