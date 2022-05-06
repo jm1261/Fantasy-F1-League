@@ -1,3 +1,4 @@
+import os
 from collections import Counter
 import Functions.Organisation as org
 
@@ -190,3 +191,94 @@ def team_counter(manager_dict):
                 else:
                     driver.update({countkey: countvalue})
     return driver, team, turbo, mega
+
+
+def correct_dictionaries(dir_path,
+                         categories):
+    '''
+    Calculate individual points from driver and team points configs, calculate
+    delta values from driver and team values configs, calculate points per
+    value from driver and team points and values configs, calculate average
+    points per value from driver and team points and values configs. Save all
+    out with fixed names.
+    Args:
+        dir_path: <string> path to configs
+        categories: <array> Driver and Team array, contains strings
+    Returns:
+        None
+    '''
+    for category in categories:
+        delta_points(
+            dictionary=org.get_config(
+                config_path=os.path.join(
+                    dir_path,
+                    f'{category}_Points.config')).items(),
+            out_path=os.path.join(
+                dir_path,
+                f'Individual_{category}_Points.config'))
+        delta_values(
+            dictionary=org.get_config(
+                config_path=os.path.join(
+                    dir_path,
+                    f'{category}_Values.config')).items(),
+            out_path=os.path.join(
+                dir_path,
+                f'Delta_{category}_Values.config'))
+        points_per_value(
+            points_dict=org.get_config(
+                config_path=os.path.join(
+                    dir_path,
+                    f'Individual_{category}_Points.config')).items(),
+            values_dict=org.get_config(
+                config_path=os.path.join(
+                    dir_path,
+                    f'{category}_Values.config')).items(),
+            out_path=os.path.join(
+                dir_path,
+                f'{category}_PPVs.config'),
+            average=False)
+        points_per_value(
+            points_dict=org.get_config(
+                config_path=os.path.join(
+                    dir_path,
+                    f'Individual_{category}_Points.config')).items(),
+            values_dict=org.get_config(
+                config_path=os.path.join(
+                    dir_path,
+                    f'{category}_Values.config')).items(),
+            out_path=os.path.join(
+                dir_path,
+                f'Average_{category}_PPVs.config'),
+            average=True)
+
+
+def get_dictionaries(dir_path,
+                     dictionaries):
+    '''
+    Unpack 4 dictionaries and return as callable items.
+    Args:
+        dir_path: <string> rootpath to configs
+        dictionaries: <array> array of config file names
+    Returns:
+        dictionary_0: <dict> unpacked dictionary 1
+        dictionary_1: <dict> unpacked dictionary 2
+        dictionary_2: <dict> unpacked dictionary 3
+        dictionary_3: <dict> unpacked dictionary 4
+    '''
+    dictionary_0 = org.get_config(
+        config_path=os.path.join(
+            dir_path,
+            f'{dictionaries[0]}.config')).items()
+    dictionary_1 = org.get_config(
+        config_path=os.path.join(
+            dir_path,
+            f'{dictionaries[1]}.config')).items()
+    dictionary_2 = org.get_config(
+        config_path=os.path.join(
+            dir_path,
+            f'{dictionaries[2]}.config')).items()
+    dictionary_3 = org.get_config(
+        config_path=os.path.join(
+            dir_path,
+            f'{dictionaries[3]}.config')).items()
+    return dictionary_0, dictionary_1, dictionary_2, dictionary_3
