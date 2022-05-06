@@ -316,9 +316,9 @@ dtp, dap = maths.total_average_dict(
     dictionary=individual_driver_points)  # driver total/average points
 dtv, dav = maths.total_average_dict(
     dictionary=driver_values)  # driver total/average values
-dxp, dmp, dstdp = maths.min_max_variance_dict(
+dxp, dmp, dstdp = maths.min_max_stddev_dict(
     dictionary=individual_driver_points)  # driver min/max/stddev points
-dxv, dmv, dstdv = maths.min_max_variance_dict(
+dxv, dmv, dstdv = maths.min_max_stddev_dict(
     dictionary=driver_values)  # driver min/max/stddev values
 dtptv = [dtp[i] / dtv[i]
          for i in range(0, len(dtp))]  # driver total points/value
@@ -332,9 +332,9 @@ ttp, tap = maths.total_average_dict(
     dictionary=individual_team_points)  # team total/average points
 ttv, tav = maths.total_average_dict(
     dictionary=team_values)  # team total/average values
-txp, tmp, tstdp = maths.min_max_variance_dict(
+txp, tmp, tstdp = maths.min_max_stddev_dict(
     dictionary=individual_team_points)  # team min/max/stddev points
-txv, tmv, tstdv = maths.min_max_variance_dict(
+txv, tmv, tstdv = maths.min_max_stddev_dict(
     dictionary=team_values)  # team min/max/stddev values
 ttptv = [ttp[i] / ttv[i]
          for i in range(0, len(ttp))]  # team total points/value
