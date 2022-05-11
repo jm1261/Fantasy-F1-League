@@ -41,9 +41,9 @@ def create_lineup(config):
     return configs
 
 
-def create_teams(root,
-                 managers,
-                 info):
+def create_team(root,
+                managers,
+                info):
     '''
     Create manager dictionaries corresponding to team, manager, and info config
     files. Creates individual team config files with team info from config.
@@ -56,8 +56,8 @@ def create_teams(root,
     '''
     team_dict = {}
     [team_dict.update(
-        {value: []}
-     for value in info['Team'])]
+        {value: []})
+     for value in info["Team"]]
     for key, values in managers.items():
         manager_dir = os.path.join(
             root,
@@ -114,7 +114,7 @@ if __name__ == '__main__':
             root,
             '..',
             'Managers.config'))
-    create_teams(
+    create_team(
         root=root,
         managers=managersconfig,
         info=seasosinfoconfig)
