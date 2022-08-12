@@ -21,7 +21,7 @@ def delta_points(dictionary,
             else values[i] - values[i - 1]
             for i in range(0, len(values))]
         delta_dict.update({key: deltas})
-    org.dump_json(
+    org.jsonout(
         out_path=out_path,
         dictionary=delta_dict)
 
@@ -44,7 +44,7 @@ def delta_values(dictionary,
             else values[i] - values[i - 1]
             for i in range(0, len(values))]
         delta_dict.update({key: deltas})
-    org.dump_json(
+    org.jsonout(
         out_path=out_path,
         dictionary=delta_dict)
 
@@ -93,7 +93,7 @@ def points_per_value(points_dict,
                 (all_points[i])[j] / (all_values[i])[j]
                 for j in range(0, len(all_points[i]))]
             pointspervalue.update({keys[i]: points_value})
-    org.dump_json(
+    org.jsonout(
         out_path=out_path,
         dictionary=pointspervalue)
 

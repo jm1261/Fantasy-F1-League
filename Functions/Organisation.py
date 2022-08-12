@@ -15,19 +15,26 @@ def get_config(config_path):
             return json.load(f)
 
 
-def dump_json(out_path,
-              dictionary):
+def convert(o):
+    if isinstance(o, np.generic):
+        return o.item()
+    raise TypeError
+
+
+def jsonout(out_path,
+            dictionary):
     '''
     Add a dictionary to a json dictionary.
     Args:
         out_path: <string> path to file, including file name and extension
-        dictionary: <dict> python dictionary to put in file
+        dictionary: <dictionary> python dictionary to put in file
     '''
     with open(out_path, 'w') as outfile:
         json.dump(
             dictionary,
             outfile,
-            indent=2)
+            indent=2,
+            default=convert)
         outfile.write('\n')
 
 
