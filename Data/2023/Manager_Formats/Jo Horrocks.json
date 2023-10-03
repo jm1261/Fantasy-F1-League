@@ -1,0 +1,20 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "hotpink",
+    "color": [
+        "red",
+        "yellow",
+        "blue",
+        "green",
+        "orange",
+        "pink"
+    ],
+    "teams": [
+        "Paradise lost",
+        "Weyto Slo",
+        "Horrocks Horsepower"
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "Position": "Name",
+    "Race": [
+        "Great Britain"
+    ],
+    "Team Name": [
+        "12 Golden Bell"
+    ],
+    "Driver 1": [
+        "Hamilton"
+    ],
+    "Driver 2": [
+        "Magnussen"
+    ],
+    "Driver 3": [
+        "Alonso"
+    ],
+    "Driver 4": [
+        "Hulkenberg"
+    ],
+    "Driver 5": [
+        "Verstappen"
+    ],
+    "Constructor 1": [
+        "Ferrari"
+    ],
+    "Constructor 2": [
+        "Aston Martin"
+    ],
+    "DRS Boost": [
+        "Verstappen"
+    ],
+    "Penalties": [
+        0
+    ],
+    "Extra DRS": [
+        0
+    ],
+    "Perks": [
+        "Final Fix"
+    ],
+    "Replaced": [
+        "Magnussen",
+        "Piastri"
+    ],
+    "Replaced Scores": [
+        0,
+        12
+    ]
+}

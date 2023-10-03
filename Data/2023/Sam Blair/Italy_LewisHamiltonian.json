@@ -1,0 +1,42 @@
+{
+    "Position": "Name",
+    "Race": [
+        "Italy"
+    ],
+    "Team Name": [
+        "LewisHamiltonian"
+    ],
+    "Driver 1": [
+        "Verstappen"
+    ],
+    "Driver 2": [
+        "Alonso"
+    ],
+    "Driver 3": [
+        "Sainz"
+    ],
+    "Driver 4": [
+        "Hulkenberg"
+    ],
+    "Driver 5": [
+        "Gasly"
+    ],
+    "Constructor 1": [
+        "Red Bull"
+    ],
+    "Constructor 2": [
+        "Aston Martin"
+    ],
+    "DRS Boost": [
+        "Verstappen"
+    ],
+    "Penalties": [
+        0
+    ],
+    "Extra DRS": [
+        0
+    ],
+    "Perks": [
+        "None"
+    ]
+}

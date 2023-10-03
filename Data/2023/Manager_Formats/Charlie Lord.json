@@ -1,0 +1,19 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "peru",
+    "color": [
+        "red",
+        "yellow",
+        "blue",
+        "green",
+        "orange",
+        "pink"
+    ],
+    "teams": [
+        "Moe's Family Speedbag",
+        "Kiss My Haasphalt"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "darkorange",
+    "color": [
+        "red",
+        "yellow",
+        "blue",
+        "green",
+        "orange",
+        "pink"
+    ],
+    "teams": [
+        "Bwoah Pringle Rolex Golf",
+        "Bwoah Racing F1 2023 Ltd",
+        "Bwoah Racing F1 2023 Plc"
+    ]
+}

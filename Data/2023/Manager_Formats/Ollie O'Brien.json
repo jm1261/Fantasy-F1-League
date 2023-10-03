@@ -1,0 +1,20 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "midnightblue",
+    "color": [
+        "red",
+        "yellow",
+        "blue",
+        "green",
+        "orange",
+        "pink"
+    ],
+    "teams": [
+        "Probably Back of the Grid",
+        "Battle of the MIDfield",
+        "Part Time Streamers"
+    ]
+}
