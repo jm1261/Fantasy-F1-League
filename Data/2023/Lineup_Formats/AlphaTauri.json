@@ -1,0 +1,14 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "#5E8FAA",
+    "color": "#FF0008",
+    "drivers": [
+        "Tsunoda",
+        "De Vries",
+        "Ricciardo",
+        "Lawson"
+    ]
+}

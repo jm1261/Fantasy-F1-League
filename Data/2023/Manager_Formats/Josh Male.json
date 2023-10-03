@@ -1,0 +1,23 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "aquamarine",
+    "color": [
+        "red",
+        "yellow",
+        "blue",
+        "green",
+        "orange",
+        "pink"
+    ],
+    "teams": [
+        "Rhino's Midland F1 Racing",
+        "Be On Edge Jordan F1 TATA",
+        "Etihad Spyker Aldar-AD F1",
+        "Oracle RedBull Ford-EcoPT",
+        "Panasonic Toyota GRMN F1",
+        "Becks Jaguar HSBC Racing"
+    ]
+}

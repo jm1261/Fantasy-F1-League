@@ -1,0 +1,42 @@
+{
+    "Position": "Name",
+    "Race": [
+        "Bahrain"
+    ],
+    "Team Name": [
+        "Rhino's Midland F1 Racing"
+    ],
+    "Driver 1": [
+        "Verstappen"
+    ],
+    "Driver 2": [
+        "Russell"
+    ],
+    "Driver 3": [
+        "Alonso"
+    ],
+    "Driver 4": [
+        "Magnussen"
+    ],
+    "Driver 5": [
+        "Ocon"
+    ],
+    "Constructor 1": [
+        "Haas"
+    ],
+    "Constructor 2": [
+        "Ferrari"
+    ],
+    "DRS Boost": [
+        "Alonso"
+    ],
+    "Penalties": [
+        0
+    ],
+    "Extra DRS": [
+        0
+    ],
+    "Perks": [
+        "Auto Pilot"
+    ]
+}

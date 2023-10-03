@@ -1,0 +1,42 @@
+{
+    "Position": "Name",
+    "Race": [
+        "Great Britain"
+    ],
+    "Team Name": [
+        "Panasonic Toyota GRMN F1"
+    ],
+    "Driver 1": [
+        "Hamilton"
+    ],
+    "Driver 2": [
+        "Verstappen"
+    ],
+    "Driver 3": [
+        "Albon"
+    ],
+    "Driver 4": [
+        "Hulkenberg"
+    ],
+    "Driver 5": [
+        "Alonso"
+    ],
+    "Constructor 1": [
+        "Red Bull"
+    ],
+    "Constructor 2": [
+        "Haas"
+    ],
+    "DRS Boost": [
+        "Verstappen"
+    ],
+    "Penalties": [
+        -4
+    ],
+    "Extra DRS": [
+        0
+    ],
+    "Perks": [
+        "None"
+    ]
+}

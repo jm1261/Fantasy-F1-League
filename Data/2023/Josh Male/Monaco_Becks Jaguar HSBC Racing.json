@@ -1,0 +1,50 @@
+{
+    "Position": "Name",
+    "Race": [
+        "Monaco"
+    ],
+    "Team Name": [
+        "Becks Jaguar HSBC Racing"
+    ],
+    "Driver 1": [
+        "Verstappen"
+    ],
+    "Driver 2": [
+        "Leclerc"
+    ],
+    "Driver 3": [
+        "Perez"
+    ],
+    "Driver 4": [
+        "Alonso"
+    ],
+    "Driver 5": [
+        "Bottas"
+    ],
+    "Constructor 1": [
+        "Alpine"
+    ],
+    "Constructor 2": [
+        "Aston Martin"
+    ],
+    "DRS Boost": [
+        "Verstappen"
+    ],
+    "Penalties": [
+        0
+    ],
+    "Extra DRS": [
+        0
+    ],
+    "Perks": [
+        "Final Fix"
+    ],
+    "Replaced": [
+        "Perez",
+        "Russell"
+    ],
+    "Replaced Scores": [
+        0,
+        13
+    ]
+}

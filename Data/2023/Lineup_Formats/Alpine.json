@@ -1,0 +1,12 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "#2293D1",
+    "color": "#FD4BC7",
+    "drivers": [
+        "Ocon",
+        "Gasly"
+    ]
+}

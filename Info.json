@@ -1,0 +1,180 @@
+{
+    "Team": [
+        "Driver 1",
+        "Driver 2",
+        "Driver 3",
+        "Driver 4",
+        "Driver 5",
+        "Constructor 1",
+        "Constructor 2",
+        "DRS Boost",
+        "Penalties",
+        "Perks",
+        "Extra DRS"
+    ],
+    "Races": [
+        "Bahrain",
+        "Saudi Arabia",
+        "Australia",
+        "Azerbaijan",
+        "Miami",
+        "Monaco",
+        "Spain",
+        "Canada",
+        "Austria",
+        "Great Britain",
+        "Hungary",
+        "Belgium",
+        "Netherlands",
+        "Italy",
+        "Singapore",
+        "Japan",
+        "Qatar",
+        "United States",
+        "Mexico",
+        "Brazil",
+        "Las Vegas",
+        "Abu Dhabi"
+    ],
+    "Statistics": [
+        "Total",
+        "Total Points/Value",
+        "Average",
+        "Average Points/Value",
+        "Standard Deviation",
+        "Maximum",
+        "Minimum",
+        "Range"
+    ],
+    "Managers": {
+        "Josh Male": [
+            "Rhino's Midland F1 Racing",
+            "Be On Edge Jordan F1 TATA",
+            "Etihad Spyker Aldar-AD F1",
+            "Oracle RedBull Ford-EcoPT",
+            "Panasonic Toyota GRMN F1",
+            "Becks Jaguar HSBC Racing"
+        ],
+        "Charlie Lord": [
+            "Moe's Family Speedbag",
+            "Kiss My Haasphalt"
+        ],
+        "Will Reckitt": [
+            "Dinoco Piston Champions",
+            "The Big One (TM)",
+            "Boogity Boogity Boogity"
+        ],
+        "Toby Peacock": [
+            "Hesketh 2.0"
+        ],
+        "Verity Nevitt": [
+            "Versus"
+        ],
+        "Lucy Nevitt": [
+            "Put Ur Hamrussy In It"
+        ],
+        "Pete Jones": [
+            "Rooteen Inspekshun",
+            "Just Shut Up And Listen"
+        ],
+        "James Reckitt": [
+            "Bwoah Pringle Rolex Golf",
+            "Bwoah Racing F1 2023 Ltd",
+            "Bwoah Racing F1 2023 Plc"
+        ],
+        "Phil Male": [
+            "BMW Missed Opportunity",
+            "BMW Should Be Here",
+            "BMW Motorrad"
+        ],
+        "Val Male": [
+            "I Am Stubborn & Impatient",
+            "Time Is A One Way Street",
+            "My Fav'rit Colour Is Blue",
+            "Lap Time Deleted",
+            "Make A U Turn",
+            "Mater's Mates"
+        ],
+        "Patrick Lord": [
+            "Johnny UniHaas"
+        ],
+        "Jake Male": [
+            "Meme Lords No Longer",
+            "2000s Ferrari copy 16",
+            "Fuck Daniel Ricciardo"
+        ],
+        "Matty Jones": [
+            "The Stopwatch Never Lies",
+            "Checo Perez MMD",
+            "Danny Rics Barmy Army"
+        ],
+        "Matt Horrocks": [
+            "I'm In It For The Money"
+        ],
+        "Sam Blair": [
+            "LewisHamiltonian",
+            "LewisHamiltonian2",
+            "LewisHamiltonian3"
+        ],
+        "Tom Carrington": [
+            "Team $onic Racing",
+            "AllonZhou",
+            "I am Mazespin and I am Here (in Russian)"
+        ],
+        "Stuart Sykes": [
+            "11 White Dogwood",
+            "12 Golden Bell",
+            "13 Azalea (golf)"
+        ],
+        "Andrew Flint": [
+            "Mostly My Faves xoxo",
+            "GP1 Engine, GP1",
+            "Reigning Golf Champions"
+        ],
+        "Jo Horrocks": [
+            "Paradise lost",
+            "Weyto Slo",
+            "Horrocks Horsepower"
+        ],
+        "Pierce Carrington": [
+            "Cow de Rouge",
+            "Hedge Trimmers F1",
+            "The Shum Bufflers"
+        ],
+        "Simon Carrington": [
+            "White Cows 97",
+            "White Cows 98",
+            "White Cows 99"
+        ],
+        "Tess": [
+            "TMJ Racing"
+        ],
+        "Tom McVey": [
+            "Stupid Like A Fox Racing"
+        ],
+        "Cameron Morris": [
+            "Max Likes His Sister",
+            "Ford",
+            "I'm Not A Fan Boy"
+        ],
+        "Ollie O'Brien": [
+            "Probably Back of the Grid",
+            "Battle of the MIDfield",
+            "Part Time Streamers"
+        ],
+        "Joe Taberner": [
+            "Mmm.Ham.",
+            "Formula bathtub",
+            "Timothee Chalamet"
+        ],
+        "Madlen Popova": [
+            "Go Boys Give Us Nothing",
+            "Asini rossi",
+            "Team Lemonade"
+        ],
+        "Unknown": [
+            "It's on like donkey kong",
+            "Nowhere team"
+        ]
+    }
+}

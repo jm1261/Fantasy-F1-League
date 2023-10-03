@@ -1,0 +1,42 @@
+{
+    "Position": "Name",
+    "Race": [
+        "Austria"
+    ],
+    "Team Name": [
+        "The Shum Bufflers"
+    ],
+    "Driver 1": [
+        "Verstappen"
+    ],
+    "Driver 2": [
+        "Sargeant"
+    ],
+    "Driver 3": [
+        "Hulkenberg"
+    ],
+    "Driver 4": [
+        "Hamilton"
+    ],
+    "Driver 5": [
+        "Alonso"
+    ],
+    "Constructor 1": [
+        "Aston Martin"
+    ],
+    "Constructor 2": [
+        "Mercedes"
+    ],
+    "DRS Boost": [
+        "Hamilton"
+    ],
+    "Penalties": [
+        -4
+    ],
+    "Extra DRS": [
+        "Verstappen"
+    ],
+    "Perks": [
+        "Extra DRS"
+    ]
+}
