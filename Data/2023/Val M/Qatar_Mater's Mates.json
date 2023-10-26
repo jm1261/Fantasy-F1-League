@@ -1,0 +1,42 @@
+{
+    "Position": "Name",
+    "Race": [
+        "Qatar"
+    ],
+    "Team Name": [
+        "Mater's Mates"
+    ],
+    "Driver 1": [
+        "Verstappen"
+    ],
+    "Driver 2": [
+        "Norris"
+    ],
+    "Driver 3": [
+        "Alonso"
+    ],
+    "Driver 4": [
+        "Sainz"
+    ],
+    "Driver 5": [
+        "Hulkenberg"
+    ],
+    "Constructor 1": [
+        "Mercedes"
+    ],
+    "Constructor 2": [
+        "Aston Martin"
+    ],
+    "DRS Boost": [
+        "Verstappen"
+    ],
+    "Penalties": [
+        0
+    ],
+    "Extra DRS": [
+        "Sainz"
+    ],
+    "Perks": [
+        "Extra DRS"
+    ]
+}
