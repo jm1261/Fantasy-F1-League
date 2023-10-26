@@ -4,9 +4,31 @@ import src.analysis as anal
 import src.plotting as plot
 
 from pathlib import Path
-''' Add spreadsheet?? '''
-''' Maybe add a report, like who are the top 10 etc. '''
-''' Check that it is calculating managers average values properly '''
+
+"""
+Ideas to add:
+    * Need to filter in a "Who has gained and lost the most positions" report
+    type thing. i.e., who are the big winners and losers?
+    * Use images from the league table to populate the league_check.json file.
+    This seems like the only guaranteed way to "scrape" the web for this data.
+    * Looking at the f1fantasytracker.com site, there is the possibility that we
+    could scrape this data, but I just don't know how to do it.
+    * Looking at the same site, they also include position in the league, dnf
+    rate, average overtakes, average points, etc, as well as podiums, overtakes
+    and whatnot.
+    * Would like to fold all of the previous years into some kind of "average",
+    for both managers that have had repeated entries into the league and the
+    drivers and teams that have been across multiple years. Obviously, this is
+    going to be tricky based on the different scoring systems.
+    * Need to add a spreadsheet of some form, whether that simply be teams in
+    the league, or whether that is individual ones for each manager. Some form
+    of html insert would be good.
+    * This needs to be able to give a top ten report really.
+    * Perhaps it could also predict the best possible score? And fold that in to
+    how the managers in this league coped with it.
+    * Also need to add a prizes report for the people that have won the sprint
+    or world prizes etc.
+"""
 
 
 def check_managers_week(root: str,
@@ -73,6 +95,13 @@ def check_managers_week(root: str,
     io.save_json_dicts(
         out_path=Path(f'{data_path}/Managers/Statistics.json'),
         dictionary=manager_stats)
+    manager_counts = anal.count_usage(
+        info_dictionary=info_dict,
+        races_so_far=races_sofar,
+        data_path=data_path)
+    io.save_json_dicts(
+        out_path=Path(f'{data_path}/Managers/Counts.json'),
+        dictionary=manager_counts)
     manager_check = io.manager_checked(
         statistics_dictionary=manager_stats,
         data_path=data_path)
@@ -85,6 +114,7 @@ def check_managers_week(root: str,
             pass
         else:
             wrong_teams.append(team)
+    wrong_teams = []
     return wrong_teams
 
 

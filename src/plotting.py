@@ -497,6 +497,7 @@ def leaguecount(results_dictionary : dict,
     -----
     At the end of the 2023 season, remove Nonw from the perks plotter, it is a
     mistake.
+    Last checked 09/10/2023
 
     Example
     -------

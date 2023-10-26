@@ -4,15 +4,35 @@ from pathlib import Path
 from src.dataIO import load_json, save_json_dicts
 
 
-def sum_points(results_dict):
-    '''
-    Calculate sum points from weekly points scored. Also calculate average
-    points.
-    Args:
-        results_dict: <dictionary> lineup results dictionary
-    Returns:
-        sum_points: <dictionary> lineup total points and average points
-    '''
+def sum_points(results_dict : dict) -> dict:
+    """
+    Calculate the total (sum) points from weekly scores.
+
+    Also calculates average scores.
+
+    Parameters
+    ----------
+    results_dict: dictionary
+        Lineup results dictionary.
+    
+    Returns
+    -------
+    sum_points: dictionary
+        Lineup total points and average points.
+    
+    See Also
+    --------
+    sum_values
+
+    Notes
+    -----
+    Last edited 09/10/2023
+
+    Example
+    -------
+    None
+
+    """
     categories = ['Driver', 'Team']
     sum_points = {}
     for category in categories:
@@ -36,14 +56,35 @@ def sum_points(results_dict):
     return sum_points
 
 
-def sum_values(results_dict):
-    '''
-    Calculate sum values from weekly values. Also calculate average values.
-    Args:
-        results_dict: <dictionary> lineup results dictionary
-    Returns:
-        sum_values: <dictionary> lineup total values and average values
-    '''
+def sum_values(results_dict : dict) -> dict:
+    """
+    Calculate the total (sum) values from weekly scores.
+
+    Also calculates average values.
+
+    Parameters
+    ----------
+    results_dict: dictionary
+        Lineup results dictionary.
+    
+    Returns
+    -------
+    sum_values: dictionary
+        Lineup total points and average values.
+    
+    See Also
+    --------
+    sum_points
+
+    Notes
+    -----
+    Last edited 09/10/2023
+
+    Example
+    -------
+    None
+
+    """
     categories = ['Driver', 'Team']
     sum_values = {}
     for category in categories:

@@ -35,8 +35,8 @@ def load_json(file_path : str) -> dict:
     >>> my_dictionary = load_json(file_path="/Path/To/File")
     >>> my_dictionary
     {
-        "Item 1" : Value 1,
-        "Item 2": Value 2
+        "Key 1" : Value 1,
+        "Key 2": Value 2
     }
 
     """
@@ -339,7 +339,34 @@ def creates_managers_weekly(info_dict : dict,
 
     Notes
     -----
-    Creates a manager lineup dictionary for the current race.
+    Creates a manager lineup dictionary for the current race based on previous
+    manager lineups. The function is broken down into the following if and while
+    conditions:
+
+    * Initiates with a blank weekly lineup dictionary file and checks whether it
+    is the first race of the season. If the race index is 0, i.e., it is the
+    first race of the season, the dictionary is populated blank.
+    * If the race index is not 0, and it is not the first race of the season,
+    then the function sets the previous week index (index) value as the current
+    race - 1. This sets up the first while loop which looks back for the last
+    normal manager team lineup.
+    * If the while loop goes back to 0, and thus the previous index is beyond
+    the start of the season, the manager team is reset to empty. This should
+    only play a part if the first two races of the season contain a limitless
+    or a final fix perk.
+    * The problematic perks are limitless and final fix, these two perks change
+    the team sheet for a race week but the default response is for the team to
+    be reset. Therefore if a manager does not get involved, the team returns to
+    the selection from 2 races ago. This problem can obviously loop pseudo-
+    indefinitely. Hence the while loop. If the team contains these perks, the
+    index is reduced by 1 and the checking process repeats.
+    * Once the function finds a "normal" team sheet, it looks through the keys
+    and values in the team sheet to check that it is not overwriting the weekly
+    dictionary. Essentially this makes sure that we do not overwrite the keys:
+    position, race, and team name values. Then we check the Extra DRS and
+    penalty entries, which are unlikely or impossible to use again, so we reset
+    them to 0. Finally, we reset the used perk to "None", this applies for
+    any other used perks.
 
     Example
     -------
@@ -352,19 +379,29 @@ def creates_managers_weekly(info_dict : dict,
         'Race': [races[race_index]],
         'Team Name': [team]}
     if race_index != 0:
-        previous_week = Path(
-            f'{manager_path}/{races[race_index - 1]}_{team}.json')
-        if previous_week.is_file():
+        index = race_index - 1
+        while index >= 0:
+            previous_week = Path(f'{manager_path}/{races[index]}_{team}.json')
             previous_dict = load_json(file_path=previous_week)
-            for k, v in previous_dict.items():
-                if k in weekly_dictionary.keys():
-                    pass
-                else:
-                    weekly_dictionary.update({k: v})
-        else:
+            reset_perks = ['Limitless', 'Final Fix']
+            if previous_dict["Perks"][0] in reset_perks:
+                index -= 1
+            else:
+                for key, value in previous_dict.items():
+                    if key in weekly_dictionary.keys():
+                        pass
+                    elif key == 'Extra DRS' or key == 'Penalties':
+                        weekly_dictionary.update({key: [0]})
+                    elif key == 'Perks':
+                        weekly_dictionary.update({key: ['None']})
+                    else:
+                        weekly_dictionary.update({key: value})
+                break
+        if index < 0:
             [weekly_dictionary.update({item: []}) for item in manager_team]
     else:
         [weekly_dictionary.update({item: []}) for item in manager_team]
+    print(weekly_dictionary)
     save_json_dicts(
         out_path=Path(f'{manager_path}/{races[race_index]}_{team}.json'),
         dictionary=weekly_dictionary)
@@ -392,7 +429,7 @@ def managers_weekly(info_dictionary : dict,
 
     See Also
     --------
-    create_managers_weekly
+    creates_managers_weekly
 
     Notes
     -----
