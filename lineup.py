@@ -6,11 +6,6 @@ import src.spreadsheet as ss
 
 from pathlib import Path
 
-''' There is still a problem calculating the difference in race scores '''
-''' Seems the problem is with updating the results dictionary, adding points to
-wrong place '''
-''' Keep an eye on it for the japanese gp weekend '''
-
 
 def lineup_week(root : str,
                 year : str) -> None:
