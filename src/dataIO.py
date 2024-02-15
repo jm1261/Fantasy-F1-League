@@ -7,6 +7,8 @@ from pathlib import Path
 
 def load_json(file_path : str) -> dict:
     """
+    Function Details
+    ================
     Loads .json file types.
 
     Use json python library to load a .json file.
@@ -39,6 +41,10 @@ def load_json(file_path : str) -> dict:
         "Key 2": Value 2
     }
 
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
     """
     with open(file_path, 'r') as f:
         return json.load(f)
@@ -46,6 +52,8 @@ def load_json(file_path : str) -> dict:
 
 def convert(o : str) -> TypeError:
     """
+    Function Details
+    ================
     Check data type.
 
     Check type of data string.
@@ -63,15 +71,19 @@ def convert(o : str) -> TypeError:
 
     See Also
     --------
-    None.
+    None
 
     Notes
     -----
-    None.
+    None
 
     Example
     -------
-    None.
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
 
     """
     if isinstance(o, np.generic):
@@ -82,6 +94,8 @@ def convert(o : str) -> TypeError:
 def save_json_dicts(out_path : str,
                     dictionary : dict) -> None:
     """
+    Function Details
+    ================
     Save .json file types.
 
     Use json python library to save a dictionary to a .json file.
@@ -111,6 +125,10 @@ def save_json_dicts(out_path : str,
     >>> save_json_dicts(
         out_path="/Path/To/File",
         dictionary=my_dictionary)
+    
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
 
     """
     with open(out_path, 'w') as outfile:
@@ -122,17 +140,150 @@ def save_json_dicts(out_path : str,
         outfile.write('\n')
 
 
-def create_lineup(lineup_path : str) -> dict:
+def extractfile(dir_path : str,
+                file_string : str) -> list:
     """
-    Create lineup results dictionary.
+    Function Details
+    ================
+    Find all files in a target directory.
+
+    Parameters
+    ----------
+    dir_path, file_string: string
+        Path to target directory. Target file string in file names.
+
+    Returns
+    -------
+    list: list
+        List of all files in the target directory.
+
+    See Also
+    --------
+    None
+
+    Notes
+    -----
+    None
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    """
+    return [file for file in os.listdir(dir_path) if file_string in file]
+
+
+def get_used_colors(dir_path : str) -> list:
+    """
+    Function Details
+    ================
+    Get a list of used manager format colors.
+
+    Parameters
+    ----------
+    dir_path: string
+        Path to manager formats.
+    
+    Returns
+    -------
+    used_colors: list
+        List of used colors.
+
+    See Also
+    --------
+    extract_files
+
+    Notes
+    -----
+    Get a list of all the used manager colors.
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    """
+    used_colors = []
+    manager_formats = extractfile(
+        dir_path=dir_path,
+        file_string='.json')
+    for file in manager_formats:
+        file_path = Path(f'{dir_path}/{file}')
+        manager_format = load_json(file_path=file_path)
+        manager_color = manager_format['bg_color']
+        used_colors.append(manager_color)
+    return used_colors
+
+
+def adds_managers_teams(dir_path : str,
+                        manager_dict : dict) -> None:
+    """
+    Function Details
+    ================
+    Add manager teams to manager format files.
+
+    Parameters
+    ----------
+    dir_path: string
+        Path to manager formats.
+    manager_dict: dictionary
+        Manager and teams dictionary.
+
+    Returns
+    -------
+    None
+
+    See Also
+    --------
+    save_json_dicts
+
+    Notes
+    -----
+    Add manager teams to the manager format files.
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    """
+    for manager, teams in manager_dict.items():
+        format_path = Path(f'{dir_path}/{manager}.json')
+        format_dict = load_json(file_path=format_path)
+        for team in teams:
+            if team in format_dict['teams']:
+                pass
+            else:
+                format_dict['teams'].append(team)
+        save_json_dicts(
+            out_path=format_path,
+            dictionary=format_dict)
+
+
+def creates_driver_team_results(lineup_path : str,
+                                year : str) -> dict:
+    """
+    Function Details
+    =======
+    Create driver and team results dictionary.
 
     Create driver and team points and values dictionary, blank, containing the
     names of drivers and team for the current year.
 
     Parameters
     ----------
-    lineup_path : string
-        Path to lineup directory.
+    lineup_path, year : string
+        Path to lineup format directory. Year of season to process.
     
     Returns
     -------
@@ -174,6 +325,19 @@ def create_lineup(lineup_path : str) -> dict:
         }
     }
 
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+    
+    07/02/2024
+    ----------
+    Updated to allow for team format dictionaries to be stored in the .config
+    directory and have multiple years of data stored in one file. The primary
+    change to this function was to load the team dictionary and cycle the keys
+    to find the year as a key. If the key is present in the dictionary, then
+    the format information for that year can be added. Changed name for PEP8
+    purposes. This update was created by J.Male.
+
     """
     files = [
         file for file in os.listdir(lineup_path) if 'Perks.json' not in file]
@@ -182,10 +346,14 @@ def create_lineup(lineup_path : str) -> dict:
     team_dict = {}
     driver_dict = {}
     for index, path in enumerate(paths):
-        file = load_json(file_path=path)
-        drivers = file['drivers']
-        team_dict.update({teams[index]: []})
-        [driver_dict.update({driver: []}) for driver in drivers]
+        team_format_dict = load_json(file_path=path)
+        for key, format_dict in team_format_dict.items():
+            if key == year:
+                drivers = format_dict['drivers']
+                team_dict.update({teams[index]: []})
+                [driver_dict.update({driver: []}) for driver in drivers]
+            else:
+                print(f'No information for {teams[index]} for {key} season')
     return {
         'Driver Points': driver_dict,
         'Driver Values': driver_dict,
@@ -193,8 +361,11 @@ def create_lineup(lineup_path : str) -> dict:
         'Team Values': team_dict}
 
 
-def create_statistics(lineup_path : str) -> dict:
+def create_drivers_teams_statistics(lineup_path : str,
+                                    year : str) -> dict:
     """
+    Function Details
+    ================
     Create the teams and drivers statistics dictionary to record key statistics.
 
     Create the points per value, total points, total values, etc. arrays in a
@@ -202,8 +373,8 @@ def create_statistics(lineup_path : str) -> dict:
 
     Parameters
     ----------
-    lineup_path : string
-        Path to lineup directory.
+    lineup_path, year : string
+        Path to lineup directory. Year of season to process.
     
     Returns
     -------
@@ -227,6 +398,19 @@ def create_statistics(lineup_path : str) -> dict:
     -------
     None
 
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    07/02/2024
+    ----------
+    Updated to allow for team format dictionaries to be stored in the .config
+    directory and have multiple years of data stored in one file. The primary
+    change to this function was to load the team dictionary and cycle the keys
+    to find the year as a key. If the key is present in the dictionary, then
+    the format information for that year can be added. Changed name for PEP8
+    purposes. This update was created by J.Male.
+
     """
     files = [
         file for file in os.listdir(lineup_path) if 'Perks.json' not in file]
@@ -235,10 +419,14 @@ def create_statistics(lineup_path : str) -> dict:
     team_dict = {}
     driver_dict = {}
     for index, path in enumerate(paths):
-        file = load_json(file_path=path)
-        drivers = file['drivers']
-        team_dict.update({teams[index]: []})
-        [driver_dict.update({driver: []}) for driver in drivers]
+        team_format_dict = load_json(file_path=path)
+        for key, format_dict in team_format_dict.items():
+            if key == year:
+                drivers = format_dict['drivers']
+                team_dict.update({teams[index]: []})
+                [driver_dict.update({driver: []}) for driver in drivers]
+            else:
+                print(f'No information for {teams[index]} for {key} season')
     return {
         'Driver Points Per Value': driver_dict,
         'Driver Sum Points': driver_dict,
@@ -254,8 +442,11 @@ def create_statistics(lineup_path : str) -> dict:
         'Team Average Values': team_dict}
 
 
-def create_lineup_weekly(lineup_path : str) -> dict:
+def create_drivers_teams_weekly(lineup_path : str,
+                                year : str) -> dict:
     """
+    Function Details
+    ================
     Create weekly dictionary to submit points and values for teams and drivers.
 
     Creates a dictionary containing the names of all teams and drivers with a
@@ -263,13 +454,13 @@ def create_lineup_weekly(lineup_path : str) -> dict:
 
     Parameters
     ----------
-    lineup_path : string
+    lineup_path, year : string
         Path to lineup directory.
     
     Returns
     -------
     weekly_dictionary : dict
-        Weekly lineup dictionary.
+        Weekly lineup dictionary. Year of season to process.
     
     See Also
     --------
@@ -295,6 +486,19 @@ def create_lineup_weekly(lineup_path : str) -> dict:
         "Team 2": [points, value]
     }
 
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    07/02/2024
+    ----------
+    Updated to allow for team format dictionaries to be stored in the .config
+    directory and have multiple years of data stored in one file. The primary
+    change to this function was to load the team dictionary and cycle the keys
+    to find the year as a key. If the key is present in the dictionary, then
+    the format information for that year can be added. Changed name for PEP8
+    purposes. This update was created by J.Male.
+
     """
     files = [
         file for file in os.listdir(lineup_path) if 'Perks.json' not in file]
@@ -303,563 +507,205 @@ def create_lineup_weekly(lineup_path : str) -> dict:
     weekly_dictionary = {
         'Name': ['Points', 'Value'],
         'Race': []}
-    for path in paths:
-        file = load_json(file_path=path)
-        drivers = file['drivers']
-        [weekly_dictionary.update({driver: []}) for driver in drivers]
+    for index, path in enumerate(paths):
+        team_format_dict = load_json(file_path=path)
+        for key, format_dict in team_format_dict.items():
+            if key == year:
+                drivers = format_dict['drivers']
+                [weekly_dictionary.update({driver: []}) for driver in drivers]
+            else:
+                print(f'No information for {teams[index]} for {key} season')
     [weekly_dictionary.update({team: []}) for team in teams]
     return weekly_dictionary
 
 
-def creates_managers_weekly(info_dict : dict,
-                            manager_path : str,
-                            team : str,
+def updates_managers_weekly(dictionary_path : str,
+                            race_index : int,
                             races : list,
-                            race_index : int) -> None:
+                            team_sheet : list) -> None:
     """
+    Function Details
+    ================
+    Creates a weekly manager lineup dictionary and adds it to the team
+    dictionary.
+
     Parameters
     ----------
-    info_dict: dictionary
-        Info dictionary for the league.
-    manager_path, team: string
-        Path to manager directory, team name.
-    races: list
-        List of races in a season.
-    race_index: int
-        Index for the current race.
-    
+    dictionary_path : string
+        Path to manager team dictionary.
+    race_index : int
+        Race index in races list.
+    races, team_sheet : list
+        Season races list and blank team sheet list.
+
     Returns
     -------
-    None
+    updated_dictionary: dictionary
+        Team sheet dictionary with the new weekly dictionary added.
 
     See Also
     --------
     load_json
-    save_json_dicts
-
-    Notes
-    -----
-    Creates a manager lineup dictionary for the current race based on previous
-    manager lineups. The function is broken down into the following if and while
-    conditions:
-
-    * Initiates with a blank weekly lineup dictionary file and checks whether it
-    is the first race of the season. If the race index is 0, i.e., it is the
-    first race of the season, the dictionary is populated blank.
-    * If the race index is not 0, and it is not the first race of the season,
-    then the function sets the previous week index (index) value as the current
-    race - 1. This sets up the first while loop which looks back for the last
-    normal manager team lineup.
-    * If the while loop goes back to 0, and thus the previous index is beyond
-    the start of the season, the manager team is reset to empty. This should
-    only play a part if the first two races of the season contain a limitless
-    or a final fix perk.
-    * The problematic perks are limitless and final fix, these two perks change
-    the team sheet for a race week but the default response is for the team to
-    be reset. Therefore if a manager does not get involved, the team returns to
-    the selection from 2 races ago. This problem can obviously loop pseudo-
-    indefinitely. Hence the while loop. If the team contains these perks, the
-    index is reduced by 1 and the checking process repeats.
-    * Once the function finds a "normal" team sheet, it looks through the keys
-    and values in the team sheet to check that it is not overwriting the weekly
-    dictionary. Essentially this makes sure that we do not overwrite the keys:
-    position, race, and team name values. Then we check the Extra DRS and
-    penalty entries, which are unlikely or impossible to use again, so we reset
-    them to 0. Finally, we reset the used perk to "None", this applies for
-    any other used perks.
-
-    Example
-    -------
-    None
-
-    """
-    manager_team = info_dict['Team']
-    weekly_dictionary = {
-        'Position': 'Name',
-        'Race': [races[race_index]],
-        'Team Name': [team]}
-    if race_index != 0:
-        index = race_index - 1
-        while index >= 0:
-            previous_week = Path(f'{manager_path}/{races[index]}_{team}.json')
-            previous_dict = load_json(file_path=previous_week)
-            reset_perks = ['Limitless', 'Final Fix']
-            if previous_dict["Perks"][0] in reset_perks:
-                index -= 1
-            else:
-                for key, value in previous_dict.items():
-                    if key in weekly_dictionary.keys():
-                        pass
-                    elif key == 'Extra DRS' or key == 'Penalties':
-                        weekly_dictionary.update({key: [0]})
-                    elif key == 'Perks':
-                        weekly_dictionary.update({key: ['None']})
-                    else:
-                        weekly_dictionary.update({key: value})
-                break
-        if index < 0:
-            [weekly_dictionary.update({item: []}) for item in manager_team]
-    else:
-        [weekly_dictionary.update({item: []}) for item in manager_team]
-    print(weekly_dictionary)
-    save_json_dicts(
-        out_path=Path(f'{manager_path}/{races[race_index]}_{team}.json'),
-        dictionary=weekly_dictionary)
-
-
-def managers_weekly(info_dictionary : dict,
-                    data_path : str,
-                    races_sofar : list,
-                    races : list) -> None:
-    """
-    Checks to see if manager/team weekly lineup exists, if not creates one.
-
-    Parameters
-    ----------
-    info_dictionary: dictionary
-        Info dictionary for season.
-    data_path: string
-        Path to data directory.
-    races_sofar, races: list
-        Races completed so far, list of all races.
-    
-    Returns
-    -------
-    None
-
-    See Also
-    --------
     creates_managers_weekly
 
     Notes
     -----
+    The function loads the existing team dictionary, as it can only be used when
+    a team dictionary already exists. It then sets a previous race index number
+    and uses this to load the previous team sheet. As most managers make very
+    few changes, this will automatically propagate the previous team into the
+    current week. If there are any perks that affect the team sheet, the
+    function will look back further until it finds a team sheet that isn't with
+    one of these perks. If the index goes beyond the start of the season, the
+    function will create a blank team sheet entry.
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    """
+    team_dictionary = load_json(file_path=dictionary_path)
+    index = race_index - 1
+    while index >= 0:
+        previous_race = races[index]
+        previous_team = team_dictionary[f'{previous_race}']
+        reset_perks = ['Limitless', 'Final Fix']
+        if previous_team["Perks"] in reset_perks:
+            index -= 1
+        else:
+            race_dictionary = {f'{races[race_index]}': previous_team}
+            updated_dictionary = dict(
+                team_dictionary,
+                **race_dictionary)
+            break
+    if index < 0:
+        race_dictionary = creates_managers_weekly(
+            race=races[race_index],
+            team_sheet=team_sheet)
+        updated_dictionary = dict(
+            team_dictionary,
+            **race_dictionary)
+    return updated_dictionary
+
+
+def creates_managers_weekly(race : str,
+                            team_sheet : list) -> None:
+    """
+    Function Details
+    ================
+    Creates the first manager team weekly dictionary.
+
+    Parameters
+    ----------
+    race: string
+        Race name.
+    team_sheet: list
+        List of the team positions.
+
+    Returns
+    -------
+    team_dictionary: dictionary
+        Blank team sheet dictionary.
+
+    See Also
+    --------
     None
+
+    Notes
+    -----
+    Creates a blank team sheet dictionary with given race key.
 
     Example
     -------
     None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    14/02/2024
+    ----------
+    Changed the way manager team sheets are stored so that they are all stored
+    in one file, instead of the weekly individual files. Therefore, there is
+    no need to create a weekly dictionary every week. This function now creates
+    the first team sheet file of the season. This update was created by J.Male.
+
+    """
+    team_dictionary = {f'{race}': {}}
+    [
+        team_dictionary[f'{race}'].update({f'{position}': "",})
+        for position in team_sheet]
+    return team_dictionary
+
+
+def managers_weekly(info_dictionary : dict,
+                    data_path : str,
+                    race_index : int):
+    """
+    Function Details
+    ================
+    Creates or updates the manager team sheet dictionaries.
+
+    Parameters
+    ----------
+    info_dictionary: dictionary
+        Year information dictionary.
+    data_path: string
+        Path to yearly data folder.
+    race_index: int
+        Race index to update, note if 0 then the function creates a new blank
+        team sheet.
+
+    Returns
+    -------
+    None
+
+    See Also
+    --------
+    updates_managers_weekly
+    save_json_dicts
+    creates_managers_weekly
+
+    Notes
+    -----
+    General function for the management of team sheet dictionaries. The function
+    is given a race index, which could be 0 - length of the season, and will
+    update or create a new blank team sheet appropriately.
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    14/02/2024
+    ----------
+    General update to the way team sheet dictionaries are managed and an update
+    to the function to reflect that. Also, more functionality for the function
+    so that it can determine whether to create a new blank dictionary or update
+    an existing dictionary.
 
     """
     managers_dict = info_dictionary["Managers"]
+    races = info_dictionary["Races"]
     for manager, teams in managers_dict.items():
         for team in teams:
-            for index, race in enumerate(races_sofar):
-                out_path = Path(f'{data_path}/{manager}/{race}_{team}.json')
-                if out_path.is_file():
-                    pass
-                else:
-                    creates_managers_weekly(
-                        info_dict=info_dictionary,
-                        manager_path=Path(f'{data_path}/{manager}'),
-                        team=team,
-                        races=races,
-                        race_index=index)
-
-
-def update_results_dict(info_path: str,
-                        results_path: str,
-                        lineup_path: str) -> dict:
-    """
-    Update results dictionary from weekly reports.
-
-    Checks for all race reports and ensures results dictionary is up to date.
-
-    Parameters
-    ----------
-    info_path, results_path, lineup_path : string
-        Paths to info dictionary, results directory, lineup format directory.
-    
-    Returns
-    -------
-    results_dict : dictionary
-        Results dictionary updated from weekly reports.
-    
-    See Also
-    --------
-    corrects_weekly
-    update_weeklylineup
-    load_json
-    get_races_sofar
-    save_json_dicts
-
-    Notes
-    -----
-    Checks through the completed race reports in the results directory and makes
-    sure the results dictionary is correct from those. Allows the user to fix
-    incorrect or altered results without effort.
-
-    Example
-    -------
-    >>> results_dict = update_results_dict(
-        info_path="/Path/To/Info/Dictionary",
-        results_path="/Path/To/Results/Directory",
-        lineup_path="/Path/To/Lineup/Formats")
-    >>> results_dict
-    {
-        "Driver 1": [1, 2, 3, 4, 5],
-        "Team 1": [1, 2, 3, 4, 5]
-    }
-
-    """
-    files = [
-        file for file in os.listdir(lineup_path) if 'Perks.json' not in file]
-    paths = [Path(f'{lineup_path}/{file}') for file in files]
-    teams = [os.path.splitext(os.path.basename(path))[0] for path in paths]
-    drivers = []
-    for team in teams:
-        file = load_json(file_path=Path(f'{lineup_path}/{team}.json'))
-        driver_names = file['drivers']
-        [drivers.append(driver) for driver in driver_names]
-    races_sofar, _ = get_races_sofar(
-        file_path=info_path,
-        results_path=results_path)
-    results_dict = load_json(file_path=Path(f'{results_path}/Results.json'))
-    for index, race in enumerate(races_sofar):
-        race_results = load_json(
-            file_path=Path(f'{results_path}/{race}_Results.json'))
-        for key, values in race_results.items():
-            if key == 'Name' or key == 'Race':
-                pass
+            dictionary_path = Path(f'{data_path}/{manager}/{team}.json')
+            if dictionary_path.is_file():
+                updated_team_sheet = updates_managers_weekly(
+                    dictionary_path=dictionary_path,
+                    race_index=race_index,
+                    races=races,
+                    team_sheet=info_dictionary["Team"])
+                save_json_dicts(
+                    out_path=dictionary_path,
+                    dictionary=updated_team_sheet)
             else:
-                if key in drivers:
-                    ((results_dict["Driver Points"])[key])[index] = values[0]
-                    ((results_dict["Driver Values"])[key])[index] = values[1]
-                if key in teams:
-                    ((results_dict["Team Points"])[key])[index] = values[0]
-                    ((results_dict["Team Values"])[key])[index] = values[1]
-    save_json_dicts(
-        out_path=Path(f'{results_path}/Results.json'),
-        dictionary=results_dict)
-    return results_dict
-
-
-def check_races(race : str,
-                races : list) -> int:
-    """
-    Check the reported race.
-
-    Check reported race from list of races and find the race index.
-
-    Parameters
-    ----------
-    race : string
-        Race in the weekly report files or team entries.
-    races : list
-        List of all races in a season.
-    
-    Returns
-    -------
-    race_index : int
-        Race index from current season list.
-    
-    See Also
-    --------
-    get_races_sofar
-
-    Notes
-    -----
-    Uses list of all races in a season to return the list index of the current
-    race. Useful for adding or appending points/values lists.
-
-    Example
-    -------
-    >>> race = 'Bahrain'
-    >>> races = ['Bahrain', 'Chine', 'Imola']
-    >>> race_index = check_races(
-        race=race,
-        races=races)
-    >>> race_index
-    0
-
-    """
-    race_index = []
-    for index, r in enumerate(races):
-        if r == race:
-            race_index.append(index)
-    return race_index[0]
-
-
-def corrects_weekly(weekly_dictionary : dict,
-                    info_dictionary : dict,
-                    results_path : str) -> dict:
-    """
-    Corrects weekly lineup report.
-
-    Corrects weekly lineup report to only record points scored in that race week
-    into the results dictionary.
-
-    Parameters
-    ----------
-    weekly_dictionary, info_dictionary : dictionary
-        Weekly dictionary containing total points and current values. Info
-        dictionary containing season information, specifically list of races.
-    results_path : string
-        Path to results directory for lineup results dictionary.
-    
-    Returns
-    -------
-    individual_points_dict : dictionary
-        Corrected weekly points dictionary.
-    
-    See Also
-    --------
-    check_races
-    load_json
-    update_weeklylineup
-
-    Notes
-    -----
-    Updates the weekly lineup report containing total points and current values
-    for drivers and teams. Uses the results dictionary to calculate the points
-    scored on that particular race weekend by summing the total scored so far
-    and using the total points entered in the weekly report.
-
-    Example
-    -------
-    >>> weekly_lineup = corrects_weekly(
-        weekly_dictionary=lineup_weekly,
-        info_dictionary=info_dictionary,
-        results_path="/Path/To/Results/Directory")
-    >>> weekly_lineup
-    {
-        "Driver 1": [1, 2, 3, 4, 5],
-        "Team 1": [1, 2, 3, 4, 5]
-    }
-    
-    """
-    race = weekly_dictionary['Race']
-    individual_points_dict = {}
-    race_index = check_races(
-        race=race[0],
-        races=info_dictionary['Races'])
-    if race_index == 0:
-        for key, inputs in weekly_dictionary.items():
-            individual_points_dict.update({key: inputs})
-    else:
-        previous_races = load_json(
-            file_path=Path(
-                f'{results_path}/Results.json'))
-        for key, inputs in weekly_dictionary.items():
-            if key == 'Name' or key == 'Race':
-                individual_points_dict.update({key: inputs})
-            else:
-                previous_results = dict(
-                    previous_races['Driver Points'],
-                    ** previous_races['Team Points'])
-                if inputs[0] == 'N/A':
-                    new_points = 0
-                    new_values = 0
-                else:
-                    new_points = inputs[0] - sum(previous_results[key])
-                    new_values = inputs[1]
-                individual_points_dict.update({key: [new_points, new_values]})
-    return individual_points_dict
-
-
-def update_weeklylineup(root_path : str,
-                        year : str) -> dict:
-    """
-    Update weekly driver and team points and values.
-
-    Uses json dictionaries to update the weekly results for all teams and
-    drivers. Uses the new weekly report and current results file to calculate
-    weekly values.
-
-    Parameters
-    ----------
-    root_path, year : string
-        Path to root directory. Year of data collection.
-
-    Returns
-    -------
-    results_dict : dictionary
-        Updated results dictionary containing weekly points and values.
-
-    See Also
-    --------
-    corrects_weekly
-    update_results_dict
-    load_json
-    save_json_dicts
-
-    Notes
-    -----
-    Reads in previous race results json files and ensure the results dictionary
-    is corrected, allowing for replacing values if mistakes are made. Then uses
-    the weekly lineup dictionary, if one exists, and uses the total values in
-    the results dictionary to correct the weekly lineup so that only points that
-    are scored in that race week are reported. This allows the owner to only
-    copy total points from the fantasy f1 website into the weekly lineup report.
-
-    Example
-    -------
-    >>> results_dictionary = update_weeklylineup(
-        root="/Path/To/Root/Directory",
-        year="example year")
-    >>> results_dictionary
-    {
-        "Driver 1": [1, 2, 56, 2],
-        "Team 2": [23, 19, 30, 45]
-    }
-
-    """
-    info_path = Path(f'{root_path}/Info.json')
-    info_dict = load_json(file_path=info_path)
-    results_path = Path(f'{root_path}/Data/{year}/Lineup')
-    lineup_path = Path(f'{root_path}/Data/{year}/Lineup_Formats')
-    results_dict = update_results_dict(
-        info_path=info_path,
-        results_path=results_path,
-        lineup_path=lineup_path)
-    weekly_lineup_dict = load_json(
-        file_path=Path(f'{root_path}/Data/{year}/Lineup_Weekly.json'))
-    race = weekly_lineup_dict['Race']
-    if len(race) != 0:
-        print(race)
-        weekly_dict = corrects_weekly(
-            weekly_dictionary=weekly_lineup_dict,
-            info_dictionary=info_dict,
-            results_path=results_path)
-        save_json_dicts(
-            out_path=Path(f'{results_path}/{race[0]}_Results.json'),
-            dictionary=weekly_dict)
-        race_index = check_races(
-            race=race[0],
-            races=info_dict['Races'])
-        update_list = ['Driver', 'Team']
-        for category in update_list:
-            category_points = results_dict[f'{category} Points']
-            category_values = results_dict[f'{category} Values']
-            for key, inputs in weekly_dict.items():
-                if key == 'Name' or key == 'Race':
-                    pass
-                else:
-                    if key in category_points.keys():
-                        if len(category_points[key]) == race_index + 2:
-                            print(
-                                f'{key} {(info_dict["Races"])[race_index]}'
-                                f'Points Recorded')
-                        else:
-                            category_points[key].append(inputs[0])
-                    if key in category_values.keys():
-                        if len(category_values[key]) == race_index + 2:
-                            print(
-                                f'{key} {(info_dict["Races"])[race_index]}'
-                                f'Values Recorded')
-                        else:
-                            category_values[key].append(inputs[0])
-            results_dict.update({f'{category} Points': category_points})
-            results_dict.update({f'{category} Values': category_values})
-    else:
-        print('No Race To Report')
-    save_json_dicts(
-        out_path=Path(f'{results_path}/Results.json'),
-        dictionary=results_dict)
-    os.remove(path=Path(f'{root_path}/Data/{year}/Lineup_Weekly.json'))
-    lineup_dictionary = create_lineup_weekly(
-        lineup_path=Path(f'{root_path}/Data/{year}/Lineup_Formats'))
-    save_json_dicts(
-        out_path=Path(f'{root_path}/Data/{year}/Lineup_Weekly.json'),
-        dictionary=lineup_dictionary)
-    return results_dict
-
-
-def get_races_sofar(file_path : str,
-                    results_path : str) -> list[str]:
-    """
-    Get list of all races completed so far.
-    
-    Use list of all races and reported races to calculate the number of races
-    completed to date.
-
-    Parameters
-    ----------
-    file_path, results_path : string
-        Path to info dictionary, path to results directory.
-
-    Returns
-    -------
-    races_so_far, races : list[string]
-        List of races completed so far, list of all races.
-
-    See Also
-    --------
-    check_races
-    load_json
-
-    Notes
-    -----
-    Checks the results directory to determine how many races have been completed
-    to date from the full list of races in a season. Returns both separately.
-
-    Example
-    --------
-    >>> races_so_far, races = get_races_sofar(
-        file_path="/Path/To/Info/File",
-        results_path="/Path/To/Results/Directory")
-    >>> races_so_far
-    races_completed = ['Bahrain', 'China', 'Imola']
-    >>> races
-    races = ['Bahrain', 'China', 'Imola', 'Monaco', 'Hungary']
-
-    """
-    info = load_json(file_path=file_path)
-    races = info['Races']
-    races_sofar = []
-    for race in races:
-        results = Path(f'{results_path}/{race}_Results.json')
-        if results.is_file():
-            races_sofar.append(race)
-    return races_sofar, races
-
-
-def manager_checked(statistics_dictionary : dict,
-                    data_path : str) -> None:
-    """
-    Create predicted manager scores.
-
-    Parameters
-    ----------
-    statistics_dictionary: dictionary
-        Managers statistics dictionary.
-    data_path: string
-        Path to data directory.
-    
-    Returns
-    -------
-    out_dict: dictionary
-        Predicted manager scores.
-    
-    See Also
-    --------
-    None
-
-    Notes
-    -----
-    None
-
-    Example
-    -------
-    None
-    
-    """
-    team_names = []
-    team_points = []
-    team_sum = statistics_dictionary["Team Sum Points"]
-    for manager, teams in team_sum.items():
-        for team, points in teams.items():
-            team_names.append(team)
-            team_points.append(points[-1])
-    zipped_lists = zip(team_points, team_names)
-    sorted_pairs = sorted(zipped_lists)
-    tuples = zip(*sorted_pairs)
-    sorted_points, sorted_names = [list(tuple) for tuple in tuples]
-    out_dict = {}
-    [
-        out_dict.update({n: p})
-        for n, p
-        in zip(sorted_names[::-1], sorted_points[::-1])]
-    save_json_dicts(
-        out_path=Path(f'{data_path}/Manager_Check.json'),
-        dictionary=out_dict)
-    return out_dict
+                blank_team_sheet = creates_managers_weekly(
+                    race=races[race_index],
+                    team_sheet=info_dictionary["Team"])
+                save_json_dicts(
+                    out_path=dictionary_path,
+                    dictionary=blank_team_sheet)

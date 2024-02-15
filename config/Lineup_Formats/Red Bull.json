@@ -1,0 +1,26 @@
+{
+    "2024": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#3671C6",
+        "color": "#FFCC00",
+        "drivers": [
+            "Verstappen",
+            "Perez"
+        ]
+    },
+    "2023": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#3671C6",
+        "color": "#FFCC00",
+        "drivers": [
+            "Verstappen",
+            "Perez"
+        ]
+    }
+}

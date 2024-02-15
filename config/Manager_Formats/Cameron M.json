@@ -1,0 +1,12 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "magenta",
+    "teams": [
+        "Max Likes His Sister",
+        "Ford",
+        "I'm Not A Fan Boy"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "sandybrown",
+    "teams": [
+        "Dinoco Piston Champions",
+        "The Big One (TM)",
+        "Boogity Boogity Boogity"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "cyan",
+    "teams": [
+        "The Stopwatch Never Lies",
+        "Checo Perez MMD",
+        "Danny Rics Barmy Army"
+    ]
+}

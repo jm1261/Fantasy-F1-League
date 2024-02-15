@@ -1,0 +1,3994 @@
+{
+    "Spot Prizes": {
+        "Obviously Do That Tactically": [
+            "Saudi Arabia",
+            "Sam B",
+            "LewisHamiltonian2",
+            314
+        ],
+        "Social Media Sensation": [
+            "Miami",
+            "Val M",
+            "Time Is A One Way Street",
+            342
+        ],
+        "The Jewel In The Crown": [
+            "Monaco",
+            "Val M",
+            "Time Is A One Way Street",
+            244
+        ],
+        "I Would Save This Engine Guys If I Was You": [
+            "Spain",
+            "Joe T",
+            "Formula bathtub",
+            50
+        ],
+        "Hairpin Time": [
+            "Hungary",
+            "Will R",
+            "The Big One (TM)",
+            27
+        ],
+        "The Flying Dutchman": [
+            "Netherlands",
+            "Jo H",
+            "Paradise lost",
+            413
+        ],
+        "Who Wants To Be An Italian Disgrace?": [
+            "Italy",
+            "Charlie L",
+            "Kiss My Haasphalt",
+            -6
+        ],
+        "Tractors Have Feelings Too": [
+            "Japan",
+            "James R",
+            "Bwoah Pringle Rolex Golf",
+            -87
+        ],
+        "Put It All On Black": [
+            "Las Vegas",
+            "Patrick L",
+            "Johnny UniHaas",
+            321
+        ]
+    },
+    "Sprint Races": {
+        "Josh M": {
+            "Rhino's Midland F1 Racing": [
+                302,
+                305,
+                231,
+                156,
+                192,
+                285
+            ],
+            "Be On Edge Jordan F1 TATA": [
+                316,
+                310,
+                244,
+                300,
+                144,
+                198
+            ],
+            "Etihad Spyker Aldar-AD F1": [
+                373,
+                330,
+                234,
+                282,
+                189,
+                237
+            ],
+            "Oracle RedBull Ford-EcoPT": [
+                334,
+                347,
+                301,
+                265,
+                309,
+                253
+            ],
+            "Panasonic Toyota GRMN F1": [
+                295,
+                320,
+                306,
+                264,
+                399,
+                266
+            ],
+            "Becks Jaguar HSBC Racing": [
+                249,
+                257,
+                334,
+                303,
+                174,
+                275
+            ]
+        },
+        "Charlie L": {
+            "Moe's Family Speedbag": [
+                280,
+                351,
+                277,
+                398,
+                318,
+                367
+            ],
+            "Kiss My Haasphalt": [
+                -38,
+                140,
+                104,
+                18,
+                118,
+                -31
+            ]
+        },
+        "Will R": {
+            "Dinoco Piston Champions": [
+                352,
+                494,
+                366,
+                368,
+                245,
+                254
+            ],
+            "The Big One (TM)": [
+                -57,
+                100,
+                77,
+                34,
+                104,
+                62
+            ],
+            "Boogity Boogity Boogity": [
+                304,
+                436,
+                264,
+                402,
+                302,
+                274
+            ]
+        },
+        "Toby P": {
+            "Hesketh 2.0": [
+                333,
+                436,
+                264,
+                376,
+                270,
+                345
+            ]
+        },
+        "Verity N": {
+            "Versus": [
+                289,
+                332,
+                260,
+                342,
+                326,
+                376
+            ]
+        },
+        "Lucy N": {
+            "Put Ur Hamrussy In It": [
+                376,
+                345,
+                190,
+                228,
+                175,
+                327
+            ]
+        },
+        "Pete J": {
+            "Rooteen Inspekshun": [
+                242,
+                276,
+                157,
+                97,
+                204,
+                241
+            ],
+            "Just Shut Up And Listen": [
+                263,
+                294,
+                173,
+                199,
+                63,
+                191
+            ]
+        },
+        "James R": {
+            "Bwoah Pringle Rolex Golf": [
+                -74,
+                121,
+                77,
+                -33,
+                142,
+                19
+            ],
+            "Bwoah Racing F1 2023 Ltd": [
+                344,
+                453,
+                251,
+                236,
+                250,
+                381
+            ],
+            "Bwoah Racing F1 2023 Plc": [
+                330,
+                438,
+                251,
+                346,
+                284,
+                367
+            ]
+        },
+        "Phil M": {
+            "BMW Missed Opportunity": [
+                328,
+                401,
+                279,
+                374,
+                228,
+                287
+            ],
+            "BMW Should Be Here": [
+                345,
+                369,
+                274,
+                295,
+                221,
+                327
+            ],
+            "BMW Motorrad": [
+                287,
+                338,
+                157,
+                228,
+                64,
+                323
+            ]
+        },
+        "Val M": {
+            "I Am Stubborn & Impatient": [
+                304,
+                383,
+                268,
+                534,
+                255,
+                369
+            ],
+            "Time Is A One Way Street": [
+                289,
+                383,
+                267,
+                367,
+                290,
+                327
+            ],
+            "My Fav'rit Colour Is Blue": [
+                291,
+                328,
+                281,
+                488,
+                255,
+                331
+            ],
+            "Lap Time Deleted": [
+                320,
+                383,
+                265,
+                468,
+                163,
+                347
+            ],
+            "Make A U Turn": [
+                286,
+                346,
+                260,
+                519,
+                284,
+                317
+            ],
+            "Mater's Mates": [
+                291,
+                328,
+                288,
+                230,
+                208,
+                382
+            ]
+        },
+        "Patrick L": {
+            "Johnny UniHaas": [
+                343,
+                395,
+                347,
+                392,
+                289,
+                351
+            ]
+        },
+        "Jake M": {
+            "Meme Lords No Longer": [
+                215,
+                324,
+                234,
+                337,
+                230,
+                312
+            ],
+            "2000s Ferrari copy 16": [
+                231,
+                286,
+                110,
+                195,
+                182,
+                233
+            ],
+            "Fuck Daniel Ricciardo": [
+                239,
+                322,
+                358,
+                371,
+                288,
+                345
+            ]
+        },
+        "Matty J": {
+            "The Stopwatch Never Lies": [
+                250,
+                278,
+                209,
+                247,
+                101,
+                162
+            ],
+            "Checo Perez MMD": [
+                103,
+                245,
+                118,
+                330,
+                175,
+                329
+            ],
+            "Danny Rics Barmy Army": [
+                286,
+                362,
+                260,
+                398,
+                310,
+                369
+            ]
+        },
+        "Matt H": {
+            "I'm In It For The Money": [
+                253,
+                309,
+                238,
+                265,
+                156,
+                233
+            ]
+        },
+        "Sam B": {
+            "LewisHamiltonian": [
+                304,
+                349,
+                264,
+                239,
+                263,
+                355
+            ],
+            "LewisHamiltonian2": [
+                227,
+                363,
+                277,
+                216,
+                245,
+                263
+            ],
+            "LewisHamiltonian3": [
+                253,
+                355,
+                304,
+                253,
+                231,
+                294
+            ]
+        },
+        "Tom C": {
+            "Team $onic Racing": [
+                333,
+                401,
+                249,
+                446,
+                304,
+                333
+            ],
+            "AllonZhou": [
+                312,
+                341,
+                276,
+                388,
+                362,
+                375
+            ],
+            "I am Mazespin and I am Here (in Russian)": [
+                333,
+                401,
+                268,
+                370,
+                276,
+                368
+            ]
+        },
+        "Stuart S": {
+            "11 White Dogwood": [
+                307,
+                315,
+                217,
+                228,
+                90,
+                179
+            ],
+            "12 Golden Bell": [
+                390,
+                320,
+                254,
+                443,
+                289,
+                331
+            ],
+            "13 Azalea (golf)": [
+                -83,
+                129,
+                84,
+                -66,
+                156,
+                67
+            ]
+        },
+        "Andrew F": {
+            "Mostly My Faves xoxo": [
+                143,
+                273,
+                104,
+                289,
+                175,
+                209
+            ],
+            "GP1 Engine, GP1": [
+                270,
+                358,
+                287,
+                318,
+                238,
+                366
+            ],
+            "Reigning Golf Champions": [
+                -97,
+                114,
+                102,
+                -47,
+                158,
+                56
+            ]
+        },
+        "Jo H": {
+            "Paradise lost": [
+                335,
+                390,
+                277,
+                291,
+                255,
+                299
+            ],
+            "Weyto Slo": [
+                218,
+                288,
+                197,
+                220,
+                82,
+                107
+            ],
+            "Horrocks Horsepower": [
+                227,
+                296,
+                111,
+                278,
+                216,
+                234
+            ]
+        },
+        "Pierce C": {
+            "Cow de Rouge": [
+                333,
+                508,
+                283,
+                414,
+                305,
+                293
+            ],
+            "Hedge Trimmers F1": [
+                322,
+                431,
+                258,
+                368,
+                156,
+                332
+            ],
+            "The Shum Bufflers": [
+                282,
+                402,
+                220,
+                409,
+                155,
+                344
+            ]
+        },
+        "Simon C": {
+            "White Cows 97": [
+                318,
+                372,
+                195,
+                237,
+                172,
+                370
+            ],
+            "White Cows 98": [
+                305,
+                382,
+                265,
+                286,
+                248,
+                349
+            ],
+            "White Cows 99": [
+                280,
+                352,
+                281,
+                264,
+                199,
+                307
+            ]
+        },
+        "Tess": {
+            "TMJ Racing": [
+                279,
+                362,
+                273,
+                339,
+                260,
+                328
+            ]
+        },
+        "Tom M": {
+            "Stupid Like A Fox Racing": [
+                323,
+                373,
+                213,
+                256,
+                174,
+                359
+            ]
+        },
+        "Cameron M": {
+            "Max Likes His Sister": [
+                285,
+                353,
+                257,
+                243,
+                138,
+                248
+            ],
+            "Ford": [
+                294,
+                351,
+                257,
+                357,
+                219,
+                381
+            ],
+            "I'm Not A Fan Boy": [
+                267,
+                293,
+                227,
+                158,
+                122,
+                171
+            ]
+        },
+        "Ollie O": {
+            "Probably Back of the Grid": [
+                285,
+                325,
+                259,
+                245,
+                251,
+                359
+            ],
+            "Battle of the MIDfield": [
+                249,
+                272,
+                248,
+                234,
+                166,
+                273
+            ],
+            "Part Time Streamers": [
+                140,
+                246,
+                275,
+                268,
+                156,
+                337
+            ]
+        },
+        "Joe T": {
+            "Mmm.Ham.": [
+                226,
+                269,
+                154,
+                160,
+                3,
+                191
+            ],
+            "Formula bathtub": [
+                -96,
+                122,
+                58,
+                -33,
+                122,
+                81
+            ],
+            "Timothee Chalamet": [
+                305,
+                367,
+                259,
+                245,
+                251,
+                359
+            ]
+        },
+        "Madlen P": {
+            "Go Boys Give Us Nothing": [
+                228,
+                291,
+                262,
+                258,
+                124,
+                287
+            ],
+            "Asini rossi": [
+                314,
+                355,
+                187,
+                192,
+                111,
+                311
+            ],
+            "Team Lemonade": [
+                333,
+                395,
+                260,
+                343,
+                383,
+                289
+            ]
+        },
+        "Unknown": {
+            "It's on like donkey kong": [
+                214,
+                315,
+                275,
+                331,
+                275,
+                220
+            ],
+            "Nowhere team": [
+                179,
+                250,
+                145,
+                236,
+                51,
+                156
+            ]
+        }
+    },
+    "Sum Sprint Races": {
+        "Sum Points": {
+            "Josh M": {
+                "Rhino's Midland F1 Racing": [
+                    302,
+                    607,
+                    838,
+                    994,
+                    1186,
+                    1471
+                ],
+                "Be On Edge Jordan F1 TATA": [
+                    316,
+                    626,
+                    870,
+                    1170,
+                    1314,
+                    1512
+                ],
+                "Etihad Spyker Aldar-AD F1": [
+                    373,
+                    703,
+                    937,
+                    1219,
+                    1408,
+                    1645
+                ],
+                "Oracle RedBull Ford-EcoPT": [
+                    334,
+                    681,
+                    982,
+                    1247,
+                    1556,
+                    1809
+                ],
+                "Panasonic Toyota GRMN F1": [
+                    295,
+                    615,
+                    921,
+                    1185,
+                    1584,
+                    1850
+                ],
+                "Becks Jaguar HSBC Racing": [
+                    249,
+                    506,
+                    840,
+                    1143,
+                    1317,
+                    1592
+                ]
+            },
+            "Charlie L": {
+                "Moe's Family Speedbag": [
+                    280,
+                    631,
+                    908,
+                    1306,
+                    1624,
+                    1991
+                ],
+                "Kiss My Haasphalt": [
+                    -38,
+                    102,
+                    206,
+                    224,
+                    342,
+                    311
+                ]
+            },
+            "Will R": {
+                "Dinoco Piston Champions": [
+                    352,
+                    846,
+                    1212,
+                    1580,
+                    1825,
+                    2079
+                ],
+                "The Big One (TM)": [
+                    -57,
+                    43,
+                    120,
+                    154,
+                    258,
+                    320
+                ],
+                "Boogity Boogity Boogity": [
+                    304,
+                    740,
+                    1004,
+                    1406,
+                    1708,
+                    1982
+                ]
+            },
+            "Toby P": {
+                "Hesketh 2.0": [
+                    333,
+                    769,
+                    1033,
+                    1409,
+                    1679,
+                    2024
+                ]
+            },
+            "Verity N": {
+                "Versus": [
+                    289,
+                    621,
+                    881,
+                    1223,
+                    1549,
+                    1925
+                ]
+            },
+            "Lucy N": {
+                "Put Ur Hamrussy In It": [
+                    376,
+                    721,
+                    911,
+                    1139,
+                    1314,
+                    1641
+                ]
+            },
+            "Pete J": {
+                "Rooteen Inspekshun": [
+                    242,
+                    518,
+                    675,
+                    772,
+                    976,
+                    1217
+                ],
+                "Just Shut Up And Listen": [
+                    263,
+                    557,
+                    730,
+                    929,
+                    992,
+                    1183
+                ]
+            },
+            "James R": {
+                "Bwoah Pringle Rolex Golf": [
+                    -74,
+                    47,
+                    124,
+                    91,
+                    233,
+                    252
+                ],
+                "Bwoah Racing F1 2023 Ltd": [
+                    344,
+                    797,
+                    1048,
+                    1284,
+                    1534,
+                    1915
+                ],
+                "Bwoah Racing F1 2023 Plc": [
+                    330,
+                    768,
+                    1019,
+                    1365,
+                    1649,
+                    2016
+                ]
+            },
+            "Phil M": {
+                "BMW Missed Opportunity": [
+                    328,
+                    729,
+                    1008,
+                    1382,
+                    1610,
+                    1897
+                ],
+                "BMW Should Be Here": [
+                    345,
+                    714,
+                    988,
+                    1283,
+                    1504,
+                    1831
+                ],
+                "BMW Motorrad": [
+                    287,
+                    625,
+                    782,
+                    1010,
+                    1074,
+                    1397
+                ]
+            },
+            "Val M": {
+                "I Am Stubborn & Impatient": [
+                    304,
+                    687,
+                    955,
+                    1489,
+                    1744,
+                    2113
+                ],
+                "Time Is A One Way Street": [
+                    289,
+                    672,
+                    939,
+                    1306,
+                    1596,
+                    1923
+                ],
+                "My Fav'rit Colour Is Blue": [
+                    291,
+                    619,
+                    900,
+                    1388,
+                    1643,
+                    1974
+                ],
+                "Lap Time Deleted": [
+                    320,
+                    703,
+                    968,
+                    1436,
+                    1599,
+                    1946
+                ],
+                "Make A U Turn": [
+                    286,
+                    632,
+                    892,
+                    1411,
+                    1695,
+                    2012
+                ],
+                "Mater's Mates": [
+                    291,
+                    619,
+                    907,
+                    1137,
+                    1345,
+                    1727
+                ]
+            },
+            "Patrick L": {
+                "Johnny UniHaas": [
+                    343,
+                    738,
+                    1085,
+                    1477,
+                    1766,
+                    2117
+                ]
+            },
+            "Jake M": {
+                "Meme Lords No Longer": [
+                    215,
+                    539,
+                    773,
+                    1110,
+                    1340,
+                    1652
+                ],
+                "2000s Ferrari copy 16": [
+                    231,
+                    517,
+                    627,
+                    822,
+                    1004,
+                    1237
+                ],
+                "Fuck Daniel Ricciardo": [
+                    239,
+                    561,
+                    919,
+                    1290,
+                    1578,
+                    1923
+                ]
+            },
+            "Matty J": {
+                "The Stopwatch Never Lies": [
+                    250,
+                    528,
+                    737,
+                    984,
+                    1085,
+                    1247
+                ],
+                "Checo Perez MMD": [
+                    103,
+                    348,
+                    466,
+                    796,
+                    971,
+                    1300
+                ],
+                "Danny Rics Barmy Army": [
+                    286,
+                    648,
+                    908,
+                    1306,
+                    1616,
+                    1985
+                ]
+            },
+            "Matt H": {
+                "I'm In It For The Money": [
+                    253,
+                    562,
+                    800,
+                    1065,
+                    1221,
+                    1454
+                ]
+            },
+            "Sam B": {
+                "LewisHamiltonian": [
+                    304,
+                    653,
+                    917,
+                    1156,
+                    1419,
+                    1774
+                ],
+                "LewisHamiltonian2": [
+                    227,
+                    590,
+                    867,
+                    1083,
+                    1328,
+                    1591
+                ],
+                "LewisHamiltonian3": [
+                    253,
+                    608,
+                    912,
+                    1165,
+                    1396,
+                    1690
+                ]
+            },
+            "Tom C": {
+                "Team $onic Racing": [
+                    333,
+                    734,
+                    983,
+                    1429,
+                    1733,
+                    2066
+                ],
+                "AllonZhou": [
+                    312,
+                    653,
+                    929,
+                    1317,
+                    1679,
+                    2054
+                ],
+                "I am Mazespin and I am Here (in Russian)": [
+                    333,
+                    734,
+                    1002,
+                    1372,
+                    1648,
+                    2016
+                ]
+            },
+            "Stuart S": {
+                "11 White Dogwood": [
+                    307,
+                    622,
+                    839,
+                    1067,
+                    1157,
+                    1336
+                ],
+                "12 Golden Bell": [
+                    390,
+                    710,
+                    964,
+                    1407,
+                    1696,
+                    2027
+                ],
+                "13 Azalea (golf)": [
+                    -83,
+                    46,
+                    130,
+                    64,
+                    220,
+                    287
+                ]
+            },
+            "Andrew F": {
+                "Mostly My Faves xoxo": [
+                    143,
+                    416,
+                    520,
+                    809,
+                    984,
+                    1193
+                ],
+                "GP1 Engine, GP1": [
+                    270,
+                    628,
+                    915,
+                    1233,
+                    1471,
+                    1837
+                ],
+                "Reigning Golf Champions": [
+                    -97,
+                    17,
+                    119,
+                    72,
+                    230,
+                    286
+                ]
+            },
+            "Jo H": {
+                "Paradise lost": [
+                    335,
+                    725,
+                    1002,
+                    1293,
+                    1548,
+                    1847
+                ],
+                "Weyto Slo": [
+                    218,
+                    506,
+                    703,
+                    923,
+                    1005,
+                    1112
+                ],
+                "Horrocks Horsepower": [
+                    227,
+                    523,
+                    634,
+                    912,
+                    1128,
+                    1362
+                ]
+            },
+            "Pierce C": {
+                "Cow de Rouge": [
+                    333,
+                    841,
+                    1124,
+                    1538,
+                    1843,
+                    2136
+                ],
+                "Hedge Trimmers F1": [
+                    322,
+                    753,
+                    1011,
+                    1379,
+                    1535,
+                    1867
+                ],
+                "The Shum Bufflers": [
+                    282,
+                    684,
+                    904,
+                    1313,
+                    1468,
+                    1812
+                ]
+            },
+            "Simon C": {
+                "White Cows 97": [
+                    318,
+                    690,
+                    885,
+                    1122,
+                    1294,
+                    1664
+                ],
+                "White Cows 98": [
+                    305,
+                    687,
+                    952,
+                    1238,
+                    1486,
+                    1835
+                ],
+                "White Cows 99": [
+                    280,
+                    632,
+                    913,
+                    1177,
+                    1376,
+                    1683
+                ]
+            },
+            "Tess": {
+                "TMJ Racing": [
+                    279,
+                    641,
+                    914,
+                    1253,
+                    1513,
+                    1841
+                ]
+            },
+            "Tom M": {
+                "Stupid Like A Fox Racing": [
+                    323,
+                    696,
+                    909,
+                    1165,
+                    1339,
+                    1698
+                ]
+            },
+            "Cameron M": {
+                "Max Likes His Sister": [
+                    285,
+                    638,
+                    895,
+                    1138,
+                    1276,
+                    1524
+                ],
+                "Ford": [
+                    294,
+                    645,
+                    902,
+                    1259,
+                    1478,
+                    1859
+                ],
+                "I'm Not A Fan Boy": [
+                    267,
+                    560,
+                    787,
+                    945,
+                    1067,
+                    1238
+                ]
+            },
+            "Ollie O": {
+                "Probably Back of the Grid": [
+                    285,
+                    610,
+                    869,
+                    1114,
+                    1365,
+                    1724
+                ],
+                "Battle of the MIDfield": [
+                    249,
+                    521,
+                    769,
+                    1003,
+                    1169,
+                    1442
+                ],
+                "Part Time Streamers": [
+                    140,
+                    386,
+                    661,
+                    929,
+                    1085,
+                    1422
+                ]
+            },
+            "Joe T": {
+                "Mmm.Ham.": [
+                    226,
+                    495,
+                    649,
+                    809,
+                    812,
+                    1003
+                ],
+                "Formula bathtub": [
+                    -96,
+                    26,
+                    84,
+                    51,
+                    173,
+                    254
+                ],
+                "Timothee Chalamet": [
+                    305,
+                    672,
+                    931,
+                    1176,
+                    1427,
+                    1786
+                ]
+            },
+            "Madlen P": {
+                "Go Boys Give Us Nothing": [
+                    228,
+                    519,
+                    781,
+                    1039,
+                    1163,
+                    1450
+                ],
+                "Asini rossi": [
+                    314,
+                    669,
+                    856,
+                    1048,
+                    1159,
+                    1470
+                ],
+                "Team Lemonade": [
+                    333,
+                    728,
+                    988,
+                    1331,
+                    1714,
+                    2003
+                ]
+            },
+            "Unknown": {
+                "It's on like donkey kong": [
+                    214,
+                    529,
+                    804,
+                    1135,
+                    1410,
+                    1630
+                ],
+                "Nowhere team": [
+                    179,
+                    429,
+                    574,
+                    810,
+                    861,
+                    1017
+                ]
+            }
+        },
+        "Average Points": {
+            "Josh M": {
+                "Rhino's Midland F1 Racing": [
+                    302,
+                    303.5,
+                    279.3333333333333,
+                    248.5,
+                    237.2,
+                    245.16666666666666
+                ],
+                "Be On Edge Jordan F1 TATA": [
+                    316,
+                    313.0,
+                    290.0,
+                    292.5,
+                    262.8,
+                    252.0
+                ],
+                "Etihad Spyker Aldar-AD F1": [
+                    373,
+                    351.5,
+                    312.3333333333333,
+                    304.75,
+                    281.6,
+                    274.1666666666667
+                ],
+                "Oracle RedBull Ford-EcoPT": [
+                    334,
+                    340.5,
+                    327.3333333333333,
+                    311.75,
+                    311.2,
+                    301.5
+                ],
+                "Panasonic Toyota GRMN F1": [
+                    295,
+                    307.5,
+                    307.0,
+                    296.25,
+                    316.8,
+                    308.3333333333333
+                ],
+                "Becks Jaguar HSBC Racing": [
+                    249,
+                    253.0,
+                    280.0,
+                    285.75,
+                    263.4,
+                    265.3333333333333
+                ]
+            },
+            "Charlie L": {
+                "Moe's Family Speedbag": [
+                    280,
+                    315.5,
+                    302.6666666666667,
+                    326.5,
+                    324.8,
+                    331.8333333333333
+                ],
+                "Kiss My Haasphalt": [
+                    -38,
+                    51.0,
+                    68.66666666666667,
+                    56.0,
+                    68.4,
+                    51.833333333333336
+                ]
+            },
+            "Will R": {
+                "Dinoco Piston Champions": [
+                    352,
+                    423.0,
+                    404.0,
+                    395.0,
+                    365.0,
+                    346.5
+                ],
+                "The Big One (TM)": [
+                    -57,
+                    21.5,
+                    40.0,
+                    38.5,
+                    51.6,
+                    53.333333333333336
+                ],
+                "Boogity Boogity Boogity": [
+                    304,
+                    370.0,
+                    334.6666666666667,
+                    351.5,
+                    341.6,
+                    330.3333333333333
+                ]
+            },
+            "Toby P": {
+                "Hesketh 2.0": [
+                    333,
+                    384.5,
+                    344.3333333333333,
+                    352.25,
+                    335.8,
+                    337.3333333333333
+                ]
+            },
+            "Verity N": {
+                "Versus": [
+                    289,
+                    310.5,
+                    293.6666666666667,
+                    305.75,
+                    309.8,
+                    320.8333333333333
+                ]
+            },
+            "Lucy N": {
+                "Put Ur Hamrussy In It": [
+                    376,
+                    360.5,
+                    303.6666666666667,
+                    284.75,
+                    262.8,
+                    273.5
+                ]
+            },
+            "Pete J": {
+                "Rooteen Inspekshun": [
+                    242,
+                    259.0,
+                    225.0,
+                    193.0,
+                    195.2,
+                    202.83333333333334
+                ],
+                "Just Shut Up And Listen": [
+                    263,
+                    278.5,
+                    243.33333333333334,
+                    232.25,
+                    198.4,
+                    197.16666666666666
+                ]
+            },
+            "James R": {
+                "Bwoah Pringle Rolex Golf": [
+                    -74,
+                    23.5,
+                    41.333333333333336,
+                    22.75,
+                    46.6,
+                    42.0
+                ],
+                "Bwoah Racing F1 2023 Ltd": [
+                    344,
+                    398.5,
+                    349.3333333333333,
+                    321.0,
+                    306.8,
+                    319.1666666666667
+                ],
+                "Bwoah Racing F1 2023 Plc": [
+                    330,
+                    384.0,
+                    339.6666666666667,
+                    341.25,
+                    329.8,
+                    336.0
+                ]
+            },
+            "Phil M": {
+                "BMW Missed Opportunity": [
+                    328,
+                    364.5,
+                    336.0,
+                    345.5,
+                    322.0,
+                    316.1666666666667
+                ],
+                "BMW Should Be Here": [
+                    345,
+                    357.0,
+                    329.3333333333333,
+                    320.75,
+                    300.8,
+                    305.1666666666667
+                ],
+                "BMW Motorrad": [
+                    287,
+                    312.5,
+                    260.6666666666667,
+                    252.5,
+                    214.8,
+                    232.83333333333334
+                ]
+            },
+            "Val M": {
+                "I Am Stubborn & Impatient": [
+                    304,
+                    343.5,
+                    318.3333333333333,
+                    372.25,
+                    348.8,
+                    352.1666666666667
+                ],
+                "Time Is A One Way Street": [
+                    289,
+                    336.0,
+                    313.0,
+                    326.5,
+                    319.2,
+                    320.5
+                ],
+                "My Fav'rit Colour Is Blue": [
+                    291,
+                    309.5,
+                    300.0,
+                    347.0,
+                    328.6,
+                    329.0
+                ],
+                "Lap Time Deleted": [
+                    320,
+                    351.5,
+                    322.6666666666667,
+                    359.0,
+                    319.8,
+                    324.3333333333333
+                ],
+                "Make A U Turn": [
+                    286,
+                    316.0,
+                    297.3333333333333,
+                    352.75,
+                    339.0,
+                    335.3333333333333
+                ],
+                "Mater's Mates": [
+                    291,
+                    309.5,
+                    302.3333333333333,
+                    284.25,
+                    269.0,
+                    287.8333333333333
+                ]
+            },
+            "Patrick L": {
+                "Johnny UniHaas": [
+                    343,
+                    369.0,
+                    361.6666666666667,
+                    369.25,
+                    353.2,
+                    352.8333333333333
+                ]
+            },
+            "Jake M": {
+                "Meme Lords No Longer": [
+                    215,
+                    269.5,
+                    257.6666666666667,
+                    277.5,
+                    268.0,
+                    275.3333333333333
+                ],
+                "2000s Ferrari copy 16": [
+                    231,
+                    258.5,
+                    209.0,
+                    205.5,
+                    200.8,
+                    206.16666666666666
+                ],
+                "Fuck Daniel Ricciardo": [
+                    239,
+                    280.5,
+                    306.3333333333333,
+                    322.5,
+                    315.6,
+                    320.5
+                ]
+            },
+            "Matty J": {
+                "The Stopwatch Never Lies": [
+                    250,
+                    264.0,
+                    245.66666666666666,
+                    246.0,
+                    217.0,
+                    207.83333333333334
+                ],
+                "Checo Perez MMD": [
+                    103,
+                    174.0,
+                    155.33333333333334,
+                    199.0,
+                    194.2,
+                    216.66666666666666
+                ],
+                "Danny Rics Barmy Army": [
+                    286,
+                    324.0,
+                    302.6666666666667,
+                    326.5,
+                    323.2,
+                    330.8333333333333
+                ]
+            },
+            "Matt H": {
+                "I'm In It For The Money": [
+                    253,
+                    281.0,
+                    266.6666666666667,
+                    266.25,
+                    244.2,
+                    242.33333333333334
+                ]
+            },
+            "Sam B": {
+                "LewisHamiltonian": [
+                    304,
+                    326.5,
+                    305.6666666666667,
+                    289.0,
+                    283.8,
+                    295.6666666666667
+                ],
+                "LewisHamiltonian2": [
+                    227,
+                    295.0,
+                    289.0,
+                    270.75,
+                    265.6,
+                    265.1666666666667
+                ],
+                "LewisHamiltonian3": [
+                    253,
+                    304.0,
+                    304.0,
+                    291.25,
+                    279.2,
+                    281.6666666666667
+                ]
+            },
+            "Tom C": {
+                "Team $onic Racing": [
+                    333,
+                    367.0,
+                    327.6666666666667,
+                    357.25,
+                    346.6,
+                    344.3333333333333
+                ],
+                "AllonZhou": [
+                    312,
+                    326.5,
+                    309.6666666666667,
+                    329.25,
+                    335.8,
+                    342.3333333333333
+                ],
+                "I am Mazespin and I am Here (in Russian)": [
+                    333,
+                    367.0,
+                    334.0,
+                    343.0,
+                    329.6,
+                    336.0
+                ]
+            },
+            "Stuart S": {
+                "11 White Dogwood": [
+                    307,
+                    311.0,
+                    279.6666666666667,
+                    266.75,
+                    231.4,
+                    222.66666666666666
+                ],
+                "12 Golden Bell": [
+                    390,
+                    355.0,
+                    321.3333333333333,
+                    351.75,
+                    339.2,
+                    337.8333333333333
+                ],
+                "13 Azalea (golf)": [
+                    -83,
+                    23.0,
+                    43.333333333333336,
+                    16.0,
+                    44.0,
+                    47.833333333333336
+                ]
+            },
+            "Andrew F": {
+                "Mostly My Faves xoxo": [
+                    143,
+                    208.0,
+                    173.33333333333334,
+                    202.25,
+                    196.8,
+                    198.83333333333334
+                ],
+                "GP1 Engine, GP1": [
+                    270,
+                    314.0,
+                    305.0,
+                    308.25,
+                    294.2,
+                    306.1666666666667
+                ],
+                "Reigning Golf Champions": [
+                    -97,
+                    8.5,
+                    39.666666666666664,
+                    18.0,
+                    46.0,
+                    47.666666666666664
+                ]
+            },
+            "Jo H": {
+                "Paradise lost": [
+                    335,
+                    362.5,
+                    334.0,
+                    323.25,
+                    309.6,
+                    307.8333333333333
+                ],
+                "Weyto Slo": [
+                    218,
+                    253.0,
+                    234.33333333333334,
+                    230.75,
+                    201.0,
+                    185.33333333333334
+                ],
+                "Horrocks Horsepower": [
+                    227,
+                    261.5,
+                    211.33333333333334,
+                    228.0,
+                    225.6,
+                    227.0
+                ]
+            },
+            "Pierce C": {
+                "Cow de Rouge": [
+                    333,
+                    420.5,
+                    374.6666666666667,
+                    384.5,
+                    368.6,
+                    356.0
+                ],
+                "Hedge Trimmers F1": [
+                    322,
+                    376.5,
+                    337.0,
+                    344.75,
+                    307.0,
+                    311.1666666666667
+                ],
+                "The Shum Bufflers": [
+                    282,
+                    342.0,
+                    301.3333333333333,
+                    328.25,
+                    293.6,
+                    302.0
+                ]
+            },
+            "Simon C": {
+                "White Cows 97": [
+                    318,
+                    345.0,
+                    295.0,
+                    280.5,
+                    258.8,
+                    277.3333333333333
+                ],
+                "White Cows 98": [
+                    305,
+                    343.5,
+                    317.3333333333333,
+                    309.5,
+                    297.2,
+                    305.8333333333333
+                ],
+                "White Cows 99": [
+                    280,
+                    316.0,
+                    304.3333333333333,
+                    294.25,
+                    275.2,
+                    280.5
+                ]
+            },
+            "Tess": {
+                "TMJ Racing": [
+                    279,
+                    320.5,
+                    304.6666666666667,
+                    313.25,
+                    302.6,
+                    306.8333333333333
+                ]
+            },
+            "Tom M": {
+                "Stupid Like A Fox Racing": [
+                    323,
+                    348.0,
+                    303.0,
+                    291.25,
+                    267.8,
+                    283.0
+                ]
+            },
+            "Cameron M": {
+                "Max Likes His Sister": [
+                    285,
+                    319.0,
+                    298.3333333333333,
+                    284.5,
+                    255.2,
+                    254.0
+                ],
+                "Ford": [
+                    294,
+                    322.5,
+                    300.6666666666667,
+                    314.75,
+                    295.6,
+                    309.8333333333333
+                ],
+                "I'm Not A Fan Boy": [
+                    267,
+                    280.0,
+                    262.3333333333333,
+                    236.25,
+                    213.4,
+                    206.33333333333334
+                ]
+            },
+            "Ollie O": {
+                "Probably Back of the Grid": [
+                    285,
+                    305.0,
+                    289.6666666666667,
+                    278.5,
+                    273.0,
+                    287.3333333333333
+                ],
+                "Battle of the MIDfield": [
+                    249,
+                    260.5,
+                    256.3333333333333,
+                    250.75,
+                    233.8,
+                    240.33333333333334
+                ],
+                "Part Time Streamers": [
+                    140,
+                    193.0,
+                    220.33333333333334,
+                    232.25,
+                    217.0,
+                    237.0
+                ]
+            },
+            "Joe T": {
+                "Mmm.Ham.": [
+                    226,
+                    247.5,
+                    216.33333333333334,
+                    202.25,
+                    162.4,
+                    167.16666666666666
+                ],
+                "Formula bathtub": [
+                    -96,
+                    13.0,
+                    28.0,
+                    12.75,
+                    34.6,
+                    42.333333333333336
+                ],
+                "Timothee Chalamet": [
+                    305,
+                    336.0,
+                    310.3333333333333,
+                    294.0,
+                    285.4,
+                    297.6666666666667
+                ]
+            },
+            "Madlen P": {
+                "Go Boys Give Us Nothing": [
+                    228,
+                    259.5,
+                    260.3333333333333,
+                    259.75,
+                    232.6,
+                    241.66666666666666
+                ],
+                "Asini rossi": [
+                    314,
+                    334.5,
+                    285.3333333333333,
+                    262.0,
+                    231.8,
+                    245.0
+                ],
+                "Team Lemonade": [
+                    333,
+                    364.0,
+                    329.3333333333333,
+                    332.75,
+                    342.8,
+                    333.8333333333333
+                ]
+            },
+            "Unknown": {
+                "It's on like donkey kong": [
+                    214,
+                    264.5,
+                    268.0,
+                    283.75,
+                    282.0,
+                    271.6666666666667
+                ],
+                "Nowhere team": [
+                    179,
+                    214.5,
+                    191.33333333333334,
+                    202.5,
+                    172.2,
+                    169.5
+                ]
+            }
+        }
+    },
+    "World Races": {
+        "Josh M": {
+            "Rhino's Midland F1 Racing": [
+                240,
+                263,
+                217,
+                287,
+                208
+            ],
+            "Be On Edge Jordan F1 TATA": [
+                157,
+                159,
+                205,
+                223,
+                284
+            ],
+            "Etihad Spyker Aldar-AD F1": [
+                145,
+                185,
+                157,
+                212,
+                282
+            ],
+            "Oracle RedBull Ford-EcoPT": [
+                322,
+                225,
+                224,
+                287,
+                231
+            ],
+            "Panasonic Toyota GRMN F1": [
+                246,
+                265,
+                192,
+                202,
+                231
+            ],
+            "Becks Jaguar HSBC Racing": [
+                226,
+                187,
+                150,
+                181,
+                251
+            ]
+        },
+        "Charlie L": {
+            "Moe's Family Speedbag": [
+                267,
+                261,
+                189,
+                192,
+                251
+            ],
+            "Kiss My Haasphalt": [
+                58,
+                -19,
+                46,
+                49,
+                21
+            ]
+        },
+        "Will R": {
+            "Dinoco Piston Champions": [
+                331,
+                270,
+                209,
+                236,
+                296
+            ],
+            "The Big One (TM)": [
+                78,
+                11,
+                -44,
+                20,
+                93
+            ],
+            "Boogity Boogity Boogity": [
+                267,
+                258,
+                234,
+                289,
+                268
+            ]
+        },
+        "Toby P": {
+            "Hesketh 2.0": [
+                335,
+                275,
+                237,
+                239,
+                223
+            ]
+        },
+        "Verity N": {
+            "Versus": [
+                218,
+                228,
+                194,
+                243,
+                273
+            ]
+        },
+        "Lucy N": {
+            "Put Ur Hamrussy In It": [
+                305,
+                260,
+                173,
+                189,
+                192
+            ]
+        },
+        "Pete J": {
+            "Rooteen Inspekshun": [
+                221,
+                212,
+                124,
+                190,
+                137
+            ],
+            "Just Shut Up And Listen": [
+                65,
+                167,
+                88,
+                136,
+                124
+            ]
+        },
+        "James R": {
+            "Bwoah Pringle Rolex Golf": [
+                33,
+                30,
+                -20,
+                42,
+                51
+            ],
+            "Bwoah Racing F1 2023 Ltd": [
+                311,
+                264,
+                231,
+                236,
+                242
+            ],
+            "Bwoah Racing F1 2023 Plc": [
+                327,
+                275,
+                217,
+                221,
+                250
+            ]
+        },
+        "Phil M": {
+            "BMW Missed Opportunity": [
+                323,
+                275,
+                237,
+                161,
+                246
+            ],
+            "BMW Should Be Here": [
+                331,
+                264,
+                231,
+                147,
+                240
+            ],
+            "BMW Motorrad": [
+                121,
+                193,
+                135,
+                187,
+                223
+            ]
+        },
+        "Val M": {
+            "I Am Stubborn & Impatient": [
+                263,
+                265,
+                213,
+                204,
+                250
+            ],
+            "Time Is A One Way Street": [
+                263,
+                265,
+                191,
+                220,
+                238
+            ],
+            "My Fav'rit Colour Is Blue": [
+                106,
+                181,
+                225,
+                195,
+                244
+            ],
+            "Lap Time Deleted": [
+                263,
+                265,
+                213,
+                114,
+                179
+            ],
+            "Make A U Turn": [
+                160,
+                232,
+                185,
+                195,
+                252
+            ],
+            "Mater's Mates": [
+                106,
+                181,
+                201,
+                175,
+                240
+            ]
+        },
+        "Patrick L": {
+            "Johnny UniHaas": [
+                335,
+                279,
+                234,
+                250,
+                278
+            ]
+        },
+        "Jake M": {
+            "Meme Lords No Longer": [
+                192,
+                191,
+                259,
+                244,
+                255
+            ],
+            "2000s Ferrari copy 16": [
+                48,
+                191,
+                137,
+                304,
+                244
+            ],
+            "Fuck Daniel Ricciardo": [
+                235,
+                217,
+                219,
+                217,
+                231
+            ]
+        },
+        "Matty J": {
+            "The Stopwatch Never Lies": [
+                112,
+                165,
+                118,
+                175,
+                124
+            ],
+            "Checo Perez MMD": [
+                103,
+                117,
+                148,
+                174,
+                245
+            ],
+            "Danny Rics Barmy Army": [
+                252,
+                279,
+                210,
+                230,
+                241
+            ]
+        },
+        "Matt H": {
+            "I'm In It For The Money": [
+                213,
+                209,
+                155,
+                104,
+                99
+            ]
+        },
+        "Sam B": {
+            "LewisHamiltonian": [
+                267,
+                258,
+                204,
+                173,
+                143
+            ],
+            "LewisHamiltonian2": [
+                219,
+                213,
+                221,
+                190,
+                184
+            ],
+            "LewisHamiltonian3": [
+                230,
+                214,
+                206,
+                168,
+                164
+            ]
+        },
+        "Tom C": {
+            "Team $onic Racing": [
+                335,
+                275,
+                237,
+                207,
+                272
+            ],
+            "AllonZhou": [
+                292,
+                238,
+                192,
+                197,
+                252
+            ],
+            "I am Mazespin and I am Here (in Russian)": [
+                335,
+                275,
+                237,
+                178,
+                182
+            ]
+        },
+        "Stuart S": {
+            "11 White Dogwood": [
+                232,
+                257,
+                135,
+                159,
+                219
+            ],
+            "12 Golden Bell": [
+                306,
+                190,
+                188,
+                229,
+                278
+            ],
+            "13 Azalea (golf)": [
+                68,
+                -4,
+                50,
+                22,
+                115
+            ]
+        },
+        "Andrew F": {
+            "Mostly My Faves xoxo": [
+                98,
+                115,
+                194,
+                267,
+                275
+            ],
+            "GP1 Engine, GP1": [
+                280,
+                248,
+                218,
+                106,
+                166
+            ],
+            "Reigning Golf Champions": [
+                36,
+                -1,
+                53,
+                33,
+                117
+            ]
+        },
+        "Jo H": {
+            "Paradise lost": [
+                276,
+                279,
+                218,
+                213,
+                245
+            ],
+            "Weyto Slo": [
+                158,
+                185,
+                140,
+                171,
+                219
+            ],
+            "Horrocks Horsepower": [
+                184,
+                176,
+                117,
+                151,
+                278
+            ]
+        },
+        "Pierce C": {
+            "Cow de Rouge": [
+                335,
+                275,
+                237,
+                220,
+                274
+            ],
+            "Hedge Trimmers F1": [
+                305,
+                212,
+                240,
+                165,
+                179
+            ],
+            "The Shum Bufflers": [
+                160,
+                156,
+                245,
+                210,
+                221
+            ]
+        },
+        "Simon C": {
+            "White Cows 97": [
+                310,
+                262,
+                200,
+                97,
+                46
+            ],
+            "White Cows 98": [
+                261,
+                287,
+                217,
+                164,
+                146
+            ],
+            "White Cows 99": [
+                246,
+                246,
+                212,
+                129,
+                138
+            ]
+        },
+        "Tess": {
+            "TMJ Racing": [
+                280,
+                237,
+                217,
+                127,
+                140
+            ]
+        },
+        "Tom M": {
+            "Stupid Like A Fox Racing": [
+                322,
+                267,
+                203,
+                108,
+                48
+            ]
+        },
+        "Cameron M": {
+            "Max Likes His Sister": [
+                258,
+                251,
+                267,
+                137,
+                122
+            ],
+            "Ford": [
+                268,
+                261,
+                247,
+                161,
+                180
+            ],
+            "I'm Not A Fan Boy": [
+                92,
+                229,
+                263,
+                166,
+                171
+            ]
+        },
+        "Ollie O": {
+            "Probably Back of the Grid": [
+                258,
+                313,
+                209,
+                152,
+                141
+            ],
+            "Battle of the MIDfield": [
+                134,
+                292,
+                147,
+                162,
+                155
+            ],
+            "Part Time Streamers": [
+                60,
+                259,
+                155,
+                122,
+                181
+            ]
+        },
+        "Joe T": {
+            "Mmm.Ham.": [
+                131,
+                205,
+                79,
+                102,
+                101
+            ],
+            "Formula bathtub": [
+                55,
+                -25,
+                62,
+                34,
+                116
+            ],
+            "Timothee Chalamet": [
+                287,
+                264,
+                209,
+                152,
+                141
+            ]
+        },
+        "Madlen P": {
+            "Go Boys Give Us Nothing": [
+                116,
+                138,
+                152,
+                143,
+                170
+            ],
+            "Asini rossi": [
+                104,
+                194,
+                80,
+                169,
+                179
+            ],
+            "Team Lemonade": [
+                335,
+                279,
+                237,
+                210,
+                234
+            ]
+        },
+        "Unknown": {
+            "It's on like donkey kong": [
+                252,
+                202,
+                195,
+                115,
+                161
+            ],
+            "Nowhere team": [
+                117,
+                130,
+                138,
+                200,
+                171
+            ]
+        }
+    },
+    "Sum World Races": {
+        "Sum Points": {
+            "Josh M": {
+                "Rhino's Midland F1 Racing": [
+                    240,
+                    503,
+                    720,
+                    1007,
+                    1215
+                ],
+                "Be On Edge Jordan F1 TATA": [
+                    157,
+                    316,
+                    521,
+                    744,
+                    1028
+                ],
+                "Etihad Spyker Aldar-AD F1": [
+                    145,
+                    330,
+                    487,
+                    699,
+                    981
+                ],
+                "Oracle RedBull Ford-EcoPT": [
+                    322,
+                    547,
+                    771,
+                    1058,
+                    1289
+                ],
+                "Panasonic Toyota GRMN F1": [
+                    246,
+                    511,
+                    703,
+                    905,
+                    1136
+                ],
+                "Becks Jaguar HSBC Racing": [
+                    226,
+                    413,
+                    563,
+                    744,
+                    995
+                ]
+            },
+            "Charlie L": {
+                "Moe's Family Speedbag": [
+                    267,
+                    528,
+                    717,
+                    909,
+                    1160
+                ],
+                "Kiss My Haasphalt": [
+                    58,
+                    39,
+                    85,
+                    134,
+                    155
+                ]
+            },
+            "Will R": {
+                "Dinoco Piston Champions": [
+                    331,
+                    601,
+                    810,
+                    1046,
+                    1342
+                ],
+                "The Big One (TM)": [
+                    78,
+                    89,
+                    45,
+                    65,
+                    158
+                ],
+                "Boogity Boogity Boogity": [
+                    267,
+                    525,
+                    759,
+                    1048,
+                    1316
+                ]
+            },
+            "Toby P": {
+                "Hesketh 2.0": [
+                    335,
+                    610,
+                    847,
+                    1086,
+                    1309
+                ]
+            },
+            "Verity N": {
+                "Versus": [
+                    218,
+                    446,
+                    640,
+                    883,
+                    1156
+                ]
+            },
+            "Lucy N": {
+                "Put Ur Hamrussy In It": [
+                    305,
+                    565,
+                    738,
+                    927,
+                    1119
+                ]
+            },
+            "Pete J": {
+                "Rooteen Inspekshun": [
+                    221,
+                    433,
+                    557,
+                    747,
+                    884
+                ],
+                "Just Shut Up And Listen": [
+                    65,
+                    232,
+                    320,
+                    456,
+                    580
+                ]
+            },
+            "James R": {
+                "Bwoah Pringle Rolex Golf": [
+                    33,
+                    63,
+                    43,
+                    85,
+                    136
+                ],
+                "Bwoah Racing F1 2023 Ltd": [
+                    311,
+                    575,
+                    806,
+                    1042,
+                    1284
+                ],
+                "Bwoah Racing F1 2023 Plc": [
+                    327,
+                    602,
+                    819,
+                    1040,
+                    1290
+                ]
+            },
+            "Phil M": {
+                "BMW Missed Opportunity": [
+                    323,
+                    598,
+                    835,
+                    996,
+                    1242
+                ],
+                "BMW Should Be Here": [
+                    331,
+                    595,
+                    826,
+                    973,
+                    1213
+                ],
+                "BMW Motorrad": [
+                    121,
+                    314,
+                    449,
+                    636,
+                    859
+                ]
+            },
+            "Val M": {
+                "I Am Stubborn & Impatient": [
+                    263,
+                    528,
+                    741,
+                    945,
+                    1195
+                ],
+                "Time Is A One Way Street": [
+                    263,
+                    528,
+                    719,
+                    939,
+                    1177
+                ],
+                "My Fav'rit Colour Is Blue": [
+                    106,
+                    287,
+                    512,
+                    707,
+                    951
+                ],
+                "Lap Time Deleted": [
+                    263,
+                    528,
+                    741,
+                    855,
+                    1034
+                ],
+                "Make A U Turn": [
+                    160,
+                    392,
+                    577,
+                    772,
+                    1024
+                ],
+                "Mater's Mates": [
+                    106,
+                    287,
+                    488,
+                    663,
+                    903
+                ]
+            },
+            "Patrick L": {
+                "Johnny UniHaas": [
+                    335,
+                    614,
+                    848,
+                    1098,
+                    1376
+                ]
+            },
+            "Jake M": {
+                "Meme Lords No Longer": [
+                    192,
+                    383,
+                    642,
+                    886,
+                    1141
+                ],
+                "2000s Ferrari copy 16": [
+                    48,
+                    239,
+                    376,
+                    680,
+                    924
+                ],
+                "Fuck Daniel Ricciardo": [
+                    235,
+                    452,
+                    671,
+                    888,
+                    1119
+                ]
+            },
+            "Matty J": {
+                "The Stopwatch Never Lies": [
+                    112,
+                    277,
+                    395,
+                    570,
+                    694
+                ],
+                "Checo Perez MMD": [
+                    103,
+                    220,
+                    368,
+                    542,
+                    787
+                ],
+                "Danny Rics Barmy Army": [
+                    252,
+                    531,
+                    741,
+                    971,
+                    1212
+                ]
+            },
+            "Matt H": {
+                "I'm In It For The Money": [
+                    213,
+                    422,
+                    577,
+                    681,
+                    780
+                ]
+            },
+            "Sam B": {
+                "LewisHamiltonian": [
+                    267,
+                    525,
+                    729,
+                    902,
+                    1045
+                ],
+                "LewisHamiltonian2": [
+                    219,
+                    432,
+                    653,
+                    843,
+                    1027
+                ],
+                "LewisHamiltonian3": [
+                    230,
+                    444,
+                    650,
+                    818,
+                    982
+                ]
+            },
+            "Tom C": {
+                "Team $onic Racing": [
+                    335,
+                    610,
+                    847,
+                    1054,
+                    1326
+                ],
+                "AllonZhou": [
+                    292,
+                    530,
+                    722,
+                    919,
+                    1171
+                ],
+                "I am Mazespin and I am Here (in Russian)": [
+                    335,
+                    610,
+                    847,
+                    1025,
+                    1207
+                ]
+            },
+            "Stuart S": {
+                "11 White Dogwood": [
+                    232,
+                    489,
+                    624,
+                    783,
+                    1002
+                ],
+                "12 Golden Bell": [
+                    306,
+                    496,
+                    684,
+                    913,
+                    1191
+                ],
+                "13 Azalea (golf)": [
+                    68,
+                    64,
+                    114,
+                    136,
+                    251
+                ]
+            },
+            "Andrew F": {
+                "Mostly My Faves xoxo": [
+                    98,
+                    213,
+                    407,
+                    674,
+                    949
+                ],
+                "GP1 Engine, GP1": [
+                    280,
+                    528,
+                    746,
+                    852,
+                    1018
+                ],
+                "Reigning Golf Champions": [
+                    36,
+                    35,
+                    88,
+                    121,
+                    238
+                ]
+            },
+            "Jo H": {
+                "Paradise lost": [
+                    276,
+                    555,
+                    773,
+                    986,
+                    1231
+                ],
+                "Weyto Slo": [
+                    158,
+                    343,
+                    483,
+                    654,
+                    873
+                ],
+                "Horrocks Horsepower": [
+                    184,
+                    360,
+                    477,
+                    628,
+                    906
+                ]
+            },
+            "Pierce C": {
+                "Cow de Rouge": [
+                    335,
+                    610,
+                    847,
+                    1067,
+                    1341
+                ],
+                "Hedge Trimmers F1": [
+                    305,
+                    517,
+                    757,
+                    922,
+                    1101
+                ],
+                "The Shum Bufflers": [
+                    160,
+                    316,
+                    561,
+                    771,
+                    992
+                ]
+            },
+            "Simon C": {
+                "White Cows 97": [
+                    310,
+                    572,
+                    772,
+                    869,
+                    915
+                ],
+                "White Cows 98": [
+                    261,
+                    548,
+                    765,
+                    929,
+                    1075
+                ],
+                "White Cows 99": [
+                    246,
+                    492,
+                    704,
+                    833,
+                    971
+                ]
+            },
+            "Tess": {
+                "TMJ Racing": [
+                    280,
+                    517,
+                    734,
+                    861,
+                    1001
+                ]
+            },
+            "Tom M": {
+                "Stupid Like A Fox Racing": [
+                    322,
+                    589,
+                    792,
+                    900,
+                    948
+                ]
+            },
+            "Cameron M": {
+                "Max Likes His Sister": [
+                    258,
+                    509,
+                    776,
+                    913,
+                    1035
+                ],
+                "Ford": [
+                    268,
+                    529,
+                    776,
+                    937,
+                    1117
+                ],
+                "I'm Not A Fan Boy": [
+                    92,
+                    321,
+                    584,
+                    750,
+                    921
+                ]
+            },
+            "Ollie O": {
+                "Probably Back of the Grid": [
+                    258,
+                    571,
+                    780,
+                    932,
+                    1073
+                ],
+                "Battle of the MIDfield": [
+                    134,
+                    426,
+                    573,
+                    735,
+                    890
+                ],
+                "Part Time Streamers": [
+                    60,
+                    319,
+                    474,
+                    596,
+                    777
+                ]
+            },
+            "Joe T": {
+                "Mmm.Ham.": [
+                    131,
+                    336,
+                    415,
+                    517,
+                    618
+                ],
+                "Formula bathtub": [
+                    55,
+                    30,
+                    92,
+                    126,
+                    242
+                ],
+                "Timothee Chalamet": [
+                    287,
+                    551,
+                    760,
+                    912,
+                    1053
+                ]
+            },
+            "Madlen P": {
+                "Go Boys Give Us Nothing": [
+                    116,
+                    254,
+                    406,
+                    549,
+                    719
+                ],
+                "Asini rossi": [
+                    104,
+                    298,
+                    378,
+                    547,
+                    726
+                ],
+                "Team Lemonade": [
+                    335,
+                    614,
+                    851,
+                    1061,
+                    1295
+                ]
+            },
+            "Unknown": {
+                "It's on like donkey kong": [
+                    252,
+                    454,
+                    649,
+                    764,
+                    925
+                ],
+                "Nowhere team": [
+                    117,
+                    247,
+                    385,
+                    585,
+                    756
+                ]
+            }
+        },
+        "Average Points": {
+            "Josh M": {
+                "Rhino's Midland F1 Racing": [
+                    240,
+                    251.5,
+                    240.0,
+                    251.75,
+                    243.0
+                ],
+                "Be On Edge Jordan F1 TATA": [
+                    157,
+                    158.0,
+                    173.66666666666666,
+                    186.0,
+                    205.6
+                ],
+                "Etihad Spyker Aldar-AD F1": [
+                    145,
+                    165.0,
+                    162.33333333333334,
+                    174.75,
+                    196.2
+                ],
+                "Oracle RedBull Ford-EcoPT": [
+                    322,
+                    273.5,
+                    257.0,
+                    264.5,
+                    257.8
+                ],
+                "Panasonic Toyota GRMN F1": [
+                    246,
+                    255.5,
+                    234.33333333333334,
+                    226.25,
+                    227.2
+                ],
+                "Becks Jaguar HSBC Racing": [
+                    226,
+                    206.5,
+                    187.66666666666666,
+                    186.0,
+                    199.0
+                ]
+            },
+            "Charlie L": {
+                "Moe's Family Speedbag": [
+                    267,
+                    264.0,
+                    239.0,
+                    227.25,
+                    232.0
+                ],
+                "Kiss My Haasphalt": [
+                    58,
+                    19.5,
+                    28.333333333333332,
+                    33.5,
+                    31.0
+                ]
+            },
+            "Will R": {
+                "Dinoco Piston Champions": [
+                    331,
+                    300.5,
+                    270.0,
+                    261.5,
+                    268.4
+                ],
+                "The Big One (TM)": [
+                    78,
+                    44.5,
+                    15.0,
+                    16.25,
+                    31.6
+                ],
+                "Boogity Boogity Boogity": [
+                    267,
+                    262.5,
+                    253.0,
+                    262.0,
+                    263.2
+                ]
+            },
+            "Toby P": {
+                "Hesketh 2.0": [
+                    335,
+                    305.0,
+                    282.3333333333333,
+                    271.5,
+                    261.8
+                ]
+            },
+            "Verity N": {
+                "Versus": [
+                    218,
+                    223.0,
+                    213.33333333333334,
+                    220.75,
+                    231.2
+                ]
+            },
+            "Lucy N": {
+                "Put Ur Hamrussy In It": [
+                    305,
+                    282.5,
+                    246.0,
+                    231.75,
+                    223.8
+                ]
+            },
+            "Pete J": {
+                "Rooteen Inspekshun": [
+                    221,
+                    216.5,
+                    185.66666666666666,
+                    186.75,
+                    176.8
+                ],
+                "Just Shut Up And Listen": [
+                    65,
+                    116.0,
+                    106.66666666666667,
+                    114.0,
+                    116.0
+                ]
+            },
+            "James R": {
+                "Bwoah Pringle Rolex Golf": [
+                    33,
+                    31.5,
+                    14.333333333333334,
+                    21.25,
+                    27.2
+                ],
+                "Bwoah Racing F1 2023 Ltd": [
+                    311,
+                    287.5,
+                    268.6666666666667,
+                    260.5,
+                    256.8
+                ],
+                "Bwoah Racing F1 2023 Plc": [
+                    327,
+                    301.0,
+                    273.0,
+                    260.0,
+                    258.0
+                ]
+            },
+            "Phil M": {
+                "BMW Missed Opportunity": [
+                    323,
+                    299.0,
+                    278.3333333333333,
+                    249.0,
+                    248.4
+                ],
+                "BMW Should Be Here": [
+                    331,
+                    297.5,
+                    275.3333333333333,
+                    243.25,
+                    242.6
+                ],
+                "BMW Motorrad": [
+                    121,
+                    157.0,
+                    149.66666666666666,
+                    159.0,
+                    171.8
+                ]
+            },
+            "Val M": {
+                "I Am Stubborn & Impatient": [
+                    263,
+                    264.0,
+                    247.0,
+                    236.25,
+                    239.0
+                ],
+                "Time Is A One Way Street": [
+                    263,
+                    264.0,
+                    239.66666666666666,
+                    234.75,
+                    235.4
+                ],
+                "My Fav'rit Colour Is Blue": [
+                    106,
+                    143.5,
+                    170.66666666666666,
+                    176.75,
+                    190.2
+                ],
+                "Lap Time Deleted": [
+                    263,
+                    264.0,
+                    247.0,
+                    213.75,
+                    206.8
+                ],
+                "Make A U Turn": [
+                    160,
+                    196.0,
+                    192.33333333333334,
+                    193.0,
+                    204.8
+                ],
+                "Mater's Mates": [
+                    106,
+                    143.5,
+                    162.66666666666666,
+                    165.75,
+                    180.6
+                ]
+            },
+            "Patrick L": {
+                "Johnny UniHaas": [
+                    335,
+                    307.0,
+                    282.6666666666667,
+                    274.5,
+                    275.2
+                ]
+            },
+            "Jake M": {
+                "Meme Lords No Longer": [
+                    192,
+                    191.5,
+                    214.0,
+                    221.5,
+                    228.2
+                ],
+                "2000s Ferrari copy 16": [
+                    48,
+                    119.5,
+                    125.33333333333333,
+                    170.0,
+                    184.8
+                ],
+                "Fuck Daniel Ricciardo": [
+                    235,
+                    226.0,
+                    223.66666666666666,
+                    222.0,
+                    223.8
+                ]
+            },
+            "Matty J": {
+                "The Stopwatch Never Lies": [
+                    112,
+                    138.5,
+                    131.66666666666666,
+                    142.5,
+                    138.8
+                ],
+                "Checo Perez MMD": [
+                    103,
+                    110.0,
+                    122.66666666666667,
+                    135.5,
+                    157.4
+                ],
+                "Danny Rics Barmy Army": [
+                    252,
+                    265.5,
+                    247.0,
+                    242.75,
+                    242.4
+                ]
+            },
+            "Matt H": {
+                "I'm In It For The Money": [
+                    213,
+                    211.0,
+                    192.33333333333334,
+                    170.25,
+                    156.0
+                ]
+            },
+            "Sam B": {
+                "LewisHamiltonian": [
+                    267,
+                    262.5,
+                    243.0,
+                    225.5,
+                    209.0
+                ],
+                "LewisHamiltonian2": [
+                    219,
+                    216.0,
+                    217.66666666666666,
+                    210.75,
+                    205.4
+                ],
+                "LewisHamiltonian3": [
+                    230,
+                    222.0,
+                    216.66666666666666,
+                    204.5,
+                    196.4
+                ]
+            },
+            "Tom C": {
+                "Team $onic Racing": [
+                    335,
+                    305.0,
+                    282.3333333333333,
+                    263.5,
+                    265.2
+                ],
+                "AllonZhou": [
+                    292,
+                    265.0,
+                    240.66666666666666,
+                    229.75,
+                    234.2
+                ],
+                "I am Mazespin and I am Here (in Russian)": [
+                    335,
+                    305.0,
+                    282.3333333333333,
+                    256.25,
+                    241.4
+                ]
+            },
+            "Stuart S": {
+                "11 White Dogwood": [
+                    232,
+                    244.5,
+                    208.0,
+                    195.75,
+                    200.4
+                ],
+                "12 Golden Bell": [
+                    306,
+                    248.0,
+                    228.0,
+                    228.25,
+                    238.2
+                ],
+                "13 Azalea (golf)": [
+                    68,
+                    32.0,
+                    38.0,
+                    34.0,
+                    50.2
+                ]
+            },
+            "Andrew F": {
+                "Mostly My Faves xoxo": [
+                    98,
+                    106.5,
+                    135.66666666666666,
+                    168.5,
+                    189.8
+                ],
+                "GP1 Engine, GP1": [
+                    280,
+                    264.0,
+                    248.66666666666666,
+                    213.0,
+                    203.6
+                ],
+                "Reigning Golf Champions": [
+                    36,
+                    17.5,
+                    29.333333333333332,
+                    30.25,
+                    47.6
+                ]
+            },
+            "Jo H": {
+                "Paradise lost": [
+                    276,
+                    277.5,
+                    257.6666666666667,
+                    246.5,
+                    246.2
+                ],
+                "Weyto Slo": [
+                    158,
+                    171.5,
+                    161.0,
+                    163.5,
+                    174.6
+                ],
+                "Horrocks Horsepower": [
+                    184,
+                    180.0,
+                    159.0,
+                    157.0,
+                    181.2
+                ]
+            },
+            "Pierce C": {
+                "Cow de Rouge": [
+                    335,
+                    305.0,
+                    282.3333333333333,
+                    266.75,
+                    268.2
+                ],
+                "Hedge Trimmers F1": [
+                    305,
+                    258.5,
+                    252.33333333333334,
+                    230.5,
+                    220.2
+                ],
+                "The Shum Bufflers": [
+                    160,
+                    158.0,
+                    187.0,
+                    192.75,
+                    198.4
+                ]
+            },
+            "Simon C": {
+                "White Cows 97": [
+                    310,
+                    286.0,
+                    257.3333333333333,
+                    217.25,
+                    183.0
+                ],
+                "White Cows 98": [
+                    261,
+                    274.0,
+                    255.0,
+                    232.25,
+                    215.0
+                ],
+                "White Cows 99": [
+                    246,
+                    246.0,
+                    234.66666666666666,
+                    208.25,
+                    194.2
+                ]
+            },
+            "Tess": {
+                "TMJ Racing": [
+                    280,
+                    258.5,
+                    244.66666666666666,
+                    215.25,
+                    200.2
+                ]
+            },
+            "Tom M": {
+                "Stupid Like A Fox Racing": [
+                    322,
+                    294.5,
+                    264.0,
+                    225.0,
+                    189.6
+                ]
+            },
+            "Cameron M": {
+                "Max Likes His Sister": [
+                    258,
+                    254.5,
+                    258.6666666666667,
+                    228.25,
+                    207.0
+                ],
+                "Ford": [
+                    268,
+                    264.5,
+                    258.6666666666667,
+                    234.25,
+                    223.4
+                ],
+                "I'm Not A Fan Boy": [
+                    92,
+                    160.5,
+                    194.66666666666666,
+                    187.5,
+                    184.2
+                ]
+            },
+            "Ollie O": {
+                "Probably Back of the Grid": [
+                    258,
+                    285.5,
+                    260.0,
+                    233.0,
+                    214.6
+                ],
+                "Battle of the MIDfield": [
+                    134,
+                    213.0,
+                    191.0,
+                    183.75,
+                    178.0
+                ],
+                "Part Time Streamers": [
+                    60,
+                    159.5,
+                    158.0,
+                    149.0,
+                    155.4
+                ]
+            },
+            "Joe T": {
+                "Mmm.Ham.": [
+                    131,
+                    168.0,
+                    138.33333333333334,
+                    129.25,
+                    123.6
+                ],
+                "Formula bathtub": [
+                    55,
+                    15.0,
+                    30.666666666666668,
+                    31.5,
+                    48.4
+                ],
+                "Timothee Chalamet": [
+                    287,
+                    275.5,
+                    253.33333333333334,
+                    228.0,
+                    210.6
+                ]
+            },
+            "Madlen P": {
+                "Go Boys Give Us Nothing": [
+                    116,
+                    127.0,
+                    135.33333333333334,
+                    137.25,
+                    143.8
+                ],
+                "Asini rossi": [
+                    104,
+                    149.0,
+                    126.0,
+                    136.75,
+                    145.2
+                ],
+                "Team Lemonade": [
+                    335,
+                    307.0,
+                    283.6666666666667,
+                    265.25,
+                    259.0
+                ]
+            },
+            "Unknown": {
+                "It's on like donkey kong": [
+                    252,
+                    227.0,
+                    216.33333333333334,
+                    191.0,
+                    185.0
+                ],
+                "Nowhere team": [
+                    117,
+                    123.5,
+                    128.33333333333334,
+                    146.25,
+                    151.2
+                ]
+            }
+        }
+    },
+    "Sprint King": {
+        "Cow de Rouge": 2136,
+        "Johnny UniHaas": 2117,
+        "I Am Stubborn & Impatient": 2113,
+        "Dinoco Piston Champions": 2079,
+        "Team $onic Racing": 2066,
+        "AllonZhou": 2054,
+        "12 Golden Bell": 2027,
+        "Hesketh 2.0": 2024,
+        "I am Mazespin and I am Here (in Russian)": 2016,
+        "Bwoah Racing F1 2023 Plc": 2016,
+        "Make A U Turn": 2012,
+        "Team Lemonade": 2003,
+        "Moe's Family Speedbag": 1991,
+        "Danny Rics Barmy Army": 1985,
+        "Boogity Boogity Boogity": 1982,
+        "My Fav'rit Colour Is Blue": 1974,
+        "Lap Time Deleted": 1946,
+        "Versus": 1925,
+        "Time Is A One Way Street": 1923,
+        "Fuck Daniel Ricciardo": 1923,
+        "Bwoah Racing F1 2023 Ltd": 1915,
+        "BMW Missed Opportunity": 1897,
+        "Hedge Trimmers F1": 1867,
+        "Ford": 1859,
+        "Panasonic Toyota GRMN F1": 1850,
+        "Paradise lost": 1847,
+        "TMJ Racing": 1841,
+        "GP1 Engine, GP1": 1837,
+        "White Cows 98": 1835,
+        "BMW Should Be Here": 1831,
+        "The Shum Bufflers": 1812,
+        "Oracle RedBull Ford-EcoPT": 1809,
+        "Timothee Chalamet": 1786,
+        "LewisHamiltonian": 1774,
+        "Mater's Mates": 1727,
+        "Probably Back of the Grid": 1724,
+        "Stupid Like A Fox Racing": 1698,
+        "LewisHamiltonian3": 1690,
+        "White Cows 99": 1683,
+        "White Cows 97": 1664,
+        "Meme Lords No Longer": 1652,
+        "Etihad Spyker Aldar-AD F1": 1645,
+        "Put Ur Hamrussy In It": 1641,
+        "It's on like donkey kong": 1630,
+        "Becks Jaguar HSBC Racing": 1592,
+        "LewisHamiltonian2": 1591,
+        "Max Likes His Sister": 1524,
+        "Be On Edge Jordan F1 TATA": 1512,
+        "Rhino's Midland F1 Racing": 1471,
+        "Asini rossi": 1470,
+        "I'm In It For The Money": 1454,
+        "Go Boys Give Us Nothing": 1450,
+        "Battle of the MIDfield": 1442,
+        "Part Time Streamers": 1422,
+        "BMW Motorrad": 1397,
+        "Horrocks Horsepower": 1362,
+        "11 White Dogwood": 1336,
+        "Checo Perez MMD": 1300,
+        "The Stopwatch Never Lies": 1247,
+        "I'm Not A Fan Boy": 1238,
+        "2000s Ferrari copy 16": 1237,
+        "Rooteen Inspekshun": 1217,
+        "Mostly My Faves xoxo": 1193,
+        "Just Shut Up And Listen": 1183,
+        "Weyto Slo": 1112,
+        "Nowhere team": 1017,
+        "Mmm.Ham.": 1003,
+        "The Big One (TM)": 320,
+        "Kiss My Haasphalt": 311,
+        "13 Azalea (golf)": 287,
+        "Reigning Golf Champions": 286,
+        "Formula bathtub": 254,
+        "Bwoah Pringle Rolex Golf": 252
+    },
+    "Champion of the World": {
+        "Johnny UniHaas": 1376,
+        "Dinoco Piston Champions": 1342,
+        "Cow de Rouge": 1341,
+        "Team $onic Racing": 1326,
+        "Boogity Boogity Boogity": 1316,
+        "Hesketh 2.0": 1309,
+        "Team Lemonade": 1295,
+        "Bwoah Racing F1 2023 Plc": 1290,
+        "Oracle RedBull Ford-EcoPT": 1289,
+        "Bwoah Racing F1 2023 Ltd": 1284,
+        "BMW Missed Opportunity": 1242,
+        "Paradise lost": 1231,
+        "Rhino's Midland F1 Racing": 1215,
+        "BMW Should Be Here": 1213,
+        "Danny Rics Barmy Army": 1212,
+        "I am Mazespin and I am Here (in Russian)": 1207,
+        "I Am Stubborn & Impatient": 1195,
+        "12 Golden Bell": 1191,
+        "Time Is A One Way Street": 1177,
+        "AllonZhou": 1171,
+        "Moe's Family Speedbag": 1160,
+        "Versus": 1156,
+        "Meme Lords No Longer": 1141,
+        "Panasonic Toyota GRMN F1": 1136,
+        "Put Ur Hamrussy In It": 1119,
+        "Fuck Daniel Ricciardo": 1119,
+        "Ford": 1117,
+        "Hedge Trimmers F1": 1101,
+        "White Cows 98": 1075,
+        "Probably Back of the Grid": 1073,
+        "Timothee Chalamet": 1053,
+        "LewisHamiltonian": 1045,
+        "Max Likes His Sister": 1035,
+        "Lap Time Deleted": 1034,
+        "Be On Edge Jordan F1 TATA": 1028,
+        "LewisHamiltonian2": 1027,
+        "Make A U Turn": 1024,
+        "GP1 Engine, GP1": 1018,
+        "11 White Dogwood": 1002,
+        "TMJ Racing": 1001,
+        "Becks Jaguar HSBC Racing": 995,
+        "The Shum Bufflers": 992,
+        "LewisHamiltonian3": 982,
+        "Etihad Spyker Aldar-AD F1": 981,
+        "White Cows 99": 971,
+        "My Fav'rit Colour Is Blue": 951,
+        "Mostly My Faves xoxo": 949,
+        "Stupid Like A Fox Racing": 948,
+        "It's on like donkey kong": 925,
+        "2000s Ferrari copy 16": 924,
+        "I'm Not A Fan Boy": 921,
+        "White Cows 97": 915,
+        "Horrocks Horsepower": 906,
+        "Mater's Mates": 903,
+        "Battle of the MIDfield": 890,
+        "Rooteen Inspekshun": 884,
+        "Weyto Slo": 873,
+        "BMW Motorrad": 859,
+        "Checo Perez MMD": 787,
+        "I'm In It For The Money": 780,
+        "Part Time Streamers": 777,
+        "Nowhere team": 756,
+        "Asini rossi": 726,
+        "Go Boys Give Us Nothing": 719,
+        "The Stopwatch Never Lies": 694,
+        "Mmm.Ham.": 618,
+        "Just Shut Up And Listen": 580,
+        "13 Azalea (golf)": 251,
+        "Formula bathtub": 242,
+        "Reigning Golf Champions": 238,
+        "The Big One (TM)": 158,
+        "Kiss My Haasphalt": 155,
+        "Bwoah Pringle Rolex Golf": 136
+    },
+    "Manager of the Year": {
+        "Patrick L": 6609.0,
+        "Toby P": 6465.0,
+        "Tom C": 6380.666666666666,
+        "Pierce C": 5859.999999999999,
+        "Verity N": 5751.0,
+        "Val M": 5658.999999999999,
+        "Tess": 5605.0,
+        "Phil M": 5530.666666666665,
+        "Simon C": 5496.333333333333,
+        "Sam B": 5485.333333333334,
+        "Josh M": 5409.499999999999,
+        "Tom M": 5382.0,
+        "Lucy N": 5283.0,
+        "Jake M": 5171.666666666667,
+        "Cameron M": 5156.000000000001,
+        "Madlen P": 4919.333333333335,
+        "Ollie O": 4863.333333333333,
+        "Jo H": 4714.000000000001,
+        "Matty J": 4660.666666666666,
+        "Will R": 4518.0,
+        "James R": 4467.666666666667,
+        "Matt H": 4337.0,
+        "Unknown": 4245.0,
+        "Stuart S": 3930.666666666667,
+        "Pete J": 3869.0,
+        "Andrew F": 3490.666666666667,
+        "Charlie L": 3426.0,
+        "Joe T": 3402.333333333334
+    },
+    "Highest Weekly": [
+        "Qatar",
+        "Val M",
+        "I Am Stubborn & Impatient",
+        534
+    ],
+    "Lowest Weekly": [
+        "Azerbaijan",
+        "Andrew F",
+        "Reigning Golf Champions",
+        -97
+    ],
+    "Some Viking Comeback": {
+        "Hesketh 2.0": [
+            377,
+            6465,
+            4
+        ],
+        "Put Ur Hamrussy In It": [
+            326,
+            5283,
+            42
+        ],
+        "Stupid Like A Fox Racing": [
+            320,
+            5382,
+            38
+        ],
+        "GP1 Engine, GP1": [
+            316,
+            5714,
+            26
+        ],
+        "I am Mazespin and I am Here (in Russian)": [
+            307,
+            6325,
+            8
+        ]
+    },
+    "The Catering Budget": [
+        "Pierce C",
+        "Cow de Rouge",
+        138.4
+    ],
+    "League Order": {
+        "Johnny UniHaas": 6609,
+        "Cow de Rouge": 6590,
+        "Team $onic Racing": 6563,
+        "Hesketh 2.0": 6465,
+        "Bwoah Racing F1 2023 Plc": 6366,
+        "I Am Stubborn & Impatient": 6339,
+        "Dinoco Piston Champions": 6327,
+        "I am Mazespin and I am Here (in Russian)": 6325,
+        "Team Lemonade": 6305,
+        "Bwoah Racing F1 2023 Ltd": 6301,
+        "Boogity Boogity Boogity": 6301,
+        "AllonZhou": 6254,
+        "BMW Missed Opportunity": 6159,
+        "Time Is A One Way Street": 6158,
+        "12 Golden Bell": 6067,
+        "Danny Rics Barmy Army": 6054,
+        "BMW Should Be Here": 6015,
+        "Moe's Family Speedbag": 5984,
+        "Fuck Daniel Ricciardo": 5919,
+        "Paradise lost": 5891,
+        "Ford": 5834,
+        "Oracle RedBull Ford-EcoPT": 5830,
+        "White Cows 98": 5786,
+        "Versus": 5751,
+        "LewisHamiltonian": 5718,
+        "GP1 Engine, GP1": 5714,
+        "Probably Back of the Grid": 5698,
+        "Lap Time Deleted": 5689,
+        "Timothee Chalamet": 5685,
+        "TMJ Racing": 5605,
+        "Hedge Trimmers F1": 5605,
+        "Rhino's Midland F1 Racing": 5581,
+        "Make A U Turn": 5567,
+        "Panasonic Toyota GRMN F1": 5523,
+        "White Cows 99": 5449,
+        "LewisHamiltonian2": 5423,
+        "The Shum Bufflers": 5385,
+        "Stupid Like A Fox Racing": 5382,
+        "Meme Lords No Longer": 5361,
+        "My Fav'rit Colour Is Blue": 5326,
+        "LewisHamiltonian3": 5315,
+        "Put Ur Hamrussy In It": 5283,
+        "Max Likes His Sister": 5255,
+        "White Cows 97": 5254,
+        "Be On Edge Jordan F1 TATA": 5253,
+        "Etihad Spyker Aldar-AD F1": 5215,
+        "It's on like donkey kong": 5070,
+        "Becks Jaguar HSBC Racing": 5055,
+        "Mater's Mates": 4875,
+        "11 White Dogwood": 4785,
+        "Battle of the MIDfield": 4659,
+        "BMW Motorrad": 4418,
+        "I'm Not A Fan Boy": 4379,
+        "I'm In It For The Money": 4337,
+        "2000s Ferrari copy 16": 4235,
+        "Part Time Streamers": 4233,
+        "Go Boys Give Us Nothing": 4232,
+        "Asini rossi": 4221,
+        "Weyto Slo": 4172,
+        "Rooteen Inspekshun": 4122,
+        "Horrocks Horsepower": 4079,
+        "The Stopwatch Never Lies": 4033,
+        "Checo Perez MMD": 3895,
+        "Mostly My Faves xoxo": 3853,
+        "Just Shut Up And Listen": 3616,
+        "Mmm.Ham.": 3574,
+        "Nowhere team": 3420,
+        "Formula bathtub": 948,
+        "13 Azalea (golf)": 940,
+        "The Big One (TM)": 926,
+        "Reigning Golf Champions": 905,
+        "Kiss My Haasphalt": 868,
+        "Bwoah Pringle Rolex Golf": 736
+    }
+}

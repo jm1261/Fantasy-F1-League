@@ -1,0 +1,26 @@
+{
+    "2024": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#1a3188",
+        "color": "#d97a64",
+        "drivers": [
+            "Albon",
+            "Sargeant"
+        ]
+    },
+    "2023": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#192C4E",
+        "color": "#C88858",
+        "drivers": [
+            "Albon",
+            "Sargeant"
+        ]
+    }
+}

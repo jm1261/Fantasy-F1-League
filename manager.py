@@ -6,6 +6,18 @@ import src.plotting as plot
 from pathlib import Path
 
 """
+Note this has changed so that all the team sheets are within one team dictionary
+which means that the old code probably won't work so well. ISSUE WITH THE TEAM
+VALUES CALCULATION THAT IS CAUSING LIKE DOUBLE VALUES TO BE COUNTED CHECK THIS.
+"""
+
+"""
+All of this needs changing so that it can read and write multiple races to the
+same dictionary for each team. Fix this when you can. Had to revert to the old
+way because the code had got too out of hand.
+"""
+
+"""
 Ideas to add:
     * Need to filter in a "Who has gained and lost the most positions" report
     type thing. i.e., who are the big winners and losers?
@@ -28,6 +40,8 @@ Ideas to add:
     how the managers in this league coped with it.
     * Also need to add a prizes report for the people that have won the sprint
     or world prizes etc.
+    * Change plots so that the race names are vertical, getting a bit silly.
+    Or maybe flags?
 """
 
 
@@ -114,7 +128,6 @@ def check_managers_week(root: str,
             pass
         else:
             wrong_teams.append(team)
-    wrong_teams = []
     return wrong_teams
 
 
@@ -218,3 +231,4 @@ if __name__ == '__main__':
             year=year)
     else:
         print(wrong_teams)
+        print(len(wrong_teams))

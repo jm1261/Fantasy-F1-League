@@ -1,0 +1,12 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "blueviolet",
+    "teams": [
+        "BMW Missed Opportunity",
+        "BMW Should Be Here",
+        "BMW Motorrad"
+    ]
+}

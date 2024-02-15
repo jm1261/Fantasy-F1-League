@@ -1,0 +1,12 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "cadetblue",
+    "teams": [
+        "11 White Dogwood",
+        "12 Golden Bell",
+        "13 Azalea (golf)"
+    ]
+}
