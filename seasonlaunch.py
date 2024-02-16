@@ -1,7 +1,6 @@
 import src.dataIO as io
 import src.filepaths as fp
 import src.formats as form
-import os
 
 from pathlib import Path
 
