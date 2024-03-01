@@ -3,6 +3,7 @@ import json
 import numpy as np
 
 from pathlib import Path
+from IPython.display import Markdown, display, Image
 
 
 def load_json(file_path : str) -> dict:
@@ -947,16 +948,16 @@ def update_weeklylineup(year : str,
                     if key in category_points.keys():
                         if len(category_points[key]) == race_index + 2:
                             print(
-                                f'{key} {
-                                    (info_dictionary["Races"])[race_index]}'
+                                f'{key} '
+                                f'{(info_dictionary["Races"])[race_index]} '
                                 f'Points Recorded')
                         else:
                             category_points[key].append(inputs[0])
                     if key in category_values.keys():
                         if len(category_values[key]) == race_index + 2:
                             print(
-                                f'{key} {
-                                    (info_dictionary["Races"])[race_index]}'
+                                f'{key} '
+                                f'{(info_dictionary["Races"])[race_index]} '
                                 f'Values Recorded')
                         else:
                             category_values[key].append(inputs[0])
@@ -1217,3 +1218,136 @@ def update_results_dict(info_dictionary: dict,
         out_path=Path(f'{results_path}/Results.json'),
         dictionary=results_dict)
     return results_dict
+
+
+def output_string(string: str) -> None:
+    """
+    Function Details
+    ================
+    Display string file as text.
+
+    Display string as text in Jupyter notebook (or elsewhere).
+
+    Parameters
+    ----------
+    string: string
+        String
+    
+    Returns
+    -------
+    Display
+        Prints a display to a Jupyter notebook
+    
+    See Also
+    --------
+
+    Notes
+    -----
+    Uses the Ipython library to display a string as a printed cell output
+    in Jupyter notebooks. The returned cell output is then displayed in the html
+    export.
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Copied and documentation update.
+    """
+    display(Markdown(string))
+
+
+def output_json(dictionary : dict) -> None:
+    """
+    Function Details
+    ================
+    Display python dictionary file as text.
+
+    Display python dictionary file as text in Jupyter notebook (or elsewhere).
+
+    Parameters
+    ----------
+    dictionary: dict
+        Dictionary object
+    
+    Returns
+    -------
+    Display
+        Prints a display to a Jupyter notebook
+    
+    See Also
+    --------
+
+    Notes
+    -----
+    Uses the Ipython library to display a markdown file as a printed cell output
+    in Jupyter notebooks. The returned cell output is then displayed in the html
+    export.
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Copied and documentation update.
+
+    """
+    display(Markdown(f'{dictionary}'))
+
+
+def display_img(file_path : str,
+                width=False,
+                height=False) -> None:
+    """
+    Function Details
+    ================
+    Display image file as text.
+
+    Display image file as text in Jupyter notebook (or elsewhere).
+
+    Parameters
+    ----------
+    file_path: string
+        Path to image.
+    
+    Returns
+    -------
+    Display
+        Prints a display to a Jupyter notebook
+    
+    See Also
+    --------
+
+    Notes
+    -----
+    Uses the Ipython library to display an image file as a printed cell output
+    in Jupyter notebooks. The returned cell output is then displayed in the html
+    export.
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Copied and documentation update.
+
+    """
+    if height:
+        display(Image(filename=file_path, width=width, height=height))
+    else:
+        display(Image(filename=file_path))

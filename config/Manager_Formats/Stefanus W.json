@@ -3,9 +3,10 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "teal",
+    "bg_color": "dimgrey",
     "teams": [
-        "Johnny UniHaas",
-        "Racing No Points"
+        "Gelael",
+        "Haryanto",
+        "Syahrul"
     ]
 }
