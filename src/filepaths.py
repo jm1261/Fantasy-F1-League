@@ -5,12 +5,14 @@ from pathlib import Path
 
 def check_dir_exists(dir_path : str) -> None:
     """
-    Check directory exists.
+    Function Details
+    ================
+    Checks directory path exists.
 
     Parameters
     ----------
     dir_path: string
-        Path to directory to check path exists.
+        Path to directory.
 
     Returns
     -------
@@ -18,17 +20,23 @@ def check_dir_exists(dir_path : str) -> None:
 
     See Also
     --------
-    os.path.isdir
-    os.mkdir
+    None
 
     Notes
     -----
-    Check directory path exists, if it doesn't it will create a directory at
-    the target path.
+    If directory does not exist, make one.
 
     Example
     -------
     None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Updated documentation.
 
     """
     if os.path.isdir(dir_path) is False:
@@ -38,6 +46,8 @@ def check_dir_exists(dir_path : str) -> None:
 def season_dirs(dir_path : str,
                 managers : list) -> None:
     """
+    Function Details
+    ================
     Create the essential directories for a new league.
 
     Parameters
@@ -63,6 +73,14 @@ def season_dirs(dir_path : str,
     -------
     None
 
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Updated documentation.
+
     """
     [
         check_dir_exists(
@@ -76,6 +94,8 @@ def season_dirs(dir_path : str,
 def check_manager_exist(dir_path : str,
                         managers : list) -> list:
     """
+    Function Details
+    ================
     Check to see if there are any new managers.
 
     Parameters
@@ -102,6 +122,14 @@ def check_manager_exist(dir_path : str,
     Example
     -------
     None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Created.
 
     """
     new_managers = []

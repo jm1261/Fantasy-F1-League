@@ -5,17 +5,6 @@ import src.plotting as plot
 
 from pathlib import Path
 
-"""
-Note this has changed so that all the team sheets are within one team dictionary
-which means that the old code probably won't work so well. ISSUE WITH THE TEAM
-VALUES CALCULATION THAT IS CAUSING LIKE DOUBLE VALUES TO BE COUNTED CHECK THIS.
-"""
-
-"""
-All of this needs changing so that it can read and write multiple races to the
-same dictionary for each team. Fix this when you can. Had to revert to the old
-way because the code had got too out of hand.
-"""
 
 """
 Ideas to add:
@@ -48,79 +37,116 @@ Ideas to add:
 def check_managers_week(root: str,
                         year: str) -> list:
     """
-    Check weekly manager scores.
+    Function Details
+    ================
+    Function to check the weekly manager scores are correct.
 
-    Populate the Manager_Check dictionary and manager/team results/stats.
+    This function checks the weekly manager scores against the league table to
+    ensure determine which teams have been altered.
 
     Parameters
     ----------
     root, year: string
-        Root directory path, year as a string.
+        Path to root directory, year as a string.
 
     Returns
     -------
     wrong_teams: list
-        List of teams with the wrong points.
+        List of teams that have been altered.
 
     See Also
     --------
-    get_races_sofar
     load_json
+    get_completed_races
+    managers_weekly
     managers_lineup
     save_json_dicts
     manager_statistics
+    count_usage
     manager_checked
 
     Notes
     -----
-    Creates the weekly manager lineup json files in the correct managerial
-    directories, uses those to calculate results and statistics. Uses the
-    statistics to populate the Manager_Checked.json file in descending order to
-    be checked against the league page so that lineup files can be altered on
-    requirement rather than every team every week as the default option.
+    Creates the weekly manager team sheets in the correct dictionaries and uses
+    the results to calculate total points and statistics. Uses this to populate
+    a Manager_Check.json file with teams in descending order to be checked
+    against the league page so that the manager team sheets can be altered on
+    requirement rather than every team entered each week.
 
     Example
     -------
     None
 
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    16/02/2024
+    ----------
+    Updated function description to match the new style and provide more info to
+    the reader. Update to function layout with section headers for readability.
+    Update to the function that gets the completed races, see the description
+    for that function separately.
+
+    27/02/2024
+    ----------
+    Updated to remove the need for getting a race index and added functionality
+    to checking the manager team sheet. Will now cycle through all completed
+    races in the event that multiple weeks are missed.
+
     """
+
+    """ Config Files and Season Info """
     info_path = Path(f'{root}/Info.json')
+    info_dict = (io.load_json(file_path=info_path))[f'{year}']
     data_path = Path(f'{root}/Data/{year}')
-    races_sofar, races = io.get_races_sofar(
-        file_path=info_path,
-        results_path=Path(f'{data_path}/Lineup'))
-    info_dict = io.load_json(file_path=info_path)
+    lineup_dict = io.load_json(
+        file_path=Path(f'{data_path}/Lineup/Results.json'))
+
+    """ Check Completed Races """
+    completed_races = io.get_completed_races(
+        results_path=Path(f'{data_path}/Lineup'),
+        info_dictionary=info_dict)
+
+    """ Update Manager Weekly Team Sheets """
     io.managers_weekly(
         info_dictionary=info_dict,
         data_path=data_path,
-        races_sofar=races_sofar,
-        races=races)
-    lineup_dict = io.load_json(
-        file_path=Path(f'{data_path}/Lineup/Results.json'))
+        completed_races=completed_races)
+
+    """ Calculate Manager Scores """
     manager_results = anal.managers_lineup(
         lineup_results=lineup_dict,
         info_dictionary=info_dict,
-        races_so_far=races_sofar,
+        completed_races=completed_races,
         data_path=data_path)
     io.save_json_dicts(
         out_path=Path(f'{data_path}/Managers/Results.json'),
         dictionary=manager_results)
-    manager_stats = anal.manager_statistics(results_dict=manager_results)
+
+    """ Calculate Manager Statistics """
+    manager_stats = anal.manager_statistics(results_dictionary=manager_results)
     io.save_json_dicts(
         out_path=Path(f'{data_path}/Managers/Statistics.json'),
         dictionary=manager_stats)
+
+    """ Count Manager Usage """
     manager_counts = anal.count_usage(
         info_dictionary=info_dict,
-        races_so_far=races_sofar,
+        completed_races=completed_races,
         data_path=data_path)
     io.save_json_dicts(
         out_path=Path(f'{data_path}/Managers/Counts.json'),
         dictionary=manager_counts)
+
+    """ Check Manager Scores Against Online Table """
     manager_check = io.manager_checked(
         statistics_dictionary=manager_stats,
         data_path=data_path)
     league_check = io.load_json(
         file_path=Path(f'{data_path}/League_Check.json'))
+
+    """ Check if any Teams are Wrong """
     wrong_teams = []
     for team, points in manager_check.items():
         league_points = league_check[f'{team}']
@@ -134,6 +160,9 @@ def check_managers_week(root: str,
 def managerweek(root: str,
                 year: str) -> None:
     """
+    Function Details
+    ================
+    Plot manager data for completed races.
 
     Parameters
     ----------
@@ -146,36 +175,53 @@ def managerweek(root: str,
 
     See Also
     --------
-    get_races_sofar
     load_json
-    managers_lineup
-    save_json_dicts
-    manager_statistics
-    manager_checked
+    get_completed_races
+    check_dir_exists
+    league_bars
+    leaguecount
+    leagueteam_stat
+    leagueteam_ppvs
 
     Notes
     -----
+    None
 
     Example
     -------
     None
 
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Updated documentation.
+
     """
+
+    """ Config Files and Season Info """
     info_path = Path(f'{root}/Info.json')
+    info_dict = (io.load_json(file_path=info_path))[f'{year}']
     data_path = Path(f'{root}/Data/{year}')
-    format_path = Path(f'{data_path}/Manager_Formats')
-    races_sofar, races = io.get_races_sofar(
-        file_path=info_path,
-        results_path=Path(f'{data_path}/Lineup'))
     manager_path = Path(f'{data_path}/Managers')
+    format_path = Path(f'{root}/Config/Manager_Formats')
     manager_results = io.load_json(
         file_path=f'{manager_path}/Results.json')
     manager_stats = io.load_json(
         file_path=f'{manager_path}/Statistics.json')
     counts = io.load_json(
         file_path=f'{manager_path}/Counts.json')
-    for index, race in enumerate(races_sofar):
-        races = races_sofar[0: index + 1]
+
+    """ Check Completed Races """
+    completed_races = io.get_completed_races(
+        results_path=Path(f'{data_path}/Lineup'),
+        info_dictionary=info_dict)
+
+    """ Plot League Bars """
+    for index, race in enumerate(completed_races):
+        races = completed_races[0: index + 1]
         out_path = Path(f'{data_path}/Figures/{race}')
         fp.check_dir_exists(dir_path=out_path)
         plot.league_bars(
@@ -184,8 +230,10 @@ def managerweek(root: str,
             race=race,
             format_dir=format_path,
             out_path=out_path)
-    for index, race in enumerate(races_sofar):
-        races = races_sofar[0: index + 1]
+
+    """ Plot League Count """
+    for index, race in enumerate(completed_races):
+        races = completed_races[0: index + 1]
         out_path = Path(f'{data_path}/Figures/{race}')
         fp.check_dir_exists(dir_path=out_path)
         plot.leaguecount(
@@ -195,8 +243,10 @@ def managerweek(root: str,
             races=races,
             format_dir=Path(f'{data_path}/Lineup_Formats'),
             out_path=out_path)
-    for index, race in enumerate(races_sofar):
-        races = races_sofar[0: index + 1]
+
+    """ Plot League Statistics """
+    for index, race in enumerate(completed_races):
+        races = completed_races[0: index + 1]
         out_path = Path(f'{data_path}/Figures/{race}')
         fp.check_dir_exists(dir_path=out_path)
         plot.leagueteam_stat(
@@ -205,8 +255,10 @@ def managerweek(root: str,
             race=race,
             format_dir=format_path,
             out_path=out_path)
-    for index, race in enumerate(races_sofar):
-        races = races_sofar[0: index + 1]
+
+    """ Plot League Price Per Values """
+    for index, race in enumerate(completed_races):
+        races = completed_races[0: index + 1]
         out_path = Path(f'{data_path}/Figures/{race}')
         fp.check_dir_exists(dir_path=out_path)
         plot.leagueteam_ppvs(
@@ -219,7 +271,7 @@ def managerweek(root: str,
 
 
 if __name__ == '__main__':
-    year = 2023
+    year = 2024
     root = Path().absolute()
     wrong_teams = check_managers_week(
         root=root,

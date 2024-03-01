@@ -1,0 +1,38 @@
+{
+    "Paid In": {
+        "Madlen P": 3,
+        "Stuart S": 3,
+        "Andrew F": 5,
+        "Val M": 5,
+        "Phil M": 5,
+        "Josh M": 5,
+        "James R": 10,
+        "Will R": 10,
+        "Cameron M": 10,
+        "Matty J": 3,
+        "Charlie L": 2,
+        "Jake M": 5,
+        "Pierce C": 3,
+        "Pete J": 4,
+        "Josh H": 5,
+        "Matt H": 3,
+        "Tom M": 5,
+        "Joe T": 2,
+        "Nick VL": 3,
+        "Sam F": 5,
+        "Nathan W": 3,
+        "Fred B": 5
+    },
+    "Winnings": {
+        "Phil M": 26,
+        "Andrew F": 26,
+        "Madlen P": 17.68,
+        "Val M": 12.48,
+        "Jake M": 6.24,
+        "Pierce C": 6.24,
+        "Will R": 5.20,
+        "James R": 2.08,
+        "Stuart S": 1.04,
+        "Josh M": 1.04
+    }
+}

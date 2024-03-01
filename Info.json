@@ -50,7 +50,19 @@
         ],
         "Managers": {
             "Josh M": [
-                "Test"
+                "Petrobras Williams RBS F1",
+                "Siemens McLaren West",
+                "Vodafone Ferrari Marlboro"
+            ],
+            "Seb M": [
+                "Denso Panasonic Toyota F1",
+                "JPS Lotus Renault",
+                "Telefonica Minardi Doimo"
+            ],
+            "Will R": [
+                "Dinoco Piston Champions",
+                "Push To Pass",
+                "The Big One"
             ]
         }
     },
@@ -65,8 +77,7 @@
             "Constructor 2",
             "DRS Boost",
             "Penalties",
-            "Perks",
-            "Extra DRS"
+            "Perks"
         ],
         "Races": [
             "Bahrain",

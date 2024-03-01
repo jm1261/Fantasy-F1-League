@@ -136,7 +136,7 @@ def launches_new_season(root : str,
     io.managers_weekly(
         info_dictionary=info_dict,
         data_path=year_path,
-        race_index=0)
+        completed_races=[])
 
 
 if __name__ == '__main__':
