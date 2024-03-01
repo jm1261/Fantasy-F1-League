@@ -1,0 +1,12 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "tomato",
+    "teams": [
+        "Team $onic Racing",
+        "AllonZhou",
+        "I am Mazespin and I am Here (in Russian)"
+    ]
+}

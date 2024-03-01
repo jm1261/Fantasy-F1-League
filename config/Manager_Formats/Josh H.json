@@ -1,0 +1,11 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "aquamarine",
+    "teams": [
+        "It's on like donkey kong",
+        "Nowhere team"
+    ]
+}

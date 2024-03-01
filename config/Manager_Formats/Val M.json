@@ -1,0 +1,15 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "goldenrod",
+    "teams": [
+        "I Am Stubborn & Impatient",
+        "Time Is A One Way Street",
+        "My Fav'rit Colour Is Blue",
+        "Lap Time Deleted",
+        "Make A U Turn",
+        "Mater's Mates"
+    ]
+}

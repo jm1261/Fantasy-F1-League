@@ -5,16 +5,109 @@ from pathlib import Path
 from src.dataIO import load_json, save_json_dicts
 
 
-def drivers_formats(format_dir,
-                    driver):
-    '''
+def generate_manager_colors(new_managers : list,
+                            used_colors : list,
+                            dir_path : str) -> None:
+    """
+    Function Details
+    ================
+    Generates manager colour files from a list of all matplotlib colours.
+
+    Parameters
+    ----------
+    new_managers, used_colors: list
+        New managers and used color lists.
+    dir_path: string
+        Path to manager formats directory.
+
+    Returns
+    -------
+    None
+
+    See Also
+    --------
+    save_json_dicts
+
+    Notes
+    -----
+    None
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Update to documentation.
+
+    """
+    all_colors = [
+        'dimgrey', 'silver', 'rosybrown', 'lightcoral', 'tomato', 'chocolate',
+        'sandybrown', 'peru', 'darkorange', 'wheat', 'goldenrod', 'khaki',
+        'olive', 'darkolivegreen', 'palegreen', 'lime', 'aquamarine',
+        'turquoise', 'teal', 'cyan', 'skyblue', 'dodgerblue', 'slategrey',
+        'royalblue', 'mediumblue', 'slateblue', 'blueviolet',
+        'indigo', 'thistle', 'plum', 'violet', 'purple', 'magenta', 'orchid',
+        'hotpink', 'crimson', 'brown', 'tan', 'lawngreen', 'cadetblue',
+        'rebeccapurple', 'midnightblue']
+    colors = [color for color in all_colors if color not in used_colors]
+    random.shuffle(colors)
+    for index, manager in enumerate(new_managers):
+        manager_format = {
+            'bold': 'True',
+            'size': 12,
+            'align': 'centre',
+            'font': 'Arial',
+            'bg_color': colors[index],
+            'teams': []}
+        out_path = Path(f'{dir_path}/{manager}.json')
+        save_json_dicts(
+            out_path=out_path,
+            dictionary=manager_format)
+
+
+def drivers_formats(format_dir : str,
+                    driver : str) -> dict:
+    """
+    Function Details
+    ================
     Find driver cell formats, from team colors.
-    Args:
-        format_dir: <string> path to team format files
-        driver: <string> driver name
-    Returns:
-        cell_format: <dict> cell format dictionary
-    '''
+
+    Parameters
+    ----------
+    format_dir, driver: string
+        Path to format directory and driver name.
+
+    Returns
+    -------
+    format_dict: dictionary
+        Dictionary containing color formats.
+
+    See Also
+    --------
+    None
+
+    Notes
+    -----
+    None
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Update to documentation and presentation.
+
+    """
     team_formats = [
         Path(f'{format_dir}/{file}')
         for file in os.listdir(format_dir)
@@ -31,16 +124,44 @@ def drivers_formats(format_dir,
     return format_dict
 
 
-def drivers_colours(format_dir,
-                    driver):
-    '''
-    Find driver graph formats, from team colors.
-    Args:
-        format_dir: <string> path to team format files
-        driver: <string> driver name
-    Returns:
-        format_dict: <dict> cell format dictionary
-    '''
+def drivers_colours(format_dir : str,
+                    driver : str) -> dict:
+    """
+    Function Details
+    ================
+    Find driver colors, from team colors.
+
+    Parameters
+    ----------
+    format_dir, driver: string
+        Path to format directory and driver name.
+
+    Returns
+    -------
+    format_dict: dictionary
+        Dictionary containing color formats.
+
+    See Also
+    --------
+    None
+
+    Notes
+    -----
+    None
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Update to documentation and presentation.
+
+    """
     team_formats = [
         Path(f'{format_dir}/{file}')
         for file in os.listdir(format_dir)
@@ -54,16 +175,44 @@ def drivers_colours(format_dir,
     return format_dict
 
 
-def team_format(format_dir,
-                team):
-    '''
-    Find team cell format, from team colors.
-    Args:
-        format_dir: <string> path to team format files
-        team: <string> team name
-    Returns:
-        cell_format: <dict> format dictionary
-    '''
+def team_format(format_dir : str,
+                team : str) -> dict:
+    """
+    Function Details
+    ================
+    Find team cell formats, from team colors.
+
+    Parameters
+    ----------
+    format_dir, team: string
+        Path to format directory and team name.
+
+    Returns
+    -------
+    format_dict: dictionary
+        Dictionary containing color formats.
+
+    See Also
+    --------
+    None
+
+    Notes
+    -----
+    None
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Update to documentation and presentation.
+
+    """
     paths = [
         Path(f'{format_dir}/{file}')
         for file in os.listdir(format_dir)
@@ -81,16 +230,44 @@ def team_format(format_dir,
     return format_dict
 
 
-def team_colour(format_dir,
-                team):
-    '''
-    Find team graph format, from team colors.
-    Args:
-        format_dir: <string> path to team format files
-        team: <string> team name
-    Returns:
-        format_dict: <dict> format dictionary
-    '''
+def team_colour(format_dir : str,
+                team : str) -> dict:
+    """
+    Function Details
+    ================
+    Find team colors, from team colors.
+
+    Parameters
+    ----------
+    format_dir, team: string
+        Path to format directory and tea, name.
+
+    Returns
+    -------
+    format_dict: dictionary
+        Dictionary containing color formats.
+
+    See Also
+    --------
+    None
+
+    Notes
+    -----
+    None
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Update to documentation and presentation.
+
+    """
     paths = [
         Path(f'{format_dir}/{file}')
         for file in os.listdir(format_dir)
@@ -105,16 +282,44 @@ def team_colour(format_dir,
     return format_dict
 
 
-def perk_colour(format_dir,
-                perk):
-    '''
-    Find perk graph format from color dictionary.
-    Args:
-        format_dir: <string> path to team format files
-        perk: <string> perk name
-    Returns:
-        format_dict: <dict> format dictionary
-    '''
+def perk_colour(format_dir : str,
+                perk : str) -> dict:
+    """
+    Function Details
+    ================
+    Find perk colors, from perk colors.
+
+    Parameters
+    ----------
+    format_dir, perk: string
+        Path to format directory and perk name.
+
+    Returns
+    -------
+    format_dict: dictionary
+        Dictionary containing color formats.
+
+    See Also
+    --------
+    None
+
+    Notes
+    -----
+    None
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Update to documentation and presentation.
+
+    """
     path = Path(f'{format_dir}/Perks.json')
     perk_formats = load_json(file_path=path)
     all_perks = perk_formats['perks']
@@ -128,16 +333,44 @@ def perk_colour(format_dir,
     return format_dict
 
 
-def manager_team_colour(format_dir,
-                        team):
-    '''
-    Find team graph format, from manager colors.
-    Args:
-        format_dir: <string> path to manager format files
-        team: <string> team name
-    Returns:
-        format_dict: <dict> format dictionary
-    '''
+def manager_team_colour(format_dir : str,
+                        team : str) -> dict:
+    """
+    Function Details
+    ================
+    Find team colors, from manager colors.
+
+    Parameters
+    ----------
+    format_dir, team: string
+        Path to format directory and team name.
+
+    Returns
+    -------
+    format_dict: dictionary
+        Dictionary containing color formats.
+
+    See Also
+    --------
+    None
+
+    Notes
+    -----
+    None
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Update to documentation and presentation.
+
+    """
     paths = [
         Path(f'{format_dir}/{file}')
         for file in os.listdir(format_dir)
@@ -152,54 +385,44 @@ def manager_team_colour(format_dir,
     return format_dict
 
 
-def managers_colour(format_dir,
-                    manager):
-    '''
-    Find manager graph format, from manager colors.
-    Args:
-        format_dir: <string> path to manager format files
-        manager: <string> manager name
-    Returns:
-        format_dict: <dict> format dictionary
-    '''
+def managers_colour(format_dir : str,
+                    manager : str) -> dict:
+    """
+    Function Details
+    ================
+    Find manager colors, from manager colors.
+
+    Parameters
+    ----------
+    format_dir, manager: string
+        Path to format directory and manager name.
+
+    Returns
+    -------
+    format_dict: dictionary
+        Dictionary containing color formats.
+
+    See Also
+    --------
+    None
+
+    Notes
+    -----
+    None
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Update to documentation and presentation.
+
+    """
     format_dict = load_json(
         file_path=Path(f'{format_dir}/{manager}.json'))
     return format_dict
-
-
-def generate_manager_colors(info_dict,
-                            format_dir):
-    '''
-    Generate random manager colours, recommend only do this at the start of the
-    season.
-    Args:
-        info_dict: <dict> info.json
-        format_dir: <string> path to manager formats
-    Returns:
-        None
-    '''
-    info_managers = info_dict['Managers']
-    managers = info_managers.keys()
-    colors = [
-        'dimgrey', 'silver', 'rosybrown', 'lightcoral', 'tomato', 'chocolate',
-        'sandybrown', 'peru', 'darkorange', 'wheat', 'goldenrod', 'khaki',
-        'olive', 'darkolivegreen', 'palegreen', 'lime', 'aquamarine',
-        'turquoise', 'teal', 'cyan', 'skyblue', 'dodgerblue', 'slategrey',
-        'royalblue', 'mediumblue', 'slateblue', 'blueviolet',
-        'indigo', 'thistle', 'plum', 'violet', 'purple', 'magenta', 'orchid',
-        'hotpink', 'crimson', 'brown', 'tan', 'lawngreen', 'cadetblue',
-        'rebeccapurple', 'midnightblue']
-    random.shuffle(colors)
-    for index, manager in enumerate(managers):
-        manager_format = {
-            'bold': 'True',
-            'size': 12,
-            'align': 'centre',
-            'font': 'Arial',
-            'bg_color': colors[index],
-            'color': ['red', 'yellow', 'blue', 'green', 'orange', 'pink'],
-            'teams': [team for team in info_managers[manager]]}
-        out_path = Path(f'{format_dir}/{manager}.json')
-        save_json_dicts(
-            out_path=out_path,
-            dictionary=manager_format)

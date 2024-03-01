@@ -1,0 +1,14 @@
+{
+    "2024": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#0e089f",
+        "color": "#b22e48",
+        "drivers": [
+            "Tsunoda",
+            "Ricciardo"
+        ]
+    }
+}

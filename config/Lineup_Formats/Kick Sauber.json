@@ -1,0 +1,14 @@
+{
+    "2024": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#03b707",
+        "color": "#000000",
+        "drivers": [
+            "Bottas",
+            "Guanyu"
+        ]
+    }
+}

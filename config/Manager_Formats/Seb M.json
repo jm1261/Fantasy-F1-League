@@ -1,0 +1,12 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "dodgerblue",
+    "teams": [
+        "Denso Panasonic Toyota F1",
+        "JPS Lotus Renault",
+        "Telefonica Minardi Doimo"
+    ]
+}

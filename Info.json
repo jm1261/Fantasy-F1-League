@@ -1,180 +1,248 @@
 {
-    "Team": [
-        "Driver 1",
-        "Driver 2",
-        "Driver 3",
-        "Driver 4",
-        "Driver 5",
-        "Constructor 1",
-        "Constructor 2",
-        "DRS Boost",
-        "Penalties",
-        "Perks",
-        "Extra DRS"
-    ],
-    "Races": [
-        "Bahrain",
-        "Saudi Arabia",
-        "Australia",
-        "Azerbaijan",
-        "Miami",
-        "Monaco",
-        "Spain",
-        "Canada",
-        "Austria",
-        "Great Britain",
-        "Hungary",
-        "Belgium",
-        "Netherlands",
-        "Italy",
-        "Singapore",
-        "Japan",
-        "Qatar",
-        "United States",
-        "Mexico",
-        "Brazil",
-        "Las Vegas",
-        "Abu Dhabi"
-    ],
-    "Statistics": [
-        "Total",
-        "Total Points/Value",
-        "Average",
-        "Average Points/Value",
-        "Standard Deviation",
-        "Maximum",
-        "Minimum",
-        "Range"
-    ],
-    "Managers": {
-        "Josh M": [
-            "Rhino's Midland F1 Racing",
-            "Be On Edge Jordan F1 TATA",
-            "Etihad Spyker Aldar-AD F1",
-            "Oracle RedBull Ford-EcoPT",
-            "Panasonic Toyota GRMN F1",
-            "Becks Jaguar HSBC Racing"
+    "2024": {
+        "Team": [
+            "Driver 1",
+            "Driver 2",
+            "Driver 3",
+            "Driver 4",
+            "Driver 5",
+            "Constructor 1",
+            "Constructor 2",
+            "DRS Boost",
+            "Penalties",
+            "Perks"
         ],
-        "Charlie L": [
-            "Moe's Family Speedbag",
-            "Kiss My Haasphalt"
+        "Races": [
+            "Bahrain",
+            "Saudi Arabia",
+            "Australia",
+            "Japan",
+            "China",
+            "Miami",
+            "Imola",
+            "Monaco",
+            "Canada",
+            "Spain",
+            "Austria",
+            "Great Britain",
+            "Hungary",
+            "Belgium",
+            "Netherlands",
+            "Italy",
+            "Azerbaijan",
+            "Singapore",
+            "United States",
+            "Mexico",
+            "Brazil",
+            "Las Vegas",
+            "Qatar",
+            "Abu Dhabi"
         ],
-        "Will R": [
-            "Dinoco Piston Champions",
-            "The Big One (TM)",
-            "Boogity Boogity Boogity"
+        "Statistics": [
+            "Total",
+            "Total Points/Value",
+            "Average",
+            "Average Points/Value",
+            "Standard Deviation",
+            "Maximum",
+            "Minimum",
+            "Range"
         ],
-        "Toby P": [
-            "Hesketh 2.0"
+        "Managers": {
+            "Josh M": [
+                "Petrobras Williams RBS F1",
+                "Siemens McLaren West",
+                "Vodafone Ferrari Marlboro"
+            ],
+            "Seb M": [
+                "Denso Panasonic Toyota F1",
+                "JPS Lotus Renault",
+                "Telefonica Minardi Doimo"
+            ],
+            "Will R": [
+                "Dinoco Piston Champions",
+                "Push To Pass",
+                "The Big One"
+            ]
+        }
+    },
+    "2023": {
+        "Team": [
+            "Driver 1",
+            "Driver 2",
+            "Driver 3",
+            "Driver 4",
+            "Driver 5",
+            "Constructor 1",
+            "Constructor 2",
+            "DRS Boost",
+            "Penalties",
+            "Perks"
         ],
-        "Verity N": [
-            "Versus"
+        "Races": [
+            "Bahrain",
+            "Saudi Arabia",
+            "Australia",
+            "Azerbaijan",
+            "Miami",
+            "Monaco",
+            "Spain",
+            "Canada",
+            "Austria",
+            "Great Britain",
+            "Hungary",
+            "Belgium",
+            "Netherlands",
+            "Italy",
+            "Singapore",
+            "Japan",
+            "Qatar",
+            "United States",
+            "Mexico",
+            "Brazil",
+            "Las Vegas",
+            "Abu Dhabi"
         ],
-        "Lucy N": [
-            "Put Ur Hamrussy In It"
+        "Statistics": [
+            "Total",
+            "Total Points/Value",
+            "Average",
+            "Average Points/Value",
+            "Standard Deviation",
+            "Maximum",
+            "Minimum",
+            "Range"
         ],
-        "Pete J": [
-            "Rooteen Inspekshun",
-            "Just Shut Up And Listen"
-        ],
-        "James R": [
-            "Bwoah Pringle Rolex Golf",
-            "Bwoah Racing F1 2023 Ltd",
-            "Bwoah Racing F1 2023 Plc"
-        ],
-        "Phil M": [
-            "BMW Missed Opportunity",
-            "BMW Should Be Here",
-            "BMW Motorrad"
-        ],
-        "Val M": [
-            "I Am Stubborn & Impatient",
-            "Time Is A One Way Street",
-            "My Fav'rit Colour Is Blue",
-            "Lap Time Deleted",
-            "Make A U Turn",
-            "Mater's Mates"
-        ],
-        "Patrick L": [
-            "Johnny UniHaas"
-        ],
-        "Jake M": [
-            "Meme Lords No Longer",
-            "2000s Ferrari copy 16",
-            "Fuck Daniel Ricciardo"
-        ],
-        "Matty J": [
-            "The Stopwatch Never Lies",
-            "Checo Perez MMD",
-            "Danny Rics Barmy Army"
-        ],
-        "Matt H": [
-            "I'm In It For The Money"
-        ],
-        "Sam B": [
-            "LewisHamiltonian",
-            "LewisHamiltonian2",
-            "LewisHamiltonian3"
-        ],
-        "Tom C": [
-            "Team $onic Racing",
-            "AllonZhou",
-            "I am Mazespin and I am Here (in Russian)"
-        ],
-        "Stuart S": [
-            "11 White Dogwood",
-            "12 Golden Bell",
-            "13 Azalea (golf)"
-        ],
-        "Andrew F": [
-            "Mostly My Faves xoxo",
-            "GP1 Engine, GP1",
-            "Reigning Golf Champions"
-        ],
-        "Jo H": [
-            "Paradise lost",
-            "Weyto Slo",
-            "Horrocks Horsepower"
-        ],
-        "Pierce C": [
-            "Cow de Rouge",
-            "Hedge Trimmers F1",
-            "The Shum Bufflers"
-        ],
-        "Simon C": [
-            "White Cows 97",
-            "White Cows 98",
-            "White Cows 99"
-        ],
-        "Tess": [
-            "TMJ Racing"
-        ],
-        "Tom M": [
-            "Stupid Like A Fox Racing"
-        ],
-        "Cameron M": [
-            "Max Likes His Sister",
-            "Ford",
-            "I'm Not A Fan Boy"
-        ],
-        "Ollie O": [
-            "Probably Back of the Grid",
-            "Battle of the MIDfield",
-            "Part Time Streamers"
-        ],
-        "Joe T": [
-            "Mmm.Ham.",
-            "Formula bathtub",
-            "Timothee Chalamet"
-        ],
-        "Madlen P": [
-            "Go Boys Give Us Nothing",
-            "Asini rossi",
-            "Team Lemonade"
-        ],
-        "Unknown": [
-            "It's on like donkey kong",
-            "Nowhere team"
-        ]
+        "Managers": {
+            "Josh M": [
+                "Rhino's Midland F1 Racing",
+                "Be On Edge Jordan F1 TATA",
+                "Etihad Spyker Aldar-AD F1",
+                "Oracle RedBull Ford-EcoPT",
+                "Panasonic Toyota GRMN F1",
+                "Becks Jaguar HSBC Racing"
+            ],
+            "Charlie L": [
+                "Moe's Family Speedbag",
+                "Kiss My Haasphalt"
+            ],
+            "Will R": [
+                "Dinoco Piston Champions",
+                "The Big One (TM)",
+                "Boogity Boogity Boogity"
+            ],
+            "Toby P": [
+                "Hesketh 2.0"
+            ],
+            "Verity N": [
+                "Versus"
+            ],
+            "Lucy N": [
+                "Put Ur Hamrussy In It"
+            ],
+            "Pete J": [
+                "Rooteen Inspekshun",
+                "Just Shut Up And Listen"
+            ],
+            "James R": [
+                "Bwoah Pringle Rolex Golf",
+                "Bwoah Racing F1 2023 Ltd",
+                "Bwoah Racing F1 2023 Plc"
+            ],
+            "Phil M": [
+                "BMW Missed Opportunity",
+                "BMW Should Be Here",
+                "BMW Motorrad"
+            ],
+            "Val M": [
+                "I Am Stubborn & Impatient",
+                "Time Is A One Way Street",
+                "My Fav'rit Colour Is Blue",
+                "Lap Time Deleted",
+                "Make A U Turn",
+                "Mater's Mates"
+            ],
+            "Patrick L": [
+                "Johnny UniHaas"
+            ],
+            "Jake M": [
+                "Meme Lords No Longer",
+                "2000s Ferrari copy 16",
+                "Fuck Daniel Ricciardo"
+            ],
+            "Matty J": [
+                "The Stopwatch Never Lies",
+                "Checo Perez MMD",
+                "Danny Rics Barmy Army"
+            ],
+            "Matt H": [
+                "I'm In It For The Money"
+            ],
+            "Sam B": [
+                "LewisHamiltonian",
+                "LewisHamiltonian2",
+                "LewisHamiltonian3"
+            ],
+            "Tom C": [
+                "Team $onic Racing",
+                "AllonZhou",
+                "I am Mazespin and I am Here (in Russian)"
+            ],
+            "Stuart S": [
+                "11 White Dogwood",
+                "12 Golden Bell",
+                "13 Azalea (golf)"
+            ],
+            "Andrew F": [
+                "Mostly My Faves xoxo",
+                "GP1 Engine, GP1",
+                "Reigning Golf Champions"
+            ],
+            "Jo H": [
+                "Paradise lost",
+                "Weyto Slo",
+                "Horrocks Horsepower"
+            ],
+            "Pierce C": [
+                "Cow de Rouge",
+                "Hedge Trimmers F1",
+                "The Shum Bufflers"
+            ],
+            "Simon C": [
+                "White Cows 97",
+                "White Cows 98",
+                "White Cows 99"
+            ],
+            "Tess": [
+                "TMJ Racing"
+            ],
+            "Tom M": [
+                "Stupid Like A Fox Racing"
+            ],
+            "Cameron M": [
+                "Max Likes His Sister",
+                "Ford",
+                "I'm Not A Fan Boy"
+            ],
+            "Ollie O": [
+                "Probably Back of the Grid",
+                "Battle of the MIDfield",
+                "Part Time Streamers"
+            ],
+            "Joe T": [
+                "Mmm.Ham.",
+                "Formula bathtub",
+                "Timothee Chalamet"
+            ],
+            "Madlen P": [
+                "Go Boys Give Us Nothing",
+                "Asini rossi",
+                "Team Lemonade"
+            ],
+            "Josh H": [
+                "It's on like donkey kong",
+                "Nowhere team"
+            ]
+        }
     }
 }

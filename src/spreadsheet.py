@@ -9,6 +9,8 @@ def line_up_spreadsheet(file_path : str,
                         results : dict,
                         statistics : dict) -> None:
     """
+    Function Details
+    ================
     Create the team and driver spreadsheet for points, values, and statistics.
 
     Creates a two-sheet excel spreadsheet containing the driver and team points,
@@ -40,6 +42,14 @@ def line_up_spreadsheet(file_path : str,
     Example
     -------
     None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Documentation update.
 
     """
     workbook = xlsx.Workbook(file_path)
