@@ -217,6 +217,10 @@ def league_bars(results_dictionary : dict,
     ----------
     Updated documentation.
 
+    02/03/2024
+    ----------
+    Added rotation to x ticks for line plotting. Added cm_to_inches for size.
+
     """
     categories = ['Points', 'Values']
     units = ['[#]', '[$M]']
@@ -229,7 +233,9 @@ def league_bars(results_dictionary : dict,
             fig, ax = plt.subplots(
                 nrows=1,
                 ncols=1,
-                figsize=[10, 7],
+                figsize=[
+                    cm_to_inches(cm=15),
+                    cm_to_inches(cm=9)],
                 dpi=600)
             x_values = []
             y_values = []
@@ -328,7 +334,9 @@ def league_bars(results_dictionary : dict,
             fig, ax = plt.subplots(
                 nrows=1,
                 ncols=1,
-                figsize=[10, 7],
+                figsize=[
+                    cm_to_inches(cm=15),
+                    cm_to_inches(cm=9)],
                 dpi=600)
             x_values = []
             y_values = []
@@ -466,6 +474,10 @@ def leaguecount(results_dictionary : dict,
     ----------
     Update to documentation.
 
+    02/03/2024
+    ----------
+    Added rotation to x ticks for line plotting. Added cm_to_inches for size.
+
     """
     categories = ['Driver', 'Constructor', 'DRS Boost', 'Extra DRS', 'Perks']
     for category in categories:
@@ -477,7 +489,9 @@ def leaguecount(results_dictionary : dict,
             fig, ax = plt.subplots(
                 nrows=1,
                 ncols=1,
-                figsize=[10, 7],
+                figsize=[
+                    cm_to_inches(cm=15),
+                    cm_to_inches(cm=9)],
                 dpi=600)
             x_values = []
             y_values = []
@@ -601,7 +615,9 @@ def leaguecount(results_dictionary : dict,
             fig, ax = plt.subplots(
                 nrows=1,
                 ncols=1,
-                figsize=[10, 7],
+                figsize=[
+                    cm_to_inches(cm=15),
+                    cm_to_inches(cm=9)],
                 dpi=600)
             x_values = []
             y_values = []
@@ -716,6 +732,7 @@ def leaguecount(results_dictionary : dict,
                 fontsize=14,
                 fontweight='bold',
                 color='black')
+            plt.xticks(rotation=90)
             fig.tight_layout()
             plt.savefig(
                 out_file,
@@ -770,6 +787,10 @@ def leagueteam_stat(statistics_dictionary : dict,
     ----------
     Updated documentation.
 
+    02/03/2024
+    ----------
+    Added rotation to x ticks for line plotting. Added cm_to_inches for size.
+
     """
     categories = ['Sum Points', 'Sum Values']
     units = ['[#]', '[$M]']
@@ -782,7 +803,9 @@ def leagueteam_stat(statistics_dictionary : dict,
             fig, ax = plt.subplots(
                 nrows=1,
                 ncols=1,
-                figsize=[10, 7],
+                figsize=[
+                    cm_to_inches(cm=15),
+                    cm_to_inches(cm=9)],
                 dpi=600)
             x_values = []
             y_values = []
@@ -846,6 +869,7 @@ def leagueteam_stat(statistics_dictionary : dict,
                 fontsize=14,
                 fontweight='bold',
                 color='black')
+            plt.xticks(rotation=90)
             fig.tight_layout()
             plt.savefig(
                 out_file,
@@ -864,7 +888,9 @@ def leagueteam_stat(statistics_dictionary : dict,
             fig, ax = plt.subplots(
                 nrows=1,
                 ncols=1,
-                figsize=[10, 7],
+                figsize=[
+                    cm_to_inches(cm=15),
+                    cm_to_inches(cm=9)],
                 dpi=600)
             x_values = []
             y_values = []
@@ -928,6 +954,7 @@ def leagueteam_stat(statistics_dictionary : dict,
                 fontsize=14,
                 fontweight='bold',
                 color='black')
+            plt.xticks(rotation=90)
             fig.tight_layout()
             plt.savefig(
                 out_file,
@@ -946,7 +973,9 @@ def leagueteam_stat(statistics_dictionary : dict,
             fig, ax = plt.subplots(
                 nrows=1,
                 ncols=1,
-                figsize=[10, 7],
+                figsize=[
+                    cm_to_inches(cm=15),
+                    cm_to_inches(cm=9)],
                 dpi=600)
             x_values = []
             y_values = []
@@ -1023,6 +1052,7 @@ def leagueteam_stat(statistics_dictionary : dict,
                 fontsize=14,
                 fontweight='bold',
                 color='black')
+            plt.xticks(rotation=90)
             fig.tight_layout()
             plt.savefig(
                 out_file,
@@ -1080,6 +1110,10 @@ def leagueteam_ppvs(statistics_dictionary : dict,
     ----------
     Update documentation.
 
+    02/03/2024
+    ----------
+    Added rotation to x ticks for line plotting. Added cm_to_inches for size.
+
     """
     categories = ['Average Points Per Value']
     units = ['[#/$M]']
@@ -1092,7 +1126,9 @@ def leagueteam_ppvs(statistics_dictionary : dict,
             fig, ax = plt.subplots(
                 nrows=1,
                 ncols=1,
-                figsize=[10, 7],
+                figsize=[
+                    cm_to_inches(cm=15),
+                    cm_to_inches(cm=9)],
                 dpi=600)
             x_values = []
             y_values = []
@@ -1156,6 +1192,7 @@ def leagueteam_ppvs(statistics_dictionary : dict,
                 fontsize=14,
                 fontweight='bold',
                 color='black')
+            plt.xticks(rotation=90)
             fig.tight_layout()
             plt.savefig(
                 out_file,
@@ -1174,7 +1211,9 @@ def leagueteam_ppvs(statistics_dictionary : dict,
             fig, ax = plt.subplots(
                 nrows=1,
                 ncols=1,
-                figsize=[10, 7],
+                figsize=[
+                    cm_to_inches(cm=15),
+                    cm_to_inches(cm=9)],
                 dpi=600)
             x_values = []
             y_values = []
@@ -1251,6 +1290,7 @@ def leagueteam_ppvs(statistics_dictionary : dict,
                 fontsize=14,
                 fontweight='bold',
                 color='black')
+            plt.xticks(rotation=90)
             fig.tight_layout()
             plt.savefig(
                 out_file,
@@ -1269,7 +1309,9 @@ def leagueteam_ppvs(statistics_dictionary : dict,
             fig, ax = plt.subplots(
                 nrows=1,
                 ncols=1,
-                figsize=[10, 7],
+                figsize=[
+                    cm_to_inches(cm=15),
+                    cm_to_inches(cm=9)],
                 dpi=600)
             x_values = []
             y_values = []
@@ -1336,6 +1378,7 @@ def leagueteam_ppvs(statistics_dictionary : dict,
                 fontsize=14,
                 fontweight='bold',
                 color='black')
+            plt.xticks(rotation=90)
             fig.tight_layout()
             plt.savefig(
                 out_file,
@@ -1354,7 +1397,9 @@ def leagueteam_ppvs(statistics_dictionary : dict,
             fig, ax = plt.subplots(
                 nrows=1,
                 ncols=1,
-                figsize=[10, 7],
+                figsize=[
+                    cm_to_inches(cm=15),
+                    cm_to_inches(cm=9)],
                 dpi=600)
             x_values = []
             y_values = []
@@ -1489,6 +1534,10 @@ def results_bar(results_dictionary : dict,
     ----------
     Update documentation.
 
+    02/03/2024
+    ----------
+    Added rotation to x ticks for line plotting. Added cm_to_inches for size.
+
     """
     categories = ['Driver', 'Team']
     for category in categories:
@@ -1503,7 +1552,9 @@ def results_bar(results_dictionary : dict,
                 fig, ax = plt.subplots(
                     nrows=1,
                     ncols=1,
-                    figsize=[10, 7],
+                    figsize=[
+                        cm_to_inches(cm=15),
+                        cm_to_inches(cm=9)],
                     dpi=600)
                 x_values = []
                 y_values = []
@@ -1640,6 +1691,10 @@ def lineupstats(statistics_dictionary : dict,
     ----------
     Update documentation.
 
+    02/03/2024
+    ----------
+    Added rotation to x ticks for line plotting. Added cm_to_inches for size.
+
     """
     categories = ['Driver', 'Team']
     for category in categories:
@@ -1655,7 +1710,9 @@ def lineupstats(statistics_dictionary : dict,
                 fig, ax = plt.subplots(
                     nrows=1,
                     ncols=1,
-                    figsize=[10, 7],
+                    figsize=[
+                        cm_to_inches(cm=15),
+                        cm_to_inches(cm=9)],
                     dpi=600)
                 x_values = []
                 y_values = []
@@ -1749,7 +1806,9 @@ def lineupstats(statistics_dictionary : dict,
                 fig, ax = plt.subplots(
                     nrows=1,
                     ncols=1,
-                    figsize=[10, 7],
+                    figsize=[
+                        cm_to_inches(cm=15),
+                        cm_to_inches(cm=9)],
                     dpi=600)
                 for key, values in plotting_dict.items():
                     if category == 'Driver':
@@ -1799,6 +1858,7 @@ def lineupstats(statistics_dictionary : dict,
                     fontsize=14,
                     fontweight='bold',
                     color='black')
+                plt.xticks(rotation=90)
                 fig.tight_layout()
                 plt.savefig(
                     out_file,

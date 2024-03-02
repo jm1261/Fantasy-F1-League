@@ -498,13 +498,19 @@ def create_drivers_teams_weekly(lineup_path : str,
     change to this function was to load the team dictionary and cycle the keys
     to find the year as a key. If the key is present in the dictionary, then
     the format information for that year can be added. Changed name for PEP8
-    purposes. This update was created by J.Male.
+    purposes.
+
+    02/03/2024
+    ----------
+    Fixed an issue where the weekly dictionary was bringing in teams that are no
+    longer available for certain seasons. This was an easy fix as now it appends
+    teams only if those teams have information for the current year.
 
     """
     files = [
         file for file in os.listdir(lineup_path) if 'Perks.json' not in file]
     paths = [Path(f'{lineup_path}/{file}') for file in files]
-    teams = [os.path.splitext(os.path.basename(path))[0] for path in paths]
+    teams = []
     weekly_dictionary = {
         'Name': ['Points', 'Value'],
         'Race': []}
@@ -512,10 +518,11 @@ def create_drivers_teams_weekly(lineup_path : str,
         team_format_dict = load_json(file_path=path)
         for key, format_dict in team_format_dict.items():
             if key == year:
+                teams.append(os.path.splitext(os.path.basename(path))[0])
                 drivers = format_dict['drivers']
                 [weekly_dictionary.update({driver: []}) for driver in drivers]
             else:
-                print(f'No information for {teams[index]} for {key} season')
+                print(f'No information for {paths[index]} for {key} season')
     [weekly_dictionary.update({team: []}) for team in teams]
     return weekly_dictionary
 
