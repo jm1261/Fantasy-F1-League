@@ -1,0 +1,780 @@
+{
+    "Team Points": {
+        "Josh M": {
+            "Petrobras Williams RBS F1": [
+                216
+            ],
+            "Siemens McLaren West": [
+                129
+            ],
+            "Vodafone Ferrari Marlboro": [
+                120
+            ]
+        },
+        "Sebastian M": {
+            "Denso Panasonic Toyota F1": [
+                196
+            ],
+            "JPS Lotus Renault": [
+                135
+            ],
+            "Telefonica Minardi Doimo": [
+                198
+            ]
+        },
+        "Will R": {
+            "Dinoco Piston Champions": [
+                135
+            ],
+            "Push To Pass": [
+                159
+            ],
+            "The Big One": [
+                47
+            ]
+        },
+        "Phil M": {
+            "A Little Team": [
+                166
+            ],
+            "BMW Motorrad": [
+                187
+            ],
+            "BMW Should Be Here": [
+                205
+            ]
+        },
+        "Jake M": {
+            "A Sauber or Kick or Stake": [
+                129
+            ],
+            "An Oscar for breakfast": [
+                146
+            ],
+            "One Red Bull Car & Gasly": [
+                196
+            ]
+        },
+        "Adam R": {
+            "Better Luck Next Time Bud": [
+                102
+            ],
+            "Haas every name ben taken": [
+                94
+            ],
+            "Just win init": [
+                155
+            ]
+        },
+        "James R": {
+            "Bwoah Moet Shell Racing": [
+                202
+            ],
+            "Bwoah OnlyFans VIP Racing": [
+                149
+            ],
+            "Bwoah Rolex Sipsmith Golf": [
+                44
+            ]
+        },
+        "Stuart S": {
+            "E l'ora del martello": [
+                106
+            ],
+            "Christian's Hornie": [
+                220
+            ],
+            "Ferrari Strategists": [
+                49
+            ]
+        },
+        "Pierce C": {
+            "Ferrari Champions 2026": [
+                165
+            ],
+            "Grazzi#44": [
+                129
+            ]
+        },
+        "Andrew F": {
+            "Forced to pick Max": [
+                150
+            ],
+            "I simp for Zak Brown": [
+                92
+            ],
+            "sBinnala Yacht Club": [
+                48
+            ]
+        },
+        "Stefanus W": {
+            "Gelael": [
+                197
+            ],
+            "Haryanto": [
+                238
+            ],
+            "Syahrul": [
+                231
+            ]
+        },
+        "Madlen P": {
+            "Go Boys Give Us Nothing": [
+                94
+            ],
+            "Les eclairs": [
+                147
+            ],
+            "Maxy & The Boys": [
+                157
+            ]
+        },
+        "Tom C": {
+            "Hawks at T2": [
+                126
+            ],
+            "Mc Sled Dogs": [
+                89
+            ],
+            "Toasted eggs": [
+                206
+            ]
+        },
+        "Toby P": {
+            "Hesketh 2.1": [
+                193
+            ]
+        },
+        "Patrick L": {
+            "Johnny UniHaas": [
+                210
+            ],
+            "Racing No Points": [
+                40
+            ]
+        },
+        "Cameron M": {
+            "Josh's hairy balls": [
+                197
+            ],
+            "Matty's snipped balls": [
+                201
+            ],
+            "Stuart's snipped balls": [
+                191
+            ]
+        },
+        "Joe T": {
+            "kicktwitchyoutubepremium": [
+                151
+            ]
+        },
+        "Charlie L": {
+            "Lee Carvallo's F1 Challen": [
+                46
+            ],
+            "No Horners Club": [
+                91
+            ],
+            "Uncle Moe's Family Speedbag": [
+                214
+            ]
+        },
+        "Pete J": {
+            "Lightning McCars": [
+                146
+            ],
+            "Peugeot Over Ford": [
+                206
+            ],
+            "Squeshed Nintendo Racing": [
+                168
+            ]
+        },
+        "Tim W": {
+            "Lights out, got punched": [
+                198
+            ]
+        },
+        "Val M": {
+            "Make A U Turn": [
+                204
+            ],
+            "Mater's Mates": [
+                148
+            ],
+            "My Fav'rit Colour Is Blue": [
+                203
+            ]
+        },
+        "Chloe B": {
+            "Ms Fritters Driving Skool": [
+                93
+            ]
+        },
+        "Matty J": {
+            "O B Latte": [
+                110
+            ],
+            "The Lizard Queen": [
+                173
+            ],
+            "Throw Him In JaYaL": [
+                138
+            ]
+        },
+        "Jo H": {
+            "THE LONG AND WINDING ROAD": [
+                163
+            ]
+        },
+        "Sam CJ": {
+            "Mirror, Signal, Manoeuvre": [
+                172
+            ]
+        }
+    },
+    "Manager Points": {
+        "Josh M": [
+            465
+        ],
+        "Sebastian M": [
+            529
+        ],
+        "Will R": [
+            341
+        ],
+        "Phil M": [
+            558
+        ],
+        "Jake M": [
+            471
+        ],
+        "Adam R": [
+            351
+        ],
+        "James R": [
+            395
+        ],
+        "Stuart S": [
+            375
+        ],
+        "Pierce C": [
+            294
+        ],
+        "Andrew F": [
+            290
+        ],
+        "Stefanus W": [
+            666
+        ],
+        "Madlen P": [
+            398
+        ],
+        "Tom C": [
+            421
+        ],
+        "Toby P": [
+            193
+        ],
+        "Patrick L": [
+            250
+        ],
+        "Cameron M": [
+            589
+        ],
+        "Joe T": [
+            151
+        ],
+        "Charlie L": [
+            351
+        ],
+        "Pete J": [
+            520
+        ],
+        "Tim W": [
+            198
+        ],
+        "Val M": [
+            555
+        ],
+        "Chloe B": [
+            93
+        ],
+        "Matty J": [
+            421
+        ],
+        "Jo H": [
+            163
+        ],
+        "Sam CJ": [
+            172
+        ]
+    },
+    "Manager Average Points": {
+        "Josh M": [
+            155.0
+        ],
+        "Sebastian M": [
+            176.33333333333334
+        ],
+        "Will R": [
+            113.66666666666667
+        ],
+        "Phil M": [
+            186.0
+        ],
+        "Jake M": [
+            157.0
+        ],
+        "Adam R": [
+            117.0
+        ],
+        "James R": [
+            131.66666666666666
+        ],
+        "Stuart S": [
+            125.0
+        ],
+        "Pierce C": [
+            147.0
+        ],
+        "Andrew F": [
+            96.66666666666667
+        ],
+        "Stefanus W": [
+            222.0
+        ],
+        "Madlen P": [
+            132.66666666666666
+        ],
+        "Tom C": [
+            140.33333333333334
+        ],
+        "Toby P": [
+            193.0
+        ],
+        "Patrick L": [
+            125.0
+        ],
+        "Cameron M": [
+            196.33333333333334
+        ],
+        "Joe T": [
+            151.0
+        ],
+        "Charlie L": [
+            117.0
+        ],
+        "Pete J": [
+            173.33333333333334
+        ],
+        "Tim W": [
+            198.0
+        ],
+        "Val M": [
+            185.0
+        ],
+        "Chloe B": [
+            93.0
+        ],
+        "Matty J": [
+            140.33333333333334
+        ],
+        "Jo H": [
+            163.0
+        ],
+        "Sam CJ": [
+            172.0
+        ]
+    },
+    "Team Values": {
+        "Josh M": {
+            "Petrobras Williams RBS F1": [
+                99.6
+            ],
+            "Siemens McLaren West": [
+                99.69999999999999
+            ],
+            "Vodafone Ferrari Marlboro": [
+                99.60000000000001
+            ]
+        },
+        "Sebastian M": {
+            "Denso Panasonic Toyota F1": [
+                99.0
+            ],
+            "JPS Lotus Renault": [
+                100.0
+            ],
+            "Telefonica Minardi Doimo": [
+                99.7
+            ]
+        },
+        "Will R": {
+            "Dinoco Piston Champions": [
+                98.69999999999999
+            ],
+            "Push To Pass": [
+                99.89999999999999
+            ],
+            "The Big One": [
+                45.4
+            ]
+        },
+        "Phil M": {
+            "A Little Team": [
+                100.0
+            ],
+            "BMW Motorrad": [
+                100.0
+            ],
+            "BMW Should Be Here": [
+                100.0
+            ]
+        },
+        "Jake M": {
+            "A Sauber or Kick or Stake": [
+                99.6
+            ],
+            "An Oscar for breakfast": [
+                99.7
+            ],
+            "One Red Bull Car & Gasly": [
+                98.19999999999999
+            ]
+        },
+        "Adam R": {
+            "Better Luck Next Time Bud": [
+                73.1
+            ],
+            "Haas every name ben taken": [
+                99.5
+            ],
+            "Just win init": [
+                98.80000000000001
+            ]
+        },
+        "James R": {
+            "Bwoah Moet Shell Racing": [
+                98.69999999999999
+            ],
+            "Bwoah OnlyFans VIP Racing": [
+                99.0
+            ],
+            "Bwoah Rolex Sipsmith Golf": [
+                44.0
+            ]
+        },
+        "Stuart S": {
+            "E l'ora del martello": [
+                99.80000000000001
+            ],
+            "Christian's Hornie": [
+                100.0
+            ],
+            "Ferrari Strategists": [
+                46.699999999999996
+            ]
+        },
+        "Pierce C": {
+            "Ferrari Champions 2026": [
+                99.9
+            ],
+            "Grazzi#44": [
+                99.69999999999999
+            ]
+        },
+        "Andrew F": {
+            "Forced to pick Max": [
+                99.30000000000001
+            ],
+            "I simp for Zak Brown": [
+                96.4
+            ],
+            "sBinnala Yacht Club": [
+                45.2
+            ]
+        },
+        "Stefanus W": {
+            "Gelael": [
+                99.7
+            ],
+            "Haryanto": [
+                99.9
+            ],
+            "Syahrul": [
+                99.9
+            ]
+        },
+        "Madlen P": {
+            "Go Boys Give Us Nothing": [
+                99.69999999999999
+            ],
+            "Les eclairs": [
+                99.0
+            ],
+            "Maxy & The Boys": [
+                99.80000000000001
+            ]
+        },
+        "Tom C": {
+            "Hawks at T2": [
+                99.0
+            ],
+            "Mc Sled Dogs": [
+                97.7
+            ],
+            "Toasted eggs": [
+                99.80000000000001
+            ]
+        },
+        "Toby P": {
+            "Hesketh 2.1": [
+                99.4
+            ]
+        },
+        "Patrick L": {
+            "Johnny UniHaas": [
+                99.7
+            ],
+            "Racing No Points": [
+                43.99999999999999
+            ]
+        },
+        "Cameron M": {
+            "Josh's hairy balls": [
+                99.3
+            ],
+            "Matty's snipped balls": [
+                100.0
+            ],
+            "Stuart's snipped balls": [
+                96.5
+            ]
+        },
+        "Joe T": {
+            "kicktwitchyoutubepremium": [
+                96.9
+            ]
+        },
+        "Charlie L": {
+            "Lee Carvallo's F1 Challen": [
+                51.099999999999994
+            ],
+            "No Horners Club": [
+                97.60000000000001
+            ],
+            "Uncle Moe's Family Speedbag": [
+                97.9
+            ]
+        },
+        "Pete J": {
+            "Lightning McCars": [
+                99.9
+            ],
+            "Peugeot Over Ford": [
+                98.80000000000001
+            ],
+            "Squeshed Nintendo Racing": [
+                98.5
+            ]
+        },
+        "Tim W": {
+            "Lights out, got punched": [
+                99.69999999999999
+            ]
+        },
+        "Val M": {
+            "Make A U Turn": [
+                98.0
+            ],
+            "Mater's Mates": [
+                99.5
+            ],
+            "My Fav'rit Colour Is Blue": [
+                100.0
+            ]
+        },
+        "Chloe B": {
+            "Ms Fritters Driving Skool": [
+                95.1
+            ]
+        },
+        "Matty J": {
+            "O B Latte": [
+                99.69999999999999
+            ],
+            "The Lizard Queen": [
+                100.0
+            ],
+            "Throw Him In JaYaL": [
+                100.0
+            ]
+        },
+        "Jo H": {
+            "THE LONG AND WINDING ROAD": [
+                99.60000000000001
+            ]
+        },
+        "Sam CJ": {
+            "Mirror, Signal, Manoeuvre": [
+                99.80000000000001
+            ]
+        }
+    },
+    "Manager Values": {
+        "Josh M": [
+            298.9
+        ],
+        "Sebastian M": [
+            298.7
+        ],
+        "Will R": [
+            243.99999999999997
+        ],
+        "Phil M": [
+            300.0
+        ],
+        "Jake M": [
+            297.5
+        ],
+        "Adam R": [
+            271.4
+        ],
+        "James R": [
+            241.7
+        ],
+        "Stuart S": [
+            246.5
+        ],
+        "Pierce C": [
+            199.6
+        ],
+        "Andrew F": [
+            240.90000000000003
+        ],
+        "Stefanus W": [
+            299.5
+        ],
+        "Madlen P": [
+            298.5
+        ],
+        "Tom C": [
+            296.5
+        ],
+        "Toby P": [
+            99.4
+        ],
+        "Patrick L": [
+            143.7
+        ],
+        "Cameron M": [
+            295.8
+        ],
+        "Joe T": [
+            96.9
+        ],
+        "Charlie L": [
+            246.6
+        ],
+        "Pete J": [
+            297.20000000000005
+        ],
+        "Tim W": [
+            99.69999999999999
+        ],
+        "Val M": [
+            297.5
+        ],
+        "Chloe B": [
+            95.1
+        ],
+        "Matty J": [
+            299.7
+        ],
+        "Jo H": [
+            99.60000000000001
+        ],
+        "Sam CJ": [
+            99.80000000000001
+        ]
+    },
+    "Manager Average Values": {
+        "Josh M": [
+            99.63333333333333
+        ],
+        "Sebastian M": [
+            99.56666666666666
+        ],
+        "Will R": [
+            81.33333333333333
+        ],
+        "Phil M": [
+            100.0
+        ],
+        "Jake M": [
+            99.16666666666667
+        ],
+        "Adam R": [
+            90.46666666666665
+        ],
+        "James R": [
+            80.56666666666666
+        ],
+        "Stuart S": [
+            82.16666666666667
+        ],
+        "Pierce C": [
+            99.8
+        ],
+        "Andrew F": [
+            80.30000000000001
+        ],
+        "Stefanus W": [
+            99.83333333333333
+        ],
+        "Madlen P": [
+            99.5
+        ],
+        "Tom C": [
+            98.83333333333333
+        ],
+        "Toby P": [
+            99.4
+        ],
+        "Patrick L": [
+            71.85
+        ],
+        "Cameron M": [
+            98.60000000000001
+        ],
+        "Joe T": [
+            96.9
+        ],
+        "Charlie L": [
+            82.2
+        ],
+        "Pete J": [
+            99.06666666666668
+        ],
+        "Tim W": [
+            99.69999999999999
+        ],
+        "Val M": [
+            99.16666666666667
+        ],
+        "Chloe B": [
+            95.1
+        ],
+        "Matty J": [
+            99.89999999999999
+        ],
+        "Jo H": [
+            99.60000000000001
+        ],
+        "Sam CJ": [
+            99.80000000000001
+        ]
+    }
+}

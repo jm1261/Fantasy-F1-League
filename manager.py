@@ -1,9 +1,13 @@
+import sys
 import src.dataIO as io
 import src.filepaths as fp
 import src.analysis as anal
 import src.plotting as plot
 
 from pathlib import Path
+
+
+""" Fix leaguecount plotting issue. """
 
 
 """
@@ -29,8 +33,6 @@ Ideas to add:
     how the managers in this league coped with it.
     * Also need to add a prizes report for the people that have won the sprint
     or world prizes etc.
-    * Change plots so that the race names are vertical, getting a bit silly.
-    Or maybe flags?
 """
 
 
@@ -206,7 +208,7 @@ def managerweek(root: str,
     info_dict = (io.load_json(file_path=info_path))[f'{year}']
     data_path = Path(f'{root}/Data/{year}')
     manager_path = Path(f'{data_path}/Managers')
-    format_path = Path(f'{root}/Config/Manager_Formats')
+    format_path = Path(f'{root}/Config')
     manager_results = io.load_json(
         file_path=f'{manager_path}/Results.json')
     manager_stats = io.load_json(
@@ -229,6 +231,7 @@ def managerweek(root: str,
             race_index=index,
             race=race,
             format_dir=format_path,
+            year=year,
             out_path=out_path)
 
     """ Plot League Count """
@@ -241,7 +244,8 @@ def managerweek(root: str,
             race_index=index,
             race=race,
             races=races,
-            format_dir=Path(f'{data_path}/Lineup_Formats'),
+            format_dir=format_path,
+            year=year,
             out_path=out_path)
 
     """ Plot League Statistics """
@@ -254,6 +258,7 @@ def managerweek(root: str,
             races=races,
             race=race,
             format_dir=format_path,
+            year=year,
             out_path=out_path)
 
     """ Plot League Price Per Values """
@@ -267,11 +272,13 @@ def managerweek(root: str,
             races=races,
             race=race,
             format_dir=format_path,
+            year=year,
             out_path=out_path)
 
 
 if __name__ == '__main__':
     year = 2024
+    #year = sys.argv[1]
     root = Path().absolute()
     wrong_teams = check_managers_week(
         root=root,

@@ -1,0 +1,8840 @@
+{
+    "Teams Driver": {
+        "Josh M": {
+            "Petrobras Williams RBS F1": {
+                "Verstappen": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ]
+            },
+            "Siemens McLaren West": {
+                "Norris": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ]
+            },
+            "Vodafone Ferrari Marlboro": {
+                "Leclerc": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Russell": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            }
+        },
+        "Sebastian M": {
+            "Denso Panasonic Toyota F1": {
+                "Verstappen": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ]
+            },
+            "JPS Lotus Renault": {
+                "Hamilton": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Norris": [
+                    1
+                ]
+            },
+            "Telefonica Minardi Doimo": {
+                "Verstappen": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ]
+            }
+        },
+        "Will R": {
+            "Dinoco Piston Champions": {
+                "Piastri": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ]
+            },
+            "Push To Pass": {
+                "Verstappen": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Stroll": [
+                    1
+                ]
+            },
+            "The Big One": {
+                "Sargeant": [
+                    1
+                ],
+                "Magnussen": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ],
+                "Ocon": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ]
+            }
+        },
+        "Phil M": {
+            "A Little Team": {
+                "Leclerc": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ]
+            },
+            "BMW Motorrad": {
+                "Perez": [
+                    1
+                ],
+                "Leclerc": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ]
+            },
+            "BMW Should Be Here": {
+                "Verstappen": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Sargeant": [
+                    1
+                ]
+            }
+        },
+        "Jake M": {
+            "A Sauber or Kick or Stake": {
+                "Verstappen": [
+                    1
+                ],
+                "Norris": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ]
+            },
+            "An Oscar for breakfast": {
+                "Piastri": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Verstappen": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            },
+            "One Red Bull Car & Gasly": {
+                "Verstappen": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ]
+            }
+        },
+        "Adam R": {
+            "Better Luck Next Time Bud": {
+                "Guanyu": [
+                    1
+                ],
+                "Russell": [
+                    1
+                ],
+                "Perez": [
+                    1
+                ],
+                "Ocon": [
+                    1
+                ],
+                "Magnussen": [
+                    1
+                ]
+            },
+            "Haas every name ben taken": {
+                "Hamilton": [
+                    1
+                ],
+                "Leclerc": [
+                    1
+                ],
+                "Piastri": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ]
+            },
+            "Just win init": {
+                "Verstappen": [
+                    1
+                ],
+                "Piastri": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ]
+            }
+        },
+        "James R": {
+            "Bwoah Moet Shell Racing": {
+                "Verstappen": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Stroll": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ]
+            },
+            "Bwoah OnlyFans VIP Racing": {
+                "Norris": [
+                    1
+                ],
+                "Perez": [
+                    1
+                ],
+                "Sainz": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ]
+            },
+            "Bwoah Rolex Sipsmith Golf": {
+                "Magnussen": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ],
+                "Sargeant": [
+                    1
+                ]
+            }
+        },
+        "Stuart S": {
+            "E l'ora del martello": {
+                "Leclerc": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ]
+            },
+            "Christian's Hornie": {
+                "Verstappen": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ]
+            },
+            "Ferrari Strategists": {
+                "Gasly": [
+                    1
+                ],
+                "Sargeant": [
+                    1
+                ],
+                "Magnussen": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ],
+                "Ocon": [
+                    1
+                ]
+            }
+        },
+        "Pierce C": {
+            "Ferrari Champions 2026": {
+                "Verstappen": [
+                    1
+                ],
+                "Leclerc": [
+                    1
+                ],
+                "Sargeant": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ]
+            },
+            "Grazzi#44": {
+                "Norris": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ]
+            }
+        },
+        "Andrew F": {
+            "Forced to pick Max": {
+                "Verstappen": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            },
+            "I simp for Zak Brown": {
+                "Norris": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            },
+            "sBinnala Yacht Club": {
+                "Sargeant": [
+                    1
+                ],
+                "Magnussen": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ]
+            }
+        },
+        "Stefanus W": {
+            "Gelael": {
+                "Verstappen": [
+                    1
+                ],
+                "Leclerc": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ]
+            },
+            "Haryanto": {
+                "Perez": [
+                    1
+                ],
+                "Stroll": [
+                    1
+                ],
+                "Magnussen": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ]
+            },
+            "Syahrul": {
+                "Verstappen": [
+                    1
+                ],
+                "Stroll": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Magnussen": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ]
+            }
+        },
+        "Madlen P": {
+            "Go Boys Give Us Nothing": {
+                "Hamilton": [
+                    1
+                ],
+                "Piastri": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ]
+            },
+            "Les eclairs": {
+                "Leclerc": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ]
+            },
+            "Maxy & The Boys": {
+                "Verstappen": [
+                    1
+                ],
+                "Sainz": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ]
+            }
+        },
+        "Tom C": {
+            "Hawks at T2": {
+                "Verstappen": [
+                    1
+                ],
+                "Norris": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ]
+            },
+            "Mc Sled Dogs": {
+                "Norris": [
+                    1
+                ],
+                "Piastri": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ]
+            },
+            "Toasted eggs": {
+                "Verstappen": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ]
+            }
+        },
+        "Toby P": {
+            "Hesketh 2.1": {
+                "Leclerc": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ],
+                "Stroll": [
+                    1
+                ]
+            }
+        },
+        "Patrick L": {
+            "Johnny UniHaas": {
+                "Verstappen": [
+                    1
+                ],
+                "Sainz": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            },
+            "Racing No Points": {
+                "Sargeant": [
+                    1
+                ],
+                "Magnussen": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ]
+            }
+        },
+        "Cameron M": {
+            "Josh's hairy balls": {
+                "Albon": [
+                    1
+                ],
+                "Leclerc": [
+                    1
+                ],
+                "Verstappen": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ]
+            },
+            "Matty's snipped balls": {
+                "Verstappen": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            },
+            "Stuart's snipped balls": {
+                "Leclerc": [
+                    1
+                ],
+                "Verstappen": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ]
+            }
+        },
+        "Joe T": {
+            "kicktwitchyoutubepremium": {
+                "Albon": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            }
+        },
+        "Charlie L": {
+            "Lee Carvallo's F1 Challen": {
+                "Sargeant": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Magnussen": [
+                    1
+                ],
+                "Stroll": [
+                    1
+                ],
+                "Ocon": [
+                    1
+                ]
+            },
+            "No Horners Club": {
+                "Hamilton": [
+                    1
+                ],
+                "Norris": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            },
+            "Uncle Moe's Family Speedbag": {
+                "Sainz": [
+                    1
+                ],
+                "Verstappen": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ]
+            }
+        },
+        "Pete J": {
+            "Lightning McCars": {
+                "Hamilton": [
+                    1
+                ],
+                "Norris": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            },
+            "Peugeot Over Ford": {
+                "Verstappen": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Leclerc": [
+                    1
+                ]
+            },
+            "Squeshed Nintendo Racing": {
+                "Norris": [
+                    1
+                ],
+                "Sainz": [
+                    1
+                ],
+                "Ocon": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ]
+            }
+        },
+        "Tim W": {
+            "Lights out, got punched": {
+                "Verstappen": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ]
+            }
+        },
+        "Val M": {
+            "Make A U Turn": {
+                "Ocon": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Verstappen": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ]
+            },
+            "Mater's Mates": {
+                "Hulkenberg": [
+                    1
+                ],
+                "Sainz": [
+                    1
+                ],
+                "Norris": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Ocon": [
+                    1
+                ]
+            },
+            "My Fav'rit Colour Is Blue": {
+                "Verstappen": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Ocon": [
+                    1
+                ],
+                "Sargeant": [
+                    1
+                ]
+            }
+        },
+        "Chloe B": {
+            "Ms Fritters Driving Skool": {
+                "Ricciardo": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            }
+        },
+        "Matty J": {
+            "O B Latte": {
+                "Russell": [
+                    1
+                ],
+                "Piastri": [
+                    1
+                ],
+                "Sainz": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Sargeant": [
+                    1
+                ]
+            },
+            "The Lizard Queen": {
+                "Magnussen": [
+                    1
+                ],
+                "Norris": [
+                    1
+                ],
+                "Sargeant": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ]
+            },
+            "Throw Him In JaYaL": {
+                "Verstappen": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Norris": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ]
+            }
+        },
+        "Jo H": {
+            "THE LONG AND WINDING ROAD": {
+                "Hamilton": [
+                    1
+                ],
+                "Leclerc": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            }
+        },
+        "Sam CJ": {
+            "Mirror, Signal, Manoeuvre": {
+                "Hamilton": [
+                    1
+                ],
+                "Perez": [
+                    1
+                ],
+                "Leclerc": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ]
+            }
+        }
+    },
+    "Teams Sum Driver": {
+        "Josh M": {
+            "Petrobras Williams RBS F1": {
+                "Verstappen": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ]
+            },
+            "Siemens McLaren West": {
+                "Norris": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ]
+            },
+            "Vodafone Ferrari Marlboro": {
+                "Leclerc": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Russell": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            }
+        },
+        "Sebastian M": {
+            "Denso Panasonic Toyota F1": {
+                "Verstappen": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ]
+            },
+            "JPS Lotus Renault": {
+                "Hamilton": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Norris": [
+                    1
+                ]
+            },
+            "Telefonica Minardi Doimo": {
+                "Verstappen": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ]
+            }
+        },
+        "Will R": {
+            "Dinoco Piston Champions": {
+                "Piastri": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ]
+            },
+            "Push To Pass": {
+                "Verstappen": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Stroll": [
+                    1
+                ]
+            },
+            "The Big One": {
+                "Sargeant": [
+                    1
+                ],
+                "Magnussen": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ],
+                "Ocon": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ]
+            }
+        },
+        "Phil M": {
+            "A Little Team": {
+                "Leclerc": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ]
+            },
+            "BMW Motorrad": {
+                "Perez": [
+                    1
+                ],
+                "Leclerc": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ]
+            },
+            "BMW Should Be Here": {
+                "Verstappen": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Sargeant": [
+                    1
+                ]
+            }
+        },
+        "Jake M": {
+            "A Sauber or Kick or Stake": {
+                "Verstappen": [
+                    1
+                ],
+                "Norris": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ]
+            },
+            "An Oscar for breakfast": {
+                "Piastri": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Verstappen": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            },
+            "One Red Bull Car & Gasly": {
+                "Verstappen": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ]
+            }
+        },
+        "Adam R": {
+            "Better Luck Next Time Bud": {
+                "Guanyu": [
+                    1
+                ],
+                "Russell": [
+                    1
+                ],
+                "Perez": [
+                    1
+                ],
+                "Ocon": [
+                    1
+                ],
+                "Magnussen": [
+                    1
+                ]
+            },
+            "Haas every name ben taken": {
+                "Hamilton": [
+                    1
+                ],
+                "Leclerc": [
+                    1
+                ],
+                "Piastri": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ]
+            },
+            "Just win init": {
+                "Verstappen": [
+                    1
+                ],
+                "Piastri": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ]
+            }
+        },
+        "James R": {
+            "Bwoah Moet Shell Racing": {
+                "Verstappen": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Stroll": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ]
+            },
+            "Bwoah OnlyFans VIP Racing": {
+                "Norris": [
+                    1
+                ],
+                "Perez": [
+                    1
+                ],
+                "Sainz": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ]
+            },
+            "Bwoah Rolex Sipsmith Golf": {
+                "Magnussen": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ],
+                "Sargeant": [
+                    1
+                ]
+            }
+        },
+        "Stuart S": {
+            "E l'ora del martello": {
+                "Leclerc": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ]
+            },
+            "Christian's Hornie": {
+                "Verstappen": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ]
+            },
+            "Ferrari Strategists": {
+                "Gasly": [
+                    1
+                ],
+                "Sargeant": [
+                    1
+                ],
+                "Magnussen": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ],
+                "Ocon": [
+                    1
+                ]
+            }
+        },
+        "Pierce C": {
+            "Ferrari Champions 2026": {
+                "Verstappen": [
+                    1
+                ],
+                "Leclerc": [
+                    1
+                ],
+                "Sargeant": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ]
+            },
+            "Grazzi#44": {
+                "Norris": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ]
+            }
+        },
+        "Andrew F": {
+            "Forced to pick Max": {
+                "Verstappen": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            },
+            "I simp for Zak Brown": {
+                "Norris": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            },
+            "sBinnala Yacht Club": {
+                "Sargeant": [
+                    1
+                ],
+                "Magnussen": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ]
+            }
+        },
+        "Stefanus W": {
+            "Gelael": {
+                "Verstappen": [
+                    1
+                ],
+                "Leclerc": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ]
+            },
+            "Haryanto": {
+                "Perez": [
+                    1
+                ],
+                "Stroll": [
+                    1
+                ],
+                "Magnussen": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ]
+            },
+            "Syahrul": {
+                "Verstappen": [
+                    1
+                ],
+                "Stroll": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Magnussen": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ]
+            }
+        },
+        "Madlen P": {
+            "Go Boys Give Us Nothing": {
+                "Hamilton": [
+                    1
+                ],
+                "Piastri": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ]
+            },
+            "Les eclairs": {
+                "Leclerc": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ]
+            },
+            "Maxy & The Boys": {
+                "Verstappen": [
+                    1
+                ],
+                "Sainz": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ]
+            }
+        },
+        "Tom C": {
+            "Hawks at T2": {
+                "Verstappen": [
+                    1
+                ],
+                "Norris": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ]
+            },
+            "Mc Sled Dogs": {
+                "Norris": [
+                    1
+                ],
+                "Piastri": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ]
+            },
+            "Toasted eggs": {
+                "Verstappen": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ]
+            }
+        },
+        "Toby P": {
+            "Hesketh 2.1": {
+                "Leclerc": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ],
+                "Stroll": [
+                    1
+                ]
+            }
+        },
+        "Patrick L": {
+            "Johnny UniHaas": {
+                "Verstappen": [
+                    1
+                ],
+                "Sainz": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            },
+            "Racing No Points": {
+                "Sargeant": [
+                    1
+                ],
+                "Magnussen": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ]
+            }
+        },
+        "Cameron M": {
+            "Josh's hairy balls": {
+                "Albon": [
+                    1
+                ],
+                "Leclerc": [
+                    1
+                ],
+                "Verstappen": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ]
+            },
+            "Matty's snipped balls": {
+                "Verstappen": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            },
+            "Stuart's snipped balls": {
+                "Leclerc": [
+                    1
+                ],
+                "Verstappen": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ]
+            }
+        },
+        "Joe T": {
+            "kicktwitchyoutubepremium": {
+                "Albon": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            }
+        },
+        "Charlie L": {
+            "Lee Carvallo's F1 Challen": {
+                "Sargeant": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Magnussen": [
+                    1
+                ],
+                "Stroll": [
+                    1
+                ],
+                "Ocon": [
+                    1
+                ]
+            },
+            "No Horners Club": {
+                "Hamilton": [
+                    1
+                ],
+                "Norris": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            },
+            "Uncle Moe's Family Speedbag": {
+                "Sainz": [
+                    1
+                ],
+                "Verstappen": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ]
+            }
+        },
+        "Pete J": {
+            "Lightning McCars": {
+                "Hamilton": [
+                    1
+                ],
+                "Norris": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            },
+            "Peugeot Over Ford": {
+                "Verstappen": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Leclerc": [
+                    1
+                ]
+            },
+            "Squeshed Nintendo Racing": {
+                "Norris": [
+                    1
+                ],
+                "Sainz": [
+                    1
+                ],
+                "Ocon": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ]
+            }
+        },
+        "Tim W": {
+            "Lights out, got punched": {
+                "Verstappen": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Guanyu": [
+                    1
+                ]
+            }
+        },
+        "Val M": {
+            "Make A U Turn": {
+                "Ocon": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Verstappen": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ]
+            },
+            "Mater's Mates": {
+                "Hulkenberg": [
+                    1
+                ],
+                "Sainz": [
+                    1
+                ],
+                "Norris": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Ocon": [
+                    1
+                ]
+            },
+            "My Fav'rit Colour Is Blue": {
+                "Verstappen": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Ocon": [
+                    1
+                ],
+                "Sargeant": [
+                    1
+                ]
+            }
+        },
+        "Chloe B": {
+            "Ms Fritters Driving Skool": {
+                "Ricciardo": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            }
+        },
+        "Matty J": {
+            "O B Latte": {
+                "Russell": [
+                    1
+                ],
+                "Piastri": [
+                    1
+                ],
+                "Sainz": [
+                    1
+                ],
+                "Alonso": [
+                    1
+                ],
+                "Sargeant": [
+                    1
+                ]
+            },
+            "The Lizard Queen": {
+                "Magnussen": [
+                    1
+                ],
+                "Norris": [
+                    1
+                ],
+                "Sargeant": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ]
+            },
+            "Throw Him In JaYaL": {
+                "Verstappen": [
+                    1
+                ],
+                "Hamilton": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ],
+                "Norris": [
+                    1
+                ],
+                "Gasly": [
+                    1
+                ]
+            }
+        },
+        "Jo H": {
+            "THE LONG AND WINDING ROAD": {
+                "Hamilton": [
+                    1
+                ],
+                "Leclerc": [
+                    1
+                ],
+                "Ricciardo": [
+                    1
+                ],
+                "Hulkenberg": [
+                    1
+                ],
+                "Bottas": [
+                    1
+                ]
+            }
+        },
+        "Sam CJ": {
+            "Mirror, Signal, Manoeuvre": {
+                "Hamilton": [
+                    1
+                ],
+                "Perez": [
+                    1
+                ],
+                "Leclerc": [
+                    1
+                ],
+                "Tsunoda": [
+                    1
+                ],
+                "Albon": [
+                    1
+                ]
+            }
+        }
+    },
+    "Manager Driver": {
+        "Josh M": {
+            "Verstappen": [
+                1
+            ],
+            "Gasly": [
+                2
+            ],
+            "Bottas": [
+                2
+            ],
+            "Albon": [
+                2
+            ],
+            "Ricciardo": [
+                2
+            ],
+            "Norris": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ],
+            "Alonso": [
+                2
+            ],
+            "Leclerc": [
+                1
+            ],
+            "Russell": [
+                1
+            ]
+        },
+        "Sebastian M": {
+            "Verstappen": [
+                2
+            ],
+            "Gasly": [
+                1
+            ],
+            "Albon": [
+                3
+            ],
+            "Ricciardo": [
+                3
+            ],
+            "Hamilton": [
+                3
+            ],
+            "Alonso": [
+                1
+            ],
+            "Norris": [
+                1
+            ],
+            "Guanyu": [
+                1
+            ]
+        },
+        "Will R": {
+            "Piastri": [
+                1
+            ],
+            "Ricciardo": [
+                2
+            ],
+            "Alonso": [
+                1
+            ],
+            "Albon": [
+                2
+            ],
+            "Hulkenberg": [
+                2
+            ],
+            "Verstappen": [
+                1
+            ],
+            "Bottas": [
+                1
+            ],
+            "Stroll": [
+                1
+            ],
+            "Sargeant": [
+                1
+            ],
+            "Magnussen": [
+                1
+            ],
+            "Guanyu": [
+                1
+            ],
+            "Ocon": [
+                1
+            ]
+        },
+        "Phil M": {
+            "Leclerc": [
+                2
+            ],
+            "Hamilton": [
+                2
+            ],
+            "Gasly": [
+                2
+            ],
+            "Bottas": [
+                3
+            ],
+            "Tsunoda": [
+                1
+            ],
+            "Perez": [
+                1
+            ],
+            "Guanyu": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ],
+            "Alonso": [
+                1
+            ],
+            "Sargeant": [
+                1
+            ]
+        },
+        "Jake M": {
+            "Verstappen": [
+                3
+            ],
+            "Norris": [
+                1
+            ],
+            "Ricciardo": [
+                2
+            ],
+            "Alonso": [
+                1
+            ],
+            "Albon": [
+                3
+            ],
+            "Piastri": [
+                1
+            ],
+            "Gasly": [
+                2
+            ],
+            "Bottas": [
+                1
+            ],
+            "Tsunoda": [
+                1
+            ]
+        },
+        "Adam R": {
+            "Guanyu": [
+                1
+            ],
+            "Russell": [
+                1
+            ],
+            "Perez": [
+                1
+            ],
+            "Ocon": [
+                1
+            ],
+            "Magnussen": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ],
+            "Leclerc": [
+                1
+            ],
+            "Piastri": [
+                2
+            ],
+            "Alonso": [
+                1
+            ],
+            "Hulkenberg": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ],
+            "Albon": [
+                1
+            ],
+            "Bottas": [
+                1
+            ],
+            "Gasly": [
+                1
+            ]
+        },
+        "James R": {
+            "Verstappen": [
+                1
+            ],
+            "Ricciardo": [
+                2
+            ],
+            "Gasly": [
+                2
+            ],
+            "Stroll": [
+                1
+            ],
+            "Albon": [
+                1
+            ],
+            "Norris": [
+                1
+            ],
+            "Perez": [
+                1
+            ],
+            "Sainz": [
+                1
+            ],
+            "Magnussen": [
+                1
+            ],
+            "Hulkenberg": [
+                1
+            ],
+            "Bottas": [
+                1
+            ],
+            "Guanyu": [
+                1
+            ],
+            "Sargeant": [
+                1
+            ]
+        },
+        "Stuart S": {
+            "Leclerc": [
+                1
+            ],
+            "Tsunoda": [
+                2
+            ],
+            "Alonso": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ],
+            "Ricciardo": [
+                2
+            ],
+            "Verstappen": [
+                1
+            ],
+            "Albon": [
+                1
+            ],
+            "Guanyu": [
+                1
+            ],
+            "Gasly": [
+                1
+            ],
+            "Sargeant": [
+                1
+            ],
+            "Magnussen": [
+                1
+            ],
+            "Hulkenberg": [
+                1
+            ],
+            "Ocon": [
+                1
+            ]
+        },
+        "Pierce C": {
+            "Verstappen": [
+                1
+            ],
+            "Leclerc": [
+                1
+            ],
+            "Sargeant": [
+                1
+            ],
+            "Tsunoda": [
+                1
+            ],
+            "Gasly": [
+                1
+            ],
+            "Norris": [
+                1
+            ],
+            "Ricciardo": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ],
+            "Alonso": [
+                1
+            ],
+            "Albon": [
+                1
+            ]
+        },
+        "Andrew F": {
+            "Verstappen": [
+                1
+            ],
+            "Hamilton": [
+                2
+            ],
+            "Albon": [
+                2
+            ],
+            "Tsunoda": [
+                1
+            ],
+            "Bottas": [
+                2
+            ],
+            "Norris": [
+                1
+            ],
+            "Ricciardo": [
+                1
+            ],
+            "Sargeant": [
+                1
+            ],
+            "Magnussen": [
+                1
+            ],
+            "Hulkenberg": [
+                1
+            ],
+            "Gasly": [
+                1
+            ],
+            "Guanyu": [
+                1
+            ]
+        },
+        "Stefanus W": {
+            "Verstappen": [
+                2
+            ],
+            "Leclerc": [
+                1
+            ],
+            "Tsunoda": [
+                2
+            ],
+            "Gasly": [
+                1
+            ],
+            "Albon": [
+                3
+            ],
+            "Perez": [
+                1
+            ],
+            "Stroll": [
+                2
+            ],
+            "Magnussen": [
+                2
+            ],
+            "Guanyu": [
+                1
+            ]
+        },
+        "Madlen P": {
+            "Hamilton": [
+                2
+            ],
+            "Piastri": [
+                1
+            ],
+            "Alonso": [
+                3
+            ],
+            "Tsunoda": [
+                2
+            ],
+            "Ricciardo": [
+                2
+            ],
+            "Leclerc": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ],
+            "Sainz": [
+                1
+            ],
+            "Hulkenberg": [
+                1
+            ],
+            "Albon": [
+                1
+            ]
+        },
+        "Tom C": {
+            "Verstappen": [
+                2
+            ],
+            "Norris": [
+                2
+            ],
+            "Hulkenberg": [
+                2
+            ],
+            "Ricciardo": [
+                3
+            ],
+            "Alonso": [
+                1
+            ],
+            "Piastri": [
+                1
+            ],
+            "Tsunoda": [
+                2
+            ],
+            "Albon": [
+                2
+            ]
+        },
+        "Toby P": {
+            "Leclerc": [
+                1
+            ],
+            "Albon": [
+                1
+            ],
+            "Tsunoda": [
+                1
+            ],
+            "Guanyu": [
+                1
+            ],
+            "Stroll": [
+                1
+            ]
+        },
+        "Patrick L": {
+            "Verstappen": [
+                1
+            ],
+            "Sainz": [
+                1
+            ],
+            "Tsunoda": [
+                1
+            ],
+            "Ricciardo": [
+                1
+            ],
+            "Bottas": [
+                2
+            ],
+            "Sargeant": [
+                1
+            ],
+            "Magnussen": [
+                1
+            ],
+            "Guanyu": [
+                1
+            ],
+            "Hulkenberg": [
+                1
+            ]
+        },
+        "Cameron M": {
+            "Albon": [
+                2
+            ],
+            "Leclerc": [
+                2
+            ],
+            "Verstappen": [
+                3
+            ],
+            "Bottas": [
+                3
+            ],
+            "Ricciardo": [
+                2
+            ],
+            "Alonso": [
+                1
+            ],
+            "Guanyu": [
+                1
+            ],
+            "Hulkenberg": [
+                1
+            ]
+        },
+        "Joe T": {
+            "Albon": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ],
+            "Alonso": [
+                1
+            ],
+            "Ricciardo": [
+                1
+            ],
+            "Bottas": [
+                1
+            ]
+        },
+        "Charlie L": {
+            "Sargeant": [
+                1
+            ],
+            "Tsunoda": [
+                1
+            ],
+            "Magnussen": [
+                1
+            ],
+            "Stroll": [
+                1
+            ],
+            "Ocon": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ],
+            "Norris": [
+                1
+            ],
+            "Alonso": [
+                1
+            ],
+            "Hulkenberg": [
+                1
+            ],
+            "Bottas": [
+                1
+            ],
+            "Sainz": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ],
+            "Albon": [
+                1
+            ],
+            "Gasly": [
+                1
+            ],
+            "Ricciardo": [
+                1
+            ]
+        },
+        "Pete J": {
+            "Hamilton": [
+                1
+            ],
+            "Norris": [
+                2
+            ],
+            "Ricciardo": [
+                2
+            ],
+            "Tsunoda": [
+                1
+            ],
+            "Bottas": [
+                2
+            ],
+            "Verstappen": [
+                1
+            ],
+            "Gasly": [
+                1
+            ],
+            "Albon": [
+                1
+            ],
+            "Leclerc": [
+                1
+            ],
+            "Sainz": [
+                1
+            ],
+            "Ocon": [
+                1
+            ],
+            "Hulkenberg": [
+                1
+            ]
+        },
+        "Tim W": {
+            "Verstappen": [
+                1
+            ],
+            "Albon": [
+                1
+            ],
+            "Ricciardo": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ],
+            "Guanyu": [
+                1
+            ]
+        },
+        "Val M": {
+            "Ocon": [
+                3
+            ],
+            "Ricciardo": [
+                1
+            ],
+            "Albon": [
+                2
+            ],
+            "Verstappen": [
+                2
+            ],
+            "Gasly": [
+                1
+            ],
+            "Hulkenberg": [
+                2
+            ],
+            "Sainz": [
+                1
+            ],
+            "Norris": [
+                1
+            ],
+            "Alonso": [
+                1
+            ],
+            "Sargeant": [
+                1
+            ]
+        },
+        "Chloe B": {
+            "Ricciardo": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ],
+            "Gasly": [
+                1
+            ],
+            "Alonso": [
+                1
+            ],
+            "Bottas": [
+                1
+            ]
+        },
+        "Matty J": {
+            "Russell": [
+                1
+            ],
+            "Piastri": [
+                1
+            ],
+            "Sainz": [
+                1
+            ],
+            "Alonso": [
+                1
+            ],
+            "Sargeant": [
+                2
+            ],
+            "Magnussen": [
+                1
+            ],
+            "Norris": [
+                2
+            ],
+            "Bottas": [
+                1
+            ],
+            "Gasly": [
+                2
+            ],
+            "Verstappen": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ],
+            "Albon": [
+                1
+            ]
+        },
+        "Jo H": {
+            "Hamilton": [
+                1
+            ],
+            "Leclerc": [
+                1
+            ],
+            "Ricciardo": [
+                1
+            ],
+            "Hulkenberg": [
+                1
+            ],
+            "Bottas": [
+                1
+            ]
+        },
+        "Sam CJ": {
+            "Hamilton": [
+                1
+            ],
+            "Perez": [
+                1
+            ],
+            "Leclerc": [
+                1
+            ],
+            "Tsunoda": [
+                1
+            ],
+            "Albon": [
+                1
+            ]
+        }
+    },
+    "Manager Sum Driver": {
+        "Josh M": {
+            "Verstappen": [
+                1
+            ],
+            "Gasly": [
+                2
+            ],
+            "Bottas": [
+                2
+            ],
+            "Albon": [
+                2
+            ],
+            "Ricciardo": [
+                2
+            ],
+            "Norris": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ],
+            "Alonso": [
+                2
+            ],
+            "Leclerc": [
+                1
+            ],
+            "Russell": [
+                1
+            ]
+        },
+        "Sebastian M": {
+            "Verstappen": [
+                2
+            ],
+            "Gasly": [
+                1
+            ],
+            "Albon": [
+                3
+            ],
+            "Ricciardo": [
+                3
+            ],
+            "Hamilton": [
+                3
+            ],
+            "Alonso": [
+                1
+            ],
+            "Norris": [
+                1
+            ],
+            "Guanyu": [
+                1
+            ]
+        },
+        "Will R": {
+            "Piastri": [
+                1
+            ],
+            "Ricciardo": [
+                2
+            ],
+            "Alonso": [
+                1
+            ],
+            "Albon": [
+                2
+            ],
+            "Hulkenberg": [
+                2
+            ],
+            "Verstappen": [
+                1
+            ],
+            "Bottas": [
+                1
+            ],
+            "Stroll": [
+                1
+            ],
+            "Sargeant": [
+                1
+            ],
+            "Magnussen": [
+                1
+            ],
+            "Guanyu": [
+                1
+            ],
+            "Ocon": [
+                1
+            ]
+        },
+        "Phil M": {
+            "Leclerc": [
+                2
+            ],
+            "Hamilton": [
+                2
+            ],
+            "Gasly": [
+                2
+            ],
+            "Bottas": [
+                3
+            ],
+            "Tsunoda": [
+                1
+            ],
+            "Perez": [
+                1
+            ],
+            "Guanyu": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ],
+            "Alonso": [
+                1
+            ],
+            "Sargeant": [
+                1
+            ]
+        },
+        "Jake M": {
+            "Verstappen": [
+                3
+            ],
+            "Norris": [
+                1
+            ],
+            "Ricciardo": [
+                2
+            ],
+            "Alonso": [
+                1
+            ],
+            "Albon": [
+                3
+            ],
+            "Piastri": [
+                1
+            ],
+            "Gasly": [
+                2
+            ],
+            "Bottas": [
+                1
+            ],
+            "Tsunoda": [
+                1
+            ]
+        },
+        "Adam R": {
+            "Guanyu": [
+                1
+            ],
+            "Russell": [
+                1
+            ],
+            "Perez": [
+                1
+            ],
+            "Ocon": [
+                1
+            ],
+            "Magnussen": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ],
+            "Leclerc": [
+                1
+            ],
+            "Piastri": [
+                2
+            ],
+            "Alonso": [
+                1
+            ],
+            "Hulkenberg": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ],
+            "Albon": [
+                1
+            ],
+            "Bottas": [
+                1
+            ],
+            "Gasly": [
+                1
+            ]
+        },
+        "James R": {
+            "Verstappen": [
+                1
+            ],
+            "Ricciardo": [
+                2
+            ],
+            "Gasly": [
+                2
+            ],
+            "Stroll": [
+                1
+            ],
+            "Albon": [
+                1
+            ],
+            "Norris": [
+                1
+            ],
+            "Perez": [
+                1
+            ],
+            "Sainz": [
+                1
+            ],
+            "Magnussen": [
+                1
+            ],
+            "Hulkenberg": [
+                1
+            ],
+            "Bottas": [
+                1
+            ],
+            "Guanyu": [
+                1
+            ],
+            "Sargeant": [
+                1
+            ]
+        },
+        "Stuart S": {
+            "Leclerc": [
+                1
+            ],
+            "Tsunoda": [
+                2
+            ],
+            "Alonso": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ],
+            "Ricciardo": [
+                2
+            ],
+            "Verstappen": [
+                1
+            ],
+            "Albon": [
+                1
+            ],
+            "Guanyu": [
+                1
+            ],
+            "Gasly": [
+                1
+            ],
+            "Sargeant": [
+                1
+            ],
+            "Magnussen": [
+                1
+            ],
+            "Hulkenberg": [
+                1
+            ],
+            "Ocon": [
+                1
+            ]
+        },
+        "Pierce C": {
+            "Verstappen": [
+                1
+            ],
+            "Leclerc": [
+                1
+            ],
+            "Sargeant": [
+                1
+            ],
+            "Tsunoda": [
+                1
+            ],
+            "Gasly": [
+                1
+            ],
+            "Norris": [
+                1
+            ],
+            "Ricciardo": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ],
+            "Alonso": [
+                1
+            ],
+            "Albon": [
+                1
+            ]
+        },
+        "Andrew F": {
+            "Verstappen": [
+                1
+            ],
+            "Hamilton": [
+                2
+            ],
+            "Albon": [
+                2
+            ],
+            "Tsunoda": [
+                1
+            ],
+            "Bottas": [
+                2
+            ],
+            "Norris": [
+                1
+            ],
+            "Ricciardo": [
+                1
+            ],
+            "Sargeant": [
+                1
+            ],
+            "Magnussen": [
+                1
+            ],
+            "Hulkenberg": [
+                1
+            ],
+            "Gasly": [
+                1
+            ],
+            "Guanyu": [
+                1
+            ]
+        },
+        "Stefanus W": {
+            "Verstappen": [
+                2
+            ],
+            "Leclerc": [
+                1
+            ],
+            "Tsunoda": [
+                2
+            ],
+            "Gasly": [
+                1
+            ],
+            "Albon": [
+                3
+            ],
+            "Perez": [
+                1
+            ],
+            "Stroll": [
+                2
+            ],
+            "Magnussen": [
+                2
+            ],
+            "Guanyu": [
+                1
+            ]
+        },
+        "Madlen P": {
+            "Hamilton": [
+                2
+            ],
+            "Piastri": [
+                1
+            ],
+            "Alonso": [
+                3
+            ],
+            "Tsunoda": [
+                2
+            ],
+            "Ricciardo": [
+                2
+            ],
+            "Leclerc": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ],
+            "Sainz": [
+                1
+            ],
+            "Hulkenberg": [
+                1
+            ],
+            "Albon": [
+                1
+            ]
+        },
+        "Tom C": {
+            "Verstappen": [
+                2
+            ],
+            "Norris": [
+                2
+            ],
+            "Hulkenberg": [
+                2
+            ],
+            "Ricciardo": [
+                3
+            ],
+            "Alonso": [
+                1
+            ],
+            "Piastri": [
+                1
+            ],
+            "Tsunoda": [
+                2
+            ],
+            "Albon": [
+                2
+            ]
+        },
+        "Toby P": {
+            "Leclerc": [
+                1
+            ],
+            "Albon": [
+                1
+            ],
+            "Tsunoda": [
+                1
+            ],
+            "Guanyu": [
+                1
+            ],
+            "Stroll": [
+                1
+            ]
+        },
+        "Patrick L": {
+            "Verstappen": [
+                1
+            ],
+            "Sainz": [
+                1
+            ],
+            "Tsunoda": [
+                1
+            ],
+            "Ricciardo": [
+                1
+            ],
+            "Bottas": [
+                2
+            ],
+            "Sargeant": [
+                1
+            ],
+            "Magnussen": [
+                1
+            ],
+            "Guanyu": [
+                1
+            ],
+            "Hulkenberg": [
+                1
+            ]
+        },
+        "Cameron M": {
+            "Albon": [
+                2
+            ],
+            "Leclerc": [
+                2
+            ],
+            "Verstappen": [
+                3
+            ],
+            "Bottas": [
+                3
+            ],
+            "Ricciardo": [
+                2
+            ],
+            "Alonso": [
+                1
+            ],
+            "Guanyu": [
+                1
+            ],
+            "Hulkenberg": [
+                1
+            ]
+        },
+        "Joe T": {
+            "Albon": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ],
+            "Alonso": [
+                1
+            ],
+            "Ricciardo": [
+                1
+            ],
+            "Bottas": [
+                1
+            ]
+        },
+        "Charlie L": {
+            "Sargeant": [
+                1
+            ],
+            "Tsunoda": [
+                1
+            ],
+            "Magnussen": [
+                1
+            ],
+            "Stroll": [
+                1
+            ],
+            "Ocon": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ],
+            "Norris": [
+                1
+            ],
+            "Alonso": [
+                1
+            ],
+            "Hulkenberg": [
+                1
+            ],
+            "Bottas": [
+                1
+            ],
+            "Sainz": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ],
+            "Albon": [
+                1
+            ],
+            "Gasly": [
+                1
+            ],
+            "Ricciardo": [
+                1
+            ]
+        },
+        "Pete J": {
+            "Hamilton": [
+                1
+            ],
+            "Norris": [
+                2
+            ],
+            "Ricciardo": [
+                2
+            ],
+            "Tsunoda": [
+                1
+            ],
+            "Bottas": [
+                2
+            ],
+            "Verstappen": [
+                1
+            ],
+            "Gasly": [
+                1
+            ],
+            "Albon": [
+                1
+            ],
+            "Leclerc": [
+                1
+            ],
+            "Sainz": [
+                1
+            ],
+            "Ocon": [
+                1
+            ],
+            "Hulkenberg": [
+                1
+            ]
+        },
+        "Tim W": {
+            "Verstappen": [
+                1
+            ],
+            "Albon": [
+                1
+            ],
+            "Ricciardo": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ],
+            "Guanyu": [
+                1
+            ]
+        },
+        "Val M": {
+            "Ocon": [
+                3
+            ],
+            "Ricciardo": [
+                1
+            ],
+            "Albon": [
+                2
+            ],
+            "Verstappen": [
+                2
+            ],
+            "Gasly": [
+                1
+            ],
+            "Hulkenberg": [
+                2
+            ],
+            "Sainz": [
+                1
+            ],
+            "Norris": [
+                1
+            ],
+            "Alonso": [
+                1
+            ],
+            "Sargeant": [
+                1
+            ]
+        },
+        "Chloe B": {
+            "Ricciardo": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ],
+            "Gasly": [
+                1
+            ],
+            "Alonso": [
+                1
+            ],
+            "Bottas": [
+                1
+            ]
+        },
+        "Matty J": {
+            "Russell": [
+                1
+            ],
+            "Piastri": [
+                1
+            ],
+            "Sainz": [
+                1
+            ],
+            "Alonso": [
+                1
+            ],
+            "Sargeant": [
+                2
+            ],
+            "Magnussen": [
+                1
+            ],
+            "Norris": [
+                2
+            ],
+            "Bottas": [
+                1
+            ],
+            "Gasly": [
+                2
+            ],
+            "Verstappen": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ],
+            "Albon": [
+                1
+            ]
+        },
+        "Jo H": {
+            "Hamilton": [
+                1
+            ],
+            "Leclerc": [
+                1
+            ],
+            "Ricciardo": [
+                1
+            ],
+            "Hulkenberg": [
+                1
+            ],
+            "Bottas": [
+                1
+            ]
+        },
+        "Sam CJ": {
+            "Hamilton": [
+                1
+            ],
+            "Perez": [
+                1
+            ],
+            "Leclerc": [
+                1
+            ],
+            "Tsunoda": [
+                1
+            ],
+            "Albon": [
+                1
+            ]
+        }
+    },
+    "League Driver": {
+        "Verstappen": [
+            28
+        ],
+        "Gasly": [
+            20
+        ],
+        "Bottas": [
+            23
+        ],
+        "Albon": [
+            33
+        ],
+        "Ricciardo": [
+            31
+        ],
+        "Norris": [
+            14
+        ],
+        "Hamilton": [
+            21
+        ],
+        "Alonso": [
+            19
+        ],
+        "Leclerc": [
+            14
+        ],
+        "Russell": [
+            3
+        ],
+        "Guanyu": [
+            12
+        ],
+        "Piastri": [
+            7
+        ],
+        "Hulkenberg": [
+            16
+        ],
+        "Stroll": [
+            6
+        ],
+        "Sargeant": [
+            11
+        ],
+        "Magnussen": [
+            10
+        ],
+        "Ocon": [
+            8
+        ],
+        "Tsunoda": [
+            17
+        ],
+        "Perez": [
+            5
+        ],
+        "Sainz": [
+            7
+        ]
+    },
+    "League Sum Driver": {
+        "Verstappen": [
+            28
+        ],
+        "Gasly": [
+            20
+        ],
+        "Bottas": [
+            23
+        ],
+        "Albon": [
+            33
+        ],
+        "Ricciardo": [
+            31
+        ],
+        "Norris": [
+            14
+        ],
+        "Hamilton": [
+            21
+        ],
+        "Alonso": [
+            19
+        ],
+        "Leclerc": [
+            14
+        ],
+        "Russell": [
+            3
+        ],
+        "Guanyu": [
+            12
+        ],
+        "Piastri": [
+            7
+        ],
+        "Hulkenberg": [
+            16
+        ],
+        "Stroll": [
+            6
+        ],
+        "Sargeant": [
+            11
+        ],
+        "Magnussen": [
+            10
+        ],
+        "Ocon": [
+            8
+        ],
+        "Tsunoda": [
+            17
+        ],
+        "Perez": [
+            5
+        ],
+        "Sainz": [
+            7
+        ]
+    },
+    "Teams Constructor": {
+        "Josh M": {
+            "Petrobras Williams RBS F1": {
+                "Ferrari": [
+                    1
+                ],
+                "Mercedes": [
+                    1
+                ]
+            },
+            "Siemens McLaren West": {
+                "Williams": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            },
+            "Vodafone Ferrari Marlboro": {
+                "McLaren": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            }
+        },
+        "Sebastian M": {
+            "Denso Panasonic Toyota F1": {
+                "Kick Sauber": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            },
+            "JPS Lotus Renault": {
+                "Kick Sauber": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            },
+            "Telefonica Minardi Doimo": {
+                "Ferrari": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            }
+        },
+        "Will R": {
+            "Dinoco Piston Champions": {
+                "Red Bull": [
+                    1
+                ],
+                "Aston Martin": [
+                    1
+                ]
+            },
+            "Push To Pass": {
+                "McLaren": [
+                    1
+                ],
+                "Aston Martin": [
+                    1
+                ]
+            },
+            "The Big One": {
+                "Haas": [
+                    1
+                ],
+                "Kick Sauber": [
+                    1
+                ]
+            }
+        },
+        "Phil M": {
+            "A Little Team": {
+                "Ferrari": [
+                    1
+                ],
+                "Mercedes": [
+                    1
+                ]
+            },
+            "BMW Motorrad": {
+                "Ferrari": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            },
+            "BMW Should Be Here": {
+                "Red Bull": [
+                    1
+                ],
+                "Kick Sauber": [
+                    1
+                ]
+            }
+        },
+        "Jake M": {
+            "A Sauber or Kick or Stake": {
+                "Williams": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            },
+            "An Oscar for breakfast": {
+                "McLaren": [
+                    1
+                ],
+                "Williams": [
+                    1
+                ]
+            },
+            "One Red Bull Car & Gasly": {
+                "Red Bull": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            }
+        },
+        "Adam R": {
+            "Better Luck Next Time Bud": {
+                "Haas": [
+                    1
+                ],
+                "Kick Sauber": [
+                    1
+                ]
+            },
+            "Haas every name ben taken": {
+                "Aston Martin": [
+                    1
+                ],
+                "Williams": [
+                    1
+                ]
+            },
+            "Just win init": {
+                "Mercedes": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            }
+        },
+        "James R": {
+            "Bwoah Moet Shell Racing": {
+                "Red Bull": [
+                    1
+                ],
+                "Williams": [
+                    1
+                ]
+            },
+            "Bwoah OnlyFans VIP Racing": {
+                "Aston Martin": [
+                    1
+                ],
+                "Williams": [
+                    1
+                ]
+            },
+            "Bwoah Rolex Sipsmith Golf": {
+                "Haas": [
+                    1
+                ],
+                "Kick Sauber": [
+                    1
+                ]
+            }
+        },
+        "Stuart S": {
+            "E l'ora del martello": {
+                "RB": [
+                    1
+                ],
+                "Mercedes": [
+                    1
+                ]
+            },
+            "Christian's Hornie": {
+                "Mercedes": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            },
+            "Ferrari Strategists": {
+                "Alpine": [
+                    1
+                ],
+                "Kick Sauber": [
+                    1
+                ]
+            }
+        },
+        "Pierce C": {
+            "Ferrari Champions 2026": {
+                "Haas": [
+                    1
+                ],
+                "McLaren": [
+                    1
+                ]
+            },
+            "Grazzi#44": {
+                "Williams": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            }
+        },
+        "Andrew F": {
+            "Forced to pick Max": {
+                "Mercedes": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            },
+            "I simp for Zak Brown": {
+                "McLaren": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            },
+            "sBinnala Yacht Club": {
+                "Haas": [
+                    1
+                ],
+                "Alpine": [
+                    1
+                ]
+            }
+        },
+        "Stefanus W": {
+            "Gelael": {
+                "Ferrari": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            },
+            "Haryanto": {
+                "Red Bull": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            },
+            "Syahrul": {
+                "Mercedes": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            }
+        },
+        "Madlen P": {
+            "Go Boys Give Us Nothing": {
+                "Mercedes": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            },
+            "Les eclairs": {
+                "Ferrari": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            },
+            "Maxy & The Boys": {
+                "Aston Martin": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            }
+        },
+        "Tom C": {
+            "Hawks at T2": {
+                "Williams": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            },
+            "Mc Sled Dogs": {
+                "McLaren": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            },
+            "Toasted eggs": {
+                "Mercedes": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            }
+        },
+        "Toby P": {
+            "Hesketh 2.1": {
+                "Red Bull": [
+                    1
+                ],
+                "Mercedes": [
+                    1
+                ]
+            }
+        },
+        "Patrick L": {
+            "Johnny UniHaas": {
+                "Ferrari": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            },
+            "Racing No Points": {
+                "Haas": [
+                    1
+                ],
+                "Kick Sauber": [
+                    1
+                ]
+            }
+        },
+        "Cameron M": {
+            "Josh's hairy balls": {
+                "RB": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            },
+            "Matty's snipped balls": {
+                "Red Bull": [
+                    1
+                ],
+                "Williams": [
+                    1
+                ]
+            },
+            "Stuart's snipped balls": {
+                "Ferrari": [
+                    1
+                ],
+                "Williams": [
+                    1
+                ]
+            }
+        },
+        "Joe T": {
+            "kicktwitchyoutubepremium": {
+                "Mercedes": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            }
+        },
+        "Charlie L": {
+            "Lee Carvallo's F1 Challen": {
+                "Haas": [
+                    1
+                ],
+                "Kick Sauber": [
+                    1
+                ]
+            },
+            "No Horners Club": {
+                "Mercedes": [
+                    1
+                ],
+                "Kick Sauber": [
+                    1
+                ]
+            },
+            "Uncle Moe's Family Speedbag": {
+                "Ferrari": [
+                    1
+                ],
+                "Williams": [
+                    1
+                ]
+            }
+        },
+        "Pete J": {
+            "Lightning McCars": {
+                "Red Bull": [
+                    1
+                ],
+                "Haas": [
+                    1
+                ]
+            },
+            "Peugeot Over Ford": {
+                "Ferrari": [
+                    1
+                ],
+                "Kick Sauber": [
+                    1
+                ]
+            },
+            "Squeshed Nintendo Racing": {
+                "Red Bull": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            }
+        },
+        "Tim W": {
+            "Lights out, got punched": {
+                "RB": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            }
+        },
+        "Val M": {
+            "Make A U Turn": {
+                "RB": [
+                    1
+                ],
+                "Red Bull": [
+                    1
+                ]
+            },
+            "Mater's Mates": {
+                "Aston Martin": [
+                    1
+                ],
+                "McLaren": [
+                    1
+                ]
+            },
+            "My Fav'rit Colour Is Blue": {
+                "Kick Sauber": [
+                    1
+                ],
+                "Red Bull": [
+                    1
+                ]
+            }
+        },
+        "Chloe B": {
+            "Ms Fritters Driving Skool": {
+                "McLaren": [
+                    1
+                ],
+                "Aston Martin": [
+                    1
+                ]
+            }
+        },
+        "Matty J": {
+            "O B Latte": {
+                "RB": [
+                    1
+                ],
+                "Aston Martin": [
+                    1
+                ]
+            },
+            "The Lizard Queen": {
+                "Red Bull": [
+                    1
+                ],
+                "McLaren": [
+                    1
+                ]
+            },
+            "Throw Him In JaYaL": {
+                "Williams": [
+                    1
+                ],
+                "Kick Sauber": [
+                    1
+                ]
+            }
+        },
+        "Jo H": {
+            "THE LONG AND WINDING ROAD": {
+                "Ferrari": [
+                    1
+                ],
+                "Mercedes": [
+                    1
+                ]
+            }
+        },
+        "Sam CJ": {
+            "Mirror, Signal, Manoeuvre": {
+                "Ferrari": [
+                    1
+                ],
+                "Williams": [
+                    1
+                ]
+            }
+        }
+    },
+    "Teams Sum Constructor": {
+        "Josh M": {
+            "Petrobras Williams RBS F1": {
+                "Ferrari": [
+                    1
+                ],
+                "Mercedes": [
+                    1
+                ]
+            },
+            "Siemens McLaren West": {
+                "Williams": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            },
+            "Vodafone Ferrari Marlboro": {
+                "McLaren": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            }
+        },
+        "Sebastian M": {
+            "Denso Panasonic Toyota F1": {
+                "Kick Sauber": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            },
+            "JPS Lotus Renault": {
+                "Kick Sauber": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            },
+            "Telefonica Minardi Doimo": {
+                "Ferrari": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            }
+        },
+        "Will R": {
+            "Dinoco Piston Champions": {
+                "Red Bull": [
+                    1
+                ],
+                "Aston Martin": [
+                    1
+                ]
+            },
+            "Push To Pass": {
+                "McLaren": [
+                    1
+                ],
+                "Aston Martin": [
+                    1
+                ]
+            },
+            "The Big One": {
+                "Haas": [
+                    1
+                ],
+                "Kick Sauber": [
+                    1
+                ]
+            }
+        },
+        "Phil M": {
+            "A Little Team": {
+                "Ferrari": [
+                    1
+                ],
+                "Mercedes": [
+                    1
+                ]
+            },
+            "BMW Motorrad": {
+                "Ferrari": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            },
+            "BMW Should Be Here": {
+                "Red Bull": [
+                    1
+                ],
+                "Kick Sauber": [
+                    1
+                ]
+            }
+        },
+        "Jake M": {
+            "A Sauber or Kick or Stake": {
+                "Williams": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            },
+            "An Oscar for breakfast": {
+                "McLaren": [
+                    1
+                ],
+                "Williams": [
+                    1
+                ]
+            },
+            "One Red Bull Car & Gasly": {
+                "Red Bull": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            }
+        },
+        "Adam R": {
+            "Better Luck Next Time Bud": {
+                "Haas": [
+                    1
+                ],
+                "Kick Sauber": [
+                    1
+                ]
+            },
+            "Haas every name ben taken": {
+                "Aston Martin": [
+                    1
+                ],
+                "Williams": [
+                    1
+                ]
+            },
+            "Just win init": {
+                "Mercedes": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            }
+        },
+        "James R": {
+            "Bwoah Moet Shell Racing": {
+                "Red Bull": [
+                    1
+                ],
+                "Williams": [
+                    1
+                ]
+            },
+            "Bwoah OnlyFans VIP Racing": {
+                "Aston Martin": [
+                    1
+                ],
+                "Williams": [
+                    1
+                ]
+            },
+            "Bwoah Rolex Sipsmith Golf": {
+                "Haas": [
+                    1
+                ],
+                "Kick Sauber": [
+                    1
+                ]
+            }
+        },
+        "Stuart S": {
+            "E l'ora del martello": {
+                "RB": [
+                    1
+                ],
+                "Mercedes": [
+                    1
+                ]
+            },
+            "Christian's Hornie": {
+                "Mercedes": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            },
+            "Ferrari Strategists": {
+                "Alpine": [
+                    1
+                ],
+                "Kick Sauber": [
+                    1
+                ]
+            }
+        },
+        "Pierce C": {
+            "Ferrari Champions 2026": {
+                "Haas": [
+                    1
+                ],
+                "McLaren": [
+                    1
+                ]
+            },
+            "Grazzi#44": {
+                "Williams": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            }
+        },
+        "Andrew F": {
+            "Forced to pick Max": {
+                "Mercedes": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            },
+            "I simp for Zak Brown": {
+                "McLaren": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            },
+            "sBinnala Yacht Club": {
+                "Haas": [
+                    1
+                ],
+                "Alpine": [
+                    1
+                ]
+            }
+        },
+        "Stefanus W": {
+            "Gelael": {
+                "Ferrari": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            },
+            "Haryanto": {
+                "Red Bull": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            },
+            "Syahrul": {
+                "Mercedes": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            }
+        },
+        "Madlen P": {
+            "Go Boys Give Us Nothing": {
+                "Mercedes": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            },
+            "Les eclairs": {
+                "Ferrari": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            },
+            "Maxy & The Boys": {
+                "Aston Martin": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            }
+        },
+        "Tom C": {
+            "Hawks at T2": {
+                "Williams": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            },
+            "Mc Sled Dogs": {
+                "McLaren": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            },
+            "Toasted eggs": {
+                "Mercedes": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            }
+        },
+        "Toby P": {
+            "Hesketh 2.1": {
+                "Red Bull": [
+                    1
+                ],
+                "Mercedes": [
+                    1
+                ]
+            }
+        },
+        "Patrick L": {
+            "Johnny UniHaas": {
+                "Ferrari": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            },
+            "Racing No Points": {
+                "Haas": [
+                    1
+                ],
+                "Kick Sauber": [
+                    1
+                ]
+            }
+        },
+        "Cameron M": {
+            "Josh's hairy balls": {
+                "RB": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            },
+            "Matty's snipped balls": {
+                "Red Bull": [
+                    1
+                ],
+                "Williams": [
+                    1
+                ]
+            },
+            "Stuart's snipped balls": {
+                "Ferrari": [
+                    1
+                ],
+                "Williams": [
+                    1
+                ]
+            }
+        },
+        "Joe T": {
+            "kicktwitchyoutubepremium": {
+                "Mercedes": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            }
+        },
+        "Charlie L": {
+            "Lee Carvallo's F1 Challen": {
+                "Haas": [
+                    1
+                ],
+                "Kick Sauber": [
+                    1
+                ]
+            },
+            "No Horners Club": {
+                "Mercedes": [
+                    1
+                ],
+                "Kick Sauber": [
+                    1
+                ]
+            },
+            "Uncle Moe's Family Speedbag": {
+                "Ferrari": [
+                    1
+                ],
+                "Williams": [
+                    1
+                ]
+            }
+        },
+        "Pete J": {
+            "Lightning McCars": {
+                "Red Bull": [
+                    1
+                ],
+                "Haas": [
+                    1
+                ]
+            },
+            "Peugeot Over Ford": {
+                "Ferrari": [
+                    1
+                ],
+                "Kick Sauber": [
+                    1
+                ]
+            },
+            "Squeshed Nintendo Racing": {
+                "Red Bull": [
+                    1
+                ],
+                "RB": [
+                    1
+                ]
+            }
+        },
+        "Tim W": {
+            "Lights out, got punched": {
+                "RB": [
+                    1
+                ],
+                "Ferrari": [
+                    1
+                ]
+            }
+        },
+        "Val M": {
+            "Make A U Turn": {
+                "RB": [
+                    1
+                ],
+                "Red Bull": [
+                    1
+                ]
+            },
+            "Mater's Mates": {
+                "Aston Martin": [
+                    1
+                ],
+                "McLaren": [
+                    1
+                ]
+            },
+            "My Fav'rit Colour Is Blue": {
+                "Kick Sauber": [
+                    1
+                ],
+                "Red Bull": [
+                    1
+                ]
+            }
+        },
+        "Chloe B": {
+            "Ms Fritters Driving Skool": {
+                "McLaren": [
+                    1
+                ],
+                "Aston Martin": [
+                    1
+                ]
+            }
+        },
+        "Matty J": {
+            "O B Latte": {
+                "RB": [
+                    1
+                ],
+                "Aston Martin": [
+                    1
+                ]
+            },
+            "The Lizard Queen": {
+                "Red Bull": [
+                    1
+                ],
+                "McLaren": [
+                    1
+                ]
+            },
+            "Throw Him In JaYaL": {
+                "Williams": [
+                    1
+                ],
+                "Kick Sauber": [
+                    1
+                ]
+            }
+        },
+        "Jo H": {
+            "THE LONG AND WINDING ROAD": {
+                "Ferrari": [
+                    1
+                ],
+                "Mercedes": [
+                    1
+                ]
+            }
+        },
+        "Sam CJ": {
+            "Mirror, Signal, Manoeuvre": {
+                "Ferrari": [
+                    1
+                ],
+                "Williams": [
+                    1
+                ]
+            }
+        }
+    },
+    "Manager Constructor": {
+        "Josh M": {
+            "Ferrari": [
+                2
+            ],
+            "Mercedes": [
+                1
+            ],
+            "Williams": [
+                1
+            ],
+            "McLaren": [
+                1
+            ],
+            "RB": [
+                1
+            ]
+        },
+        "Sebastian M": {
+            "Kick Sauber": [
+                2
+            ],
+            "Ferrari": [
+                3
+            ],
+            "RB": [
+                1
+            ]
+        },
+        "Will R": {
+            "Red Bull": [
+                1
+            ],
+            "Aston Martin": [
+                2
+            ],
+            "McLaren": [
+                1
+            ],
+            "Haas": [
+                1
+            ],
+            "Kick Sauber": [
+                1
+            ]
+        },
+        "Phil M": {
+            "Ferrari": [
+                2
+            ],
+            "Mercedes": [
+                1
+            ],
+            "RB": [
+                1
+            ],
+            "Red Bull": [
+                1
+            ],
+            "Kick Sauber": [
+                1
+            ]
+        },
+        "Jake M": {
+            "Williams": [
+                2
+            ],
+            "RB": [
+                2
+            ],
+            "McLaren": [
+                1
+            ],
+            "Red Bull": [
+                1
+            ]
+        },
+        "Adam R": {
+            "Haas": [
+                1
+            ],
+            "Kick Sauber": [
+                1
+            ],
+            "Aston Martin": [
+                1
+            ],
+            "Williams": [
+                1
+            ],
+            "Mercedes": [
+                1
+            ],
+            "RB": [
+                1
+            ]
+        },
+        "James R": {
+            "Red Bull": [
+                1
+            ],
+            "Williams": [
+                2
+            ],
+            "Aston Martin": [
+                1
+            ],
+            "Haas": [
+                1
+            ],
+            "Kick Sauber": [
+                1
+            ]
+        },
+        "Stuart S": {
+            "RB": [
+                1
+            ],
+            "Mercedes": [
+                2
+            ],
+            "Ferrari": [
+                1
+            ],
+            "Alpine": [
+                1
+            ],
+            "Kick Sauber": [
+                1
+            ]
+        },
+        "Pierce C": {
+            "Haas": [
+                1
+            ],
+            "McLaren": [
+                1
+            ],
+            "Williams": [
+                1
+            ],
+            "Ferrari": [
+                1
+            ]
+        },
+        "Andrew F": {
+            "Mercedes": [
+                1
+            ],
+            "RB": [
+                2
+            ],
+            "McLaren": [
+                1
+            ],
+            "Haas": [
+                1
+            ],
+            "Alpine": [
+                1
+            ]
+        },
+        "Stefanus W": {
+            "Ferrari": [
+                3
+            ],
+            "RB": [
+                1
+            ],
+            "Red Bull": [
+                1
+            ],
+            "Mercedes": [
+                1
+            ]
+        },
+        "Madlen P": {
+            "Mercedes": [
+                1
+            ],
+            "RB": [
+                3
+            ],
+            "Ferrari": [
+                1
+            ],
+            "Aston Martin": [
+                1
+            ]
+        },
+        "Tom C": {
+            "Williams": [
+                1
+            ],
+            "RB": [
+                2
+            ],
+            "McLaren": [
+                1
+            ],
+            "Mercedes": [
+                1
+            ],
+            "Ferrari": [
+                1
+            ]
+        },
+        "Toby P": {
+            "Red Bull": [
+                1
+            ],
+            "Mercedes": [
+                1
+            ]
+        },
+        "Patrick L": {
+            "Ferrari": [
+                1
+            ],
+            "RB": [
+                1
+            ],
+            "Haas": [
+                1
+            ],
+            "Kick Sauber": [
+                1
+            ]
+        },
+        "Cameron M": {
+            "RB": [
+                1
+            ],
+            "Ferrari": [
+                2
+            ],
+            "Red Bull": [
+                1
+            ],
+            "Williams": [
+                2
+            ]
+        },
+        "Joe T": {
+            "Mercedes": [
+                1
+            ],
+            "Ferrari": [
+                1
+            ]
+        },
+        "Charlie L": {
+            "Haas": [
+                1
+            ],
+            "Kick Sauber": [
+                2
+            ],
+            "Mercedes": [
+                1
+            ],
+            "Ferrari": [
+                1
+            ],
+            "Williams": [
+                1
+            ]
+        },
+        "Pete J": {
+            "Red Bull": [
+                2
+            ],
+            "Haas": [
+                1
+            ],
+            "Ferrari": [
+                1
+            ],
+            "Kick Sauber": [
+                1
+            ],
+            "RB": [
+                1
+            ]
+        },
+        "Tim W": {
+            "RB": [
+                1
+            ],
+            "Ferrari": [
+                1
+            ]
+        },
+        "Val M": {
+            "RB": [
+                1
+            ],
+            "Red Bull": [
+                2
+            ],
+            "Aston Martin": [
+                1
+            ],
+            "McLaren": [
+                1
+            ],
+            "Kick Sauber": [
+                1
+            ]
+        },
+        "Chloe B": {
+            "McLaren": [
+                1
+            ],
+            "Aston Martin": [
+                1
+            ]
+        },
+        "Matty J": {
+            "RB": [
+                1
+            ],
+            "Aston Martin": [
+                1
+            ],
+            "Red Bull": [
+                1
+            ],
+            "McLaren": [
+                1
+            ],
+            "Williams": [
+                1
+            ],
+            "Kick Sauber": [
+                1
+            ]
+        },
+        "Jo H": {
+            "Ferrari": [
+                1
+            ],
+            "Mercedes": [
+                1
+            ]
+        },
+        "Sam CJ": {
+            "Ferrari": [
+                1
+            ],
+            "Williams": [
+                1
+            ]
+        }
+    },
+    "Manager Sum Constructor": {
+        "Josh M": {
+            "Ferrari": [
+                2
+            ],
+            "Mercedes": [
+                1
+            ],
+            "Williams": [
+                1
+            ],
+            "McLaren": [
+                1
+            ],
+            "RB": [
+                1
+            ]
+        },
+        "Sebastian M": {
+            "Kick Sauber": [
+                2
+            ],
+            "Ferrari": [
+                3
+            ],
+            "RB": [
+                1
+            ]
+        },
+        "Will R": {
+            "Red Bull": [
+                1
+            ],
+            "Aston Martin": [
+                2
+            ],
+            "McLaren": [
+                1
+            ],
+            "Haas": [
+                1
+            ],
+            "Kick Sauber": [
+                1
+            ]
+        },
+        "Phil M": {
+            "Ferrari": [
+                2
+            ],
+            "Mercedes": [
+                1
+            ],
+            "RB": [
+                1
+            ],
+            "Red Bull": [
+                1
+            ],
+            "Kick Sauber": [
+                1
+            ]
+        },
+        "Jake M": {
+            "Williams": [
+                2
+            ],
+            "RB": [
+                2
+            ],
+            "McLaren": [
+                1
+            ],
+            "Red Bull": [
+                1
+            ]
+        },
+        "Adam R": {
+            "Haas": [
+                1
+            ],
+            "Kick Sauber": [
+                1
+            ],
+            "Aston Martin": [
+                1
+            ],
+            "Williams": [
+                1
+            ],
+            "Mercedes": [
+                1
+            ],
+            "RB": [
+                1
+            ]
+        },
+        "James R": {
+            "Red Bull": [
+                1
+            ],
+            "Williams": [
+                2
+            ],
+            "Aston Martin": [
+                1
+            ],
+            "Haas": [
+                1
+            ],
+            "Kick Sauber": [
+                1
+            ]
+        },
+        "Stuart S": {
+            "RB": [
+                1
+            ],
+            "Mercedes": [
+                2
+            ],
+            "Ferrari": [
+                1
+            ],
+            "Alpine": [
+                1
+            ],
+            "Kick Sauber": [
+                1
+            ]
+        },
+        "Pierce C": {
+            "Haas": [
+                1
+            ],
+            "McLaren": [
+                1
+            ],
+            "Williams": [
+                1
+            ],
+            "Ferrari": [
+                1
+            ]
+        },
+        "Andrew F": {
+            "Mercedes": [
+                1
+            ],
+            "RB": [
+                2
+            ],
+            "McLaren": [
+                1
+            ],
+            "Haas": [
+                1
+            ],
+            "Alpine": [
+                1
+            ]
+        },
+        "Stefanus W": {
+            "Ferrari": [
+                3
+            ],
+            "RB": [
+                1
+            ],
+            "Red Bull": [
+                1
+            ],
+            "Mercedes": [
+                1
+            ]
+        },
+        "Madlen P": {
+            "Mercedes": [
+                1
+            ],
+            "RB": [
+                3
+            ],
+            "Ferrari": [
+                1
+            ],
+            "Aston Martin": [
+                1
+            ]
+        },
+        "Tom C": {
+            "Williams": [
+                1
+            ],
+            "RB": [
+                2
+            ],
+            "McLaren": [
+                1
+            ],
+            "Mercedes": [
+                1
+            ],
+            "Ferrari": [
+                1
+            ]
+        },
+        "Toby P": {
+            "Red Bull": [
+                1
+            ],
+            "Mercedes": [
+                1
+            ]
+        },
+        "Patrick L": {
+            "Ferrari": [
+                1
+            ],
+            "RB": [
+                1
+            ],
+            "Haas": [
+                1
+            ],
+            "Kick Sauber": [
+                1
+            ]
+        },
+        "Cameron M": {
+            "RB": [
+                1
+            ],
+            "Ferrari": [
+                2
+            ],
+            "Red Bull": [
+                1
+            ],
+            "Williams": [
+                2
+            ]
+        },
+        "Joe T": {
+            "Mercedes": [
+                1
+            ],
+            "Ferrari": [
+                1
+            ]
+        },
+        "Charlie L": {
+            "Haas": [
+                1
+            ],
+            "Kick Sauber": [
+                2
+            ],
+            "Mercedes": [
+                1
+            ],
+            "Ferrari": [
+                1
+            ],
+            "Williams": [
+                1
+            ]
+        },
+        "Pete J": {
+            "Red Bull": [
+                2
+            ],
+            "Haas": [
+                1
+            ],
+            "Ferrari": [
+                1
+            ],
+            "Kick Sauber": [
+                1
+            ],
+            "RB": [
+                1
+            ]
+        },
+        "Tim W": {
+            "RB": [
+                1
+            ],
+            "Ferrari": [
+                1
+            ]
+        },
+        "Val M": {
+            "RB": [
+                1
+            ],
+            "Red Bull": [
+                2
+            ],
+            "Aston Martin": [
+                1
+            ],
+            "McLaren": [
+                1
+            ],
+            "Kick Sauber": [
+                1
+            ]
+        },
+        "Chloe B": {
+            "McLaren": [
+                1
+            ],
+            "Aston Martin": [
+                1
+            ]
+        },
+        "Matty J": {
+            "RB": [
+                1
+            ],
+            "Aston Martin": [
+                1
+            ],
+            "Red Bull": [
+                1
+            ],
+            "McLaren": [
+                1
+            ],
+            "Williams": [
+                1
+            ],
+            "Kick Sauber": [
+                1
+            ]
+        },
+        "Jo H": {
+            "Ferrari": [
+                1
+            ],
+            "Mercedes": [
+                1
+            ]
+        },
+        "Sam CJ": {
+            "Ferrari": [
+                1
+            ],
+            "Williams": [
+                1
+            ]
+        }
+    },
+    "League Constructor": {
+        "Ferrari": [
+            23
+        ],
+        "Mercedes": [
+            13
+        ],
+        "Williams": [
+            13
+        ],
+        "McLaren": [
+            9
+        ],
+        "RB": [
+            21
+        ],
+        "Kick Sauber": [
+            13
+        ],
+        "Red Bull": [
+            12
+        ],
+        "Aston Martin": [
+            8
+        ],
+        "Haas": [
+            8
+        ],
+        "Alpine": [
+            2
+        ]
+    },
+    "League Sum Constructor": {
+        "Ferrari": [
+            23
+        ],
+        "Mercedes": [
+            13
+        ],
+        "Williams": [
+            13
+        ],
+        "McLaren": [
+            9
+        ],
+        "RB": [
+            21
+        ],
+        "Kick Sauber": [
+            13
+        ],
+        "Red Bull": [
+            12
+        ],
+        "Aston Martin": [
+            8
+        ],
+        "Haas": [
+            8
+        ],
+        "Alpine": [
+            2
+        ]
+    },
+    "Teams DRS Boost": {
+        "Josh M": {
+            "Petrobras Williams RBS F1": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Siemens McLaren West": {
+                "Hamilton": [
+                    1
+                ]
+            },
+            "Vodafone Ferrari Marlboro": {
+                "Leclerc": [
+                    1
+                ]
+            }
+        },
+        "Sebastian M": {
+            "Denso Panasonic Toyota F1": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "JPS Lotus Renault": {
+                "Hamilton": [
+                    1
+                ]
+            },
+            "Telefonica Minardi Doimo": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Will R": {
+            "Dinoco Piston Champions": {
+                "Alonso": [
+                    1
+                ]
+            },
+            "Push To Pass": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "The Big One": {
+                "Sargeant": [
+                    1
+                ]
+            }
+        },
+        "Phil M": {
+            "A Little Team": {
+                "Hamilton": [
+                    1
+                ]
+            },
+            "BMW Motorrad": {
+                "Perez": [
+                    1
+                ]
+            },
+            "BMW Should Be Here": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Jake M": {
+            "A Sauber or Kick or Stake": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "An Oscar for breakfast": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "One Red Bull Car & Gasly": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Adam R": {
+            "Better Luck Next Time Bud": {
+                "Magnussen": [
+                    1
+                ]
+            },
+            "Haas every name ben taken": {
+                "Leclerc": [
+                    1
+                ]
+            },
+            "Just win init": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "James R": {
+            "Bwoah Moet Shell Racing": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Bwoah OnlyFans VIP Racing": {
+                "Perez": [
+                    1
+                ]
+            },
+            "Bwoah Rolex Sipsmith Golf": {
+                "Magnussen": [
+                    1
+                ]
+            }
+        },
+        "Stuart S": {
+            "E l'ora del martello": {
+                "Hamilton": [
+                    1
+                ]
+            },
+            "Christian's Hornie": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Ferrari Strategists": {
+                "Ocon": [
+                    1
+                ]
+            }
+        },
+        "Pierce C": {
+            "Ferrari Champions 2026": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Grazzi#44": {
+                "Hamilton": [
+                    1
+                ]
+            }
+        },
+        "Andrew F": {
+            "Forced to pick Max": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "I simp for Zak Brown": {
+                "Norris": [
+                    1
+                ]
+            },
+            "sBinnala Yacht Club": {
+                "Sargeant": [
+                    1
+                ]
+            }
+        },
+        "Stefanus W": {
+            "Gelael": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Haryanto": {
+                "Perez": [
+                    1
+                ]
+            },
+            "Syahrul": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Madlen P": {
+            "Go Boys Give Us Nothing": {
+                "Hamilton": [
+                    1
+                ]
+            },
+            "Les eclairs": {
+                "Leclerc": [
+                    1
+                ]
+            },
+            "Maxy & The Boys": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Tom C": {
+            "Hawks at T2": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Mc Sled Dogs": {
+                "Norris": [
+                    1
+                ]
+            },
+            "Toasted eggs": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Toby P": {
+            "Hesketh 2.1": {
+                "Leclerc": [
+                    1
+                ]
+            }
+        },
+        "Patrick L": {
+            "Johnny UniHaas": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Racing No Points": {
+                "Sargeant": [
+                    1
+                ]
+            }
+        },
+        "Cameron M": {
+            "Josh's hairy balls": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Matty's snipped balls": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Stuart's snipped balls": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Joe T": {
+            "kicktwitchyoutubepremium": {
+                "Hamilton": [
+                    1
+                ]
+            }
+        },
+        "Charlie L": {
+            "Lee Carvallo's F1 Challen": {
+                "Sargeant": [
+                    1
+                ]
+            },
+            "No Horners Club": {
+                "Alonso": [
+                    1
+                ]
+            },
+            "Uncle Moe's Family Speedbag": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Pete J": {
+            "Lightning McCars": {
+                "Norris": [
+                    1
+                ]
+            },
+            "Peugeot Over Ford": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Squeshed Nintendo Racing": {
+                "Norris": [
+                    1
+                ]
+            }
+        },
+        "Tim W": {
+            "Lights out, got punched": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Val M": {
+            "Make A U Turn": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Mater's Mates": {
+                "Sainz": [
+                    1
+                ]
+            },
+            "My Fav'rit Colour Is Blue": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Chloe B": {
+            "Ms Fritters Driving Skool": {
+                "Alonso": [
+                    1
+                ]
+            }
+        },
+        "Matty J": {
+            "O B Latte": {
+                "Alonso": [
+                    1
+                ]
+            },
+            "The Lizard Queen": {
+                "Norris": [
+                    1
+                ]
+            },
+            "Throw Him In JaYaL": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Jo H": {
+            "THE LONG AND WINDING ROAD": {
+                "Hamilton": [
+                    1
+                ]
+            }
+        },
+        "Sam CJ": {
+            "Mirror, Signal, Manoeuvre": {
+                "Perez": [
+                    1
+                ]
+            }
+        }
+    },
+    "Teams Sum DRS Boost": {
+        "Josh M": {
+            "Petrobras Williams RBS F1": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Siemens McLaren West": {
+                "Hamilton": [
+                    1
+                ]
+            },
+            "Vodafone Ferrari Marlboro": {
+                "Leclerc": [
+                    1
+                ]
+            }
+        },
+        "Sebastian M": {
+            "Denso Panasonic Toyota F1": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "JPS Lotus Renault": {
+                "Hamilton": [
+                    1
+                ]
+            },
+            "Telefonica Minardi Doimo": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Will R": {
+            "Dinoco Piston Champions": {
+                "Alonso": [
+                    1
+                ]
+            },
+            "Push To Pass": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "The Big One": {
+                "Sargeant": [
+                    1
+                ]
+            }
+        },
+        "Phil M": {
+            "A Little Team": {
+                "Hamilton": [
+                    1
+                ]
+            },
+            "BMW Motorrad": {
+                "Perez": [
+                    1
+                ]
+            },
+            "BMW Should Be Here": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Jake M": {
+            "A Sauber or Kick or Stake": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "An Oscar for breakfast": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "One Red Bull Car & Gasly": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Adam R": {
+            "Better Luck Next Time Bud": {
+                "Magnussen": [
+                    1
+                ]
+            },
+            "Haas every name ben taken": {
+                "Leclerc": [
+                    1
+                ]
+            },
+            "Just win init": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "James R": {
+            "Bwoah Moet Shell Racing": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Bwoah OnlyFans VIP Racing": {
+                "Perez": [
+                    1
+                ]
+            },
+            "Bwoah Rolex Sipsmith Golf": {
+                "Magnussen": [
+                    1
+                ]
+            }
+        },
+        "Stuart S": {
+            "E l'ora del martello": {
+                "Hamilton": [
+                    1
+                ]
+            },
+            "Christian's Hornie": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Ferrari Strategists": {
+                "Ocon": [
+                    1
+                ]
+            }
+        },
+        "Pierce C": {
+            "Ferrari Champions 2026": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Grazzi#44": {
+                "Hamilton": [
+                    1
+                ]
+            }
+        },
+        "Andrew F": {
+            "Forced to pick Max": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "I simp for Zak Brown": {
+                "Norris": [
+                    1
+                ]
+            },
+            "sBinnala Yacht Club": {
+                "Sargeant": [
+                    1
+                ]
+            }
+        },
+        "Stefanus W": {
+            "Gelael": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Haryanto": {
+                "Perez": [
+                    1
+                ]
+            },
+            "Syahrul": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Madlen P": {
+            "Go Boys Give Us Nothing": {
+                "Hamilton": [
+                    1
+                ]
+            },
+            "Les eclairs": {
+                "Leclerc": [
+                    1
+                ]
+            },
+            "Maxy & The Boys": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Tom C": {
+            "Hawks at T2": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Mc Sled Dogs": {
+                "Norris": [
+                    1
+                ]
+            },
+            "Toasted eggs": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Toby P": {
+            "Hesketh 2.1": {
+                "Leclerc": [
+                    1
+                ]
+            }
+        },
+        "Patrick L": {
+            "Johnny UniHaas": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Racing No Points": {
+                "Sargeant": [
+                    1
+                ]
+            }
+        },
+        "Cameron M": {
+            "Josh's hairy balls": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Matty's snipped balls": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Stuart's snipped balls": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Joe T": {
+            "kicktwitchyoutubepremium": {
+                "Hamilton": [
+                    1
+                ]
+            }
+        },
+        "Charlie L": {
+            "Lee Carvallo's F1 Challen": {
+                "Sargeant": [
+                    1
+                ]
+            },
+            "No Horners Club": {
+                "Alonso": [
+                    1
+                ]
+            },
+            "Uncle Moe's Family Speedbag": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Pete J": {
+            "Lightning McCars": {
+                "Norris": [
+                    1
+                ]
+            },
+            "Peugeot Over Ford": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Squeshed Nintendo Racing": {
+                "Norris": [
+                    1
+                ]
+            }
+        },
+        "Tim W": {
+            "Lights out, got punched": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Val M": {
+            "Make A U Turn": {
+                "Verstappen": [
+                    1
+                ]
+            },
+            "Mater's Mates": {
+                "Sainz": [
+                    1
+                ]
+            },
+            "My Fav'rit Colour Is Blue": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Chloe B": {
+            "Ms Fritters Driving Skool": {
+                "Alonso": [
+                    1
+                ]
+            }
+        },
+        "Matty J": {
+            "O B Latte": {
+                "Alonso": [
+                    1
+                ]
+            },
+            "The Lizard Queen": {
+                "Norris": [
+                    1
+                ]
+            },
+            "Throw Him In JaYaL": {
+                "Verstappen": [
+                    1
+                ]
+            }
+        },
+        "Jo H": {
+            "THE LONG AND WINDING ROAD": {
+                "Hamilton": [
+                    1
+                ]
+            }
+        },
+        "Sam CJ": {
+            "Mirror, Signal, Manoeuvre": {
+                "Perez": [
+                    1
+                ]
+            }
+        }
+    },
+    "Manager DRS Boost": {
+        "Josh M": {
+            "Verstappen": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ],
+            "Leclerc": [
+                1
+            ]
+        },
+        "Sebastian M": {
+            "Verstappen": [
+                2
+            ],
+            "Hamilton": [
+                1
+            ]
+        },
+        "Will R": {
+            "Alonso": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ],
+            "Sargeant": [
+                1
+            ]
+        },
+        "Phil M": {
+            "Hamilton": [
+                1
+            ],
+            "Perez": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ]
+        },
+        "Jake M": {
+            "Verstappen": [
+                3
+            ]
+        },
+        "Adam R": {
+            "Magnussen": [
+                1
+            ],
+            "Leclerc": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ]
+        },
+        "James R": {
+            "Verstappen": [
+                1
+            ],
+            "Perez": [
+                1
+            ],
+            "Magnussen": [
+                1
+            ]
+        },
+        "Stuart S": {
+            "Hamilton": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ],
+            "Ocon": [
+                1
+            ]
+        },
+        "Pierce C": {
+            "Verstappen": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ]
+        },
+        "Andrew F": {
+            "Verstappen": [
+                1
+            ],
+            "Norris": [
+                1
+            ],
+            "Sargeant": [
+                1
+            ]
+        },
+        "Stefanus W": {
+            "Verstappen": [
+                2
+            ],
+            "Perez": [
+                1
+            ]
+        },
+        "Madlen P": {
+            "Hamilton": [
+                1
+            ],
+            "Leclerc": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ]
+        },
+        "Tom C": {
+            "Verstappen": [
+                2
+            ],
+            "Norris": [
+                1
+            ]
+        },
+        "Toby P": {
+            "Leclerc": [
+                1
+            ]
+        },
+        "Patrick L": {
+            "Verstappen": [
+                1
+            ],
+            "Sargeant": [
+                1
+            ]
+        },
+        "Cameron M": {
+            "Verstappen": [
+                3
+            ]
+        },
+        "Joe T": {
+            "Hamilton": [
+                1
+            ]
+        },
+        "Charlie L": {
+            "Sargeant": [
+                1
+            ],
+            "Alonso": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ]
+        },
+        "Pete J": {
+            "Norris": [
+                2
+            ],
+            "Verstappen": [
+                1
+            ]
+        },
+        "Tim W": {
+            "Verstappen": [
+                1
+            ]
+        },
+        "Val M": {
+            "Verstappen": [
+                2
+            ],
+            "Sainz": [
+                1
+            ]
+        },
+        "Chloe B": {
+            "Alonso": [
+                1
+            ]
+        },
+        "Matty J": {
+            "Alonso": [
+                1
+            ],
+            "Norris": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ]
+        },
+        "Jo H": {
+            "Hamilton": [
+                1
+            ]
+        },
+        "Sam CJ": {
+            "Perez": [
+                1
+            ]
+        }
+    },
+    "Manager Sum DRS Boost": {
+        "Josh M": {
+            "Verstappen": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ],
+            "Leclerc": [
+                1
+            ]
+        },
+        "Sebastian M": {
+            "Verstappen": [
+                2
+            ],
+            "Hamilton": [
+                1
+            ]
+        },
+        "Will R": {
+            "Alonso": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ],
+            "Sargeant": [
+                1
+            ]
+        },
+        "Phil M": {
+            "Hamilton": [
+                1
+            ],
+            "Perez": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ]
+        },
+        "Jake M": {
+            "Verstappen": [
+                3
+            ]
+        },
+        "Adam R": {
+            "Magnussen": [
+                1
+            ],
+            "Leclerc": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ]
+        },
+        "James R": {
+            "Verstappen": [
+                1
+            ],
+            "Perez": [
+                1
+            ],
+            "Magnussen": [
+                1
+            ]
+        },
+        "Stuart S": {
+            "Hamilton": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ],
+            "Ocon": [
+                1
+            ]
+        },
+        "Pierce C": {
+            "Verstappen": [
+                1
+            ],
+            "Hamilton": [
+                1
+            ]
+        },
+        "Andrew F": {
+            "Verstappen": [
+                1
+            ],
+            "Norris": [
+                1
+            ],
+            "Sargeant": [
+                1
+            ]
+        },
+        "Stefanus W": {
+            "Verstappen": [
+                2
+            ],
+            "Perez": [
+                1
+            ]
+        },
+        "Madlen P": {
+            "Hamilton": [
+                1
+            ],
+            "Leclerc": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ]
+        },
+        "Tom C": {
+            "Verstappen": [
+                2
+            ],
+            "Norris": [
+                1
+            ]
+        },
+        "Toby P": {
+            "Leclerc": [
+                1
+            ]
+        },
+        "Patrick L": {
+            "Verstappen": [
+                1
+            ],
+            "Sargeant": [
+                1
+            ]
+        },
+        "Cameron M": {
+            "Verstappen": [
+                3
+            ]
+        },
+        "Joe T": {
+            "Hamilton": [
+                1
+            ]
+        },
+        "Charlie L": {
+            "Sargeant": [
+                1
+            ],
+            "Alonso": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ]
+        },
+        "Pete J": {
+            "Norris": [
+                2
+            ],
+            "Verstappen": [
+                1
+            ]
+        },
+        "Tim W": {
+            "Verstappen": [
+                1
+            ]
+        },
+        "Val M": {
+            "Verstappen": [
+                2
+            ],
+            "Sainz": [
+                1
+            ]
+        },
+        "Chloe B": {
+            "Alonso": [
+                1
+            ]
+        },
+        "Matty J": {
+            "Alonso": [
+                1
+            ],
+            "Norris": [
+                1
+            ],
+            "Verstappen": [
+                1
+            ]
+        },
+        "Jo H": {
+            "Hamilton": [
+                1
+            ]
+        },
+        "Sam CJ": {
+            "Perez": [
+                1
+            ]
+        }
+    },
+    "League DRS Boost": {
+        "Verstappen": [
+            28
+        ],
+        "Hamilton": [
+            8
+        ],
+        "Leclerc": [
+            4
+        ],
+        "Alonso": [
+            4
+        ],
+        "Sargeant": [
+            4
+        ],
+        "Perez": [
+            4
+        ],
+        "Magnussen": [
+            2
+        ],
+        "Ocon": [
+            1
+        ],
+        "Norris": [
+            5
+        ],
+        "Sainz": [
+            1
+        ]
+    },
+    "League Sum DRS Boost": {
+        "Verstappen": [
+            28
+        ],
+        "Hamilton": [
+            8
+        ],
+        "Leclerc": [
+            4
+        ],
+        "Alonso": [
+            4
+        ],
+        "Sargeant": [
+            4
+        ],
+        "Perez": [
+            4
+        ],
+        "Magnussen": [
+            2
+        ],
+        "Ocon": [
+            1
+        ],
+        "Norris": [
+            5
+        ],
+        "Sainz": [
+            1
+        ]
+    },
+    "Teams Extra DRS": {
+        "Josh M": {
+            "Petrobras Williams RBS F1": {
+                "None": [
+                    1
+                ]
+            },
+            "Siemens McLaren West": {
+                "None": [
+                    1
+                ]
+            },
+            "Vodafone Ferrari Marlboro": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Sebastian M": {
+            "Denso Panasonic Toyota F1": {
+                "None": [
+                    1
+                ]
+            },
+            "JPS Lotus Renault": {
+                "None": [
+                    1
+                ]
+            },
+            "Telefonica Minardi Doimo": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Will R": {
+            "Dinoco Piston Champions": {
+                "None": [
+                    1
+                ]
+            },
+            "Push To Pass": {
+                "None": [
+                    1
+                ]
+            },
+            "The Big One": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Phil M": {
+            "A Little Team": {
+                "None": [
+                    1
+                ]
+            },
+            "BMW Motorrad": {
+                "None": [
+                    1
+                ]
+            },
+            "BMW Should Be Here": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Jake M": {
+            "A Sauber or Kick or Stake": {
+                "None": [
+                    1
+                ]
+            },
+            "An Oscar for breakfast": {
+                "None": [
+                    1
+                ]
+            },
+            "One Red Bull Car & Gasly": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Adam R": {
+            "Better Luck Next Time Bud": {
+                "None": [
+                    1
+                ]
+            },
+            "Haas every name ben taken": {
+                "None": [
+                    1
+                ]
+            },
+            "Just win init": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "James R": {
+            "Bwoah Moet Shell Racing": {
+                "None": [
+                    1
+                ]
+            },
+            "Bwoah OnlyFans VIP Racing": {
+                "None": [
+                    1
+                ]
+            },
+            "Bwoah Rolex Sipsmith Golf": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Stuart S": {
+            "E l'ora del martello": {
+                "None": [
+                    1
+                ]
+            },
+            "Christian's Hornie": {
+                "None": [
+                    1
+                ]
+            },
+            "Ferrari Strategists": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Pierce C": {
+            "Ferrari Champions 2026": {
+                "None": [
+                    1
+                ]
+            },
+            "Grazzi#44": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Andrew F": {
+            "Forced to pick Max": {
+                "None": [
+                    1
+                ]
+            },
+            "I simp for Zak Brown": {
+                "None": [
+                    1
+                ]
+            },
+            "sBinnala Yacht Club": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Stefanus W": {
+            "Gelael": {
+                "None": [
+                    1
+                ]
+            },
+            "Haryanto": {
+                "None": [
+                    1
+                ]
+            },
+            "Syahrul": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Madlen P": {
+            "Go Boys Give Us Nothing": {
+                "None": [
+                    1
+                ]
+            },
+            "Les eclairs": {
+                "None": [
+                    1
+                ]
+            },
+            "Maxy & The Boys": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Tom C": {
+            "Hawks at T2": {
+                "None": [
+                    1
+                ]
+            },
+            "Mc Sled Dogs": {
+                "None": [
+                    1
+                ]
+            },
+            "Toasted eggs": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Toby P": {
+            "Hesketh 2.1": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Patrick L": {
+            "Johnny UniHaas": {
+                "None": [
+                    1
+                ]
+            },
+            "Racing No Points": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Cameron M": {
+            "Josh's hairy balls": {
+                "None": [
+                    1
+                ]
+            },
+            "Matty's snipped balls": {
+                "None": [
+                    1
+                ]
+            },
+            "Stuart's snipped balls": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Joe T": {
+            "kicktwitchyoutubepremium": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Charlie L": {
+            "Lee Carvallo's F1 Challen": {
+                "None": [
+                    1
+                ]
+            },
+            "No Horners Club": {
+                "None": [
+                    1
+                ]
+            },
+            "Uncle Moe's Family Speedbag": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Pete J": {
+            "Lightning McCars": {
+                "None": [
+                    1
+                ]
+            },
+            "Peugeot Over Ford": {
+                "None": [
+                    1
+                ]
+            },
+            "Squeshed Nintendo Racing": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Tim W": {
+            "Lights out, got punched": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Val M": {
+            "Make A U Turn": {
+                "None": [
+                    1
+                ]
+            },
+            "Mater's Mates": {
+                "None": [
+                    1
+                ]
+            },
+            "My Fav'rit Colour Is Blue": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Chloe B": {
+            "Ms Fritters Driving Skool": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Matty J": {
+            "O B Latte": {
+                "None": [
+                    1
+                ]
+            },
+            "The Lizard Queen": {
+                "None": [
+                    1
+                ]
+            },
+            "Throw Him In JaYaL": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Jo H": {
+            "THE LONG AND WINDING ROAD": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Sam CJ": {
+            "Mirror, Signal, Manoeuvre": {
+                "None": [
+                    1
+                ]
+            }
+        }
+    },
+    "Teams Sum Extra DRS": {
+        "Josh M": {
+            "Petrobras Williams RBS F1": {
+                "None": [
+                    1
+                ]
+            },
+            "Siemens McLaren West": {
+                "None": [
+                    1
+                ]
+            },
+            "Vodafone Ferrari Marlboro": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Sebastian M": {
+            "Denso Panasonic Toyota F1": {
+                "None": [
+                    1
+                ]
+            },
+            "JPS Lotus Renault": {
+                "None": [
+                    1
+                ]
+            },
+            "Telefonica Minardi Doimo": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Will R": {
+            "Dinoco Piston Champions": {
+                "None": [
+                    1
+                ]
+            },
+            "Push To Pass": {
+                "None": [
+                    1
+                ]
+            },
+            "The Big One": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Phil M": {
+            "A Little Team": {
+                "None": [
+                    1
+                ]
+            },
+            "BMW Motorrad": {
+                "None": [
+                    1
+                ]
+            },
+            "BMW Should Be Here": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Jake M": {
+            "A Sauber or Kick or Stake": {
+                "None": [
+                    1
+                ]
+            },
+            "An Oscar for breakfast": {
+                "None": [
+                    1
+                ]
+            },
+            "One Red Bull Car & Gasly": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Adam R": {
+            "Better Luck Next Time Bud": {
+                "None": [
+                    1
+                ]
+            },
+            "Haas every name ben taken": {
+                "None": [
+                    1
+                ]
+            },
+            "Just win init": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "James R": {
+            "Bwoah Moet Shell Racing": {
+                "None": [
+                    1
+                ]
+            },
+            "Bwoah OnlyFans VIP Racing": {
+                "None": [
+                    1
+                ]
+            },
+            "Bwoah Rolex Sipsmith Golf": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Stuart S": {
+            "E l'ora del martello": {
+                "None": [
+                    1
+                ]
+            },
+            "Christian's Hornie": {
+                "None": [
+                    1
+                ]
+            },
+            "Ferrari Strategists": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Pierce C": {
+            "Ferrari Champions 2026": {
+                "None": [
+                    1
+                ]
+            },
+            "Grazzi#44": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Andrew F": {
+            "Forced to pick Max": {
+                "None": [
+                    1
+                ]
+            },
+            "I simp for Zak Brown": {
+                "None": [
+                    1
+                ]
+            },
+            "sBinnala Yacht Club": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Stefanus W": {
+            "Gelael": {
+                "None": [
+                    1
+                ]
+            },
+            "Haryanto": {
+                "None": [
+                    1
+                ]
+            },
+            "Syahrul": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Madlen P": {
+            "Go Boys Give Us Nothing": {
+                "None": [
+                    1
+                ]
+            },
+            "Les eclairs": {
+                "None": [
+                    1
+                ]
+            },
+            "Maxy & The Boys": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Tom C": {
+            "Hawks at T2": {
+                "None": [
+                    1
+                ]
+            },
+            "Mc Sled Dogs": {
+                "None": [
+                    1
+                ]
+            },
+            "Toasted eggs": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Toby P": {
+            "Hesketh 2.1": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Patrick L": {
+            "Johnny UniHaas": {
+                "None": [
+                    1
+                ]
+            },
+            "Racing No Points": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Cameron M": {
+            "Josh's hairy balls": {
+                "None": [
+                    1
+                ]
+            },
+            "Matty's snipped balls": {
+                "None": [
+                    1
+                ]
+            },
+            "Stuart's snipped balls": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Joe T": {
+            "kicktwitchyoutubepremium": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Charlie L": {
+            "Lee Carvallo's F1 Challen": {
+                "None": [
+                    1
+                ]
+            },
+            "No Horners Club": {
+                "None": [
+                    1
+                ]
+            },
+            "Uncle Moe's Family Speedbag": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Pete J": {
+            "Lightning McCars": {
+                "None": [
+                    1
+                ]
+            },
+            "Peugeot Over Ford": {
+                "None": [
+                    1
+                ]
+            },
+            "Squeshed Nintendo Racing": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Tim W": {
+            "Lights out, got punched": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Val M": {
+            "Make A U Turn": {
+                "None": [
+                    1
+                ]
+            },
+            "Mater's Mates": {
+                "None": [
+                    1
+                ]
+            },
+            "My Fav'rit Colour Is Blue": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Chloe B": {
+            "Ms Fritters Driving Skool": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Matty J": {
+            "O B Latte": {
+                "None": [
+                    1
+                ]
+            },
+            "The Lizard Queen": {
+                "None": [
+                    1
+                ]
+            },
+            "Throw Him In JaYaL": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Jo H": {
+            "THE LONG AND WINDING ROAD": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Sam CJ": {
+            "Mirror, Signal, Manoeuvre": {
+                "None": [
+                    1
+                ]
+            }
+        }
+    },
+    "Manager Extra DRS": {
+        "Josh M": {
+            "None": [
+                3
+            ]
+        },
+        "Sebastian M": {
+            "None": [
+                3
+            ]
+        },
+        "Will R": {
+            "None": [
+                3
+            ]
+        },
+        "Phil M": {
+            "None": [
+                3
+            ]
+        },
+        "Jake M": {
+            "None": [
+                3
+            ]
+        },
+        "Adam R": {
+            "None": [
+                3
+            ]
+        },
+        "James R": {
+            "None": [
+                3
+            ]
+        },
+        "Stuart S": {
+            "None": [
+                3
+            ]
+        },
+        "Pierce C": {
+            "None": [
+                2
+            ]
+        },
+        "Andrew F": {
+            "None": [
+                3
+            ]
+        },
+        "Stefanus W": {
+            "None": [
+                3
+            ]
+        },
+        "Madlen P": {
+            "None": [
+                3
+            ]
+        },
+        "Tom C": {
+            "None": [
+                3
+            ]
+        },
+        "Toby P": {
+            "None": [
+                1
+            ]
+        },
+        "Patrick L": {
+            "None": [
+                2
+            ]
+        },
+        "Cameron M": {
+            "None": [
+                3
+            ]
+        },
+        "Joe T": {
+            "None": [
+                1
+            ]
+        },
+        "Charlie L": {
+            "None": [
+                3
+            ]
+        },
+        "Pete J": {
+            "None": [
+                3
+            ]
+        },
+        "Tim W": {
+            "None": [
+                1
+            ]
+        },
+        "Val M": {
+            "None": [
+                3
+            ]
+        },
+        "Chloe B": {
+            "None": [
+                1
+            ]
+        },
+        "Matty J": {
+            "None": [
+                3
+            ]
+        },
+        "Jo H": {
+            "None": [
+                1
+            ]
+        },
+        "Sam CJ": {
+            "None": [
+                1
+            ]
+        }
+    },
+    "Manager Sum Extra DRS": {
+        "Josh M": {
+            "None": [
+                3
+            ]
+        },
+        "Sebastian M": {
+            "None": [
+                3
+            ]
+        },
+        "Will R": {
+            "None": [
+                3
+            ]
+        },
+        "Phil M": {
+            "None": [
+                3
+            ]
+        },
+        "Jake M": {
+            "None": [
+                3
+            ]
+        },
+        "Adam R": {
+            "None": [
+                3
+            ]
+        },
+        "James R": {
+            "None": [
+                3
+            ]
+        },
+        "Stuart S": {
+            "None": [
+                3
+            ]
+        },
+        "Pierce C": {
+            "None": [
+                2
+            ]
+        },
+        "Andrew F": {
+            "None": [
+                3
+            ]
+        },
+        "Stefanus W": {
+            "None": [
+                3
+            ]
+        },
+        "Madlen P": {
+            "None": [
+                3
+            ]
+        },
+        "Tom C": {
+            "None": [
+                3
+            ]
+        },
+        "Toby P": {
+            "None": [
+                1
+            ]
+        },
+        "Patrick L": {
+            "None": [
+                2
+            ]
+        },
+        "Cameron M": {
+            "None": [
+                3
+            ]
+        },
+        "Joe T": {
+            "None": [
+                1
+            ]
+        },
+        "Charlie L": {
+            "None": [
+                3
+            ]
+        },
+        "Pete J": {
+            "None": [
+                3
+            ]
+        },
+        "Tim W": {
+            "None": [
+                1
+            ]
+        },
+        "Val M": {
+            "None": [
+                3
+            ]
+        },
+        "Chloe B": {
+            "None": [
+                1
+            ]
+        },
+        "Matty J": {
+            "None": [
+                3
+            ]
+        },
+        "Jo H": {
+            "None": [
+                1
+            ]
+        },
+        "Sam CJ": {
+            "None": [
+                1
+            ]
+        }
+    },
+    "League Extra DRS": {
+        "None": [
+            61
+        ]
+    },
+    "League Sum Extra DRS": {
+        "None": [
+            61
+        ]
+    },
+    "Teams Perks": {
+        "Josh M": {
+            "Petrobras Williams RBS F1": {
+                "None": [
+                    1
+                ]
+            },
+            "Siemens McLaren West": {
+                "Auto Pilot": [
+                    1
+                ]
+            },
+            "Vodafone Ferrari Marlboro": {
+                "Auto Pilot": [
+                    1
+                ]
+            }
+        },
+        "Sebastian M": {
+            "Denso Panasonic Toyota F1": {
+                "Auto Pilot": [
+                    1
+                ]
+            },
+            "JPS Lotus Renault": {
+                "Auto Pilot": [
+                    1
+                ]
+            },
+            "Telefonica Minardi Doimo": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Will R": {
+            "Dinoco Piston Champions": {
+                "None": [
+                    1
+                ]
+            },
+            "Push To Pass": {
+                "None": [
+                    1
+                ]
+            },
+            "The Big One": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Phil M": {
+            "A Little Team": {
+                "None": [
+                    1
+                ]
+            },
+            "BMW Motorrad": {
+                "Auto Pilot": [
+                    1
+                ]
+            },
+            "BMW Should Be Here": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Jake M": {
+            "A Sauber or Kick or Stake": {
+                "None": [
+                    1
+                ]
+            },
+            "An Oscar for breakfast": {
+                "None": [
+                    1
+                ]
+            },
+            "One Red Bull Car & Gasly": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Adam R": {
+            "Better Luck Next Time Bud": {
+                "None": [
+                    1
+                ]
+            },
+            "Haas every name ben taken": {
+                "None": [
+                    1
+                ]
+            },
+            "Just win init": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "James R": {
+            "Bwoah Moet Shell Racing": {
+                "None": [
+                    1
+                ]
+            },
+            "Bwoah OnlyFans VIP Racing": {
+                "None": [
+                    1
+                ]
+            },
+            "Bwoah Rolex Sipsmith Golf": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Stuart S": {
+            "E l'ora del martello": {
+                "None": [
+                    1
+                ]
+            },
+            "Christian's Hornie": {
+                "None": [
+                    1
+                ]
+            },
+            "Ferrari Strategists": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Pierce C": {
+            "Ferrari Champions 2026": {
+                "None": [
+                    1
+                ]
+            },
+            "Grazzi#44": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Andrew F": {
+            "Forced to pick Max": {
+                "None": [
+                    1
+                ]
+            },
+            "I simp for Zak Brown": {
+                "None": [
+                    1
+                ]
+            },
+            "sBinnala Yacht Club": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Stefanus W": {
+            "Gelael": {
+                "None": [
+                    1
+                ]
+            },
+            "Haryanto": {
+                "None": [
+                    1
+                ]
+            },
+            "Syahrul": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Madlen P": {
+            "Go Boys Give Us Nothing": {
+                "None": [
+                    1
+                ]
+            },
+            "Les eclairs": {
+                "None": [
+                    1
+                ]
+            },
+            "Maxy & The Boys": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Tom C": {
+            "Hawks at T2": {
+                "None": [
+                    1
+                ]
+            },
+            "Mc Sled Dogs": {
+                "None": [
+                    1
+                ]
+            },
+            "Toasted eggs": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Toby P": {
+            "Hesketh 2.1": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Patrick L": {
+            "Johnny UniHaas": {
+                "None": [
+                    1
+                ]
+            },
+            "Racing No Points": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Cameron M": {
+            "Josh's hairy balls": {
+                "None": [
+                    1
+                ]
+            },
+            "Matty's snipped balls": {
+                "None": [
+                    1
+                ]
+            },
+            "Stuart's snipped balls": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Joe T": {
+            "kicktwitchyoutubepremium": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Charlie L": {
+            "Lee Carvallo's F1 Challen": {
+                "None": [
+                    1
+                ]
+            },
+            "No Horners Club": {
+                "None": [
+                    1
+                ]
+            },
+            "Uncle Moe's Family Speedbag": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Pete J": {
+            "Lightning McCars": {
+                "None": [
+                    1
+                ]
+            },
+            "Peugeot Over Ford": {
+                "None": [
+                    1
+                ]
+            },
+            "Squeshed Nintendo Racing": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Tim W": {
+            "Lights out, got punched": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Val M": {
+            "Make A U Turn": {
+                "None": [
+                    1
+                ]
+            },
+            "Mater's Mates": {
+                "None": [
+                    1
+                ]
+            },
+            "My Fav'rit Colour Is Blue": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Chloe B": {
+            "Ms Fritters Driving Skool": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Matty J": {
+            "O B Latte": {
+                "None": [
+                    1
+                ]
+            },
+            "The Lizard Queen": {
+                "None": [
+                    1
+                ]
+            },
+            "Throw Him In JaYaL": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Jo H": {
+            "THE LONG AND WINDING ROAD": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Sam CJ": {
+            "Mirror, Signal, Manoeuvre": {
+                "None": [
+                    1
+                ]
+            }
+        }
+    },
+    "Teams Sum Perks": {
+        "Josh M": {
+            "Petrobras Williams RBS F1": {
+                "None": [
+                    1
+                ]
+            },
+            "Siemens McLaren West": {
+                "Auto Pilot": [
+                    1
+                ]
+            },
+            "Vodafone Ferrari Marlboro": {
+                "Auto Pilot": [
+                    1
+                ]
+            }
+        },
+        "Sebastian M": {
+            "Denso Panasonic Toyota F1": {
+                "Auto Pilot": [
+                    1
+                ]
+            },
+            "JPS Lotus Renault": {
+                "Auto Pilot": [
+                    1
+                ]
+            },
+            "Telefonica Minardi Doimo": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Will R": {
+            "Dinoco Piston Champions": {
+                "None": [
+                    1
+                ]
+            },
+            "Push To Pass": {
+                "None": [
+                    1
+                ]
+            },
+            "The Big One": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Phil M": {
+            "A Little Team": {
+                "None": [
+                    1
+                ]
+            },
+            "BMW Motorrad": {
+                "Auto Pilot": [
+                    1
+                ]
+            },
+            "BMW Should Be Here": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Jake M": {
+            "A Sauber or Kick or Stake": {
+                "None": [
+                    1
+                ]
+            },
+            "An Oscar for breakfast": {
+                "None": [
+                    1
+                ]
+            },
+            "One Red Bull Car & Gasly": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Adam R": {
+            "Better Luck Next Time Bud": {
+                "None": [
+                    1
+                ]
+            },
+            "Haas every name ben taken": {
+                "None": [
+                    1
+                ]
+            },
+            "Just win init": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "James R": {
+            "Bwoah Moet Shell Racing": {
+                "None": [
+                    1
+                ]
+            },
+            "Bwoah OnlyFans VIP Racing": {
+                "None": [
+                    1
+                ]
+            },
+            "Bwoah Rolex Sipsmith Golf": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Stuart S": {
+            "E l'ora del martello": {
+                "None": [
+                    1
+                ]
+            },
+            "Christian's Hornie": {
+                "None": [
+                    1
+                ]
+            },
+            "Ferrari Strategists": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Pierce C": {
+            "Ferrari Champions 2026": {
+                "None": [
+                    1
+                ]
+            },
+            "Grazzi#44": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Andrew F": {
+            "Forced to pick Max": {
+                "None": [
+                    1
+                ]
+            },
+            "I simp for Zak Brown": {
+                "None": [
+                    1
+                ]
+            },
+            "sBinnala Yacht Club": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Stefanus W": {
+            "Gelael": {
+                "None": [
+                    1
+                ]
+            },
+            "Haryanto": {
+                "None": [
+                    1
+                ]
+            },
+            "Syahrul": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Madlen P": {
+            "Go Boys Give Us Nothing": {
+                "None": [
+                    1
+                ]
+            },
+            "Les eclairs": {
+                "None": [
+                    1
+                ]
+            },
+            "Maxy & The Boys": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Tom C": {
+            "Hawks at T2": {
+                "None": [
+                    1
+                ]
+            },
+            "Mc Sled Dogs": {
+                "None": [
+                    1
+                ]
+            },
+            "Toasted eggs": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Toby P": {
+            "Hesketh 2.1": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Patrick L": {
+            "Johnny UniHaas": {
+                "None": [
+                    1
+                ]
+            },
+            "Racing No Points": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Cameron M": {
+            "Josh's hairy balls": {
+                "None": [
+                    1
+                ]
+            },
+            "Matty's snipped balls": {
+                "None": [
+                    1
+                ]
+            },
+            "Stuart's snipped balls": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Joe T": {
+            "kicktwitchyoutubepremium": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Charlie L": {
+            "Lee Carvallo's F1 Challen": {
+                "None": [
+                    1
+                ]
+            },
+            "No Horners Club": {
+                "None": [
+                    1
+                ]
+            },
+            "Uncle Moe's Family Speedbag": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Pete J": {
+            "Lightning McCars": {
+                "None": [
+                    1
+                ]
+            },
+            "Peugeot Over Ford": {
+                "None": [
+                    1
+                ]
+            },
+            "Squeshed Nintendo Racing": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Tim W": {
+            "Lights out, got punched": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Val M": {
+            "Make A U Turn": {
+                "None": [
+                    1
+                ]
+            },
+            "Mater's Mates": {
+                "None": [
+                    1
+                ]
+            },
+            "My Fav'rit Colour Is Blue": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Chloe B": {
+            "Ms Fritters Driving Skool": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Matty J": {
+            "O B Latte": {
+                "None": [
+                    1
+                ]
+            },
+            "The Lizard Queen": {
+                "None": [
+                    1
+                ]
+            },
+            "Throw Him In JaYaL": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Jo H": {
+            "THE LONG AND WINDING ROAD": {
+                "None": [
+                    1
+                ]
+            }
+        },
+        "Sam CJ": {
+            "Mirror, Signal, Manoeuvre": {
+                "None": [
+                    1
+                ]
+            }
+        }
+    },
+    "Manager Perks": {
+        "Josh M": {
+            "None": [
+                1
+            ],
+            "Auto Pilot": [
+                2
+            ]
+        },
+        "Sebastian M": {
+            "Auto Pilot": [
+                2
+            ],
+            "None": [
+                1
+            ]
+        },
+        "Will R": {
+            "None": [
+                3
+            ]
+        },
+        "Phil M": {
+            "None": [
+                2
+            ],
+            "Auto Pilot": [
+                1
+            ]
+        },
+        "Jake M": {
+            "None": [
+                3
+            ]
+        },
+        "Adam R": {
+            "None": [
+                3
+            ]
+        },
+        "James R": {
+            "None": [
+                3
+            ]
+        },
+        "Stuart S": {
+            "None": [
+                3
+            ]
+        },
+        "Pierce C": {
+            "None": [
+                2
+            ]
+        },
+        "Andrew F": {
+            "None": [
+                3
+            ]
+        },
+        "Stefanus W": {
+            "None": [
+                3
+            ]
+        },
+        "Madlen P": {
+            "None": [
+                3
+            ]
+        },
+        "Tom C": {
+            "None": [
+                3
+            ]
+        },
+        "Toby P": {
+            "None": [
+                1
+            ]
+        },
+        "Patrick L": {
+            "None": [
+                2
+            ]
+        },
+        "Cameron M": {
+            "None": [
+                3
+            ]
+        },
+        "Joe T": {
+            "None": [
+                1
+            ]
+        },
+        "Charlie L": {
+            "None": [
+                3
+            ]
+        },
+        "Pete J": {
+            "None": [
+                3
+            ]
+        },
+        "Tim W": {
+            "None": [
+                1
+            ]
+        },
+        "Val M": {
+            "None": [
+                3
+            ]
+        },
+        "Chloe B": {
+            "None": [
+                1
+            ]
+        },
+        "Matty J": {
+            "None": [
+                3
+            ]
+        },
+        "Jo H": {
+            "None": [
+                1
+            ]
+        },
+        "Sam CJ": {
+            "None": [
+                1
+            ]
+        }
+    },
+    "Manager Sum Perks": {
+        "Josh M": {
+            "None": [
+                1
+            ],
+            "Auto Pilot": [
+                2
+            ]
+        },
+        "Sebastian M": {
+            "Auto Pilot": [
+                2
+            ],
+            "None": [
+                1
+            ]
+        },
+        "Will R": {
+            "None": [
+                3
+            ]
+        },
+        "Phil M": {
+            "None": [
+                2
+            ],
+            "Auto Pilot": [
+                1
+            ]
+        },
+        "Jake M": {
+            "None": [
+                3
+            ]
+        },
+        "Adam R": {
+            "None": [
+                3
+            ]
+        },
+        "James R": {
+            "None": [
+                3
+            ]
+        },
+        "Stuart S": {
+            "None": [
+                3
+            ]
+        },
+        "Pierce C": {
+            "None": [
+                2
+            ]
+        },
+        "Andrew F": {
+            "None": [
+                3
+            ]
+        },
+        "Stefanus W": {
+            "None": [
+                3
+            ]
+        },
+        "Madlen P": {
+            "None": [
+                3
+            ]
+        },
+        "Tom C": {
+            "None": [
+                3
+            ]
+        },
+        "Toby P": {
+            "None": [
+                1
+            ]
+        },
+        "Patrick L": {
+            "None": [
+                2
+            ]
+        },
+        "Cameron M": {
+            "None": [
+                3
+            ]
+        },
+        "Joe T": {
+            "None": [
+                1
+            ]
+        },
+        "Charlie L": {
+            "None": [
+                3
+            ]
+        },
+        "Pete J": {
+            "None": [
+                3
+            ]
+        },
+        "Tim W": {
+            "None": [
+                1
+            ]
+        },
+        "Val M": {
+            "None": [
+                3
+            ]
+        },
+        "Chloe B": {
+            "None": [
+                1
+            ]
+        },
+        "Matty J": {
+            "None": [
+                3
+            ]
+        },
+        "Jo H": {
+            "None": [
+                1
+            ]
+        },
+        "Sam CJ": {
+            "None": [
+                1
+            ]
+        }
+    },
+    "League Perks": {
+        "None": [
+            56
+        ],
+        "Auto Pilot": [
+            5
+        ]
+    },
+    "League Sum Perks": {
+        "None": [
+            56
+        ],
+        "Auto Pilot": [
+            5
+        ]
+    }
+}

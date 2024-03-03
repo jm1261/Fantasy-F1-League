@@ -9,7 +9,6 @@
         "Constructor 2": "AlphaTauri",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Saudi Arabia": {
@@ -22,8 +21,10 @@
         "Constructor 2": "AlphaTauri",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": "De Vries",
-        "Perks": "Extra DRS"
+        "Perks": [
+            "Extra DRS",
+            "De Vries"
+        ]
     },
     "Australia": {
         "Driver 1": "De Vries",
@@ -35,7 +36,6 @@
         "Constructor 2": "McLaren",
         "DRS Boost": "Tsunoda",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Azerbaijan": {
@@ -48,7 +48,6 @@
         "Constructor 2": "Alfa Romeo",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Miami": {
@@ -61,7 +60,6 @@
         "Constructor 2": "Alfa Romeo",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Monaco": {
@@ -74,7 +72,6 @@
         "Constructor 2": "Alfa Romeo",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Spain": {
@@ -87,7 +84,6 @@
         "Constructor 2": "Alfa Romeo",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Canada": {
@@ -100,7 +96,6 @@
         "Constructor 2": "AlphaTauri",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Austria": {
@@ -113,7 +108,6 @@
         "Constructor 2": "AlphaTauri",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Great Britain": {
@@ -126,7 +120,6 @@
         "Constructor 2": "AlphaTauri",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Hungary": {
@@ -139,7 +132,6 @@
         "Constructor 2": "AlphaTauri",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Belgium": {
@@ -152,7 +144,6 @@
         "Constructor 2": "AlphaTauri",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Netherlands": {
@@ -165,7 +156,6 @@
         "Constructor 2": "AlphaTauri",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Italy": {
@@ -178,7 +168,6 @@
         "Constructor 2": "AlphaTauri",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Singapore": {
@@ -191,7 +180,6 @@
         "Constructor 2": "AlphaTauri",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Japan": {
@@ -204,7 +192,6 @@
         "Constructor 2": "AlphaTauri",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Qatar": {
@@ -217,7 +204,6 @@
         "Constructor 2": "AlphaTauri",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "United States": {
@@ -230,7 +216,6 @@
         "Constructor 2": "AlphaTauri",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Mexico": {
@@ -243,7 +228,6 @@
         "Constructor 2": "AlphaTauri",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Brazil": {
@@ -256,7 +240,6 @@
         "Constructor 2": "AlphaTauri",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Las Vegas": {
@@ -269,7 +252,6 @@
         "Constructor 2": "AlphaTauri",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Abu Dhabi": {
@@ -282,7 +264,6 @@
         "Constructor 2": "AlphaTauri",
         "DRS Boost": "Sargeant",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     }
 }

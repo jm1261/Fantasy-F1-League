@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 from src.formats import drivers_colours, team_colour
 from src.formats import managers_colour, manager_team_colour, perk_colour
-from matplotlib.ticker import MultipleLocator, AutoMinorLocator
+from matplotlib.ticker import AutoMinorLocator
 
 
 def cm_to_inches(cm: float) -> float:
@@ -45,6 +45,7 @@ def cm_to_inches(cm: float) -> float:
 
 
 def plotting_colour(format_dir : str,
+                    year : str,
                     driver=False,
                     team=False,
                     manager_team=False,
@@ -60,8 +61,8 @@ def plotting_colour(format_dir : str,
 
     Parameters
     ----------
-    format_dir : string
-        Path to formats directory.
+    format_dir, year : string
+        Path to formats directory. Year for colour codes.
     driver, team, manager_team, manager, perk : boolean
         Determines which format is being selected, one must be True.
 
@@ -104,6 +105,11 @@ def plotting_colour(format_dir : str,
     ----------
     Copied and updated documentation.
 
+    02/03/2024
+    ----------
+    Update to manager team colors, now just uses matplotlib colors in order for
+    multiple teams. Added year for colour codes.
+
     """
 
     """ Set Up Colours Dictionary """
@@ -112,8 +118,9 @@ def plotting_colour(format_dir : str,
     """ Driver """
     if driver:
         format_dict = drivers_colours(
-            format_dir=format_dir,
-            driver=driver)
+            format_dir=Path(f'{format_dir}/Lineup_Formats'),
+            driver=driver,
+            year=year)
         colors_dictionary.update({'color': format_dict['color']})
         colors_dictionary.update({'bg_color': format_dict['bg_color']})
         if driver == (format_dict['drivers'])[0]:
@@ -128,8 +135,9 @@ def plotting_colour(format_dir : str,
     """ Team """
     if team:
         format_dict = team_colour(
-            format_dir=format_dir,
-            team=team)
+            format_dir=Path(f'{format_dir}/Lineup_Formats'),
+            team=team,
+            year=year)
         colors_dictionary.update({'color': format_dict['color']})
         colors_dictionary.update({'bg_color': format_dict['bg_color']})
         colors_dictionary.update({'linestyle': '-'})
@@ -137,40 +145,56 @@ def plotting_colour(format_dir : str,
     """ Manager Team """
     if manager_team:
         format_dict = manager_team_colour(
-                format_dir=format_dir,
+                format_dir=Path(f'{format_dir}/Manager_Formats'),
                 team=manager_team)
         colors_dictionary.update({'bg_color': format_dict['bg_color']})
         if manager_team == (format_dict['teams'])[0]:
-            colors_dictionary.update({'color': format_dict['color'][0]})
+            colors_dictionary.update({'color': 'red'})
             colors_dictionary.update({'linestyle': 'solid'})
         elif manager_team == (format_dict['teams'])[1]:
-            colors_dictionary.update({'color': format_dict['color'][1]})
+            colors_dictionary.update({'color': 'yellow'})
             colors_dictionary.update({'linestyle': 'dashed'})
         elif manager_team == (format_dict['teams'])[2]:
-            colors_dictionary.update({'color': format_dict['color'][2]})
+            colors_dictionary.update({'color': 'blue'})
             colors_dictionary.update({'linestyle': 'dashdot'})
         elif manager_team == (format_dict['teams'])[3]:
-            colors_dictionary.update({'color': format_dict['color'][3]})
+            colors_dictionary.update({'color': 'blue'})
             colors_dictionary.update({'linestyle': 'solid'})
         elif manager_team == (format_dict['teams'])[4]:
-            colors_dictionary.update({'color': format_dict['color'][4]})
+            colors_dictionary.update({'color': 'yellow'})
             colors_dictionary.update({'linestyle': 'dashed'})
+        elif manager_team == (format_dict['teams'])[5]:
+            colors_dictionary.update({'color': 'red'})
+            colors_dictionary.update({'linestyle': 'dashdot'})
+        elif manager_team == (format_dict['teams'])[6]:
+            colors_dictionary.update({'color': 'red'})
+            colors_dictionary.update({'linestyle': 'solid'})
+        elif manager_team == (format_dict['teams'])[7]:
+            colors_dictionary.update({'color': 'yellow'})
+            colors_dictionary.update({'linestyle': 'dashed'})
+        elif manager_team == (format_dict['teams'])[8]:
+            colors_dictionary.update({'color': 'blue'})
+            colors_dictionary.update({'linestyle': 'dashdot'})
+        elif manager_team == (format_dict['teams'])[9]:
+            colors_dictionary.update({'color': 'blue'})
+            colors_dictionary.update({'linestyle': 'solid'})
         else:
-            colors_dictionary.update({'color': format_dict['color'][5]})
+            colors_dictionary.update({'color': 'yellow'})
             colors_dictionary.update({'linestyle': 'dashdot'})
 
     """ Manager """
     if manager:
         format_dict = managers_colour(
-                format_dir=format_dir,
+                format_dir=Path(f'{format_dir}/Manager_Formats'),
                 manager=manager)
         colors_dictionary.update({'bg_color': format_dict['bg_color']})
 
     """ Perk """
     if perk:
         format_dict = perk_colour(
-            format_dir=format_dir,
-            perk=perk)
+            format_dir=Path(f'{format_dir}/Lineup_Formats'),
+            perk=perk,
+            year=year)
         colors_dictionary.update({'bg_color': format_dict['bg_color']})
         colors_dictionary.update({'color': format_dict['color']})
     return colors_dictionary
@@ -180,6 +204,7 @@ def league_bars(results_dictionary : dict,
                 race_index : int,
                 race : str,
                 format_dir : str,
+                year : str,
                 out_path : str) -> None:
     """
     Function Details
@@ -194,8 +219,8 @@ def league_bars(results_dictionary : dict,
         Manager results dictionary.
     race_index: int
         Integer of races array for which to plot.
-    race, format_dir, out_path: string
-        Race name, path to format directory, path to save.
+    race, format_dir, year, out_path: string
+        Race name, path to format directory, year for colours, path to save.
     
     See Also
     --------
@@ -220,6 +245,7 @@ def league_bars(results_dictionary : dict,
     02/03/2024
     ----------
     Added rotation to x ticks for line plotting. Added cm_to_inches for size.
+    Added years for colour codes.
 
     """
     categories = ['Points', 'Values']
@@ -247,7 +273,8 @@ def league_bars(results_dictionary : dict,
                     y_values.append(values[race_index])
                     colors = plotting_colour(
                         format_dir=format_dir,
-                        manager_team=team)
+                        manager_team=team,
+                        year=year)
                     bar_colors.append(colors['bg_color'])
                     bar_borders.append(colors['color'])
             zipped_lists = zip(
@@ -280,7 +307,8 @@ def league_bars(results_dictionary : dict,
                         i,
                         str(round(v, 2)),
                         fontweight='bold',
-                        va='center')
+                        va='center',
+                        fontsize=6)
                 elif v == 0:
                     pass
                 else:
@@ -289,30 +317,30 @@ def league_bars(results_dictionary : dict,
                         i,
                         str(round(v, 2)),
                         fontweight='bold',
-                        va='center')
+                        va='center',
+                        fontsize=6)
             ax.set_ylabel(
                 'Team',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.set_xlabel(
                 f'{category} {unit}',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.tick_params(
                 axis='x',
-                labelsize=14,
+                labelsize=6,
                 labelrotation=45)
             ax.tick_params(
                 axis='y',
-                labelsize=14)
+                labelsize=6)
             ax.set_title(
                 f'League Teams {race} {category}',
                 fontsize=14,
                 fontweight='bold',
                 color='black')
-            ax.xaxis.set_major_locator(MultipleLocator(50))
             ax.xaxis.set_minor_locator(AutoMinorLocator())
             ax.set_xlim(min(x) - 30, max(x) + 30)
             fig.tight_layout()
@@ -345,7 +373,8 @@ def league_bars(results_dictionary : dict,
             for manager, values in category_dict.items():
                 colours = plotting_colour(
                     format_dir=format_dir,
-                    manager=manager)
+                    manager=manager,
+                    year=year)
                 x_values.append(manager)
                 y_values.append(values[race_index])
                 bar_colors.append(colours['bg_color'])
@@ -380,7 +409,8 @@ def league_bars(results_dictionary : dict,
                         i,
                         str(round(v, 2)),
                         fontweight='bold',
-                        va='center')
+                        va='center',
+                        fontsize=6)
                 elif v == 0:
                     pass
                 else:
@@ -389,30 +419,30 @@ def league_bars(results_dictionary : dict,
                         i,
                         str(round(v, 2)),
                         fontweight='bold',
-                        va='center')
+                        va='center',
+                        fontsize=6)
             ax.set_ylabel(
                 'Manager',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.set_xlabel(
                 f'{category} {unit}',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.tick_params(
                 axis='x',
-                labelsize=14,
+                labelsize=6,
                 labelrotation=45)
             ax.tick_params(
                 axis='y',
-                labelsize=14)
+                labelsize=6)
             ax.set_title(
                 f'Managers {race} {category}',
                 fontsize=14,
                 fontweight='bold',
                 color='black')
-            ax.xaxis.set_major_locator(MultipleLocator(a))
             ax.xaxis.set_minor_locator(AutoMinorLocator())
             ax.set_xlim(min(x) - 30, max(x) + 30)
             fig.tight_layout()
@@ -429,6 +459,7 @@ def leaguecount(results_dictionary : dict,
                 race : str,
                 races : list,
                 format_dir : str,
+                year : str,
                 out_path : str) -> None:
     """
     Function Details
@@ -445,8 +476,8 @@ def leaguecount(results_dictionary : dict,
         Integer of the races array for which to plot.
     race: list
         List of races.
-    race, format_dir, out_path:
-        Race name, format directory, path to save.
+    race, format_dir, year, out_path:
+        Race name, format directory, year for colours, path to save.
     
     Returns
     -------
@@ -477,6 +508,7 @@ def leaguecount(results_dictionary : dict,
     02/03/2024
     ----------
     Added rotation to x ticks for line plotting. Added cm_to_inches for size.
+    Added year for colour codes.
 
     """
     categories = ['Driver', 'Constructor', 'DRS Boost', 'Extra DRS', 'Perks']
@@ -498,18 +530,20 @@ def leaguecount(results_dictionary : dict,
             bar_colors = []
             bar_borders = []
             for name, count in category_dict.items():
-                if category == 'Drivers':
+                if category == 'Driver':
                     colours = plotting_colour(
                         format_dir=format_dir,
-                        driver=name)
+                        driver=name,
+                        year=year)
                     bar_colors.append(colours['bg_color'])
                     bar_borders.append(colours['color'])
                     x_values.append(name)
                     y_values.append(count[race_index])
-                elif category == 'Constructors':
+                elif category == 'Constructor':
                     colours = plotting_colour(
                         format_dir=format_dir,
-                        team=name)
+                        team=name,
+                        year=year)
                     bar_colors.append(colours['bg_color'])
                     bar_borders.append(colours['color'])
                     x_values.append(name)
@@ -517,18 +551,20 @@ def leaguecount(results_dictionary : dict,
                 elif category == 'DRS Boost':
                     colours = plotting_colour(
                         format_dir=format_dir,
-                        driver=name)
+                        driver=name,
+                        year=year)
                     bar_colors.append(colours['bg_color'])
                     bar_borders.append(colours['color'])
                     x_values.append(name)
                     y_values.append(count[race_index])
                 elif category == 'Extra DRS':
-                    if name == '0':
+                    if name == 'None':
                         pass
                     else:
                         colours = plotting_colour(
                             format_dir=format_dir,
-                            driver=name)
+                            driver=name,
+                            year=year)
                         bar_colors.append(colours['bg_color'])
                         bar_borders.append(colours['color'])
                         x_values.append(name)
@@ -541,11 +577,14 @@ def leaguecount(results_dictionary : dict,
                     else:
                         colours = plotting_colour(
                             format_dir=format_dir,
-                            perk=name)
+                            perk=name,
+                            year=year)
                         bar_colors.append(colours['bg_color'])
                         bar_borders.append(colours['color'])
                         x_values.append(name)
                         y_values.append(count[race_index])
+            if len(x_values) == 0:
+                continue
             zipped_lists = zip(
                 y_values,
                 x_values,
@@ -566,7 +605,8 @@ def leaguecount(results_dictionary : dict,
                         i,
                         str(round(v, 2)),
                         fontweight='bold',
-                        va='center')
+                        va='center',
+                        fontsize=6)
                 elif v == 0:
                     pass
                 else:
@@ -575,30 +615,30 @@ def leaguecount(results_dictionary : dict,
                         i,
                         str(round(v, 2)),
                         fontweight='bold',
-                        va='center')
+                        va='center',
+                        fontsize=6)
             ax.set_ylabel(
                 'Names',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.set_xlabel(
                 f'{category} [#]',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.tick_params(
                 axis='x',
-                labelsize=14,
+                labelsize=6,
                 labelrotation=45)
             ax.tick_params(
                 axis='y',
-                labelsize=14)
+                labelsize=6)
             ax.set_title(
                 f'League {race} {category} Count',
                 fontsize=14,
                 fontweight='bold',
                 color='black')
-            ax.xaxis.set_major_locator(MultipleLocator(20))
             ax.xaxis.set_minor_locator(AutoMinorLocator())
             fig.tight_layout()
             plt.savefig(
@@ -626,20 +666,22 @@ def leaguecount(results_dictionary : dict,
             names = []
             lines = []
             for name, count in category_dict.items():
-                if category == 'Drivers':
+                if category == 'Driver':
                     colours = plotting_colour(
                         format_dir=format_dir,
-                        driver=name)
+                        driver=name,
+                        year=year)
                     colors.append(colours['bg_color'])
                     markers.append(colours['color'])
                     x_values.append(races)
                     y_values.append([count[i] for i in range(len(races))])
                     names.append(name)
                     lines.append(colours['linestyle'])
-                elif category == 'Constructors':
+                elif category == 'Constructor':
                     colours = plotting_colour(
                         format_dir=format_dir,
-                        team=name)
+                        team=name,
+                        year=year)
                     colors.append(colours['bg_color'])
                     markers.append(colours['color'])
                     x_values.append(races)
@@ -649,7 +691,8 @@ def leaguecount(results_dictionary : dict,
                 elif category == 'DRS Boost':
                     colours = plotting_colour(
                         format_dir=format_dir,
-                        driver=name)
+                        driver=name,
+                        year=year)
                     colors.append(colours['bg_color'])
                     markers.append(colours['color'])
                     x_values.append(races)
@@ -657,12 +700,13 @@ def leaguecount(results_dictionary : dict,
                     names.append(name)
                     lines.append(colours['linestyle'])
                 elif category == 'Extra DRS':
-                    if name == '0':
+                    if name == 'None':
                         pass
                     else:
                         colours = plotting_colour(
                             format_dir=format_dir,
-                            driver=name)
+                            driver=name,
+                            year=year)
                         colors.append(colours['bg_color'])
                         markers.append(colours['color'])
                         x_values.append(races)
@@ -677,7 +721,8 @@ def leaguecount(results_dictionary : dict,
                     else:
                         colours = plotting_colour(
                             format_dir=format_dir,
-                            perk=name)
+                            perk=name,
+                            year=year)
                         colors.append(colours['bg_color'])
                         markers.append(colours['color'])
                         x_values.append(races)
@@ -703,36 +748,35 @@ def leaguecount(results_dictionary : dict,
                     linestyle=l[i],
                     c=c[i],
                     mfc=m[i],
-                    markersize=8,
+                    markersize=4,
                     lw=2)
             ax.legend(
                 loc=0,
                 ncol=2,
-                prop={'size': 10})
+                prop={'size': 6})
             ax.grid(True)
             ax.set_xlabel(
                 'Races',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.set_ylabel(
                 f'{category} [#]',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.tick_params(
                 axis='x',
-                labelsize=14,
-                labelrotation=45)
+                labelsize=6,
+                labelrotation=90)
             ax.tick_params(
                 axis='y',
-                labelsize=14)
+                labelsize=6)
             ax.set_title(
                 f'League {race} {category} Sum Counts',
                 fontsize=14,
                 fontweight='bold',
                 color='black')
-            plt.xticks(rotation=90)
             fig.tight_layout()
             plt.savefig(
                 out_file,
@@ -746,6 +790,7 @@ def leagueteam_stat(statistics_dictionary : dict,
                     races : list,
                     race : str,
                     format_dir : str,
+                    year : str,
                     out_path : str) -> None:
     """
     Function Details
@@ -760,8 +805,8 @@ def leagueteam_stat(statistics_dictionary : dict,
         Manager statistics dictionary.
     races: list
         List of races.
-    race, format_dir, out_path: string
-        Race name, format directory, path to save.
+    race, format_dir, year, out_path: string
+        Race name, format directory, year for colours, path to save.
     
     Returns
     -------
@@ -790,6 +835,7 @@ def leagueteam_stat(statistics_dictionary : dict,
     02/03/2024
     ----------
     Added rotation to x ticks for line plotting. Added cm_to_inches for size.
+    Added year for colours.
 
     """
     categories = ['Sum Points', 'Sum Values']
@@ -817,7 +863,8 @@ def leagueteam_stat(statistics_dictionary : dict,
                 y_values.append([values[i] for i in range(len(races))])
                 colours = plotting_colour(
                     format_dir=format_dir,
-                    manager=manager)
+                    manager=manager,
+                    year=year)
                 colors.append(colours['bg_color'])
                 markers.append(colours['bg_color'])
                 names.append(manager)
@@ -840,36 +887,35 @@ def leagueteam_stat(statistics_dictionary : dict,
                     linestyle='solid',
                     c=c[i],
                     mfc=m[i],
-                    markersize=8,
+                    markersize=4,
                     lw=2)
             ax.legend(
                 loc=0,
                 ncol=2,
-                prop={'size': 10})
+                prop={'size': 6})
             ax.grid(True)
             ax.set_xlabel(
                 'Races',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.set_ylabel(
                 f'{category} {unit}',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.tick_params(
                 axis='x',
-                labelsize=14,
-                labelrotation=45)
+                labelsize=6,
+                labelrotation=90)
             ax.tick_params(
                 axis='y',
-                labelsize=14)
+                labelsize=6)
             ax.set_title(
                 f'League Managers {race} {category}',
                 fontsize=14,
                 fontweight='bold',
                 color='black')
-            plt.xticks(rotation=90)
             fig.tight_layout()
             plt.savefig(
                 out_file,
@@ -902,7 +948,8 @@ def leagueteam_stat(statistics_dictionary : dict,
                 y_values.append([values[i] for i in range(len(races))])
                 colours = plotting_colour(
                     format_dir=format_dir,
-                    manager=manager)
+                    manager=manager,
+                    year=year)
                 colors.append(colours['bg_color'])
                 markers.append(colours['bg_color'])
                 names.append(manager)
@@ -925,36 +972,35 @@ def leagueteam_stat(statistics_dictionary : dict,
                     linestyle='solid',
                     c=c[i],
                     mfc=m[i],
-                    markersize=8,
+                    markersize=4,
                     lw=2)
             ax.legend(
                 loc=0,
                 ncol=2,
-                prop={'size': 10})
+                prop={'size': 6})
             ax.grid(True)
             ax.set_xlabel(
                 'Races',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.set_ylabel(
                 f'{category} {unit}',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.tick_params(
                 axis='x',
-                labelsize=14,
-                labelrotation=45)
+                labelsize=6,
+                labelrotation=90)
             ax.tick_params(
                 axis='y',
-                labelsize=14)
+                labelsize=6)
             ax.set_title(
                 f'League Managers {race} {category}',
                 fontsize=14,
                 fontweight='bold',
                 color='black')
-            plt.xticks(rotation=90)
             fig.tight_layout()
             plt.savefig(
                 out_file,
@@ -989,7 +1035,8 @@ def leagueteam_stat(statistics_dictionary : dict,
                     y_values.append([values[i] for i in range(len(races))])
                     colours = plotting_colour(
                         format_dir=format_dir,
-                        manager_team=team)
+                        manager_team=team,
+                        year=year)
                     colors.append(colours['bg_color'])
                     markers.append(colours['color'])
                     names.append(team)
@@ -1023,36 +1070,35 @@ def leagueteam_stat(statistics_dictionary : dict,
                     linestyle=l[i],
                     c=c[i],
                     mfc=m[i],
-                    markersize=8,
+                    markersize=4,
                     lw=2)
             ax.legend(
                 loc=0,
                 ncol=2,
-                prop={'size': 10})
+                prop={'size': 6})
             ax.grid(True)
             ax.set_xlabel(
                 'Races',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.set_ylabel(
                 f'{category} {unit}',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.tick_params(
                 axis='x',
-                labelsize=14,
-                labelrotation=45)
+                labelsize=6,
+                labelrotation=90)
             ax.tick_params(
                 axis='y',
-                labelsize=14)
+                labelsize=6)
             ax.set_title(
                 f'League Teams {race} {category}',
                 fontsize=14,
                 fontweight='bold',
                 color='black')
-            plt.xticks(rotation=90)
             fig.tight_layout()
             plt.savefig(
                 out_file,
@@ -1067,6 +1113,7 @@ def leagueteam_ppvs(statistics_dictionary : dict,
                     races : list,
                     race : str,
                     format_dir : str,
+                    year : str,
                     out_path : str) -> None:
     """
     Function Details
@@ -1083,8 +1130,8 @@ def leagueteam_ppvs(statistics_dictionary : dict,
         Index for the race in races list.
     races: list
         List of races.
-    race, format_dir, out_path: string
-        Race name, format directory, path to save.
+    race, format_dir, year, out_path: string
+        Race name, format directory, year for colours, path to save.
     
     Returns
     -------
@@ -1140,7 +1187,8 @@ def leagueteam_ppvs(statistics_dictionary : dict,
                 y_values.append([values[i] for i in range(len(races))])
                 colours = plotting_colour(
                     format_dir=format_dir,
-                    manager=manager)
+                    manager=manager,
+                    year=year)
                 colors.append(colours['bg_color'])
                 markers.append(colours['bg_color'])
                 names.append(manager)
@@ -1163,36 +1211,35 @@ def leagueteam_ppvs(statistics_dictionary : dict,
                     linestyle='solid',
                     c=c[i],
                     mfc=m[i],
-                    markersize=8,
+                    markersize=4,
                     lw=2)
             ax.legend(
                 loc=0,
                 ncol=2,
-                prop={'size': 10})
+                prop={'size': 6})
             ax.grid(True)
             ax.set_xlabel(
                 'Races',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.set_ylabel(
                 f'{category} {unit}',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.tick_params(
                 axis='x',
-                labelsize=14,
-                labelrotation=45)
+                labelsize=6,
+                labelrotation=90)
             ax.tick_params(
                 axis='y',
-                labelsize=14)
+                labelsize=6)
             ax.set_title(
                 f'League Managers {race} {category}',
                 fontsize=14,
                 fontweight='bold',
                 color='black')
-            plt.xticks(rotation=90)
             fig.tight_layout()
             plt.savefig(
                 out_file,
@@ -1227,7 +1274,8 @@ def leagueteam_ppvs(statistics_dictionary : dict,
                     y_values.append([values[i] for i in range(len(races))])
                     colours = plotting_colour(
                         format_dir=format_dir,
-                        manager_team=team)
+                        manager_team=team,
+                        year=year)
                     colors.append(colours['bg_color'])
                     markers.append(colours['color'])
                     names.append(team)
@@ -1261,36 +1309,35 @@ def leagueteam_ppvs(statistics_dictionary : dict,
                     linestyle=l[i],
                     c=c[i],
                     mfc=m[i],
-                    markersize=8,
+                    markersize=4,
                     lw=2)
             ax.legend(
                 loc=0,
                 ncol=2,
-                prop={'size': 10})
+                prop={'size': 6})
             ax.grid(True)
             ax.set_xlabel(
                 'Races',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.set_ylabel(
                 f'{category} {unit}',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.tick_params(
                 axis='x',
-                labelsize=14,
-                labelrotation=45)
+                labelsize=6,
+                labelrotation=90)
             ax.tick_params(
                 axis='y',
-                labelsize=14)
+                labelsize=6)
             ax.set_title(
                 f'League Teams {race} {category}',
                 fontsize=14,
                 fontweight='bold',
                 color='black')
-            plt.xticks(rotation=90)
             fig.tight_layout()
             plt.savefig(
                 out_file,
@@ -1322,7 +1369,8 @@ def leagueteam_ppvs(statistics_dictionary : dict,
                 y_values.append(values[race_index])
                 colours = plotting_colour(
                     format_dir=format_dir,
-                    manager=manager)
+                    manager=manager,
+                    year=year)
                 colors.append(colours['bg_color'])
                 borders.append(colours['bg_color'])
             zipped_lists = zip(
@@ -1346,7 +1394,8 @@ def leagueteam_ppvs(statistics_dictionary : dict,
                         i,
                         str(round(v, 2)),
                         fontweight='bold',
-                        va='center')
+                        va='center',
+                        fontsize=6)
                 elif v == 0:
                     pass
                 else:
@@ -1355,30 +1404,30 @@ def leagueteam_ppvs(statistics_dictionary : dict,
                         i,
                         str(round(v, 2)),
                         fontweight='bold',
-                        va='center')
+                        va='center',
+                        fontsize=6)
             ax.set_ylabel(
                 'Name',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.set_xlabel(
                 f'{category} {unit}',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.tick_params(
                 axis='x',
-                labelsize=14,
-                labelrotation=45)
+                labelsize=6,
+                labelrotation=90)
             ax.tick_params(
                 axis='y',
-                labelsize=14)
+                labelsize=6)
             ax.set_title(
                 f'League Managers {race} {category}',
                 fontsize=14,
                 fontweight='bold',
                 color='black')
-            plt.xticks(rotation=90)
             fig.tight_layout()
             plt.savefig(
                 out_file,
@@ -1411,7 +1460,8 @@ def leagueteam_ppvs(statistics_dictionary : dict,
                     y_values.append(values[race_index])
                     colours = plotting_colour(
                         format_dir=format_dir,
-                        manager_team=team)
+                        manager_team=team,
+                        year=year)
                     colors.append(colours['bg_color'])
                     borders.append(colours['color'])
             zipped_lists = zip(
@@ -1446,7 +1496,8 @@ def leagueteam_ppvs(statistics_dictionary : dict,
                         i,
                         str(round(v, 2)),
                         fontweight='bold',
-                        va='center')
+                        va='center',
+                        fontsize=6)
                 elif v == 0:
                     pass
                 else:
@@ -1455,24 +1506,25 @@ def leagueteam_ppvs(statistics_dictionary : dict,
                         i,
                         str(round(v, 2)),
                         fontweight='bold',
-                        va='center')
+                        va='center',
+                        fontsize=6)
             ax.set_ylabel(
                 'Names',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.set_xlabel(
                 f'{category} {unit}',
-                fontsize=15,
+                fontsize=10,
                 fontweight='bold',
                 color='black')
             ax.tick_params(
                 axis='x',
-                labelsize=14,
+                labelsize=6,
                 labelrotation=45)
             ax.tick_params(
                 axis='y',
-                labelsize=14)
+                labelsize=6)
             ax.set_title(
                 f'League Teams {race} {category}',
                 fontsize=14,
@@ -1491,6 +1543,7 @@ def results_bar(results_dictionary : dict,
                 race_index : int,
                 race : str,
                 format_dir : str,
+                year : str,
                 out_path : str) -> None:
     """
     Function Details
@@ -1507,8 +1560,8 @@ def results_bar(results_dictionary : dict,
         array of the results to plot.
     race_index : int
         Race index as an integer.
-    race, format_dir, out_path : string
-        Race name. Path to format directory. Path to save.
+    race, format_dir, year, out_path : string
+        Race name. Path to format directory. Year for colours. Path to save.
     
     Returns
     -------
@@ -1537,6 +1590,7 @@ def results_bar(results_dictionary : dict,
     02/03/2024
     ----------
     Added rotation to x ticks for line plotting. Added cm_to_inches for size.
+    Added years for colours.
 
     """
     categories = ['Driver', 'Team']
@@ -1564,11 +1618,13 @@ def results_bar(results_dictionary : dict,
                     if category == 'Driver':
                         colors = plotting_colour(
                             format_dir=format_dir,
-                            driver=key)
+                            driver=key,
+                            year=year)
                     if category == 'Team':
                         colors = plotting_colour(
                             format_dir=format_dir,
-                            team=key)
+                            team=key,
+                            year=year)
                     x_values.append(key)
                     if index == 0:
                         y_values.append(values[race_index])
@@ -1600,7 +1656,8 @@ def results_bar(results_dictionary : dict,
                             str(round(v, 2)),
                             color=c[i],
                             fontweight='bold',
-                            va='center')
+                            va='center',
+                            fontsize=6)
                     else:
                         ax.text(
                             v + (v / 50),
@@ -1608,30 +1665,30 @@ def results_bar(results_dictionary : dict,
                             str(round(v, 2)),
                             color=c[i],
                             fontweight='bold',
-                            va='center')
+                            va='center',
+                            fontsize=6)
                 ax.set_xlabel(
                     f'{plot} {units[index]}',
-                    fontsize=15,
+                    fontsize=10,
                     fontweight='bold',
                     color='black')
                 ax.set_ylabel(
                     'Name',
-                    fontsize=15,
+                    fontsize=10,
                     fontweight='bold',
                     color='black')
                 ax.tick_params(
                     axis='x',
-                    labelsize=14,
+                    labelsize=6,
                     labelrotation=45)
                 ax.tick_params(
                     axis='y',
-                    labelsize=14)
+                    labelsize=6)
                 ax.set_title(
                     f'{race} {category} {plot}',
                     fontsize=14,
                     fontweight='bold',
                     color='black')
-                ax.xaxis.set_major_locator(MultipleLocator(10))
                 ax.xaxis.set_minor_locator(AutoMinorLocator())
                 fig.tight_layout()
                 plt.savefig(
@@ -1647,6 +1704,7 @@ def lineupstats(statistics_dictionary : dict,
                 races : list,
                 race : str,
                 format_dir : str,
+                year : str,
                 out_path : str) -> None:
     """
     Function Details
@@ -1663,8 +1721,9 @@ def lineupstats(statistics_dictionary : dict,
         The index of the races list for which the current race is.
     races: list
         List of all season races.
-    Race, format_dir, out_path: string
-        Current race name, path to formats directory, path to save.
+    Race, format_dir, year, out_path: string
+        Current race name, path to formats directory, year for colours, path to
+        save.
     
     Returns
     -------
@@ -1694,6 +1753,7 @@ def lineupstats(statistics_dictionary : dict,
     02/03/2024
     ----------
     Added rotation to x ticks for line plotting. Added cm_to_inches for size.
+    Added years for colours.
 
     """
     categories = ['Driver', 'Team']
@@ -1722,11 +1782,13 @@ def lineupstats(statistics_dictionary : dict,
                     if category == 'Driver':
                         colors = plotting_colour(
                             format_dir=format_dir,
-                            driver=key)
+                            driver=key,
+                            year=year)
                     if category == 'Team':
                         colors = plotting_colour(
                             format_dir=format_dir,
-                            team=key)
+                            team=key,
+                            year=year)
                     x_values.append(key)
                     y_values.append(values[race_index])
                     bar_colors.append(colors['bg_color'])
@@ -1752,7 +1814,8 @@ def lineupstats(statistics_dictionary : dict,
                             str(round(v, 2)),
                             color=c[i],
                             fontweight='bold',
-                            va='center')
+                            va='center',
+                            fontsize=6)
                     else:
                         ax.text(
                             v + (v / 50),
@@ -1760,29 +1823,31 @@ def lineupstats(statistics_dictionary : dict,
                             str(round(v, 2)),
                             color=c[i],
                             fontweight='bold',
-                            va='center')
+                            va='center',
+                            fontsize=6)
                 ax.set_xlabel(
                     f'{plot} {units[index]}',
-                    fontsize=15,
+                    fontsize=10,
                     fontweight='bold',
                     color='black')
                 ax.set_ylabel(
                     'Name',
-                    fontsize=15,
+                    fontsize=10,
                     fontweight='bold',
                     color='black')
                 ax.tick_params(
                     axis='x',
-                    labelsize=14,
+                    labelsize=6,
                     labelrotation=45)
                 ax.tick_params(
                     axis='y',
-                    labelsize=14)
+                    labelsize=6)
                 ax.set_title(
                     f'{race} {category} {plot}',
                     fontsize=14,
                     fontweight='bold',
                     color='black')
+                ax.xaxis.set_minor_locator(AutoMinorLocator())
                 fig.tight_layout()
                 plt.savefig(
                     out_file,
@@ -1814,11 +1879,13 @@ def lineupstats(statistics_dictionary : dict,
                     if category == 'Driver':
                         colors = plotting_colour(
                             format_dir=format_dir,
-                            driver=key)
+                            driver=key,
+                            year=year)
                     if category == 'Team':
                         colors = plotting_colour(
                             format_dir=format_dir,
-                            team=key)
+                            team=key,
+                            year=year)
                     x_values = races
                     y_values = [values[i] for i in range(len(x_values))]
                     ax.plot(
@@ -1829,36 +1896,36 @@ def lineupstats(statistics_dictionary : dict,
                         linestyle=colors['linestyle'],
                         c=colors['bg_color'],
                         mfc=colors['color'],
-                        markersize=8,
+                        markersize=4,
                         lw=2)
                 ax.legend(
                     loc=0,
                     ncol=2,
-                    prop={'size': 10})
+                    prop={'size': 6})
                 ax.grid(True)
                 ax.set_xlabel(
                     'Races',
-                    fontsize=15,
+                    fontsize=10,
                     fontweight='bold',
                     color='black')
                 ax.set_ylabel(
                     f'{plot} {units[index]}',
-                    fontsize=15,
+                    fontsize=10,
                     fontweight='bold',
                     color='black')
                 ax.tick_params(
                     axis='x',
-                    labelsize=14,
-                    labelrotation=45)
+                    labelsize=6,
+                    labelrotation=90)
                 ax.tick_params(
                     axis='y',
-                    labelsize=14)
+                    labelsize=6)
                 ax.set_title(
                     f'{race} {category} {plot}',
                     fontsize=14,
                     fontweight='bold',
                     color='black')
-                plt.xticks(rotation=90)
+                ax.xaxis.set_minor_locator(AutoMinorLocator())
                 fig.tight_layout()
                 plt.savefig(
                     out_file,

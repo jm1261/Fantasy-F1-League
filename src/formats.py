@@ -71,7 +71,8 @@ def generate_manager_colors(new_managers : list,
 
 
 def drivers_formats(format_dir : str,
-                    driver : str) -> dict:
+                    driver : str,
+                    year : str) -> dict:
     """
     Function Details
     ================
@@ -79,8 +80,8 @@ def drivers_formats(format_dir : str,
 
     Parameters
     ----------
-    format_dir, driver: string
-        Path to format directory and driver name.
+    format_dir, driver, year: string
+        Path to format directory and driver name. Yeah for formats.
 
     Returns
     -------
@@ -114,18 +115,21 @@ def drivers_formats(format_dir : str,
         if 'Perks.json' not in file]
     format_dict = {}
     for team_path in team_formats:
-        team_format = load_json(file_path=team_path)
-        if driver in team_format['drivers']:
-            for key, value in team_format.items():
-                if key == 'drivers':
-                    pass
-                else:
-                    format_dict.update({key: value})
+        team_formats = load_json(file_path=team_path)
+        if f'{year}' in team_formats.keys():
+            team_format = team_formats[f'{year}']
+            if driver in team_format['drivers']:
+                for key, value in team_format.items():
+                    if key == 'drivers':
+                        pass
+                    else:
+                        format_dict.update({key: value})
     return format_dict
 
 
 def drivers_colours(format_dir : str,
-                    driver : str) -> dict:
+                    driver : str,
+                    year : str) -> dict:
     """
     Function Details
     ================
@@ -133,8 +137,8 @@ def drivers_colours(format_dir : str,
 
     Parameters
     ----------
-    format_dir, driver: string
-        Path to format directory and driver name.
+    format_dir, driver, year: string
+        Path to format directory and driver name. Year for colour codes.
 
     Returns
     -------
@@ -168,15 +172,18 @@ def drivers_colours(format_dir : str,
         if 'Perks.json' not in file]
     format_dict = {}
     for team_path in team_formats:
-        team_format = load_json(file_path=team_path)
-        if driver in team_format['drivers']:
-            for key, value in team_format.items():
-                format_dict.update({key: value})
+        team_formats = load_json(file_path=team_path)
+        if f'{year}' in team_formats.keys():
+            team_format = team_formats[f'{year}']
+            if driver in team_format['drivers']:
+                for key, value in team_format.items():
+                    format_dict.update({key: value})
     return format_dict
 
 
 def team_format(format_dir : str,
-                team : str) -> dict:
+                team : str,
+                year : str) -> dict:
     """
     Function Details
     ================
@@ -184,8 +191,8 @@ def team_format(format_dir : str,
 
     Parameters
     ----------
-    format_dir, team: string
-        Path to format directory and team name.
+    format_dir, team, year: string
+        Path to format directory and team name. Year for colour code.
 
     Returns
     -------
@@ -220,18 +227,21 @@ def team_format(format_dir : str,
     teams = [os.path.splitext(os.path.basename(path))[0] for path in paths]
     format_dict = {}
     for index, path in enumerate(paths):
-        team_format = load_json(file_path=path)
-        if team == teams[index]:
-            for key, value in team_format.items():
-                if key == 'drivers':
-                    pass
-                else:
-                    format_dict.update({key: value})
+        team_formats = load_json(file_path=path)
+        if f'{year}' in team_formats.keys():
+            team_format = team_formats[f'{year}']
+            if team == teams[index]:
+                for key, value in team_format.items():
+                    if key == 'drivers':
+                        pass
+                    else:
+                        format_dict.update({key: value})
     return format_dict
 
 
 def team_colour(format_dir : str,
-                team : str) -> dict:
+                team : str,
+                year : str) -> dict:
     """
     Function Details
     ================
@@ -275,15 +285,18 @@ def team_colour(format_dir : str,
     teams = [os.path.splitext(os.path.basename(path))[0] for path in paths]
     format_dict = {}
     for index, path in enumerate(paths):
-        team_format = load_json(file_path=path)
-        if team == teams[index]:
-            for key, value in team_format.items():
-                format_dict.update({key: value})
+        team_formats = load_json(file_path=path)
+        if f'{year}' in team_formats.keys():
+            team_format = team_formats[f'{year}']
+            if team == teams[index]:
+                for key, value in team_format.items():
+                    format_dict.update({key: value})
     return format_dict
 
 
 def perk_colour(format_dir : str,
-                perk : str) -> dict:
+                perk : str,
+                year : str) -> dict:
     """
     Function Details
     ================
@@ -291,8 +304,8 @@ def perk_colour(format_dir : str,
 
     Parameters
     ----------
-    format_dir, perk: string
-        Path to format directory and perk name.
+    format_dir, perk, year: string
+        Path to format directory and perk name. Year for colour code.
 
     Returns
     -------
@@ -322,14 +335,16 @@ def perk_colour(format_dir : str,
     """
     path = Path(f'{format_dir}/Perks.json')
     perk_formats = load_json(file_path=path)
-    all_perks = perk_formats['perks']
-    all_colours = perk_formats['bg_color']
-    format_dict = {}
-    for key, value in perk_formats.items():
-        format_dict.update({key: value})
-    for p, c in zip(all_perks, all_colours):
-        if p == perk:
-            format_dict.update({'bg_color': c})
+    if f'{year}' in perk_formats.keys():
+        perk_format = perk_formats[f'{year}']
+        all_perks = perk_format['perks']
+        all_colours = perk_format['bg_color']
+        format_dict = {}
+        for key, value in perk_format.items():
+            format_dict.update({key: value})
+        for p, c in zip(all_perks, all_colours):
+            if p == perk:
+                format_dict.update({'bg_color': c})
     return format_dict
 
 

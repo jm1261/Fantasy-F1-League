@@ -806,11 +806,12 @@ def teams_count(completed_races : list,
                 if position in key
                 or 'Turbo Driver' in key]
         elif position == "Extra DRS":
-            count_names = [
-                team_sheet[key]
-                for key in team_sheet.keys()
-                if position in key
-                or 'Mega Driver' in key]
+            count_names = []
+            perks = team_sheet["Perks"]
+            if perks[0] == 'Extra DRS' or perks[0] == 'Mega Driver':
+                count_names.append(perks[1])
+            else:
+                count_names.append('None')
         elif position == 'Perks':
             count_names = [
                 (team_sheet[f'{position}'])[0]
@@ -1329,6 +1330,11 @@ def lineup_points_per_value(results_dict : dict,
     ----------
     Documentation update.
 
+    03/03/2024
+    ----------
+    Changed points per value to count entered race points and values due to new
+    processing techniques.
+
     """
     categories = ['Driver', 'Team']
     ppv = {}
@@ -1348,12 +1354,8 @@ def lineup_points_per_value(results_dict : dict,
                 if points == 0:
                     ppv_array.append(0)
                 else:
-                    if index == 0:
-                        ppv_array.append(points / values[index])
-                        avg_values.append(values[index])
-                    else:
-                        ppv_array.append(points / values[index - 1])
-                        avg_values.append(values[index - 1])
+                    ppv_array.append(points / values[index])
+                    avg_values.append(values[index])
                 avg_points.append(points)
                 if sum(avg_points) == 0:
                     avg_ppv_array.append(0)

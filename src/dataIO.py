@@ -924,7 +924,8 @@ def update_weeklylineup(year : str,
     results_dict = update_results_dict(
         info_dictionary=info_dictionary,
         results_path=results_path,
-        lineup_path=format_path)
+        lineup_path=Path(f'{format_path}/Lineup_Formats'),
+        year=year)
 
     """ Load New Week and Find Race """
     weekly_lineup_dict = load_json(
@@ -979,7 +980,7 @@ def update_weeklylineup(year : str,
         dictionary=results_dict)
     os.remove(path=Path(f'{data_path}/Lineup_Weekly.json'))
     lineup_dictionary = create_drivers_teams_weekly(
-        lineup_path=format_path,
+        lineup_path=Path(f'{format_path}/Lineup_Formats'),
         year=year)
     save_json_dicts(
         out_path=Path(f'{data_path}/Lineup_Weekly.json'),
@@ -1132,7 +1133,8 @@ def check_races(race : str,
 
 def update_results_dict(info_dictionary: dict,
                         results_path: str,
-                        lineup_path: str) -> dict:
+                        lineup_path: str,
+                        year : str) -> dict:
     """
     Function Details
     ================
@@ -1144,8 +1146,9 @@ def update_results_dict(info_dictionary: dict,
     ----------
     info_dictionary: dictionary
         Information dictionary for the season.
-    results_path, lineup_path : string
+    results_path, lineup_path, year : string
         Paths to info dictionary, results directory, lineup format directory.
+        Year to process.
     
     Returns
     -------
@@ -1194,12 +1197,15 @@ def update_results_dict(info_dictionary: dict,
     paths = [Path(f'{lineup_path}/{file}') for file in files]
 
     """ Append Drivers and Teams """
-    teams = [os.path.splitext(os.path.basename(path))[0] for path in paths]
+    teams = []
     drivers = []
-    for team in teams:
-        file = load_json(file_path=Path(f'{lineup_path}/{team}.json'))
-        driver_names = file['drivers']
-        [drivers.append(driver) for driver in driver_names]
+    for path in paths:
+        file = load_json(file_path=path)
+        if f'{year}' in file.keys():
+            teams.append(os.path.splitext(os.path.basename(path))[0])
+            team_dict = file[f'{year}']
+            driver_names = team_dict['drivers']
+            [drivers.append(driver) for driver in driver_names]
 
     """ Get Completed Races """
     completed_races = get_completed_races(

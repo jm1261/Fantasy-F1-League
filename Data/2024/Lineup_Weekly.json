@@ -3,97 +3,35 @@
         "Points",
         "Value"
     ],
-    "Race": [
-        "Bahrain"
-    ],
-    "Ocon": [
-        7.8
-    ],
-    "Gasly": [
-        7.8
-    ],
-    "Stroll": [
-        10.7
-    ],
-    "Alonso": [
-        15.8
-    ],
-    "Leclerc": [
-        19.1
-    ],
-    "Sainz": [
-        18.5
-    ],
-    "Magnussen": [
-        6.2
-    ],
-    "Hulkenberg": [
-        6.4
-    ],
-    "Bottas": [
-        6.4
-    ],
-    "Guanyu": [
-        6.6
-    ],
-    "Norris": [
-        23.0
-    ],
-    "Piastri": [
-        19.0
-    ],
-    "Hamilton": [
-        19.3
-    ],
-    "Russell": [
-        18.8
-    ],
-    "Tsunoda": [
-        8.0
-    ],
-    "Ricciardo": [
-        9.0
-    ],
-    "Verstappen": [
-        30.0
-    ],
-    "Perez": [
-        20.8
-    ],
-    "Albon": [
-        7.0
-    ],
-    "Sargeant": [
-        5.5
-    ],
-    "Alpine": [
-        6.4
-    ],
-    "Aston Martin": [
-        13.6
-    ],
-    "Ferrari": [
-        19.3
-    ],
-    "Haas": [
-        6.3
-    ],
-    "Kick Sauber": [
-        6.6
-    ],
-    "McLaren": [
-        23.2
-    ],
-    "Mercedes": [
-        20.1
-    ],
-    "RB": [
-        8.5
-    ],
-    "Red Bull": [
-        27.9
-    ],
-    "Williams": [
-        6.3
-    ]
+    "Race": [],
+    "Ocon": [],
+    "Gasly": [],
+    "Stroll": [],
+    "Alonso": [],
+    "Leclerc": [],
+    "Sainz": [],
+    "Magnussen": [],
+    "Hulkenberg": [],
+    "Bottas": [],
+    "Guanyu": [],
+    "Norris": [],
+    "Piastri": [],
+    "Hamilton": [],
+    "Russell": [],
+    "Tsunoda": [],
+    "Ricciardo": [],
+    "Verstappen": [],
+    "Perez": [],
+    "Albon": [],
+    "Sargeant": [],
+    "Alpine": [],
+    "Aston Martin": [],
+    "Ferrari": [],
+    "Haas": [],
+    "Kick Sauber": [],
+    "McLaren": [],
+    "Mercedes": [],
+    "RB": [],
+    "Red Bull": [],
+    "Williams": []
 }

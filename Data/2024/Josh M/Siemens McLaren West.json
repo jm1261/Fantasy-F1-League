@@ -1,0 +1,14 @@
+{
+    "Bahrain": {
+        "Driver 1": "Norris",
+        "Driver 2": "Hamilton",
+        "Driver 3": "Ricciardo",
+        "Driver 4": "Albon",
+        "Driver 5": "Alonso",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Hamilton",
+        "Penalties": 0,
+        "Perks": "Auto Pilot"
+    }
+}
