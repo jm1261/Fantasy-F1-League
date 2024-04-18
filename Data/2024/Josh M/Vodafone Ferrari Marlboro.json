@@ -10,5 +10,47 @@
         "DRS Boost": "Leclerc",
         "Penalties": 0,
         "Perks": "Auto Pilot"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Alonso",
+        "Driver 2": "Russell",
+        "Driver 3": "Sainz",
+        "Driver 4": "Gasly",
+        "Driver 5": "Bottas",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "RB",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": [
+            "Final Fix",
+            "Sainz",
+            0,
+            "Perez",
+            23
+        ]
+    },
+    "Australia": {
+        "Driver 1": "Perez",
+        "Driver 2": "Alonso",
+        "Driver 3": "Russell",
+        "Driver 4": "Gasly",
+        "Driver 5": "Bottas",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Perez",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Japan": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Alonso",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Gasly",
+        "Driver 5": "Bottas",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

@@ -116,8 +116,8 @@ def lineup_week(root : str,
 
 
 if __name__ == '__main__':
-    #year = 2023
-    year = sys.argv[1]
+    year = 2024
+    #year = sys.argv[1]
     root = Path().absolute()
     lineup_week(
         root=root,

@@ -10,5 +10,41 @@
         "DRS Boost": "Perez",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Hamilton",
+        "Driver 2": "Perez",
+        "Driver 3": "Leclerc",
+        "Driver 4": "Tsunoda",
+        "Driver 5": "Albon",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Perez",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Australia": {
+        "Driver 1": "Hamilton",
+        "Driver 2": "Perez",
+        "Driver 3": "Leclerc",
+        "Driver 4": "Tsunoda",
+        "Driver 5": "Albon",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Perez",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Japan": {
+        "Driver 1": "Hamilton",
+        "Driver 2": "Perez",
+        "Driver 3": "Leclerc",
+        "Driver 4": "Tsunoda",
+        "Driver 5": "Albon",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Perez",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

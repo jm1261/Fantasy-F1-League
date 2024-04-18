@@ -10,5 +10,51 @@
         "DRS Boost": "Verstappen",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Tsunoda",
+        "Driver 2": "Albon",
+        "Driver 3": "Perez",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Bottas",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Perez",
+        "Penalties": 0,
+        "Perks": "Wildcard"
+    },
+    "Australia": {
+        "Driver 1": "Tsunoda",
+        "Driver 2": "Albon",
+        "Driver 3": "Perez",
+        "Driver 4": "Guanyu",
+        "Driver 5": "Bottas",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Perez",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Japan": {
+        "Driver 1": "Tsunoda",
+        "Driver 2": "Albon",
+        "Driver 3": "Perez",
+        "Driver 4": "Guanyu",
+        "Driver 5": "Bottas",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Perez",
+        "Penalties": 0,
+        "Perks": [
+            "No Negative",
+            "Guanyu",
+            3,
+            "Albon",
+            0,
+            "Bottas",
+            9,
+            "McLaren",
+            43
+        ]
     }
 }

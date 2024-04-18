@@ -1,0 +1,354 @@
+{
+    "Spot Prizes": {
+        "Spot Prize Names": {
+            "Saudi Arabia": "Obviously Do That Tactically",
+            "Miami": "Social Media Sensation",
+            "Monaco": "The Jewel In The Crown",
+            "Spain": "I Would Save This Engine Guys If I Was You",
+            "Hungary": "Hairpin Time",
+            "Netherlands": "The Flying Dutchman",
+            "Italy": "Who Wants To Be An Italian Disgrace?",
+            "Japan": "Tractors Have Feelings Too",
+            "Las Vegas": "Put It All On Black"
+        },
+        "Spot Prize Max": [
+            "Saudi Arabia",
+            "Miami",
+            "Monaco",
+            "Netherlands",
+            "Las Vegas"
+        ],
+        "Spot Prize Min": [
+            "Spain",
+            "Hungary",
+            "Italy",
+            "Japan"
+        ],
+        "Spot Prize Winners": {
+            "Obviously Do That Tactically": [
+                "Saudi Arabia",
+                "Sam B",
+                "LewisHamiltonian2",
+                314
+            ],
+            "Social Media Sensation": [
+                "Miami",
+                "Val M",
+                "Time Is A One Way Street",
+                342
+            ],
+            "The Jewel In The Crown": [
+                "Monaco",
+                "Val M",
+                "Time Is A One Way Street",
+                244
+            ],
+            "The Flying Dutchman": [
+                "Netherlands",
+                "Jo H",
+                "Paradise lost",
+                413
+            ],
+            "Put It All On Black": [
+                "Las Vegas",
+                "Patrick L",
+                "Johnny UniHaas",
+                321
+            ],
+            "I Would Save This Engine Guys If I Was You": [
+                "Spain",
+                "Joe T",
+                "Formula bathtub",
+                50
+            ],
+            "Hairpin Time": [
+                "Hungary",
+                "Will R",
+                "The Big One (TM)",
+                27
+            ],
+            "Who Wants To Be An Italian Disgrace?": [
+                "Italy",
+                "Charlie L",
+                "Kiss My Haasphalt",
+                -6
+            ],
+            "Tractors Have Feelings Too": [
+                "Japan",
+                "James R",
+                "Bwoah Pringle Rolex Golf",
+                -87
+            ],
+            "Max Ties": [
+                [],
+                [],
+                [],
+                [],
+                []
+            ],
+            "Min Ties": [
+                [],
+                [],
+                [],
+                []
+            ]
+        }
+    },
+    "Achievements": {
+        "Season Prize Names": {
+            "Sprint": "Sprint King",
+            "World": "Champion of the World",
+            "Highest Weekly": "All Baskets, One Egg",
+            "Lowest Weekly": "He Brake Checked Me",
+            "Highest Value": "The Catering Budget",
+            "Manager of the Year": "Mattia Binotto",
+            "Comeback": "Some Fucking Viking Comeback"
+        },
+        "Sprint Races": [
+            "Azerbaijan",
+            "Austria",
+            "Belgium",
+            "Qatar",
+            "United States",
+            "Brazil"
+        ],
+        "World Races": [
+            "Australia",
+            "Canada",
+            "Great Britain",
+            "Singapore",
+            "Mexico"
+        ],
+        "Sprint King": {
+            "Cow de Rouge": 2136,
+            "Johnny UniHaas": 2117,
+            "I Am Stubborn & Impatient": 2113,
+            "Dinoco Piston Champions": 2079,
+            "Team $onic Racing": 2066,
+            "AllonZhou": 2054,
+            "12 Golden Bell": 2027,
+            "Hesketh 2.0": 2024,
+            "I am Mazespin and I am Here (in Russian)": 2016,
+            "Bwoah Racing F1 2023 Plc": 2016,
+            "Make A U Turn": 2012,
+            "Team Lemonade": 2003,
+            "Moe's Family Speedbag": 1991,
+            "Danny Rics Barmy Army": 1985,
+            "Boogity Boogity Boogity": 1982,
+            "My Fav'rit Colour Is Blue": 1974,
+            "Lap Time Deleted": 1946,
+            "Versus": 1925,
+            "Time Is A One Way Street": 1923,
+            "Fuck Daniel Ricciardo": 1923,
+            "Bwoah Racing F1 2023 Ltd": 1915,
+            "BMW Missed Opportunity": 1897,
+            "Hedge Trimmers F1": 1867,
+            "Ford": 1859,
+            "Panasonic Toyota GRMN F1": 1850,
+            "Paradise lost": 1847,
+            "TMJ Racing": 1841,
+            "GP1 Engine, GP1": 1837,
+            "White Cows 98": 1835,
+            "BMW Should Be Here": 1831,
+            "The Shum Bufflers": 1812,
+            "Oracle RedBull Ford-EcoPT": 1809,
+            "Timothee Chalamet": 1786,
+            "LewisHamiltonian": 1774,
+            "Mater's Mates": 1727,
+            "Probably Back of the Grid": 1724,
+            "Stupid Like A Fox Racing": 1698,
+            "LewisHamiltonian3": 1690,
+            "White Cows 99": 1683,
+            "White Cows 97": 1664,
+            "Meme Lords No Longer": 1652,
+            "Etihad Spyker Aldar-AD F1": 1645,
+            "Put Ur Hamrussy In It": 1641,
+            "It's on like donkey kong": 1630,
+            "Becks Jaguar HSBC Racing": 1592,
+            "LewisHamiltonian2": 1591,
+            "Max Likes His Sister": 1524,
+            "Be On Edge Jordan F1 TATA": 1512,
+            "Rhino's Midland F1 Racing": 1471,
+            "Asini rossi": 1470,
+            "I'm In It For The Money": 1454,
+            "Go Boys Give Us Nothing": 1450,
+            "Battle of the MIDfield": 1442,
+            "Part Time Streamers": 1422,
+            "BMW Motorrad": 1397,
+            "Horrocks Horsepower": 1362,
+            "11 White Dogwood": 1336,
+            "Checo Perez MMD": 1300,
+            "The Stopwatch Never Lies": 1247,
+            "I'm Not A Fan Boy": 1238,
+            "2000s Ferrari copy 16": 1237,
+            "Rooteen Inspekshun": 1217,
+            "Mostly My Faves xoxo": 1193,
+            "Just Shut Up And Listen": 1183,
+            "Weyto Slo": 1112,
+            "Nowhere team": 1017,
+            "Mmm.Ham.": 1003,
+            "The Big One (TM)": 320,
+            "Kiss My Haasphalt": 311,
+            "13 Azalea (golf)": 287,
+            "Reigning Golf Champions": 286,
+            "Formula bathtub": 254,
+            "Bwoah Pringle Rolex Golf": 252
+        },
+        "Champion of the World": {
+            "Johnny UniHaas": 1376,
+            "Dinoco Piston Champions": 1342,
+            "Cow de Rouge": 1341,
+            "Team $onic Racing": 1326,
+            "Boogity Boogity Boogity": 1316,
+            "Hesketh 2.0": 1309,
+            "Team Lemonade": 1295,
+            "Bwoah Racing F1 2023 Plc": 1290,
+            "Oracle RedBull Ford-EcoPT": 1289,
+            "Bwoah Racing F1 2023 Ltd": 1284,
+            "BMW Missed Opportunity": 1242,
+            "Paradise lost": 1231,
+            "Rhino's Midland F1 Racing": 1215,
+            "BMW Should Be Here": 1213,
+            "Danny Rics Barmy Army": 1212,
+            "I am Mazespin and I am Here (in Russian)": 1207,
+            "I Am Stubborn & Impatient": 1195,
+            "12 Golden Bell": 1191,
+            "Time Is A One Way Street": 1177,
+            "AllonZhou": 1171,
+            "Moe's Family Speedbag": 1160,
+            "Versus": 1156,
+            "Meme Lords No Longer": 1141,
+            "Panasonic Toyota GRMN F1": 1136,
+            "Put Ur Hamrussy In It": 1119,
+            "Fuck Daniel Ricciardo": 1119,
+            "Ford": 1117,
+            "Hedge Trimmers F1": 1101,
+            "White Cows 98": 1075,
+            "Probably Back of the Grid": 1073,
+            "Timothee Chalamet": 1053,
+            "LewisHamiltonian": 1045,
+            "Max Likes His Sister": 1035,
+            "Lap Time Deleted": 1034,
+            "Be On Edge Jordan F1 TATA": 1028,
+            "LewisHamiltonian2": 1027,
+            "Make A U Turn": 1024,
+            "GP1 Engine, GP1": 1018,
+            "11 White Dogwood": 1002,
+            "TMJ Racing": 1001,
+            "Becks Jaguar HSBC Racing": 995,
+            "The Shum Bufflers": 992,
+            "LewisHamiltonian3": 982,
+            "Etihad Spyker Aldar-AD F1": 981,
+            "White Cows 99": 971,
+            "My Fav'rit Colour Is Blue": 951,
+            "Mostly My Faves xoxo": 949,
+            "Stupid Like A Fox Racing": 948,
+            "It's on like donkey kong": 925,
+            "2000s Ferrari copy 16": 924,
+            "I'm Not A Fan Boy": 921,
+            "White Cows 97": 915,
+            "Horrocks Horsepower": 906,
+            "Mater's Mates": 903,
+            "Battle of the MIDfield": 890,
+            "Rooteen Inspekshun": 884,
+            "Weyto Slo": 873,
+            "BMW Motorrad": 859,
+            "Checo Perez MMD": 787,
+            "I'm In It For The Money": 780,
+            "Part Time Streamers": 777,
+            "Nowhere team": 756,
+            "Asini rossi": 726,
+            "Go Boys Give Us Nothing": 719,
+            "The Stopwatch Never Lies": 694,
+            "Mmm.Ham.": 618,
+            "Just Shut Up And Listen": 580,
+            "13 Azalea (golf)": 251,
+            "Formula bathtub": 242,
+            "Reigning Golf Champions": 238,
+            "The Big One (TM)": 158,
+            "Kiss My Haasphalt": 155,
+            "Bwoah Pringle Rolex Golf": 136
+        },
+        "Highest and Lowest": {
+            "Max Score": [
+                "Qatar",
+                "Val M",
+                "I Am Stubborn & Impatient",
+                534
+            ],
+            "Min Score": [
+                "Azerbaijan",
+                "Andrew F",
+                "Reigning Golf Champions",
+                -97
+            ],
+            "Ties": []
+        },
+        "Highest Value": [
+            "Abu Dhabi",
+            "Pierce C",
+            "Cow de Rouge",
+            138.4
+        ],
+        "Manager of the Year": {
+            "Patrick L": 6609.0,
+            "Toby P": 6465.0,
+            "Tom C": 6380.666666666666,
+            "Pierce C": 5859.999999999999,
+            "Verity N": 5751.0
+        },
+        "Viking Comeback": {
+            "Hesketh 2.0": [
+                377,
+                6465
+            ],
+            "Put Ur Hamrussy In It": [
+                326,
+                5283
+            ],
+            "Stupid Like A Fox Racing": [
+                320,
+                5382
+            ],
+            "GP1 Engine, GP1": [
+                316,
+                5714
+            ],
+            "I am Mazespin and I am Here (in Russian)": [
+                307,
+                6325
+            ]
+        }
+    },
+    "Championship": {
+        "League Prize Names": {
+            "0": "The Grand Prize",
+            "1": "Everybody Has A Target On Their Backs",
+            "2": "Fernando Is Faster Than You",
+            "-1": "Below Par",
+            "-2": "Lewis' Reverse Gear"
+        },
+        "League Winners": {
+            "The Grand Prize": [
+                "Johnny UniHaas",
+                6609
+            ],
+            "Everybody Has A Target On Their Backs": [
+                "Cow de Rouge",
+                6590
+            ],
+            "Fernando Is Faster Than You": [
+                "Team $onic Racing",
+                6563
+            ],
+            "Below Par": [
+                "Bwoah Pringle Rolex Golf",
+                736
+            ],
+            "Lewis' Reverse Gear": [
+                "Kiss My Haasphalt",
+                868
+            ]
+        }
+    }
+}

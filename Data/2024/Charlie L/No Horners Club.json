@@ -10,5 +10,41 @@
         "DRS Boost": "Alonso",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Perez",
+        "Driver 2": "Norris",
+        "Driver 3": "Alonso",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Bottas",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Australia": {
+        "Driver 1": "Perez",
+        "Driver 2": "Norris",
+        "Driver 3": "Alonso",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Bottas",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Japan": {
+        "Driver 1": "Perez",
+        "Driver 2": "Norris",
+        "Driver 3": "Alonso",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Bottas",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

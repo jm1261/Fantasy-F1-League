@@ -10,5 +10,41 @@
         "DRS Boost": "Leclerc",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Hamilton",
+        "Driver 2": "Leclerc",
+        "Driver 3": "Piastri",
+        "Driver 4": "Alonso",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Australia": {
+        "Driver 1": "Hamilton",
+        "Driver 2": "Leclerc",
+        "Driver 3": "Piastri",
+        "Driver 4": "Alonso",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Japan": {
+        "Driver 1": "Hamilton",
+        "Driver 2": "Leclerc",
+        "Driver 3": "Piastri",
+        "Driver 4": "Alonso",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

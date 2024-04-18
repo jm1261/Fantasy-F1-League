@@ -10,5 +10,41 @@
         "DRS Boost": "Sargeant",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Sargeant",
+        "Driver 2": "Tsunoda",
+        "Driver 3": "Magnussen",
+        "Driver 4": "Guanyu",
+        "Driver 5": "Ocon",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Sargeant",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Australia": {
+        "Driver 1": "Sargeant",
+        "Driver 2": "Tsunoda",
+        "Driver 3": "Magnussen",
+        "Driver 4": "Guanyu",
+        "Driver 5": "Ocon",
+        "Constructor 1": "Alpine",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Sargeant",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Japan": {
+        "Driver 1": "Sargeant",
+        "Driver 2": "Tsunoda",
+        "Driver 3": "Magnussen",
+        "Driver 4": "Guanyu",
+        "Driver 5": "Ocon",
+        "Constructor 1": "Alpine",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Sargeant",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

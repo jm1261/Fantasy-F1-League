@@ -1189,6 +1189,18 @@ def update_results_dict(info_dictionary: dict,
     ----------
     Updated documentation and minor function name changes.
 
+    02/03/2024
+    ----------
+    Updated the updating of the results dict to reset the dictionary when it is
+    considering the first race of the completed races. This may need altering
+    once the other races come in because it might be that it needs to append.
+
+    15/03/2024
+    ----------
+    Issue where ((results_dict["Driver Points"])[key])[i] = values[0] was
+    returning a list index out of range issue. Think this is due to the array
+    refreshing with every run of a new race. Have fixed to append.
+
     """
 
     """ Find Config Files """
@@ -1214,20 +1226,32 @@ def update_results_dict(info_dictionary: dict,
 
     """ Update Race Results """
     results_dict = load_json(file_path=Path(f'{results_path}/Results.json'))
-    for index, race in enumerate(completed_races):
+    for i, race in enumerate(completed_races):
         race_results = load_json(
             file_path=Path(f'{results_path}/{race}_Results.json'))
         for key, values in race_results.items():
             if key == 'Name' or key == 'Race':
                 pass
             else:
-                if key in drivers:
-                    ((results_dict["Driver Points"])[key])[index] = values[0]
-                    ((results_dict["Driver Values"])[key])[index] = values[1]
-                if key in teams:
-                    ((results_dict["Team Points"])[key])[index] = values[0]
-                    ((results_dict["Team Values"])[key])[index] = values[1]
-    save_json_dicts(
+                if i == 0:
+                    if key in drivers:
+                        results_dict["Driver Points"].update(
+                            {key : [values[0]]})
+                        results_dict["Driver Values"].update(
+                            {key : [values[1]]})
+                    if key in teams:
+                        results_dict["Team Points"].update(
+                            {key : [values[0]]})
+                        results_dict["Team Values"].update(
+                            {key : [values[1]]})
+                else:
+                    if key in drivers:
+                        ((results_dict["Driver Points"])[key]).append(values[0])
+                        ((results_dict["Driver Values"])[key]).append(values[1])
+                    if key in teams:
+                        ((results_dict["Team Points"])[key]).append(values[0])
+                        ((results_dict["Team Values"])[key]).append(values[1])
+        save_json_dicts(
         out_path=Path(f'{results_path}/Results.json'),
         dictionary=results_dict)
     return results_dict

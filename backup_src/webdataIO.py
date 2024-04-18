@@ -81,10 +81,22 @@ def get_team_dictionary(year):
 
 if __name__ == '__main__':
     year = 2022
-    teams_dictionary = get_team_dictionary(year=f'{year}')
+    #teams_dictionary = get_team_dictionary(year=f'{year}')
     #print(teams_dictionary)
-    address = "https://www.f1fantasytracker.com/standings.html"
-    page = requests.get(address)
-    soup = BeautifulSoup(page.content, "html.parser")
-    table = soup.select('results.data')
-    print(table)
+    address = "https://www.formula1.com/en/results.html/2024/races/1230/saudi-arabia/race-result.html"
+    response = requests.get(address)
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.text, 'html.parser')
+        table = soup.find('table', class_='resultsarchive-table')
+        rows = table.find_all('tr')
+        test_rows = ""
+        for row in rows:
+            test_rows += f'{row}'
+        print(test_rows)
+        for row in rows:
+            #print(row)
+            columns = row.find_all(['th', 'td'])
+            for column in columns:
+                print()
+                #print(column.text.strip(), end='\t')
+            print()
