@@ -5,6 +5,7 @@ from src.formats import drivers_formats, team_format
 
 def line_up_spreadsheet(file_path : str,
                         format_dir : str,
+                        year : str,
                         races : list,
                         results : dict,
                         statistics : dict) -> None:
@@ -18,8 +19,8 @@ def line_up_spreadsheet(file_path : str,
 
     Parameters
     ----------
-    file_path, format_dir : string
-        Path to save spreadsheet and path to formats directory.
+    file_path, format_dir, year : string
+        Path to save spreadsheet and path to formats directory. Year to process.
     races : list
         List of strings containing all races in calendar year.
     results, statistics : dictionary
@@ -93,11 +94,13 @@ def line_up_spreadsheet(file_path : str,
                 if category == 'Driver':
                     format_choice = drivers_formats(
                         format_dir=format_dir,
-                        driver=key).items()
+                        driver=key,
+                        year=year).items()
                 elif category == 'Team':
                     format_choice = team_format(
                         format_dir=format_dir,
-                        team=key).items()
+                        team=key,
+                        year=year).items()
                 cell_format = workbook.add_format(format_choice)
                 category_sheet.write(
                     row_index,
@@ -131,11 +134,13 @@ def line_up_spreadsheet(file_path : str,
                 if category == 'Driver':
                     format_choice = drivers_formats(
                         format_dir=format_dir,
-                        driver=key).items()
+                        driver=key,
+                        year=year).items()
                 elif category == 'Team':
                     format_choice = team_format(
                         format_dir=format_dir,
-                        team=key).items()
+                        team=key,
+                        year=year).items()
                 cell_format = workbook.add_format(format_choice)
                 category_sheet.write(
                     row_index,

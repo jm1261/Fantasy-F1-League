@@ -1,3 +1,4 @@
+import sys
 import src.dataIO as io
 import src.filepaths as fp
 import src.formats as form
@@ -140,8 +141,8 @@ def launches_new_season(root : str,
 
 
 if __name__ == '__main__':
-    year = 2024
     root = Path().absolute()
+    year = sys.argv[1]
     launches_new_season(
         root=root,
         year=f'{year}')

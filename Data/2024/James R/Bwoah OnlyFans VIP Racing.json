@@ -1,0 +1,50 @@
+{
+    "Bahrain": {
+        "Driver 1": "Norris",
+        "Driver 2": "Perez",
+        "Driver 3": "Sainz",
+        "Driver 4": "Ricciardo",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Perez",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Alonso",
+        "Driver 2": "Perez",
+        "Driver 3": "Leclerc",
+        "Driver 4": "Magnussen",
+        "Driver 5": "Stroll",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Alonso",
+        "Penalties": 0,
+        "Perks": "Wildcard"
+    },
+    "Australia": {
+        "Driver 1": "Alonso",
+        "Driver 2": "Perez",
+        "Driver 3": "Leclerc",
+        "Driver 4": "Magnussen",
+        "Driver 5": "Stroll",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Japan": {
+        "Driver 1": "Alonso",
+        "Driver 2": "Perez",
+        "Driver 3": "Leclerc",
+        "Driver 4": "Magnussen",
+        "Driver 5": "Stroll",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
+    }
+}

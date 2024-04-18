@@ -1,0 +1,50 @@
+{
+    "Bahrain": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Sainz",
+        "Driver 3": "Alonso",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Albon",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "RB",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Bearman",
+        "Driver 3": "Alonso",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Stroll",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "RB",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Australia": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Sainz",
+        "Driver 3": "Alonso",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Albon",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "RB",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Japan": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Sainz",
+        "Driver 3": "Alonso",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Magnussen",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "RB",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    }
+}

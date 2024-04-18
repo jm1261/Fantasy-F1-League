@@ -219,6 +219,7 @@ def no_negative(category : str,
                 driver_results : dict,
                 constructor_results : dict,
                 penalties : int,
+                perk: str | list,
                 race_index : int) -> float:
     """
     Function Details
@@ -233,6 +234,8 @@ def no_negative(category : str,
         List of driver names, team names, and DRS/Turbo names for the race week.
     driver_results, constructor_results: dictionary
         Lineup driver and team results dictionaries for points or values.
+    perk: string | list:
+        Perk name for "No Negative", will either be list of string.
     penalties, race_index: int
         Team penalties for the race week, race index for the current race.
 
@@ -265,22 +268,56 @@ def no_negative(category : str,
     ----------
     Created
 
+    15/03/2024
+    ----------
+    No Negative has changed for the 2024 season, now it only includes positive
+    scores for all driver points, i.e., if they score a -2 and a 2, they would
+    normally get 0, now they score 2. This is an issue, but can be treated in
+    the same way as the final fix perk.
+
     """
-    driver_scores = [
-        (driver_results[name])[race_index] for name in driver_names]
-    constructor_scores = [
-        (constructor_results[name])[race_index] for name in constructor_names]
-    double_scores = [
-        (driver_results[name])[race_index] for name in double_names]
-    if category == 'Points':
-        all_points = []
-        [all_points.append(x) for x in driver_scores]
-        [all_points.append(x) for x in constructor_scores]
-        [all_points.append(x) for x in double_scores]
-        positive_points = [x for x in all_points if x > 0]
-        total_scores = sum(positive_points) + penalties
+    if isinstance(perk, str):
+        driver_scores = [
+            (driver_results[name])[race_index] for name in driver_names]
+        constructor_scores = [
+            (constructor_results[name])[race_index] for name in constructor_names]
+        double_scores = [
+            (driver_results[name])[race_index] for name in double_names]
+        if category == 'Points':
+            all_points = []
+            [all_points.append(x) for x in driver_scores]
+            [all_points.append(x) for x in constructor_scores]
+            [all_points.append(x) for x in double_scores]
+            positive_points = [x for x in all_points if x > 0]
+            total_scores = sum(positive_points) + penalties
+        else:
+            total_scores = sum(driver_scores) + sum(constructor_scores)
     else:
-        total_scores = sum(driver_scores) + sum(constructor_scores)
+        no_neg_names = [name for name in perk[1:] if isinstance(name, str)]
+        driver_scores = [
+            (driver_results[name])[race_index]
+            for name in driver_names
+            if name not in no_neg_names]
+        constructor_scores = [
+            (constructor_results[name])[race_index]
+            for name in constructor_names
+            if name not in no_neg_names]
+        double_scores = [
+            (driver_results[name])[race_index]
+            for name in double_names
+            if name not in no_neg_names]
+        [
+            driver_scores.append(score)
+            for score in perk[1:]
+            if isinstance(score, int)]
+        if category == 'Points':
+            all_points = []
+            [all_points.append(x) for x in driver_scores]
+            [all_points.append(x) for x in constructor_scores]
+            [all_points.append(x) for x in double_scores]
+            total_scores = sum(all_points) + penalties
+        else:
+            total_scores = sum(driver_scores) + sum(constructor_scores)
     return total_scores
 
 
@@ -337,7 +374,13 @@ def perks_final_fix(category : str,
 
     27/02/2024
     ----------
-    Created
+    Created.
+
+    15/03/2024
+    ----------
+    No updates, just a note that if the replaced driver is a x2, then the driver
+    to replace them should have their score as the individual, not the x2 as the
+    function already applies the x2.
 
     """
     driver_scores = []
@@ -356,6 +399,7 @@ def perks_final_fix(category : str,
                 constructor_scores.append(
                     (constructor_results[name])[race_index])
         for name in double_names:
+            print(double_names)
             if name in replaced_names:
                 [double_scores.append(score) for score in replaced_scores]
             else:
@@ -365,6 +409,7 @@ def perks_final_fix(category : str,
             sum(constructor_scores) +
             sum(double_scores) +
             penalties)
+        print(total_scores)
     else:
         driver_scores = [
             (driver_results[name])[race_index] for name in driver_names]
@@ -484,6 +529,7 @@ def managers_lineup(lineup_results : dict,
                             driver_results=driver_results,
                             constructor_results=team_results,
                             penalties=team_sheet['Penalties'],
+                            perk=perks,
                             race_index=index)
                         race_scores.append(scores)
                     elif "Limitless" in perks:
@@ -806,17 +852,19 @@ def teams_count(completed_races : list,
                 if position in key
                 or 'Turbo Driver' in key]
         elif position == "Extra DRS":
-            count_names = [
-                team_sheet[key]
-                for key in team_sheet.keys()
-                if position in key
-                or 'Mega Driver' in key]
+            count_names = []
+            perks = team_sheet["Perks"]
+            if perks[0] == 'Extra DRS' or perks[0] == 'Mega Driver':
+                count_names.append(perks[1])
+            else:
+                count_names.append('None')
         elif position == 'Perks':
             count_names = [
                 (team_sheet[f'{position}'])[0]
                 if 'Extra DRS' in team_sheet[f'{position}']
                 or 'Mega Driver' in team_sheet[f'{position}']
                 or 'Final Fix' in team_sheet[f'{position}']
+                or 'No Negative' in team_sheet[f'{position}']
                 else team_sheet[f'{position}']]
         else:
             count_names = [
@@ -1329,6 +1377,11 @@ def lineup_points_per_value(results_dict : dict,
     ----------
     Documentation update.
 
+    03/03/2024
+    ----------
+    Changed points per value to count entered race points and values due to new
+    processing techniques.
+
     """
     categories = ['Driver', 'Team']
     ppv = {}
@@ -1348,12 +1401,8 @@ def lineup_points_per_value(results_dict : dict,
                 if points == 0:
                     ppv_array.append(0)
                 else:
-                    if index == 0:
-                        ppv_array.append(points / values[index])
-                        avg_values.append(values[index])
-                    else:
-                        ppv_array.append(points / values[index - 1])
-                        avg_values.append(values[index - 1])
+                    ppv_array.append(points / values[index])
+                    avg_values.append(values[index])
                 avg_points.append(points)
                 if sum(avg_points) == 0:
                     avg_ppv_array.append(0)
@@ -1364,3 +1413,66 @@ def lineup_points_per_value(results_dict : dict,
         ppv.update({f'{category} Points Per Value': category_ppv})
         ppv.update({f'{category} Average Points Per Value': category_avg_ppv})
     return ppv
+
+
+def sum_dictionary(dictionary : dict) -> dict:
+    """
+    Function Details
+    ================
+    Calculate the sum of dictionary values sequentially.
+
+    Parameters
+    ----------
+    dictionary: dict
+        Dictionary containing values in a list that need to be sequentially
+        added. Also contains average points and original points.
+
+    Returns
+    -------
+    final_dict: dictionary
+        Dictionary containing the summed values.
+
+    See Also
+    --------
+    None.
+
+    Notes
+    -----
+    None.
+
+    Example
+    -------
+    None.
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    18/04/2024
+    ----------
+    Created.
+
+    """
+    sum_dict = {}
+    points_dict = {}
+    avg_dict = {}
+    for key, all_points in dictionary.items():
+        points = []
+        sum_points = []
+        avg_points = []
+        for index, point in enumerate(all_points):
+            points.append(point)
+            if index == 0:
+                sum_points.append(point)
+                avg_points.append(point)
+            else:
+                sum_points.append(point + sum_points[index - 1])
+                avg_points.append(sum_points[index] / (index + 1))
+        sum_dict.update({key: sum_points})
+        points_dict.update({key: points})
+        avg_dict.update({key: avg_points})
+    final_dict = {
+        "Points": points_dict,
+        "Sum Points": sum_dict,
+        "Average Points": avg_dict}
+    return final_dict

@@ -4,8 +4,8 @@
         "size": 12,
         "align": "centre",
         "font": "Arial",
-        "bg_color": "#c4ca71",
-        "color": "#325653",
+        "bg_color": "#325653",
+        "color": "#c4ca71",
         "drivers": [
             "Stroll",
             "Alonso"

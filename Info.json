@@ -12,6 +12,14 @@
             "Penalties",
             "Perks"
         ],
+        "Perks" : [
+            "Wildcard",
+            "Limitless",
+            "Final Fix",
+            "Auto Pilot",
+            "Extra DRS",
+            "No Negative"
+        ],
         "Races": [
             "Bahrain",
             "Saudi Arabia",
@@ -54,15 +62,115 @@
                 "Siemens McLaren West",
                 "Vodafone Ferrari Marlboro"
             ],
-            "Seb M": [
+            "Sebastian M": [
                 "Denso Panasonic Toyota F1",
                 "JPS Lotus Renault",
                 "Telefonica Minardi Doimo"
             ],
             "Will R": [
-                "Dinoco Piston Champions",
+                "Dinoco Piston Cup Champs",
                 "Push To Pass",
                 "The Big One"
+            ],
+            "Phil M": [
+                "A Little Team",
+                "BMW Motorrad",
+                "BMW Should Be Here"
+            ],
+            "Jake M": [
+                "A Sauber or Kick or Stake",
+                "An Oscar for breakfast",
+                "One Red Bull Car & Gasly"
+            ],
+            "Adam R": [
+                "Better Luck Next Time Bud",
+                "Haas every name ben taken",
+                "Just win init"
+            ],
+            "James R": [
+                "Bwoah Moet Shell Racing",
+                "Bwoah OnlyFans VIP Racing",
+                "Bwoah Rolex Sipsmith Golf"
+            ],
+            "Stuart S": [
+                "E l'ora del martello",
+                "Christian's Hornie",
+                "Ferrari Strategists"
+            ],
+            "Pierce C": [
+                "Ferrari Champions 2026",
+                "Grazzi#44"
+            ],
+            "Andrew F": [
+                "Forced to pick Max",
+                "I simp for Zak Brown",
+                "sBinnala Yacht Club"
+            ],
+            "Stefanus W": [
+                "Gelael",
+                "Haryanto",
+                "Syahrul"
+            ],
+            "Madlen P": [
+                "Go Boys Give Us Nothing",
+                "Les eclairs",
+                "Maxy & The Boys"
+            ],
+            "Tom C": [
+                "Hawks at T2",
+                "Mc Sled Dogs",
+                "Toasted eggs"
+            ],
+            "Toby P": [
+                "Hesketh 2.1"
+            ],
+            "Patrick L": [
+                "Johnny UniHaas",
+                "Racing No Points"
+            ],
+            "Cameron M": [
+                "Josh's hairy balls",
+                "Matty's snipped balls",
+                "Stuart's snipped balls"
+            ],
+            "Joe T": [
+                "kicktwitchyoutubepremium",
+                "not competent or competitive",
+                "alpine sandbags"
+            ],
+            "Charlie L": [
+                "Lee Carvallo's F1 Challen",
+                "No Horners Club",
+                "Uncle Moe's Family Speedbag"
+            ],
+            "Pete J": [
+                "Lightning McCars",
+                "Peugeot Over Ford",
+                "Squeshed Nintendo Racing"
+            ],
+            "Tim W": [
+                "Lights out, got punched"
+            ],
+            "Val M": [
+                "Make A U Turn",
+                "Mater's Mates",
+                "My Fav'rit Colour Is Blue"
+            ],
+            "Chloe B": [
+                "Ms Fritters Driving Skool"
+            ],
+            "Matty J": [
+                "OB Latte",
+                "The Lizard Queen",
+                "Throw Him In JaYaL"
+            ],
+            "Jo H": [
+                "THE LONG AND WINDING ROAD",
+                "PARADISE LOST",
+                "GHOST IN THE MACHINE"
+            ],
+            "Sam CJ": [
+                "Mirror, Signal, Manoeuvre"
             ]
         }
     },

@@ -1,0 +1,50 @@
+{
+    "Bahrain": {
+        "Driver 1": "Ocon",
+        "Driver 2": "Gasly",
+        "Driver 3": "Guanyu",
+        "Driver 4": "Magnussen",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "Alpine",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Magnussen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Ocon",
+        "Driver 2": "Gasly",
+        "Driver 3": "Guanyu",
+        "Driver 4": "Magnussen",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "Alpine",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Magnussen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Australia": {
+        "Driver 1": "Ocon",
+        "Driver 2": "Gasly",
+        "Driver 3": "Guanyu",
+        "Driver 4": "Magnussen",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "Alpine",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Magnussen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Japan": {
+        "Driver 1": "Ocon",
+        "Driver 2": "Gasly",
+        "Driver 3": "Guanyu",
+        "Driver 4": "Magnussen",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "Alpine",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Magnussen",
+        "Penalties": 0,
+        "Perks": "None"
+    }
+}

@@ -3,6 +3,7 @@ import json
 import numpy as np
 
 from pathlib import Path
+from IPython.display import Markdown, display, Image
 
 
 def load_json(file_path : str) -> dict:
@@ -497,13 +498,19 @@ def create_drivers_teams_weekly(lineup_path : str,
     change to this function was to load the team dictionary and cycle the keys
     to find the year as a key. If the key is present in the dictionary, then
     the format information for that year can be added. Changed name for PEP8
-    purposes. This update was created by J.Male.
+    purposes.
+
+    02/03/2024
+    ----------
+    Fixed an issue where the weekly dictionary was bringing in teams that are no
+    longer available for certain seasons. This was an easy fix as now it appends
+    teams only if those teams have information for the current year.
 
     """
     files = [
         file for file in os.listdir(lineup_path) if 'Perks.json' not in file]
     paths = [Path(f'{lineup_path}/{file}') for file in files]
-    teams = [os.path.splitext(os.path.basename(path))[0] for path in paths]
+    teams = []
     weekly_dictionary = {
         'Name': ['Points', 'Value'],
         'Race': []}
@@ -511,10 +518,11 @@ def create_drivers_teams_weekly(lineup_path : str,
         team_format_dict = load_json(file_path=path)
         for key, format_dict in team_format_dict.items():
             if key == year:
+                teams.append(os.path.splitext(os.path.basename(path))[0])
                 drivers = format_dict['drivers']
                 [weekly_dictionary.update({driver: []}) for driver in drivers]
             else:
-                print(f'No information for {teams[index]} for {key} season')
+                print(f'No information for {paths[index]} for {key} season')
     [weekly_dictionary.update({team: []}) for team in teams]
     return weekly_dictionary
 
@@ -916,7 +924,8 @@ def update_weeklylineup(year : str,
     results_dict = update_results_dict(
         info_dictionary=info_dictionary,
         results_path=results_path,
-        lineup_path=format_path)
+        lineup_path=Path(f'{format_path}/Lineup_Formats'),
+        year=year)
 
     """ Load New Week and Find Race """
     weekly_lineup_dict = load_json(
@@ -947,16 +956,16 @@ def update_weeklylineup(year : str,
                     if key in category_points.keys():
                         if len(category_points[key]) == race_index + 2:
                             print(
-                                f'{key} {
-                                    (info_dictionary["Races"])[race_index]}'
+                                f'{key} '
+                                f'{(info_dictionary["Races"])[race_index]} '
                                 f'Points Recorded')
                         else:
                             category_points[key].append(inputs[0])
                     if key in category_values.keys():
                         if len(category_values[key]) == race_index + 2:
                             print(
-                                f'{key} {
-                                    (info_dictionary["Races"])[race_index]}'
+                                f'{key} '
+                                f'{(info_dictionary["Races"])[race_index]} '
                                 f'Values Recorded')
                         else:
                             category_values[key].append(inputs[0])
@@ -971,7 +980,7 @@ def update_weeklylineup(year : str,
         dictionary=results_dict)
     os.remove(path=Path(f'{data_path}/Lineup_Weekly.json'))
     lineup_dictionary = create_drivers_teams_weekly(
-        lineup_path=format_path,
+        lineup_path=Path(f'{format_path}/Lineup_Formats'),
         year=year)
     save_json_dicts(
         out_path=Path(f'{data_path}/Lineup_Weekly.json'),
@@ -1124,7 +1133,8 @@ def check_races(race : str,
 
 def update_results_dict(info_dictionary: dict,
                         results_path: str,
-                        lineup_path: str) -> dict:
+                        lineup_path: str,
+                        year : str) -> dict:
     """
     Function Details
     ================
@@ -1136,8 +1146,9 @@ def update_results_dict(info_dictionary: dict,
     ----------
     info_dictionary: dictionary
         Information dictionary for the season.
-    results_path, lineup_path : string
+    results_path, lineup_path, year : string
         Paths to info dictionary, results directory, lineup format directory.
+        Year to process.
     
     Returns
     -------
@@ -1178,6 +1189,18 @@ def update_results_dict(info_dictionary: dict,
     ----------
     Updated documentation and minor function name changes.
 
+    02/03/2024
+    ----------
+    Updated the updating of the results dict to reset the dictionary when it is
+    considering the first race of the completed races. This may need altering
+    once the other races come in because it might be that it needs to append.
+
+    15/03/2024
+    ----------
+    Issue where ((results_dict["Driver Points"])[key])[i] = values[0] was
+    returning a list index out of range issue. Think this is due to the array
+    refreshing with every run of a new race. Have fixed to append.
+
     """
 
     """ Find Config Files """
@@ -1186,12 +1209,15 @@ def update_results_dict(info_dictionary: dict,
     paths = [Path(f'{lineup_path}/{file}') for file in files]
 
     """ Append Drivers and Teams """
-    teams = [os.path.splitext(os.path.basename(path))[0] for path in paths]
+    teams = []
     drivers = []
-    for team in teams:
-        file = load_json(file_path=Path(f'{lineup_path}/{team}.json'))
-        driver_names = file['drivers']
-        [drivers.append(driver) for driver in driver_names]
+    for path in paths:
+        file = load_json(file_path=path)
+        if f'{year}' in file.keys():
+            teams.append(os.path.splitext(os.path.basename(path))[0])
+            team_dict = file[f'{year}']
+            driver_names = team_dict['drivers']
+            [drivers.append(driver) for driver in driver_names]
 
     """ Get Completed Races """
     completed_races = get_completed_races(
@@ -1200,20 +1226,165 @@ def update_results_dict(info_dictionary: dict,
 
     """ Update Race Results """
     results_dict = load_json(file_path=Path(f'{results_path}/Results.json'))
-    for index, race in enumerate(completed_races):
+    for i, race in enumerate(completed_races):
         race_results = load_json(
             file_path=Path(f'{results_path}/{race}_Results.json'))
         for key, values in race_results.items():
             if key == 'Name' or key == 'Race':
                 pass
             else:
-                if key in drivers:
-                    ((results_dict["Driver Points"])[key])[index] = values[0]
-                    ((results_dict["Driver Values"])[key])[index] = values[1]
-                if key in teams:
-                    ((results_dict["Team Points"])[key])[index] = values[0]
-                    ((results_dict["Team Values"])[key])[index] = values[1]
-    save_json_dicts(
+                if i == 0:
+                    if key in drivers:
+                        results_dict["Driver Points"].update(
+                            {key : [values[0]]})
+                        results_dict["Driver Values"].update(
+                            {key : [values[1]]})
+                    if key in teams:
+                        results_dict["Team Points"].update(
+                            {key : [values[0]]})
+                        results_dict["Team Values"].update(
+                            {key : [values[1]]})
+                else:
+                    if key in drivers:
+                        ((results_dict["Driver Points"])[key]).append(values[0])
+                        ((results_dict["Driver Values"])[key]).append(values[1])
+                    if key in teams:
+                        ((results_dict["Team Points"])[key]).append(values[0])
+                        ((results_dict["Team Values"])[key]).append(values[1])
+        save_json_dicts(
         out_path=Path(f'{results_path}/Results.json'),
         dictionary=results_dict)
     return results_dict
+
+
+def output_string(string: str) -> None:
+    """
+    Function Details
+    ================
+    Display string file as text.
+
+    Display string as text in Jupyter notebook (or elsewhere).
+
+    Parameters
+    ----------
+    string: string
+        String
+    
+    Returns
+    -------
+    Display
+        Prints a display to a Jupyter notebook
+    
+    See Also
+    --------
+
+    Notes
+    -----
+    Uses the Ipython library to display a string as a printed cell output
+    in Jupyter notebooks. The returned cell output is then displayed in the html
+    export.
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Copied and documentation update.
+    """
+    display(Markdown(string))
+
+
+def output_json(dictionary : dict) -> None:
+    """
+    Function Details
+    ================
+    Display python dictionary file as text.
+
+    Display python dictionary file as text in Jupyter notebook (or elsewhere).
+
+    Parameters
+    ----------
+    dictionary: dict
+        Dictionary object
+    
+    Returns
+    -------
+    Display
+        Prints a display to a Jupyter notebook
+    
+    See Also
+    --------
+
+    Notes
+    -----
+    Uses the Ipython library to display a markdown file as a printed cell output
+    in Jupyter notebooks. The returned cell output is then displayed in the html
+    export.
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Copied and documentation update.
+
+    """
+    display(Markdown(f'{dictionary}'))
+
+
+def display_img(file_path : str,
+                width=False,
+                height=False) -> None:
+    """
+    Function Details
+    ================
+    Display image file as text.
+
+    Display image file as text in Jupyter notebook (or elsewhere).
+
+    Parameters
+    ----------
+    file_path: string
+        Path to image.
+    
+    Returns
+    -------
+    Display
+        Prints a display to a Jupyter notebook
+    
+    See Also
+    --------
+
+    Notes
+    -----
+    Uses the Ipython library to display an image file as a printed cell output
+    in Jupyter notebooks. The returned cell output is then displayed in the html
+    export.
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Copied and documentation update.
+
+    """
+    if height:
+        display(Image(filename=file_path, width=width, height=height))
+    else:
+        display(Image(filename=file_path))

@@ -9,7 +9,6 @@
         "Constructor 2": "Aston Martin",
         "DRS Boost": "Verstappen",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Saudi Arabia": {
@@ -22,7 +21,6 @@
         "Constructor 2": "Aston Martin",
         "DRS Boost": "Verstappen",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "No Negative"
     },
     "Australia": {
@@ -35,7 +33,6 @@
         "Constructor 2": "Aston Martin",
         "DRS Boost": "Verstappen",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Azerbaijan": {
@@ -48,7 +45,6 @@
         "Constructor 2": "Aston Martin",
         "DRS Boost": "Perez",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "Auto Pilot"
     },
     "Miami": {
@@ -61,7 +57,6 @@
         "Constructor 2": "Aston Martin",
         "DRS Boost": "Verstappen",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Monaco": {
@@ -74,10 +69,13 @@
         "Constructor 2": "Aston Martin",
         "DRS Boost": "Verstappen",
         "Penalties": 0,
-        "Extra DRS": 0,
-        "Perks": "Final Fix",
-        "Replaced": "Perez",
-        "Replaced Scores": 0
+        "Perks": [
+            "Final Fix",
+            "Perez",
+            0,
+            "Perez",
+            0
+        ]
     },
     "Spain": {
         "Driver 1": "Verstappen",
@@ -89,7 +87,6 @@
         "Constructor 2": "Aston Martin",
         "DRS Boost": "Verstappen",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Canada": {
@@ -102,7 +99,6 @@
         "Constructor 2": "Aston Martin",
         "DRS Boost": "Verstappen",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Austria": {
@@ -115,8 +111,10 @@
         "Constructor 2": "Aston Martin",
         "DRS Boost": "Perez",
         "Penalties": 0,
-        "Extra DRS": "Verstappen",
-        "Perks": "Extra DRS"
+        "Perks": [
+            "Extra DRS",
+            "Verstappen"
+        ]
     },
     "Great Britain": {
         "Driver 1": "Verstappen",
@@ -128,7 +126,6 @@
         "Constructor 2": "Aston Martin",
         "DRS Boost": "Verstappen",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Hungary": {
@@ -141,7 +138,6 @@
         "Constructor 2": "Aston Martin",
         "DRS Boost": "Verstappen",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Belgium": {
@@ -154,7 +150,6 @@
         "Constructor 2": "Mercedes",
         "DRS Boost": "Verstappen",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "Limitless"
     },
     "Netherlands": {
@@ -167,7 +162,6 @@
         "Constructor 2": "McLaren",
         "DRS Boost": "Verstappen",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "Wildcard"
     },
     "Italy": {
@@ -180,7 +174,6 @@
         "Constructor 2": "McLaren",
         "DRS Boost": "Verstappen",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Singapore": {
@@ -193,7 +186,6 @@
         "Constructor 2": "McLaren",
         "DRS Boost": "Verstappen",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Japan": {
@@ -206,7 +198,6 @@
         "Constructor 2": "McLaren",
         "DRS Boost": "Verstappen",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Qatar": {
@@ -219,7 +210,6 @@
         "Constructor 2": "McLaren",
         "DRS Boost": "Verstappen",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "United States": {
@@ -232,7 +222,6 @@
         "Constructor 2": "McLaren",
         "DRS Boost": "Verstappen",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Mexico": {
@@ -245,7 +234,6 @@
         "Constructor 2": "McLaren",
         "DRS Boost": "Verstappen",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Brazil": {
@@ -258,7 +246,6 @@
         "Constructor 2": "McLaren",
         "DRS Boost": "Verstappen",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Las Vegas": {
@@ -271,7 +258,6 @@
         "Constructor 2": "McLaren",
         "DRS Boost": "Verstappen",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     },
     "Abu Dhabi": {
@@ -284,7 +270,6 @@
         "Constructor 2": "McLaren",
         "DRS Boost": "Norris",
         "Penalties": 0,
-        "Extra DRS": 0,
         "Perks": "None"
     }
 }

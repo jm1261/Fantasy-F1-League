@@ -1,0 +1,145 @@
+{
+    "Spot": {
+        "Spot Names": {
+            "Saudi Arabia": "Obviously do that Tactically",
+            "Imola": "Hamilton's Reverse Gear",
+            "Monaco": "Jewel of the Crown",
+            "Spain": "Madrid Will Be Better",
+            "Hungary": "Bottas Bowling",
+            "Belgium": "The Sauce",
+            "Netherlands": "Super Max",
+            "Azerbaijan": "Well Done Baku",
+            "Singapore": "It's on Purpose",
+            "Las Vegas": "What Happens in Vegas Stays in Vegas"
+        },
+        "Spot Max": [
+            "Saudi Arabia",
+            "Monaco",
+            "Azerbaijan",
+            "Singapore",
+            "Las Vegas"
+        ],
+        "Spot Min": [
+            "Imola",
+            "Spain",
+            "Hungary",
+            "Belgium",
+            "Netherlands"
+        ],
+        "Spot Winners": {
+            "Obviously do that Tactically": [
+                "Saudi Arabia",
+                "Patrick L",
+                "Johnny UniHaas",
+                287
+            ],
+            "Max Ties": [
+                []
+            ],
+            "Min Ties": []
+        }
+    },
+    "Achievements": {
+        "Achievement Names": {
+            "Highest Weekly": "One Shot Wonder",
+            "Lowest Weekly": "All Baskets in One Egg",
+            "Highest Value": "Cost Cap",
+            "Manager of the Year": "Manager of the Year",
+            "Sprint": "Sprint King",
+            "World": "The Continental",
+            "Substitutions": "Hot Seat"
+        },
+        "Sprint Races": [
+            "China",
+            "Miami",
+            "Austria",
+            "United States",
+            "Brazil",
+            "Qatar"
+        ],
+        "World Races": [
+            "Bahrain",
+            "Australia",
+            "Japan",
+            "Canada",
+            "Great Britain",
+            "Italy",
+            "Mexico"
+        ],
+        "The Continental": {
+            "Haryanto": 725,
+            "Syahrul": 706,
+            "Hesketh 2.1": 643,
+            "Bwoah OnlyFans VIP Racing": 602,
+            "One Red Bull Car & Gasly": 589,
+            "Gelael": 587,
+            "BMW Motorrad": 568,
+            "My Fav'rit Colour Is Blue": 563,
+            "Les eclairs": 559,
+            "Johnny UniHaas": 546,
+            "The Lizard Queen": 536,
+            "Peugeot Over Ford": 530,
+            "Uncle Moe's Family Speedbag": 522,
+            "PARADISE LOST": 520,
+            "Bwoah Moet Shell Racing": 512,
+            "GHOST IN THE MACHINE": 506,
+            "Vodafone Ferrari Marlboro": 499,
+            "Petrobras Williams RBS F1": 499,
+            "THE LONG AND WINDING ROAD": 495,
+            "Telefonica Minardi Doimo": 494,
+            "Josh's hairy balls": 494,
+            "Mater's Mates": 493,
+            "Dinoco Piston Cup Champs": 489,
+            "Mirror, Signal, Manoeuvre": 488,
+            "Make A U Turn": 484,
+            "Denso Panasonic Toyota F1": 478,
+            "Squeshed Nintendo Racing": 477,
+            "Stuart's snipped balls": 474,
+            "BMW Should Be Here": 470,
+            "Ferrari Champions 2026": 468,
+            "A Little Team": 463,
+            "JPS Lotus Renault": 461,
+            "Toasted eggs": 457,
+            "Maxy & The Boys": 449,
+            "not competent or competitive": 443,
+            "Christian's Hornie": 437,
+            "Lights out, got punched": 421,
+            "Grazzi#44": 419,
+            "Lightning McCars": 416,
+            "Matty's snipped balls": 414,
+            "Siemens McLaren West": 409,
+            "Push To Pass": 405,
+            "OB Latte": 367,
+            "Haas every name ben taken": 355,
+            "An Oscar for breakfast": 353,
+            "A Sauber or Kick or Stake": 330,
+            "Mc Sled Dogs": 311,
+            "E l'ora del martello": 302,
+            "Just win init": 295,
+            "Ms Fritters Driving Skool": 294,
+            "kicktwitchyoutubepremium": 291,
+            "No Horners Club": 290,
+            "Hawks at T2": 290,
+            "I simp for Zak Brown": 258,
+            "Forced to pick Max": 256,
+            "Better Luck Next Time Bud": 232,
+            "Throw Him In JaYaL": 228,
+            "Go Boys Give Us Nothing": 188,
+            "sBinnala Yacht Club": 158,
+            "alpine sandbags": 123,
+            "The Big One": 113,
+            "Lee Carvallo's F1 Challen": 110,
+            "Bwoah Rolex Sipsmith Golf": 105,
+            "Ferrari Strategists": 98,
+            "Racing No Points": 86
+        }
+    },
+    "Championship": {
+        "Championship Names": {
+            "0": "Champion of the World",
+            "1": "First of the Losers",
+            "2": "Look Mum I'm on the Podium",
+            "-1": "Golf Champion"
+        }
+    }
+}

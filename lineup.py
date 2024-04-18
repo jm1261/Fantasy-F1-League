@@ -1,3 +1,4 @@
+import sys
 import src.dataIO as io
 import src.filepaths as fp
 import src.analysis as anal
@@ -59,7 +60,7 @@ def lineup_week(root : str,
     info_dict = (io.load_json(file_path=info_path))[f'{year}']
     data_path = Path(f'{root}/Data/{year}')
     results_path = Path(f'{root}/Data/{year}/Lineup')
-    format_path = Path(f'{root}/Config/Lineup_Formats')
+    format_path = Path(f'{root}/Config')
 
     """ Update the Weekly Lineup Points and Values """
     results_dict = io.update_weeklylineup(
@@ -80,8 +81,9 @@ def lineup_week(root : str,
     """ Create Spreadsheet """
     ss.line_up_spreadsheet(
         file_path=Path(f'{root}/Data/{year}/Lineup/Results.xlsx'),
-        format_dir=format_path,
-        races=races,
+        format_dir=Path(f'{format_path}/Lineup_Formats'),
+        year=year,
+        races=info_dict['Races'],
         results=results_dict,
         statistics=stats_dict)
 
@@ -95,6 +97,7 @@ def lineup_week(root : str,
             race_index=index,
             race=race,
             format_dir=format_path,
+            year=year,
             out_path=out_path)
 
     """ Plot Statistics """
@@ -108,11 +111,13 @@ def lineup_week(root : str,
             races=races,
             race=race,
             format_dir=format_path,
+            year=year,
             out_path=out_path)
 
 
 if __name__ == '__main__':
-    year = 2023
+    year = 2024
+    #year = sys.argv[1]
     root = Path().absolute()
     lineup_week(
         root=root,

@@ -1,0 +1,50 @@
+{
+    "Bahrain": {
+        "Driver 1": "Magnussen",
+        "Driver 2": "Norris",
+        "Driver 3": "Sargeant",
+        "Driver 4": "Bottas",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Magnussen",
+        "Driver 2": "Norris",
+        "Driver 3": "Sargeant",
+        "Driver 4": "Bottas",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Australia": {
+        "Driver 1": "Magnussen",
+        "Driver 2": "Norris",
+        "Driver 3": "Sargeant",
+        "Driver 4": "Bottas",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Japan": {
+        "Driver 1": "Magnussen",
+        "Driver 2": "Norris",
+        "Driver 3": "Sargeant",
+        "Driver 4": "Bottas",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    }
+}

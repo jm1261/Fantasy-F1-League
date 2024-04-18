@@ -5,10 +5,11 @@
         "align": "centre",
         "font": "Arial",
         "bg_color": "#c1222c",
-        "color": "#FFFFFF",
+        "color": "#ebc404",
         "drivers": [
             "Leclerc",
-            "Sainz"
+            "Sainz",
+            "Bearman"
         ]
     },
     "2023": {
