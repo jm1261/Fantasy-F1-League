@@ -46,5 +46,17 @@
         "DRS Boost": "Leclerc",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "China": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Ocon",
+        "Driver 3": "Alonso",
+        "Driver 4": "Russell",
+        "Driver 5": "Ricciardo",
+        "Constructor 1": "RB",
+        "Constructor 2": "Mercedes",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

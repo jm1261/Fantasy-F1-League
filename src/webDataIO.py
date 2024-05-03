@@ -383,6 +383,56 @@ def outputs_qualifying_data(year : str,
         output_string(string=table)
 
 
+def outputs_sq_data(year : str,
+                    race : str) -> None:
+    """
+    Function Details
+    ================
+    Pulls sprint qualifying results and outputs as a markdown table.
+
+    Parameters
+    ----------
+    year, race: string
+        Year and race to process.
+
+    Returns
+    -------
+    None
+
+    See Also
+    --------
+    get_season_urls
+    get_qualifying_result
+
+    Notes
+    -----
+    None
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    23/04/2024
+    ----------
+    Created.
+
+    """
+    base_url = 'https://www.formula1.com'
+    url = f'{base_url}/en/results.html/{year}/races.html'
+    races, urls = get_season_urls(url=url)
+    if race in races:
+        base_url += urls[races.index(race)]
+        url_split = base_url.split('/')
+        url_split[-1] = 'sprint-qualifying.html'
+        qualifying_url = '/'.join(url_split)
+        table = get_qualifying_result(url=qualifying_url)
+        output_string(string=table)
+
+
 def outputs_fastest_lap(year : str,
                         race : str) -> None:
     """
@@ -477,4 +527,55 @@ def outputs_race_result(year : str,
     if race in races:
         base_url += urls[races.index(race)]
         table = get_race_results(url=base_url)
+        output_string(string=table)
+
+
+def outputs_sprint_data(year : str,
+                        race : str) -> None:
+    """
+    Function Details
+    ================
+    Pulls sprint race results and outputs as a markdown table.
+
+    Parameters
+    ----------
+    year, race: string
+        Year and race to process.
+
+    Returns
+    -------
+    None
+
+    See Also
+    --------
+    get_season_urls
+    get_race_results
+
+    Notes
+    -----
+    None
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    23/04/2024
+    ----------
+    Created.
+
+    """
+    base_url = 'https://www.formula1.com'
+    url = f'{base_url}/en/results.html/{year}/races.html'
+    races, urls = get_season_urls(url=url)
+    if race in races:
+        print(race)
+        base_url += urls[races.index(race)]
+        url_split = base_url.split('/')
+        url_split[-1] = 'sprint-results.html'
+        sprint_url = '/'.join(url_split)
+        table = get_race_results(url=sprint_url)
         output_string(string=table)

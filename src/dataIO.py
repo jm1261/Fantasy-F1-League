@@ -1343,8 +1343,8 @@ def output_json(dictionary : dict) -> None:
 
 
 def display_img(file_path : str,
-                width=False,
-                height=False) -> None:
+                width : int,
+                height : int) -> None:
     """
     Function Details
     ================
@@ -1383,8 +1383,9 @@ def display_img(file_path : str,
     ----------
     Copied and documentation update.
 
+    03/05/2024
+    ----------
+    Removed height and width optionality.
+
     """
-    if height:
-        display(Image(filename=file_path, width=width, height=height))
-    else:
-        display(Image(filename=file_path))
+    display(Image(filename=file_path, width=width, height=height))

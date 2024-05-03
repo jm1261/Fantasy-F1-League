@@ -56,5 +56,17 @@
             "McLaren",
             43
         ]
+    },
+    "China": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Verstappen",
+        "Driver 3": "Perez",
+        "Driver 4": "Sainz",
+        "Driver 5": "Alonso",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "Limitless"
     }
 }

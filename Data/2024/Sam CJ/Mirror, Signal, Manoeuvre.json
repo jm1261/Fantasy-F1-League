@@ -46,5 +46,17 @@
         "DRS Boost": "Perez",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "China": {
+        "Driver 1": "Alonso",
+        "Driver 2": "Perez",
+        "Driver 3": "Leclerc",
+        "Driver 4": "Tsunoda",
+        "Driver 5": "Magnussen",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Perez",
+        "Penalties": 0,
+        "Perks": ["No Negative", "Alonso", 36, "Perez", 82, "Tsunoda", 14, "Haas", 30]
     }
 }
