@@ -46,5 +46,17 @@
         "DRS Boost": "Sainz",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "China": {
+        "Driver 1": "Magnussen",
+        "Driver 2": "Tsunoda",
+        "Driver 3": "Alonso",
+        "Driver 4": "Ocon",
+        "Driver 5": "Sainz",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

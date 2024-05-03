@@ -46,5 +46,17 @@
         "DRS Boost": "Alonso",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "China": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Alonso",
+        "Driver 3": "Russell",
+        "Driver 4": "Bottas",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Alonso",
+        "Penalties": -10,
+        "Perks": ["Extra DRS", "Sainz"]
     }
 }

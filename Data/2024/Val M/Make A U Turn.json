@@ -46,5 +46,17 @@
         "DRS Boost": "Verstappen",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "China": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Magnussen",
+        "Driver 4": "Tsunoda",
+        "Driver 5": "Bottas",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": "Wildcard"
     }
 }
