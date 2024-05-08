@@ -22,5 +22,53 @@
             "Albon",
             "Sargeant"
         ]
+    },
+    "2022": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#2a61d8",
+        "color": "#000000",
+        "drivers": [
+            "Latifi",
+            "Albon"
+        ]
+    },
+    "2021": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#bb7c2f",
+        "color": "#1544bd",
+        "drivers": [
+            "Latifi",
+            "Russell"
+        ]
+    },
+    "2020": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#5FCEEC",
+        "color": "#E5E7EB",
+        "drivers": [
+            "Latifi",
+            "Russell"
+        ]
+    },
+    "2019": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#5FCEEC",
+        "color": "#E5E7EB",
+        "drivers": [
+            "Kubica",
+            "Russell"
+        ]
     }
 }

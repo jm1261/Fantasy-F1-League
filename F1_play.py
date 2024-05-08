@@ -81,8 +81,8 @@ def f1_play(root : str,
 
 
 if __name__ == '__main__':
-    #year = 2024
-    year = sys.agv[1]
+    year = 2024
+    #year = sys.agv[1]
     root = Path().absolute()
     f1_play(
         root=root,

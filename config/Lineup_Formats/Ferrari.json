@@ -23,5 +23,53 @@
             "Leclerc",
             "Sainz"
         ]
+    },
+    "2022": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#F91536",
+        "color": "#000000",
+        "drivers": [
+            "Leclerc",
+            "Sainz"
+        ]
+    },
+    "2021": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#F91536",
+        "color": "#FFFFFF",
+        "drivers": [
+            "Leclerc",
+            "Sainz"
+        ]
+    },
+    "2020": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#F91536",
+        "color": "#000000",
+        "drivers": [
+            "Leclerc",
+            "Vettel"
+        ]
+    },
+    "2019": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#F91536",
+        "color": "#000000",
+        "drivers": [
+            "Leclerc",
+            "Vettel"
+        ]
     }
 }

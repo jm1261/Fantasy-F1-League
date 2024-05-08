@@ -58,5 +58,17 @@
         "DRS Boost": "Sainz",
         "Penalties": 0,
         "Perks": "Wildcard"
+    },
+    "Miami": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Magnussen",
+        "Driver 4": "Alonso",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Sainz",
+        "Penalties": -10,
+        "Perks": "None"
     }
 }

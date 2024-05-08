@@ -63,6 +63,21 @@
         "Constructor 2": "RB",
         "DRS Boost": "Sainz",
         "Penalties": 0,
-        "Perks": ["Extra DRS", "Verstappen"]
+        "Perks": [
+            "Extra DRS",
+            "Verstappen"
+        ]
+    },
+    "Miami": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Sainz",
+        "Driver 3": "Leclerc",
+        "Driver 4": "Perez",
+        "Driver 5": "Norris",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "Limitless"
     }
 }

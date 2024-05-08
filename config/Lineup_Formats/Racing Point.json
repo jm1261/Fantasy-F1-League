@@ -1,0 +1,27 @@
+{
+    "2020": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#f1c9df",
+        "color": "#1f1d30",
+        "drivers": [
+            "Perez",
+            "Stroll",
+            "Hulkenberg"
+        ]
+    },
+    "2019": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#f1c9df",
+        "color": "#1f1d30",
+        "drivers": [
+            "Perez",
+            "Stroll"
+        ]
+    }
+}

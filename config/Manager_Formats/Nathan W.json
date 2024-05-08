@@ -1,0 +1,10 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "wheat",
+    "teams": [
+        "The Team Formally Known As Force India"
+    ]
+}

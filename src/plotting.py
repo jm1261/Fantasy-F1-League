@@ -349,7 +349,6 @@ def league_bars(results_dictionary : dict,
                 bbox_inches='tight')
             plt.close(fig)
             plt.cla()
-            fig.clf()
     categories = ['Average Points', 'Average Values']
     units = ['[#]', '[$M]']
     axes = [50, 20]
@@ -451,7 +450,6 @@ def league_bars(results_dictionary : dict,
                 bbox_inches='tight')
             plt.close(fig)
             plt.cla()
-            fig.clf()
 
 
 def leaguecount(results_dictionary : dict,
@@ -509,6 +507,10 @@ def leaguecount(results_dictionary : dict,
     ----------
     Added rotation to x ticks for line plotting. Added cm_to_inches for size.
     Added year for colour codes.
+
+    05/05/2024
+    ----------
+    Update to the y-axis tick labels for the standard plots.
 
     """
     categories = ['Driver', 'Constructor', 'DRS Boost', 'Extra DRS', 'Perks']
@@ -646,7 +648,6 @@ def leaguecount(results_dictionary : dict,
                 bbox_inches='tight')
             plt.close(fig)
             plt.cla()
-            fig.clf()
         out_file = Path(f'{out_path}/{race}_LeagueSumCounts_{category}.png')
         if out_file.is_file():
             pass
@@ -777,13 +778,13 @@ def leaguecount(results_dictionary : dict,
                 fontsize=14,
                 fontweight='bold',
                 color='black')
+            ax.yaxis.set_minor_locator(AutoMinorLocator())
             fig.tight_layout()
             plt.savefig(
                 out_file,
                 bbox_inches='tight')
             plt.close(fig)
             plt.cla()
-            fig.clf()
 
 
 def leagueteam_stat(statistics_dictionary : dict,
@@ -836,6 +837,10 @@ def leagueteam_stat(statistics_dictionary : dict,
     ----------
     Added rotation to x ticks for line plotting. Added cm_to_inches for size.
     Added year for colours.
+
+    05/05/2024
+    ----------
+    Added y-axis ticks to standard plots.
 
     """
     categories = ['Sum Points', 'Sum Values']
@@ -916,13 +921,13 @@ def leagueteam_stat(statistics_dictionary : dict,
                 fontsize=14,
                 fontweight='bold',
                 color='black')
+            ax.yaxis.set_minor_locator(AutoMinorLocator())
             fig.tight_layout()
             plt.savefig(
                 out_file,
                 bbox_inches='tight')
             plt.close(fig)
             plt.cla()
-            fig.clf()
     categories = ['Sum Average Points', 'Sum Average Values']
     units = ['[#]', '[$M]']
     for category, unit in zip(categories, units):
@@ -1001,13 +1006,13 @@ def leagueteam_stat(statistics_dictionary : dict,
                 fontsize=14,
                 fontweight='bold',
                 color='black')
+            ax.yaxis.set_minor_locator(AutoMinorLocator())
             fig.tight_layout()
             plt.savefig(
                 out_file,
                 bbox_inches='tight')
             plt.close(fig)
             plt.cla()
-            fig.clf()
     categories = ['Sum Points', 'Sum Values']
     units = ['[#]', '[$M]']
     for category, unit in zip(categories, units):
@@ -1099,13 +1104,13 @@ def leagueteam_stat(statistics_dictionary : dict,
                 fontsize=14,
                 fontweight='bold',
                 color='black')
+            ax.yaxis.set_minor_locator(AutoMinorLocator())
             fig.tight_layout()
             plt.savefig(
                 out_file,
                 bbox_inches='tight')
             plt.close(fig)
             plt.cla()
-            fig.clf()
 
 
 def leagueteam_ppvs(statistics_dictionary : dict,
@@ -1160,6 +1165,10 @@ def leagueteam_ppvs(statistics_dictionary : dict,
     02/03/2024
     ----------
     Added rotation to x ticks for line plotting. Added cm_to_inches for size.
+
+    05/05/2024
+    ----------
+    Added minor tick labels for x and y axes.
 
     """
     categories = ['Average Points Per Value']
@@ -1240,13 +1249,13 @@ def leagueteam_ppvs(statistics_dictionary : dict,
                 fontsize=14,
                 fontweight='bold',
                 color='black')
+            ax.yaxis.set_minor_locator(AutoMinorLocator())
             fig.tight_layout()
             plt.savefig(
                 out_file,
                 bbox_inches='tight')
             plt.close(fig)
             plt.cla()
-            fig.clf()
     categories = ['Average Points Per Value']
     units = ['[#/$M]']
     for category, unit in zip(categories, units):
@@ -1338,13 +1347,13 @@ def leagueteam_ppvs(statistics_dictionary : dict,
                 fontsize=14,
                 fontweight='bold',
                 color='black')
+            ax.yaxis.set_minor_locator(AutoMinorLocator())
             fig.tight_layout()
             plt.savefig(
                 out_file,
                 bbox_inches='tight')
             plt.close(fig)
             plt.cla()
-            fig.clf()
     categories = ['Points Per Value', 'Sum Points']
     units = ['[#/$M]', '[#]']
     for category, unit in zip(categories, units):
@@ -1428,13 +1437,13 @@ def leagueteam_ppvs(statistics_dictionary : dict,
                 fontsize=14,
                 fontweight='bold',
                 color='black')
+            ax.xaxis.set_minor_locator(AutoMinorLocator())
             fig.tight_layout()
             plt.savefig(
                 out_file,
                 bbox_inches='tight')
             plt.close(fig)
             plt.cla()
-            fig.clf()
     categories = ['Points Per Value', 'Sum Points']
     units = ['[#/$M]', '[#]']
     for category, unit in zip(categories, units):
@@ -1530,13 +1539,13 @@ def leagueteam_ppvs(statistics_dictionary : dict,
                 fontsize=14,
                 fontweight='bold',
                 color='black')
+            ax.xaxis.set_minor_locator(AutoMinorLocator())
             fig.tight_layout()
             plt.savefig(
                 out_file,
                 bbox_inches='tight')
             plt.close(fig)
             plt.cla()
-            fig.clf()
 
 
 def results_bar(results_dictionary : dict,
@@ -1690,7 +1699,6 @@ def results_bar(results_dictionary : dict,
                     bbox_inches='tight')
                 plt.close(fig)
                 plt.cla()
-                fig.clf()
 
 
 def lineupstats(statistics_dictionary : dict,
@@ -1748,6 +1756,10 @@ def lineupstats(statistics_dictionary : dict,
     ----------
     Added rotation to x ticks for line plotting. Added cm_to_inches for size.
     Added years for colours.
+
+    05/05/2024
+    ----------
+    Added y-axis tick labels for standard plots.
 
     """
     categories = ['Driver', 'Team']
@@ -1848,7 +1860,6 @@ def lineupstats(statistics_dictionary : dict,
                     bbox_inches='tight')
                 plt.close(fig)
                 plt.cla()
-                fig.clf()
     categories = ['Driver', 'Team']
     for category in categories:
         plots = [
@@ -1920,13 +1931,13 @@ def lineupstats(statistics_dictionary : dict,
                     fontweight='bold',
                     color='black')
                 ax.xaxis.set_minor_locator(AutoMinorLocator())
+                ax.yaxis.set_minor_locator(AutoMinorLocator())
                 fig.tight_layout()
                 plt.savefig(
                     out_file,
                     bbox_inches='tight')
                 plt.close(fig)
                 plt.cla()
-                fig.clf()
 
 
 def prizes_bars(category_dictionary : dict,
@@ -2118,6 +2129,10 @@ def prize_lines(results_dictionary : dict,
     ----------
     Created.
 
+    05/05/2024
+    ----------
+    Update to tick labels for y axis on standard plots.
+
     """
     categories = ['Sum Points', 'Average Points']
     units = ['[#]', '[#]']
@@ -2210,6 +2225,7 @@ def prize_lines(results_dictionary : dict,
                 fontsize=14,
                 fontweight='bold',
                 color='black')
+            ax.yaxis.set_minor_locator(AutoMinorLocator())
             fig.tight_layout()
             plt.savefig(
                 out_file,
@@ -2260,6 +2276,10 @@ def f1play_line(results_dictionary : dict,
     18/04/2024
     ----------
     Created.
+
+    05/05/2024
+    ----------
+    Update to y axis tick labels on standard plots.
 
     """
     categories = ['Points', 'Sum Points', 'Average Points']
@@ -2340,6 +2360,7 @@ def f1play_line(results_dictionary : dict,
                 fontsize=14,
                 fontweight='bold',
                 color='black')
+            ax.yaxis.set_minor_locator(AutoMinorLocator())
             fig.tight_layout()
             plt.savefig(
                 out_file,

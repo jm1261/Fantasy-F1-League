@@ -57,6 +57,28 @@
         "Constructor 2": "Haas",
         "DRS Boost": "Perez",
         "Penalties": 0,
-        "Perks": ["No Negative", "Alonso", 36, "Perez", 82, "Tsunoda", 14, "Haas", 30]
+        "Perks": [
+            "No Negative",
+            "Alonso",
+            36,
+            "Perez",
+            82,
+            "Tsunoda",
+            14,
+            "Haas",
+            30
+        ]
+    },
+    "Miami": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Perez",
+        "Driver 3": "Leclerc",
+        "Driver 4": "Sainz",
+        "Driver 5": "Norris",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Perez",
+        "Penalties": 0,
+        "Perks": "Limitless"
     }
 }

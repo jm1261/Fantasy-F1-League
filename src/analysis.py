@@ -1400,11 +1400,15 @@ def lineup_points_per_value(results_dict : dict,
             for index, points in enumerate(all_points):
                 if points == 0:
                     ppv_array.append(0)
+                elif values[index] == 0:
+                    ppv_array.append(0)
                 else:
                     ppv_array.append(points / values[index])
                     avg_values.append(values[index])
                 avg_points.append(points)
                 if sum(avg_points) == 0:
+                    avg_ppv_array.append(0)
+                elif sum(avg_values) == 0:
                     avg_ppv_array.append(0)
                 else:
                     avg_ppv_array.append(sum(avg_points) / sum(avg_values))

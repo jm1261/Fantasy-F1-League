@@ -1,0 +1,14 @@
+{
+    "2019": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#c02a44",
+        "color": "#1f1f39",
+        "drivers": [
+            "Kvyat",
+            "Gasly"
+        ]
+    }
+}

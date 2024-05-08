@@ -58,5 +58,17 @@
         "DRS Boost": "Sargeant",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Miami": {
+        "Driver 1": "Gasly",
+        "Driver 2": "Sargeant",
+        "Driver 3": "Albon",
+        "Driver 4": "Bottas",
+        "Driver 5": "Ricciardo",
+        "Constructor 1": "Alpine",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Ricciardo",
+        "Penalties": 0,
+        "Perks": ["Extra DRS", "Bottas"]
     }
 }

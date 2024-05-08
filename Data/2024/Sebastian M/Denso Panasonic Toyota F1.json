@@ -58,5 +58,26 @@
         "DRS Boost": "Sainz",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Miami": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Magnussen",
+        "Driver 3": "Guanyu",
+        "Driver 4": "Albon",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": [
+            "No Negative",
+            "Sainz", 56,
+            "Magnussen", 6,
+            "Guanyu", 20,
+            "Albon", 14,
+            "Gasly", 15,
+            "Red Bull", 86,
+            "Ferrari", 82
+        ]
     }
 }
