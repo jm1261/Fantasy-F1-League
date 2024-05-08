@@ -58,5 +58,17 @@
         "DRS Boost": "Leclerc",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Miami": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Sargeant",
+        "Driver 3": "Alonso",
+        "Driver 4": "Perez",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Sainz",
+        "Penalties": -30,
+        "Perks": ["Extra DRS", "Perez"]
     }
 }

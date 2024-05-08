@@ -1,0 +1,26 @@
+{
+    "2020": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#efe448",
+        "color": "#000000",
+        "drivers": [
+            "Ocon",
+            "Ricciardo"
+        ]
+    },
+    "2019": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#efe448",
+        "color": "#000000",
+        "drivers": [
+            "Hulkenberg",
+            "Ricciardo"
+        ]
+    }
+}

@@ -57,6 +57,21 @@
         "Constructor 2": "Alpine",
         "DRS Boost": "Norris",
         "Penalties": 0,
-        "Perks": ["Extra DRS", "Verstappen"]
+        "Perks": [
+            "Extra DRS",
+            "Verstappen"
+        ]
+    },
+    "Miami": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Norris",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Alonso",
+        "Driver 5": "Ocon",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

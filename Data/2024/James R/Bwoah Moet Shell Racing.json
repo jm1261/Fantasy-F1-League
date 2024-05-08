@@ -58,5 +58,17 @@
         "DRS Boost": "Verstappen",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Miami": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Ricciardo",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Sainz",
+        "Driver 5": "Magnussen",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": ["Extra DRS", "Verstappen"]
     }
 }

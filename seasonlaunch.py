@@ -142,7 +142,8 @@ def launches_new_season(root : str,
 
 if __name__ == '__main__':
     root = Path().absolute()
-    year = sys.argv[1]
+    #year = sys.argv[1]
+    year = 2019
     launches_new_season(
         root=root,
         year=f'{year}')

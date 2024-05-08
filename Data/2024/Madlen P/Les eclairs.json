@@ -58,5 +58,26 @@
         "DRS Boost": "Perez",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Miami": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Perez",
+        "Driver 3": "Alonso",
+        "Driver 4": "Ocon",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Perez",
+        "Penalties": 0,
+        "Perks": [
+            "No Negative",
+            "Leclerc", 34,
+            "Perez", 60,
+            "Alonso", 18,
+            "Ocon", 13,
+            "Tsunoda", 23,
+            "Ferrari", 82,
+            "Haas", 23
+        ]
     }
 }

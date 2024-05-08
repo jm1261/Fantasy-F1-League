@@ -60,6 +60,26 @@
         "Constructor 2": "RB",
         "DRS Boost": "Verstappen",
         "Penalties": 0,
-        "Perks": ["No Negative", "Bottas", 9, "Tsunoda", 14, "RB", 26]
+        "Perks": [
+            "No Negative",
+            "Bottas",
+            9,
+            "Tsunoda",
+            14,
+            "RB",
+            26
+        ]
+    },
+    "Miami": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Gasly",
+        "Driver 3": "Magnussen",
+        "Driver 4": "Sainz",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

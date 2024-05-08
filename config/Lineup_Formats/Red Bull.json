@@ -22,5 +22,53 @@
             "Verstappen",
             "Perez"
         ]
+    },
+    "2022": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#3671C6",
+        "color": "#FFCC00",
+        "drivers": [
+            "Verstappen",
+            "Perez"
+        ]
+    },
+    "2021": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#3671C6",
+        "color": "#FFCC00",
+        "drivers": [
+            "Verstappen",
+            "Perez"
+        ]
+    },
+    "2020": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#3671C6",
+        "color": "#FFCC00",
+        "drivers": [
+            "Verstappen",
+            "Albon"
+        ]
+    },
+    "2019": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#3671C6",
+        "color": "#FFCC00",
+        "drivers": [
+            "Verstappen",
+            "Albon"
+        ]
     }
 }

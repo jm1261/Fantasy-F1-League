@@ -10,5 +10,53 @@
             "Bottas",
             "Guanyu"
         ]
+    },
+    "2022": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#C92D4B",
+        "color": "#000000",
+        "drivers": [
+            "Bottas",
+            "Guanyu"
+        ]
+    },
+    "2021": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#C92D4B",
+        "color": "#000000",
+        "drivers": [
+            "Raikkonen",
+            "Giovanazzi"
+        ]
+    },
+    "2020": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#C92D4B",
+        "color": "#000000",
+        "drivers": [
+            "Raikkonen",
+            "Giovanazzi"
+        ]
+    },
+    "2019": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#C92D4B",
+        "color": "#000000",
+        "drivers": [
+            "Raikkonen",
+            "Giovanazzi"
+        ]
     }
 }

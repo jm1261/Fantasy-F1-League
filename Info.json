@@ -352,5 +352,118 @@
                 "Nowhere team"
             ]
         }
+    },
+    "2022": {
+        "Team": [],
+        "Races": [],
+        "Statistics": [
+            "Total",
+            "Total Points/Value",
+            "Average",
+            "Average Points/Value",
+            "Standard Deviation",
+            "Maximum",
+            "Minimum",
+            "Range"
+        ],
+        "Managers": {}
+    },
+    "2021": {
+        "Team": [],
+        "Races": [],
+        "Statistics": [
+            "Total",
+            "Total Points/Value",
+            "Average",
+            "Average Points/Value",
+            "Standard Deviation",
+            "Maximum",
+            "Minimum",
+            "Range"
+        ],
+        "Managers": {}
+    },
+    "2020": {
+        "Team": [],
+        "Races": [],
+        "Statistics": [
+            "Total",
+            "Total Points/Value",
+            "Average",
+            "Average Points/Value",
+            "Standard Deviation",
+            "Maximum",
+            "Minimum",
+            "Range"
+        ],
+        "Managers": {}
+    },
+    "2019": {
+        "Team": [
+            "Driver 1",
+            "Driver 2",
+            "Driver 3",
+            "Driver 4",
+            "Driver 5",
+            "Constructor",
+            "Turbo",
+            "Penalties"
+        ],
+        "Races": [
+            "Australia",
+            "Bahrain",
+            "China",
+            "Azerbaijan",
+            "Spain",
+            "Monaco",
+            "Canada",
+            "France",
+            "Austria",
+            "Great Britain",
+            "Germany",
+            "Hungary",
+            "Belgium",
+            "Italy",
+            "Singapore",
+            "Russia",
+            "Japan",
+            "Mexico",
+            "United States",
+            "Brazil",
+            "Abu Dhabi"
+        ],
+        "Statistics": [
+            "Total",
+            "Total Points/Value",
+            "Average",
+            "Average Points/Value",
+            "Standard Deviation",
+            "Maximum",
+            "Minimum",
+            "Range"
+        ],
+        "Managers": {
+            "Matty J": [
+                "Roy's Croppers"
+            ],
+            "Nick L": [
+                "TeamDrivingLikeAGrandma"
+            ],
+            "James R": [
+                "Plus 136 Bwoah Racing"
+            ],
+            "Josh M": [
+                "Blue Flag Come On"
+            ],
+            "Cameron M": [
+                "Goole No_1"
+            ],
+            "Nathan W": [
+                "The Team Formally Known As Force India"
+            ],
+            "Jake M": [
+                "Brawn GP No_1"
+            ]
+        }
     }
 }

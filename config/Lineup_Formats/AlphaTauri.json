@@ -12,5 +12,41 @@
             "Ricciardo",
             "Lawson"
         ]
+    },
+    "2022": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#d9d9d9",
+        "color": "#202224",
+        "drivers": [
+            "Tsunoda",
+            "Gasly"
+        ]
+    },
+    "2021": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#d9d9d9",
+        "color": "#202224",
+        "drivers": [
+            "Tsunoda",
+            "Gasly"
+        ]
+    },
+    "2020": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#d9d9d9",
+        "color": "#202224",
+        "drivers": [
+            "Kvyat",
+            "Gasly"
+        ]
     }
 }

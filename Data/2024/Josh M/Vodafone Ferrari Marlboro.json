@@ -64,5 +64,17 @@
         "DRS Boost": "Perez",
         "Penalties": 0,
         "Perks": "Wildcard"
+    },
+    "Miami": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Leclerc",
+        "Driver 3": "Norris",
+        "Driver 4": "Hamilton",
+        "Driver 5": "Sainz",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "Limitless"
     }
 }

@@ -1,0 +1,89 @@
+{
+    "Name": [
+        "Points",
+        "Value"
+    ],
+    "Race": [
+        "China"
+    ],
+    "Raikkonen": [
+        18,
+        0
+    ],
+    "Giovanazzi": [
+        4,
+        0
+    ],
+    "Leclerc": [
+        19,
+        0
+    ],
+    "Vettel": [
+        32,
+        0
+    ],
+    "Grosjean": [
+        6,
+        0
+    ],
+    "Magnussen": [
+        0,
+        0
+    ],
+    "Norris": [
+        0,
+        0
+    ],
+    "Sainz": [
+        8,
+        0
+    ],
+    "Hamilton": [
+        43,
+        0
+    ],
+    "Bottas": [
+        32,
+        0
+    ],
+    "Perez": [
+        20,
+        0
+    ],
+    "Stroll": [
+        10,
+        0
+    ],
+    "Verstappen": [
+        29,
+        0
+    ],
+    "Albon": [
+        10,
+        0
+    ],
+    "Gasly": [
+        22,
+        0
+    ],
+    "Hulkenberg": [
+        -9,
+        0
+    ],
+    "Ricciardo": [
+        19,
+        0
+    ],
+    "Kvyat": [
+        -11,
+        0
+    ],
+    "Kubica": [
+        4,
+        0
+    ],
+    "Russell": [
+        8,
+        0
+    ]
+}

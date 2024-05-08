@@ -58,5 +58,17 @@
         "DRS Boost": "Sargeant",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Miami": {
+        "Driver 1": "Gasly",
+        "Driver 2": "Albon",
+        "Driver 3": "Bottas",
+        "Driver 4": "Guanyu",
+        "Driver 5": "Ricciardo",
+        "Constructor 1": "RB",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Guanyu",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

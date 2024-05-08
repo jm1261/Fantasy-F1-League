@@ -22,5 +22,30 @@
             "Stroll",
             "Alonso"
         ]
+    },
+    "2022": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#358C75",
+        "color": "#9ACD32",
+        "drivers": [
+            "Stroll",
+            "Vettel",
+            "Hulkenberg"
+        ]
+    },
+    "2021": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#358C75",
+        "color": "#FD4BC7",
+        "drivers": [
+            "Stroll",
+            "Vettel"
+        ]
     }
 }
