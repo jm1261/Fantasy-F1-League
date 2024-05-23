@@ -69,6 +69,21 @@
         "Constructor 2": "Haas",
         "DRS Boost": "Norris",
         "Penalties": 0,
-        "Perks": ["Extra DRS", "Verstappen"]
+        "Perks": [
+            "Extra DRS",
+            "Verstappen"
+        ]
+    },
+    "Emilia Romagna": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Alonso",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Albon",
+        "Driver 5": "Guanyu",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

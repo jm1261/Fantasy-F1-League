@@ -5,15 +5,8 @@ import src.plotting as plot
 
 from pathlib import Path
 
-
-""" Fix leaguecount plotting issue. I think this is fixed, driver one a bit
-odd though """
-
-
 """
 Ideas to add:
-    * Need to filter in a "Who has gained and lost the most positions" report
-    type thing. i.e., who are the big winners and losers?
     * Use images from the league table to populate the league_check.json file.
     This seems like the only guaranteed way to "scrape" the web for this data.
     * Looking at the f1fantasytracker.com site, there is the possibility that we
@@ -85,11 +78,11 @@ def managerweek(root: str,
     manager_path = Path(f'{data_path}/Managers')
     format_path = Path(f'{root}/Config')
     manager_results = io.load_json(
-        file_path=f'{manager_path}/Results.json')
+        file_path=Path(f'{manager_path}/Results.json'))
     manager_stats = io.load_json(
-        file_path=f'{manager_path}/Statistics.json')
+        file_path=Path(f'{manager_path}/Statistics.json'))
     counts = io.load_json(
-        file_path=f'{manager_path}/Counts.json')
+        file_path=Path(f'{manager_path}/Counts.json'))
 
     """ Check Completed Races """
     completed_races = io.get_completed_races(
@@ -150,9 +143,23 @@ def managerweek(root: str,
             year=year,
             out_path=out_path)
 
+    """ Plot League Positions Gained """
+    for index, race in enumerate(completed_races):
+        races = completed_races[0: index + 1]
+        out_path = Path(f'{data_path}/Figures/{race}')
+        fp.check_dir_exists(dir_path=out_path)
+        plot.pos_gained_bars(
+            results_dictionary=manager_stats['Team Positions Gained'],
+            race_index=index,
+            race=race,
+            format_dir=format_path,
+            year=year,
+            out_path=out_path)
+
 
 if __name__ == '__main__':
-    year = sys.argv[1]
+    year = 2024
+    #year = sys.argv[1]
     root = Path().absolute()
     managerweek(
         root=root,

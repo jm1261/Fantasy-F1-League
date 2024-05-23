@@ -71,13 +71,32 @@
         "Penalties": 0,
         "Perks": [
             "No Negative",
-            "Leclerc", 34,
-            "Perez", 60,
-            "Alonso", 18,
-            "Ocon", 13,
-            "Tsunoda", 23,
-            "Ferrari", 82,
-            "Haas", 23
+            "Leclerc",
+            34,
+            "Perez",
+            60,
+            "Alonso",
+            18,
+            "Ocon",
+            13,
+            "Tsunoda",
+            23,
+            "Ferrari",
+            82,
+            "Haas",
+            23
         ]
+    },
+    "Emilia Romagna": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Piastri",
+        "Driver 3": "Sainz",
+        "Driver 4": "Ocon",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "RB",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

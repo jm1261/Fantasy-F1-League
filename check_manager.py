@@ -64,6 +64,10 @@ def check_managers_week(root: str,
     to checking the manager team sheet. Will now cycle through all completed
     races in the event that multiple weeks are missed.
 
+    08/05/2024
+    ----------
+    Update to include positions gained in manager statistics.
+
     """
 
     """ Config Files and Season Info """
@@ -95,7 +99,10 @@ def check_managers_week(root: str,
         dictionary=manager_results)
 
     """ Calculate Manager Statistics """
-    manager_stats = anal.manager_statistics(results_dictionary=manager_results)
+    manager_stats = anal.managers_statistics(
+        info_dictionary=info_dict,
+        completed_races=completed_races,
+        results_dictionary=manager_results)
     io.save_json_dicts(
         out_path=Path(f'{data_path}/Managers/Statistics.json'),
         dictionary=manager_stats)

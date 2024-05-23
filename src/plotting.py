@@ -326,7 +326,7 @@ def league_bars(results_dictionary : dict,
                 color='black')
             ax.set_xlabel(
                 f'{category} {unit}',
-                fontsize=10,
+                fontsize=6,
                 fontweight='bold',
                 color='black')
             ax.tick_params(
@@ -427,7 +427,7 @@ def league_bars(results_dictionary : dict,
                 color='black')
             ax.set_xlabel(
                 f'{category} {unit}',
-                fontsize=10,
+                fontsize=6,
                 fontweight='bold',
                 color='black')
             ax.tick_params(
@@ -1422,7 +1422,7 @@ def leagueteam_ppvs(statistics_dictionary : dict,
                 color='black')
             ax.set_xlabel(
                 f'{category} {unit}',
-                fontsize=10,
+                fontsize=6,
                 fontweight='bold',
                 color='black')
             ax.tick_params(
@@ -1524,7 +1524,7 @@ def leagueteam_ppvs(statistics_dictionary : dict,
                 color='black')
             ax.set_xlabel(
                 f'{category} {unit}',
-                fontsize=10,
+                fontsize=6,
                 fontweight='bold',
                 color='black')
             ax.tick_params(
@@ -2367,3 +2367,146 @@ def f1play_line(results_dictionary : dict,
                 bbox_inches='tight')
             plt.close(fig)
             plt.cla()
+
+
+def pos_gained_bars(results_dictionary : dict,
+                    race_index : int,
+                    race : str,
+                    format_dir : str,
+                    year : str,
+                    out_path : str) -> None:
+    """
+    Function Details
+    ================
+    Plot the positions gained and lost by manager teams per race week.
+
+    Parameters
+    ----------
+    results_dictionary: dictionary
+        Manager team positions gained.
+    race_index: int
+        Integer of races array for which to plot.
+    race, format_dir, year out_path: string
+        Race name, path to format directory, year for colours, path to save.
+
+    Returns
+    -------
+    None.
+
+    See Also
+    --------
+    plotting_colour
+
+    Notes
+    -----
+    None.
+
+    Example
+    -------
+    None.
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    09/05/2024
+    ----------
+    Copied from league_bars and changed to fit the purpose.
+
+    """
+    out_file = Path(f'{out_path}/{race}_LeagueTeams_PositionsGained_Bar.png')
+    if out_file.is_file():
+        pass
+    else:
+        fig, ax = plt.subplots(
+            nrows=1,
+            ncols=1,
+            figsize=[
+                cm_to_inches(cm=15),
+                cm_to_inches(cm=9)],
+            dpi=600)
+        x_values = []
+        y_values = []
+        bar_colors = []
+        bar_borders = []
+        for manager, teams in results_dictionary.items():
+            for team, values in teams.items():
+                x_values.append(team)
+                y_values.append(values[race_index])
+                colors = plotting_colour(
+                    format_dir=format_dir,
+                    manager_team=team,
+                    year=year)
+                bar_colors.append(colors['bg_color'])
+                bar_borders.append(colors['color'])
+        zipped_lists = zip(
+            y_values,
+            x_values,
+            bar_colors,
+            bar_borders)
+        sorted_pairs = sorted(zipped_lists)
+        tuples = zip(*sorted_pairs[0: 10])
+        top_x, top_y, top_c, top_b = [list(tuple) for tuple in tuples]
+        top_x.append(0)
+        top_y.append('⋮')
+        top_c.append('k')
+        top_b.append('k')
+        tuples = zip(*sorted_pairs[-10:])
+        bot_x, bot_y, bot_c, bot_b = [list(tuple) for tuple in tuples]
+        x = np.concatenate((top_x, bot_x))
+        y = np.concatenate((top_y, bot_y))
+        c = np.concatenate((top_c, bot_c))
+        b = np.concatenate((top_b, bot_b))
+        ax.barh(
+            y,
+            x,
+            color=c,
+            edgecolor=b)
+        for i, v in enumerate(x):
+            if v < 0:
+                ax.text(
+                    1 + (v / 50),
+                    i,
+                    str(round(v, 2)),
+                    fontweight='bold',
+                    va='center',
+                    fontsize=6)
+            elif v == 0:
+                pass
+            else:
+                ax.text(
+                    v + (v / 50),
+                    i,
+                    str(round(v, 2)),
+                    fontweight='bold',
+                    va='center',
+                    fontsize=6)
+        ax.set_ylabel(
+            'Team',
+            fontsize=10,
+            fontweight='bold',
+            color='black')
+        ax.set_xlabel(
+            'Positions Gained [#]',
+            fontsize=10,
+            fontweight='bold',
+            color='black')
+        ax.tick_params(
+            axis='x',
+            labelsize=6,
+            labelrotation=45)
+        ax.tick_params(
+            axis='y',
+            labelsize=6)
+        ax.set_title(
+            f'League Teams {race} Positions Gained',
+            fontsize=14,
+            fontweight='bold',
+            color='black')
+        ax.xaxis.set_minor_locator(AutoMinorLocator())
+        fig.tight_layout()
+        plt.savefig(
+            out_file,
+            bbox_inches='tight')
+        plt.close(fig)
+        plt.cla()

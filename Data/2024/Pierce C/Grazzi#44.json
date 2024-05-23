@@ -70,5 +70,17 @@
         "DRS Boost": "Leclerc",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Emilia Romagna": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Ricciardo",
+        "Driver 3": "Russell",
+        "Driver 4": "Alonso",
+        "Driver 5": "Albon",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

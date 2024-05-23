@@ -156,15 +156,18 @@ def extractfile(dir_path : str,
     Returns
     -------
     list: list
-        List of all files in the target directory.
+        List of all files in the target directory that contain the desired file
+        string.
 
     See Also
     --------
-    None
+    python - os - listdir
 
     Notes
     -----
-    None
+    Target file string can be any string contained within the file, it could be
+    a file name identifier (e.g., "Sample_A1"), a number (such as a date or
+    time string, e.g., "240516"), or a file extension (e.g., ".png").
 
     Example
     -------
@@ -173,6 +176,11 @@ def extractfile(dir_path : str,
     ----------------------------------------------------------------------------
     Update History
     ==============
+
+    16/05/2024
+    ----------
+    Added to repository. Function has been part of a larger resource for a few
+    years.
 
     """
     return [file for file in os.listdir(dir_path) if file_string in file]

@@ -71,13 +71,32 @@
         "Penalties": 0,
         "Perks": [
             "No Negative",
-            "Sainz", 56,
-            "Magnussen", 6,
-            "Guanyu", 20,
-            "Albon", 14,
-            "Gasly", 15,
-            "Red Bull", 86,
-            "Ferrari", 82
+            "Sainz",
+            56,
+            "Magnussen",
+            6,
+            "Guanyu",
+            20,
+            "Albon",
+            14,
+            "Gasly",
+            15,
+            "Red Bull",
+            86,
+            "Ferrari",
+            82
         ]
+    },
+    "Emilia Romagna": {
+        "Driver 1": "Norris",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Guanyu",
+        "Driver 4": "Albon",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

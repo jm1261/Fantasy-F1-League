@@ -74,13 +74,32 @@
         "Penalties": 0,
         "Perks": [
             "No Negative",
-            "Verstappen", 82,
-            "Leclerc", 34,
-            "Tsunoda", 23,
-            "Magnussen", 6,
-            "Bottas", 10,
-            "Haas", 23,
-            "Ferrari", 82
+            "Verstappen",
+            82,
+            "Leclerc",
+            34,
+            "Tsunoda",
+            23,
+            "Magnussen",
+            6,
+            "Bottas",
+            10,
+            "Haas",
+            23,
+            "Ferrari",
+            82
         ]
+    },
+    "Emilia Romagna": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Leclerc",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Magnussen",
+        "Driver 5": "Bottas",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

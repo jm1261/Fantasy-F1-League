@@ -71,13 +71,32 @@
         "Penalties": 0,
         "Perks": [
             "No Negative",
-            "Verstappen", 82,
-            "Magnussen", 6,
-            "Albon", 14,
-            "Ocon", 13,
-            "Sargeant", 13,
-            "Mercedes", 45,
-            "Ferrari", 82
+            "Verstappen",
+            82,
+            "Magnussen",
+            6,
+            "Albon",
+            14,
+            "Ocon",
+            13,
+            "Sargeant",
+            13,
+            "Mercedes",
+            45,
+            "Ferrari",
+            82
         ]
+    },
+    "Emilia Romagna": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Magnussen",
+        "Driver 3": "Albon",
+        "Driver 4": "Ocon",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

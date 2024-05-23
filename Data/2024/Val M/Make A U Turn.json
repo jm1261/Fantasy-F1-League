@@ -70,5 +70,17 @@
         "DRS Boost": "Sainz",
         "Penalties": -10,
         "Perks": "None"
+    },
+    "Emilia Romagna": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Ocon",
+        "Driver 4": "Alonso",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }
