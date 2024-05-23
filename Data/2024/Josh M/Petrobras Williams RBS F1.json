@@ -79,5 +79,17 @@
         "DRS Boost": "Verstappen",
         "Penalties": 0,
         "Perks": "Limitless"
+    },
+    "Emilia Romagna": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Leclerc",
+        "Driver 3": "Magnussen",
+        "Driver 4": "Bottas",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "RB",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

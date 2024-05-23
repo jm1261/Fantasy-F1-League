@@ -742,7 +742,9 @@ def manager_points_per_value(results_dictionary : dict) -> dict:
     return ppvs
 
 
-def manager_statistics(results_dictionary : dict) -> dict:
+def managers_statistics(info_dictionary: dict,
+                        results_dictionary : dict,
+                        completed_races : list) -> dict:
     """
     Function Details
     ================
@@ -750,19 +752,23 @@ def manager_statistics(results_dictionary : dict) -> dict:
 
     Parameters
     ----------
-    results_dictionary: dictionary
-        Manager/team results dictionary.
+    info_dictionary, results_dictionary: dictionary
+        Season information dictionary. Manager/team results dictionary.
+    completed_races: list
+        List of completed races in a season.
 
     Returns
     -------
     stats_dictionary: dictionary
         Manager/team statistics dictionary containing team and manager total
-        points, average points, average values, and points per value.
+        points, average points, average values, and points per value. Also
+        includes positions gained.
 
     See Also
     --------
     sum_manager_results
     manager_points_per_value
+    position_gained
 
     Notes
     -----
@@ -780,12 +786,21 @@ def manager_statistics(results_dictionary : dict) -> dict:
     ----------
     Brought across from old code.
 
+    05/05/2024
+    ----------
+    Added positions gained.
+
     """
     sum_stats = sum_manager_results(results_dictionary=results_dictionary)
     ppvs = manager_points_per_value(results_dictionary=results_dictionary)
+    pos_gained = position_gained(
+        info_dictionary=info_dictionary,
+        completed_races=completed_races,
+        results_dictionary=sum_stats['Team Sum Points'])
     stats_dictionary = dict(
         sum_stats,
-        **ppvs)
+        **ppvs,
+        **pos_gained)
     return stats_dictionary
 
 
@@ -1480,3 +1495,108 @@ def sum_dictionary(dictionary : dict) -> dict:
         "Sum Points": sum_dict,
         "Average Points": avg_dict}
     return final_dict
+
+
+def position_gained(info_dictionary : dict,
+                    completed_races : list,
+                    results_dictionary : dict) -> dict:
+    """
+    Function Details
+    ================
+    Determine positions gained and lost on a weekly (race-wise) basis.
+
+    Parameters
+    ----------
+    completed_races: list
+        List of all completed races.
+    results_dictionary, info_dictionary: dict
+        Sum points dictionary for manager teams -> team values. From manager
+        statistics. Season information dictionary.
+
+    Returns
+    -------
+    positions_gained: dict
+        Dictionary containing the positions gained (positive) and positions lost
+        (negative) for all entered teams, sorted with their respective managers.
+
+    Notes
+    -----
+    Function will always update the positions gained dictionary with a list with
+    0 as the first entry for the first race, in which no positions were gained.
+
+    See Also
+    --------
+    None.
+
+    Example
+    -------
+    None.
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    08/05/2024
+    ----------
+    Created.
+
+    """
+    positions_gained = {}
+    pos_gained = {}
+
+    ''' Loop Races '''
+    for index, race in enumerate(completed_races):
+
+        ''' Set up points and previous points lists '''
+        current_points = []
+        previous_points = []
+        team_names = []
+
+        ''' Sort for first race and onwards '''
+        if index == 0:
+            for _, teams in results_dictionary.items():
+                for team, _ in teams.items():
+                    pos_gained.update({f'{team}': [0]})
+
+        else:
+            for _, teams in results_dictionary.items():
+                for team, values in teams.items():
+                    current_points.append(values[index])
+                    previous_points.append(values[index - 1])
+                    team_names.append(team)
+
+            ''' Sort lists '''
+            current_zipped = zip(current_points, team_names)
+            previous_zipped = zip(previous_points, team_names)
+            current_sorted = sorted(current_zipped)
+            previous_sorted = sorted(previous_zipped)
+            current_tuples = zip(*current_sorted)
+            previous_tuples = zip(*previous_sorted)
+
+            ''' Extract '''
+            _, current = [list(tuple) for tuple in current_tuples]
+            _, previous = [list(tuple) for tuple in previous_tuples]
+            current_order = current[::-1]
+            previous_order = previous[::-1]
+            
+            ''' Determine order '''
+            for i, name in enumerate(current_order):
+                for j, b in enumerate(previous_order):
+                    if name == b:
+                        position_change = -(i - j) ## gains == positive
+                        pos_gained[f'{name}'].append(position_change)
+                    else:
+                        pass
+
+    ''' Sort teams into manager groups '''
+    managers = info_dictionary['Managers']
+    for manager, teams in managers.items():
+        manager_dictionary = {}
+        for team, gains in pos_gained.items():
+            if team in teams:
+                manager_dictionary.update({team: gains})
+            else:
+                pass
+        positions_gained.update({f'{manager}': manager_dictionary})
+
+    return {'Team Positions Gained': positions_gained}

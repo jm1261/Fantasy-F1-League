@@ -80,5 +80,17 @@
         "DRS Boost": "Perez",
         "Penalties": 0,
         "Perks": "Limitless"
+    },
+    "Emilia Romagna": {
+        "Driver 1": "Norris",
+        "Driver 2": "Piastri",
+        "Driver 3": "Albon",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Ocon",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "Wildcard"
     }
 }

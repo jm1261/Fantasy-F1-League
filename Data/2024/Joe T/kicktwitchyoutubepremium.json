@@ -70,5 +70,17 @@
         "DRS Boost": "Hamilton",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Emilia Romagna": {
+        "Driver 1": "Albon",
+        "Driver 2": "Piastri",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Bottas",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Piastri",
+        "Penalties": -10,
+        "Perks": "None"
     }
 }

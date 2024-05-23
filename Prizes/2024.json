@@ -2,7 +2,7 @@
     "Spot": {
         "Spot Names": {
             "Saudi Arabia": "Obviously do that Tactically",
-            "Imola": "Hamilton's Reverse Gear",
+            "Emilia Romagna": "Hamilton's Reverse Gear",
             "Monaco": "Jewel of the Crown",
             "Spain": "Madrid Will Be Better",
             "Hungary": "Bottas Bowling",
@@ -20,7 +20,7 @@
             "Las Vegas"
         ],
         "Spot Min": [
-            "Imola",
+            "Emilia Romagna",
             "Spain",
             "Hungary",
             "Belgium",
@@ -33,10 +33,18 @@
                 "Johnny UniHaas",
                 287
             ],
+            "Hamilton's Reverse Gear": [
+                "Emilia Romagna",
+                "Stuart S",
+                "Ferrari Strategists",
+                -13
+            ],
             "Max Ties": [
                 []
             ],
-            "Min Ties": []
+            "Min Ties": [
+                []
+            ]
         }
     },
     "Achievements": {
