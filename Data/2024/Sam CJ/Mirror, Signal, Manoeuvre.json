@@ -92,5 +92,17 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "Wildcard"
+    },
+    "Monaco": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Piastri",
+        "Driver 3": "Hamilton",
+        "Driver 4": "Tsunoda",
+        "Driver 5": "Magnussen",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Hamilton",
+        "Penalties": -40,
+        "Perks": ["Extra DRS", "Leclerc"]
     }
 }

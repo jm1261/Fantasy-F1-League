@@ -85,5 +85,17 @@
         "DRS Boost": "Leclerc",
         "Penalties": 0,
         "Perks": "Limitless"
+    },
+    "Monaco": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Alonso",
+        "Driver 3": "Russell",
+        "Driver 4": "Bottas",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Alonso",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }
