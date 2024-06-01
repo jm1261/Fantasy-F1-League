@@ -82,5 +82,17 @@
         "DRS Boost": "Magnussen",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Monaco": {
+        "Driver 1": "Guanyu",
+        "Driver 2": "Russell",
+        "Driver 3": "Perez",
+        "Driver 4": "Ocon",
+        "Driver 5": "Magnussen",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Magnussen",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

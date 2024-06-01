@@ -91,5 +91,17 @@
         "DRS Boost": "Leclerc",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Monaco": {
+        "Driver 1": "Norris",
+        "Driver 2": "Leclerc",
+        "Driver 3": "Guanyu",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Leclerc",
+        "Penalties": -10,
+        "Perks": "None"
     }
 }

@@ -82,5 +82,17 @@
         "DRS Boost": "Verstappen",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Monaco": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Verstappen",
+        "Driver 5": "Bottas",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }
