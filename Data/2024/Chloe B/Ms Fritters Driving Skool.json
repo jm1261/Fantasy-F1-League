@@ -97,5 +97,29 @@
         "DRS Boost": "Alonso",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Canada": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Verstappen",
+        "Driver 3": "Bottas",
+        "Driver 4": "Gasly",
+        "Driver 5": "Albon",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Verstappen",
+        "Penalties": -10,
+        "Perks": "Auto Pilot"
+    },
+    "Spain": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Verstappen",
+        "Driver 3": "Ocon",
+        "Driver 4": "Gasly",
+        "Driver 5": "Albon",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

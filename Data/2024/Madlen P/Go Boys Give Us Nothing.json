@@ -94,5 +94,29 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Canada": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Piastri",
+        "Driver 3": "Alonso",
+        "Driver 4": "Tsunoda",
+        "Driver 5": "Albon",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "RB",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Spain": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Piastri",
+        "Driver 3": "Alonso",
+        "Driver 4": "Tsunoda",
+        "Driver 5": "Albon",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "RB",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

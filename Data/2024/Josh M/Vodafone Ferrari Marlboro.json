@@ -100,5 +100,29 @@
         "DRS Boost": "Sainz",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Canada": {
+        "Driver 1": "Guanyu",
+        "Driver 2": "Sargeant",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Leclerc",
+        "Driver 5": "Magnussen",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Spain": {
+        "Driver 1": "Guanyu",
+        "Driver 2": "Albon",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Leclerc",
+        "Driver 5": "Stroll",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Mercedes",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

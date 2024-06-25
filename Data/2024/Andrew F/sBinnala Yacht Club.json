@@ -94,5 +94,29 @@
         "DRS Boost": "Sargeant",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Canada": {
+        "Driver 1": "Sargeant",
+        "Driver 2": "Magnussen",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Gasly",
+        "Driver 5": "Guanyu",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Sargeant",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Spain": {
+        "Driver 1": "Sargeant",
+        "Driver 2": "Magnussen",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Gasly",
+        "Driver 5": "Guanyu",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Sargeant",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }
