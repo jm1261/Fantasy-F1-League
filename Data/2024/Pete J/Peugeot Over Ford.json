@@ -94,5 +94,29 @@
         "DRS Boost": "Verstappen",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Canada": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Ricciardo",
+        "Driver 3": "Magnussen",
+        "Driver 4": "Albon",
+        "Driver 5": "Leclerc",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Spain": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Ricciardo",
+        "Driver 3": "Magnussen",
+        "Driver 4": "Albon",
+        "Driver 5": "Leclerc",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

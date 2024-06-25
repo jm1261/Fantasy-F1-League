@@ -94,5 +94,29 @@
         "DRS Boost": "Norris",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Canada": {
+        "Driver 1": "Norris",
+        "Driver 2": "Hamilton",
+        "Driver 3": "Ricciardo",
+        "Driver 4": "Albon",
+        "Driver 5": "Bottas",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "RB",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Spain": {
+        "Driver 1": "Norris",
+        "Driver 2": "Hamilton",
+        "Driver 3": "Ricciardo",
+        "Driver 4": "Albon",
+        "Driver 5": "Bottas",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "RB",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

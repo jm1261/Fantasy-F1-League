@@ -94,5 +94,29 @@
         "DRS Boost": "Leclerc",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Canada": {
+        "Driver 1": "Hulkenberg",
+        "Driver 2": "Gasly",
+        "Driver 3": "Alonso",
+        "Driver 4": "Leclerc",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Spain": {
+        "Driver 1": "Hulkenberg",
+        "Driver 2": "Gasly",
+        "Driver 3": "Alonso",
+        "Driver 4": "Leclerc",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

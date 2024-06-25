@@ -97,5 +97,29 @@
         "DRS Boost": "Sainz",
         "Penalties": -10,
         "Perks": "None"
+    },
+    "Canada": {
+        "Driver 1": "Gasly",
+        "Driver 2": "Piastri",
+        "Driver 3": "Sargeant",
+        "Driver 4": "Sainz",
+        "Driver 5": "Guanyu",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Spain": {
+        "Driver 1": "Tsunoda",
+        "Driver 2": "Hamilton",
+        "Driver 3": "Sargeant",
+        "Driver 4": "Sainz",
+        "Driver 5": "Guanyu",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Sainz",
+        "Penalties": -10,
+        "Perks": "None"
     }
 }
