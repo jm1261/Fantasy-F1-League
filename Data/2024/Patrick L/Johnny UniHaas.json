@@ -121,5 +121,41 @@
         "DRS Boost": "Sainz",
         "Penalties": -10,
         "Perks": "None"
+    },
+    "Austria": {
+        "Driver 1": "Albon",
+        "Driver 2": "Piastri",
+        "Driver 3": "Sargeant",
+        "Driver 4": "Sainz",
+        "Driver 5": "Guanyu",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Great Britain": {
+        "Driver 1": "Albon",
+        "Driver 2": "Piastri",
+        "Driver 3": "Sargeant",
+        "Driver 4": "Russell",
+        "Driver 5": "Guanyu",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Hungary": {
+        "Driver 1": "Norris",
+        "Driver 2": "Bottas",
+        "Driver 3": "Sargeant",
+        "Driver 4": "Russell",
+        "Driver 5": "Guanyu",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

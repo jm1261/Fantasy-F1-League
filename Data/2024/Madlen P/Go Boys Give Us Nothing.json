@@ -118,5 +118,57 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Austria": {
+        "Driver 1": "Russell",
+        "Driver 2": "Piastri",
+        "Driver 3": "Alonso",
+        "Driver 4": "Tsunoda",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": [
+            "No Negative",
+            "Russell",
+            43,
+            "Piastri",
+            84,
+            "Alonso",
+            15,
+            "Tsunoda",
+            10,
+            "Hulkenberg",
+            22,
+            "Mercedes",
+            76,
+            "Haas",
+            41
+        ]
+    },
+    "Great Britain": {
+        "Driver 1": "Russell",
+        "Driver 2": "Piastri",
+        "Driver 3": "Alonso",
+        "Driver 4": "Tsunoda",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Hungary": {
+        "Driver 1": "Russell",
+        "Driver 2": "Piastri",
+        "Driver 3": "Alonso",
+        "Driver 4": "Tsunoda",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

@@ -121,5 +121,41 @@
         "DRS Boost": "Sargeant",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Austria": {
+        "Driver 1": "Ricciardo",
+        "Driver 2": "Sargeant",
+        "Driver 3": "Albon",
+        "Driver 4": "Bottas",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Sargeant",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Great Britain": {
+        "Driver 1": "Ricciardo",
+        "Driver 2": "Sargeant",
+        "Driver 3": "Albon",
+        "Driver 4": "Bottas",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Sargeant",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Hungary": {
+        "Driver 1": "Ricciardo",
+        "Driver 2": "Sargeant",
+        "Driver 3": "Albon",
+        "Driver 4": "Bottas",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Sargeant",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }
