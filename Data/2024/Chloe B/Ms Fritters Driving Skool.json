@@ -121,5 +121,50 @@
         "DRS Boost": "Sainz",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Austria": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Verstappen",
+        "Driver 3": "Ocon",
+        "Driver 4": "Gasly",
+        "Driver 5": "Albon",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Great Britain": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Norris",
+        "Driver 3": "Hamilton",
+        "Driver 4": "Gasly",
+        "Driver 5": "Albon",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Sainz",
+        "Penalties": -10,
+        "Perks": [
+            "No Negative",
+            "Sainz", 56,
+            "Norris", 26,
+            "Hamilton", 47,
+            "Gasly", 0,
+            "Albon", 6,
+            "Haas", 30,
+            "Alpine", 9
+        ]
+    },
+    "Hungary": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Norris",
+        "Driver 3": "Hamilton",
+        "Driver 4": "Ricciardo",
+        "Driver 5": "Albon",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

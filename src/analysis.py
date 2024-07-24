@@ -294,29 +294,35 @@ def no_negative(category : str,
             total_scores = sum(driver_scores) + sum(constructor_scores)
     else:
         no_neg_names = [name for name in perk[1:] if isinstance(name, str)]
-        driver_scores = [
-            (driver_results[name])[race_index]
-            for name in driver_names
-            if name not in no_neg_names]
-        constructor_scores = [
-            (constructor_results[name])[race_index]
-            for name in constructor_names
-            if name not in no_neg_names]
-        double_scores = [
-            (driver_results[name])[race_index]
-            for name in double_names
-            if name not in no_neg_names]
-        [
-            driver_scores.append(score)
-            for score in perk[1:]
-            if isinstance(score, int)]
         if category == 'Points':
+            driver_scores = [
+                (driver_results[name])[race_index]
+                for name in driver_names
+                if name not in no_neg_names]
+            constructor_scores = [
+                (constructor_results[name])[race_index]
+                for name in constructor_names
+                if name not in no_neg_names]
+            double_scores = [
+                (driver_results[name])[race_index]
+                for name in double_names
+                if name not in no_neg_names]
+            [
+                driver_scores.append(score)
+                for score in perk[1:]
+                if isinstance(score, int)]
             all_points = []
             [all_points.append(x) for x in driver_scores]
             [all_points.append(x) for x in constructor_scores]
             [all_points.append(x) for x in double_scores]
             total_scores = sum(all_points) + penalties
         else:
+            driver_scores = [
+                (driver_results[name])[race_index]
+                for name in driver_names]
+            constructor_scores = [
+                (constructor_results[name])[race_index]
+                for name in constructor_names]
             total_scores = sum(driver_scores) + sum(constructor_scores)
     return total_scores
 

@@ -121,5 +121,41 @@
         "DRS Boost": "Norris",
         "Penalties": 0,
         "Perks": "Auto Pilot"
+    },
+    "Austria": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Norris",
+        "Driver 3": "Bottas",
+        "Driver 4": "Tsunoda",
+        "Driver 5": "Magnussen",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "RB",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "Auto Pilot"
+    },
+    "Great Britain": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Norris",
+        "Driver 3": "Gasly",
+        "Driver 4": "Tsunoda",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Hungary": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Norris",
+        "Driver 3": "Albon",
+        "Driver 4": "Tsunoda",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Haas",
+        "Constructor 2": "RB",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

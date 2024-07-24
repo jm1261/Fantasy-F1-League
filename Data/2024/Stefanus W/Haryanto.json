@@ -107,13 +107,20 @@
         "Penalties": 0,
         "Perks": [
             "No Negative",
-            "Alonso", 14,
-            "Stroll", 14,
-            "Guanyu", 6,
-            "Tsunoda", 6,
-            "Leclerc", 8,
-            "Mercedes", 74,
-            "Ferrari", 24
+            "Alonso",
+            14,
+            "Stroll",
+            14,
+            "Guanyu",
+            6,
+            "Tsunoda",
+            6,
+            "Leclerc",
+            8,
+            "Mercedes",
+            74,
+            "Ferrari",
+            24
         ]
     },
     "Spain": {
@@ -124,6 +131,42 @@
         "Driver 5": "Leclerc",
         "Constructor 1": "Mercedes",
         "Constructor 2": "Ferrari",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Austria": {
+        "Driver 1": "Norris",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Ricciardo",
+        "Driver 4": "Albon",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "Wildcard"
+    },
+    "Great Britain": {
+        "Driver 1": "Norris",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Ricciardo",
+        "Driver 4": "Stroll",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Hungary": {
+        "Driver 1": "Norris",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Russell",
+        "Driver 4": "Sargeant",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "McLaren",
         "DRS Boost": "Norris",
         "Penalties": 0,
         "Perks": "None"

@@ -118,5 +118,41 @@
         "DRS Boost": "Norris",
         "Penalties": 0,
         "Perks": "Wildcard"
+    },
+    "Austria": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Norris",
+        "Driver 3": "Sainz",
+        "Driver 4": "Alonso",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "RB",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "Wildcard"
+    },
+    "Great Britain": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Norris",
+        "Driver 3": "Sainz",
+        "Driver 4": "Alonso",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "RB",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "Wildcard"
+    },
+    "Hungary": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Norris",
+        "Driver 3": "Sainz",
+        "Driver 4": "Alonso",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "RB",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "Wildcard"
     }
 }

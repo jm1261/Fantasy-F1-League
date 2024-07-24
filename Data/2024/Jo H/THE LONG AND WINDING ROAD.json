@@ -118,5 +118,41 @@
         "DRS Boost": "Perez",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Austria": {
+        "Driver 1": "Hamilton",
+        "Driver 2": "Perez",
+        "Driver 3": "Gasly",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Albon",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Perez",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Great Britain": {
+        "Driver 1": "Hamilton",
+        "Driver 2": "Perez",
+        "Driver 3": "Gasly",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Albon",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Perez",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Hungary": {
+        "Driver 1": "Hamilton",
+        "Driver 2": "Perez",
+        "Driver 3": "Gasly",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Albon",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Perez",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

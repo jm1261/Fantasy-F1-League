@@ -118,5 +118,50 @@
         "DRS Boost": "Leclerc",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Austria": {
+        "Driver 1": "Norris",
+        "Driver 2": "Leclerc",
+        "Driver 3": "Sargeant",
+        "Driver 4": "Magnussen",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Great Britain": {
+        "Driver 1": "Norris",
+        "Driver 2": "Leclerc",
+        "Driver 3": "Sargeant",
+        "Driver 4": "Magnussen",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": [
+            "No Negative",
+            "Norris", 52,
+            "Leclerc", 5,
+            "Sargeant", 4,
+            "Magnussen", 11,
+            "Hulkenberg", 14,
+            "Ferrari", 36,
+            "McLaren", 59
+        ]
+    },
+    "Hungary": {
+        "Driver 1": "Norris",
+        "Driver 2": "Leclerc",
+        "Driver 3": "Sargeant",
+        "Driver 4": "Magnussen",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

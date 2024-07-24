@@ -588,7 +588,7 @@ def updates_managers_weekly(team_dictionary : dict,
     while index >= 0:
         previous_race = races[index]
         previous_team = team_dictionary[f'{previous_race}']
-        reset_perks = ['Limitless', 'Final Fix']
+        reset_perks = ['Limitless', 'Final Fix', 'No Negative', 'Extra DRS']
         if previous_team["Perks"] in reset_perks:
             index -= 1
         else:
