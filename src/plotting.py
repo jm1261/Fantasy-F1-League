@@ -1,3 +1,18 @@
+################################################################################
+################################################################################
+###                              File: Plotting                              ###
+###                           Author: Joshua Male                            ###
+###                             Date: 01/01/2021                             ###
+###                                                                          ###
+###               Description: Plotting Code for Fantasy League              ###
+###                        Project: F1 Fantasy League                        ###
+###                                                                          ###
+###                       Script Designed for Python 3                       ###
+###                         © Copyright Joshua Male                          ###
+###                                                                          ###
+###                       Software Release: Unreleased                       ###
+################################################################################
+################################################################################
 import numpy as np
 import matplotlib.pyplot as plt
 
