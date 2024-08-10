@@ -73,42 +73,36 @@ def lineup_week(root : str,
     """
 
     """ Load Config Files """
-    info_path = Path(f'{root}/Info.json')
-    info_dict = (io.load_json(file_path=info_path))[f'{year}']
-    data_path = Path(f'{root}/Data/{year}')
-    results_path = Path(f'{root}/Data/{year}/Lineup')
-    format_path = Path(f'{root}/Config')
+    config = io.Configuration(root_directory=root, year=year)
+    config.info_dictionary(file_name='Info.json')
+    config.get_completed_races(races=config.info_dict['Races'])
 
     """ Update the Weekly Lineup Points and Values """
     results_dict = io.update_weeklylineup(
         year=year,
-        info_dictionary=info_dict,
-        data_path=data_path,
-        results_path=results_path,
-        format_path=format_path)
+        info_dictionary=config.info_dict,
+        data_path=config.data_path,
+        results_path=config.lineup_path,
+        format_path=config.format_path,
+        completed_races=config.completed_races)
     stats_dict = anal.update_lineup_stats(
-        results_path=results_path,
+        results_path=config.lineup_path,
         results_dict=results_dict)
-
-    """ Check Completed Races """
-    completed_races = io.get_completed_races(
-        results_path=results_path,
-        info_dictionary=info_dict)
 
     """ Create Spreadsheet """
     ss.line_up_spreadsheet(
-        file_path=Path(f'{root}/Data/{year}/Lineup/Results.xlsx'),
-        format_dir=Path(f'{format_path}/Lineup_Formats'),
+        file_path=Path(f'{config.lineup_path}/Results.xlsx'),
+        format_dir=Path(f'{config.format_path}/Lineup_Formats'),
         year=year,
-        races=info_dict['Races'],
+        races=config.info_dict['Races'],
         results=results_dict,
         statistics=stats_dict)
 
     """ Plot """
-    for index, race in enumerate(completed_races):
+    for index, race in enumerate(config.completed_races):
         lineup_plotter = plot2.Lineup_Points(
-            out_path=Path(f'{root}/Data/{year}/Figures/{race}'),
-            format_dir=format_path,
+            out_path=Path(f'{config.data_path}/Figures/{race}'),
+            format_dir=config.format_path,
             year=year)
         lineup_plotter.results_bar(
             race_index=index,
@@ -120,7 +114,7 @@ def lineup_week(root : str,
             statistics_dictionary=stats_dict)
         lineup_plotter.statistics_line(
             race=race,
-            races=completed_races[0: index + 1],
+            races=config.completed_races[0: index + 1],
             statistics_dictionary=stats_dict)
 
 

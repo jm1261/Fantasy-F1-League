@@ -1,3 +1,18 @@
+################################################################################
+################################################################################
+###                               File: DataIO                               ###
+###                           Author: Joshua Male                            ###
+###                             Date: 01/01/2021                             ###
+###                                                                          ###
+###                Description: Data Input/Output script for F1              ###
+###                        Project: F1 Fantasy League                        ###
+###                                                                          ###
+###                       Script Designed for Python 3                       ###
+###                         © Copyright Joshua Male                          ###
+###                                                                          ###
+###                       Software Release: Unreleased                       ###
+################################################################################
+################################################################################
 import os
 import json
 import numpy as np
@@ -738,69 +753,6 @@ def managers_weekly(info_dictionary : dict,
                         dictionary=blank_team_sheet)
 
 
-def get_completed_races(results_path : str,
-                        info_dictionary : dict) -> list:
-    """
-    Function Details
-    ================
-    Get a list of all completed races.
-
-    Uses the list of all races and the results file to determine which races
-    have been completed.
-
-    Parameters
-    ----------
-    results_path: string
-        Path to results directory for drivers and teams.
-    info_dictionary: dictionary
-        Season info dictionary.
-
-    Returns
-    -------
-    races_completed: list
-        List of completed races.
-
-    See Also
-    --------
-    None
-
-    Notes
-    -----
-    Uses the driver and team weekly results file to determine if a race has been
-    completed. If the file exists, the function assumes that the race has been
-    completed (or recorded) and will append the race name to a list of completed
-    races.
-
-    Example
-    -------
-    >>> races_so_far = get_completed_races(
-            results_path="/Path/To/Results/Directory",
-            info_dictionary=info_dict)
-    >>> races_so_far
-    ['Bahrain', 'China', 'Imola']
-
-    ----------------------------------------------------------------------------
-    Update History
-    ==============
-
-    16/02/2024
-    ----------
-    Update to the function description for readability. Removed the load_json
-    info dictionary loading as this is not necessary and reduces RAM usage. Also
-    removed the returning of "races" as a variable, this is stored within the
-    info dictionary and does not need to be handled twice. This updated was
-    created by J.Male.
-
-    """
-    races = info_dictionary['Races']
-    races_completed = []
-    for race in races:
-        results = Path(f'{results_path}/{race}_Results.json')
-        if results.is_file():
-            races_completed.append(race)
-    return races_completed
-
-
 def manager_checked(statistics_dictionary : dict,
                     data_path : str) -> None:
     """
@@ -867,7 +819,8 @@ def update_weeklylineup(year : str,
                         info_dictionary : dict,
                         data_path : str,
                         results_path : str,
-                        format_path : str) -> dict:
+                        format_path : str,
+                        completed_races : list) -> dict:
     """
     Function Details
     ================
@@ -885,6 +838,8 @@ def update_weeklylineup(year : str,
         Information dictionary for the year.
     data_path, results_path, format_path: string
         Path to data. Path to results directory. Path to format directory.
+    completed_races: list
+        List of races to process.
 
     Returns
     -------
@@ -933,7 +888,8 @@ def update_weeklylineup(year : str,
         info_dictionary=info_dictionary,
         results_path=results_path,
         lineup_path=Path(f'{format_path}/Lineup_Formats'),
-        year=year)
+        year=year,
+        completed_races=completed_races)
 
     """ Load New Week and Find Race """
     weekly_lineup_dict = load_json(
@@ -1142,7 +1098,8 @@ def check_races(race : str,
 def update_results_dict(info_dictionary: dict,
                         results_path: str,
                         lineup_path: str,
-                        year : str) -> dict:
+                        year : str,
+                        completed_races : list) -> dict:
     """
     Function Details
     ================
@@ -1157,6 +1114,8 @@ def update_results_dict(info_dictionary: dict,
     results_path, lineup_path, year : string
         Paths to info dictionary, results directory, lineup format directory.
         Year to process.
+    completed_races: list
+        List of completed races to process.
     
     Returns
     -------
@@ -1226,11 +1185,6 @@ def update_results_dict(info_dictionary: dict,
             team_dict = file[f'{year}']
             driver_names = team_dict['drivers']
             [drivers.append(driver) for driver in driver_names]
-
-    """ Get Completed Races """
-    completed_races = get_completed_races(
-        results_path=results_path,
-        info_dictionary=info_dictionary)
 
     """ Update Race Results """
     results_dict = load_json(file_path=Path(f'{results_path}/Results.json'))
@@ -1397,3 +1351,186 @@ def display_img(file_path : str,
 
     """
     display(Image(filename=file_path, width=width, height=height))
+
+
+class Configuration:
+    """
+    Class Details
+    =============
+
+    Attributes
+    ----------
+    root, year: string
+        Root directory path, year to process.
+    data_path, lineup_path, format_path: string
+        Assigned attributed from root directory and year to data, lineup results
+        and configuration paths.
+
+    Functions
+    ---------
+    __init__(self, root_directory : str, year : str)
+    info_dictionary(self, file_name: str)
+
+    Notes
+    -----
+    None.
+
+    Example
+    -------
+    None.
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    10/08/2024
+    ----------
+    Created from repeated scripts.
+
+    """
+
+
+    def __init__(
+            self,
+            root_directory : str,
+            year : str) -> None:
+        """
+        Function Details
+        ================
+        Initialise Configuration class.
+
+        Parameters
+        ----------
+
+        Returns
+        -------
+
+        See Also
+        --------
+
+        Notes
+        -----
+
+        Example
+        -------
+
+        ------------------------------------------------------------------------
+        Update History
+        ==============
+
+        10/08/2024
+        ----------
+        Created.
+
+        """
+
+        # Attributes
+        self.root = root_directory
+        self.year = year
+
+        # Assigned attributed
+        self.data_path = Path(f'{self.root}/Data/{self.year}')
+        self.lineup_path = Path(f'{self.data_path}/Lineup')
+        self.format_path = Path(f'{self.root}/Config')
+
+
+    def info_dictionary(self,
+                        file_name : str) -> dict:
+        """
+        Function Details
+        ================
+        Get the year's information dictionary.
+
+        Parameters
+        ----------
+        file_name: string
+            Information dictionary file name.
+
+        Returns
+        -------
+        info_dictionary: dictionary
+            Info dictionary for current year.
+
+        See Also
+        --------
+        load_json
+
+        Notes
+        -----
+        None.
+
+        Example
+        -------
+        None.
+
+        ------------------------------------------------------------------------
+        Update History
+        ==============
+
+        10/08/2024
+        ----------
+        Created.
+
+        """
+        info_dictionary = load_json(file_path=Path(f'{self.root}/{file_name}'))
+        self.info_dict = info_dictionary[f'{self.year}']
+
+
+    def get_completed_races(self,
+                            races : list):
+        """
+        Function Details
+        ================
+        Get a list of all completed races.
+
+        Uses the list of all races and the results file to determine which races
+        have been completed.
+
+        Parameters
+        ----------
+        races: list
+            List of target races to process.
+
+        Returns
+        -------
+        None: none.
+            Update class attributes with completed_races.
+
+        See Also
+        --------
+        None.
+
+        Notes
+        -----
+        Uses the driver and team weekly results file to determine if a race is
+        completed. If the file exists, the function assumes that the race is
+        completed (or recorded) and will append the race name to a list of
+        completed races.
+
+        Example
+        -------
+        >>> races_so_far = Configuration.get_completed_races(
+                                races=info_dict['races'])
+
+        ------------------------------------------------------------------------
+        Update History
+        ==============
+
+        16/02/2024
+        ----------
+        Update to the function description for readability. Removed the
+        load_json info dictionary loading as this is not necessary and reduces
+        RAM usage. Also removed the returning of "races" as a variable, this is
+        stored within the info dictionary and does not need to be handled twice.
+        This updated was created by J.Male.
+
+        10/08/2024
+        ----------
+        Turned function into a class method and removed wasted lines for list
+        comprehension.
+
+        """
+        races_completed = [
+            race for race in races
+            if Path(f'{self.lineup_path}/{race}_Results.json').is_file()]
+        self.completed_races = races_completed
