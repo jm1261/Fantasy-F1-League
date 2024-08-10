@@ -1,9 +1,26 @@
+################################################################################
+################################################################################
+###                               File: Lineup                               ###
+###                           Author: Joshua Male                            ###
+###                             Date: 01/01/2021                             ###
+###                                                                          ###
+###               Description: Lineup Script for Fantasy League              ###
+###                        Project: F1 Fantasy League                        ###
+###                                                                          ###
+###                       Script Designed for Python 3                       ###
+###                         © Copyright Joshua Male                          ###
+###                                                                          ###
+###                       Software Release: Unreleased                       ###
+################################################################################
+################################################################################
 import sys
 import src.dataIO as io
 import src.filepaths as fp
 import src.analysis as anal
 import src.plotting as plot
 import src.spreadsheet as ss
+
+import src.plotting_v2 as plot2
 
 from pathlib import Path
 
@@ -87,37 +104,29 @@ def lineup_week(root : str,
         results=results_dict,
         statistics=stats_dict)
 
-    """ Plot Results Bar """
+    """ Plot """
     for index, race in enumerate(completed_races):
-        races = completed_races[0: index + 1]
-        out_path = Path(f'{root}/Data/{year}/Figures/{race}')
-        fp.check_dir_exists(dir_path=out_path)
-        plot.results_bar(
-            results_dictionary=results_dict,
+        lineup_plotter = plot2.Lineup_Points(
+            out_path=Path(f'{root}/Data/{year}/Figures/{race}'),
+            format_dir=format_path,
+            year=year)
+        lineup_plotter.results_bar(
             race_index=index,
             race=race,
-            format_dir=format_path,
-            year=year,
-            out_path=out_path)
-
-    """ Plot Statistics """
-    for index, race in enumerate(completed_races):
-        races = completed_races[0: index + 1]
-        out_path = Path(f'{root}/Data/{year}/Figures/{race}')
-        fp.check_dir_exists(dir_path=out_path)
-        plot.lineupstats(
-            statistics_dictionary=stats_dict,
+            results_dictionary=results_dict)
+        lineup_plotter.statistics_bars(
             race_index=index,
-            races=races,
             race=race,
-            format_dir=format_path,
-            year=year,
-            out_path=out_path)
+            statistics_dictionary=stats_dict)
+        lineup_plotter.statistics_line(
+            race=race,
+            races=completed_races[0: index + 1],
+            statistics_dictionary=stats_dict)
 
 
 if __name__ == '__main__':
-   # year = 2019
-    year = sys.argv[1]
+    year = 2024
+    #year = sys.argv[1]
     root = Path().absolute()
     lineup_week(
         root=root,
