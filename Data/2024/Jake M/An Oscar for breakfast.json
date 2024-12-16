@@ -154,5 +154,141 @@
         "DRS Boost": "Verstappen",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Belgium": {
+        "Driver 1": "Norris",
+        "Driver 2": "Magnussen",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Verstappen",
+        "Driver 5": "Albon",
+        "Constructor 1": "Haas",
+        "Constructor 2": "RB",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Netherlands": {
+        "Driver 1": "Norris",
+        "Driver 2": "Magnussen",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Verstappen",
+        "Driver 5": "Albon",
+        "Constructor 1": "Haas",
+        "Constructor 2": "RB",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Italy": {
+        "Driver 1": "Norris",
+        "Driver 2": "Magnussen",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Verstappen",
+        "Driver 5": "Albon",
+        "Constructor 1": "Haas",
+        "Constructor 2": "RB",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Azerbaijan": {
+        "Driver 1": "Norris",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Verstappen",
+        "Driver 5": "Russell",
+        "Constructor 1": "Alpine",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Verstappen",
+        "Penalties": -10,
+        "Perks": "None"
+    },
+    "Singapore": {
+        "Driver 1": "Norris",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Verstappen",
+        "Driver 5": "Russell",
+        "Constructor 1": "Alpine",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Norris",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Verstappen",
+        "Driver 5": "Leclerc",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Mexico": {
+        "Driver 1": "Norris",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Verstappen",
+        "Driver 5": "Leclerc",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Norris",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Lawson",
+        "Driver 4": "Verstappen",
+        "Driver 5": "Leclerc",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Norris",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Lawson",
+        "Driver 4": "Verstappen",
+        "Driver 5": "Leclerc",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Norris",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Lawson",
+        "Driver 4": "Verstappen",
+        "Driver 5": "Leclerc",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": [
+            "Final Fix",
+            "Lawson", -5,
+            "Gasly", 21
+        ]
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Norris",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Lawson",
+        "Driver 4": "Verstappen",
+        "Driver 5": "Leclerc",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": ["Extra DRS", "Verstappen"]
     }
 }

@@ -170,5 +170,141 @@
         "DRS Boost": "Norris",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Belgium": {
+        "Driver 1": "Norris",
+        "Driver 2": "Piastri",
+        "Driver 3": "Guanyu",
+        "Driver 4": "Bottas",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Mercedes",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Netherlands": {
+        "Driver 1": "Russell",
+        "Driver 2": "Piastri",
+        "Driver 3": "Guanyu",
+        "Driver 4": "Albon",
+        "Driver 5": "Gasly",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Mercedes",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Italy": {
+        "Driver 1": "Russell",
+        "Driver 2": "Sainz",
+        "Driver 3": "Guanyu",
+        "Driver 4": "Albon",
+        "Driver 5": "Gasly",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Russell",
+        "Penalties": 0,
+        "Perks": "Auto Pilot"
+    },
+    "Azerbaijan": {
+        "Driver 1": "Russell",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Guanyu",
+        "Driver 4": "Albon",
+        "Driver 5": "Norris",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Singapore": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Guanyu",
+        "Driver 4": "Albon",
+        "Driver 5": "Norris",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Guanyu",
+        "Driver 4": "Lawson",
+        "Driver 5": "Piastri",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": ["Extra DRS", "Piastri"]
+    },
+    "Mexico": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Guanyu",
+        "Driver 4": "Lawson",
+        "Driver 5": "Leclerc",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": [
+            "Final Fix",
+            "Leclerc", 7,
+            "Piastri", 26
+        ]
+    },
+    "Brazil": {
+        "Driver 1": "Norris",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Guanyu",
+        "Driver 4": "Bottas",
+        "Driver 5": "Leclerc",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Norris",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Guanyu",
+        "Driver 4": "Bottas",
+        "Driver 5": "Leclerc",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Norris",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Guanyu",
+        "Driver 4": "Gasly",
+        "Driver 5": "Russell",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Magnussen",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Bottas",
+        "Driver 4": "Leclerc",
+        "Driver 5": "Russell",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

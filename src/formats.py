@@ -2,7 +2,7 @@ import os
 import random
 
 from pathlib import Path
-from src.dataIO import load_json, save_json_dicts
+from GeneralUtils.DataIO import load_json, save_json_dicts
 
 
 def generate_manager_colors(new_managers : list,
@@ -181,9 +181,9 @@ def drivers_colours(format_dir : str,
     return format_dict
 
 
-def team_format(format_dir : str,
-                team : str,
-                year : str) -> dict:
+def constructors_format(format_dir : str,
+                        constructor : str,
+                        year : str) -> dict:
     """
     Function Details
     ================
@@ -191,7 +191,7 @@ def team_format(format_dir : str,
 
     Parameters
     ----------
-    format_dir, team, year: string
+    format_dir, constructor, year: string
         Path to format directory and team name. Year for colour code.
 
     Returns
@@ -230,7 +230,7 @@ def team_format(format_dir : str,
         team_formats = load_json(file_path=path)
         if f'{year}' in team_formats.keys():
             team_format = team_formats[f'{year}']
-            if team == teams[index]:
+            if constructor == teams[index]:
                 for key, value in team_format.items():
                     if key == 'drivers':
                         pass
@@ -239,9 +239,9 @@ def team_format(format_dir : str,
     return format_dict
 
 
-def team_colour(format_dir : str,
-                team : str,
-                year : str) -> dict:
+def constructors_colour(format_dir : str,
+                        constructor : str,
+                        year : str) -> dict:
     """
     Function Details
     ================
@@ -249,7 +249,7 @@ def team_colour(format_dir : str,
 
     Parameters
     ----------
-    format_dir, team: string
+    format_dir, constructor: string
         Path to format directory and tea, name.
 
     Returns
@@ -288,7 +288,7 @@ def team_colour(format_dir : str,
         team_formats = load_json(file_path=path)
         if f'{year}' in team_formats.keys():
             team_format = team_formats[f'{year}']
-            if team == teams[index]:
+            if constructor == teams[index]:
                 for key, value in team_format.items():
                     format_dict.update({key: value})
     return format_dict
@@ -348,8 +348,9 @@ def perk_colour(format_dir : str,
     return format_dict
 
 
-def manager_team_colour(format_dir : str,
-                        team : str) -> dict:
+def team_colour(format_dir : str,
+                team : str,
+                year: str) -> dict:
     """
     Function Details
     ================
@@ -357,8 +358,8 @@ def manager_team_colour(format_dir : str,
 
     Parameters
     ----------
-    format_dir, team: string
-        Path to format directory and team name.
+    format_dir, team, year: string
+        Path to format directory and team name. Unused.
 
     Returns
     -------
@@ -401,7 +402,8 @@ def manager_team_colour(format_dir : str,
 
 
 def managers_colour(format_dir : str,
-                    manager : str) -> dict:
+                    manager : str,
+                    year: str) -> dict:
     """
     Function Details
     ================
@@ -409,8 +411,8 @@ def managers_colour(format_dir : str,
 
     Parameters
     ----------
-    format_dir, manager: string
-        Path to format directory and manager name.
+    format_dir, manager, year: string
+        Path to format directory and manager name. Unused.
 
     Returns
     -------

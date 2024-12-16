@@ -3,5 +3,143 @@
         "Points",
         "Value"
     ],
-    "Race": []
+    "Race": [
+        "Abu Dhabi"
+    ],
+    "Ocon": [
+        "Inactive",
+        14.8
+    ],
+    "Gasly": [
+        78,
+        11.8
+    ],
+    "Doohan": [
+        0,
+        10.9
+    ],
+    "Stroll": [
+        81,
+        14.3
+    ],
+    "Alonso": [
+        166,
+        15.3
+    ],
+    "Leclerc": [
+        629,
+        26.1
+    ],
+    "Sainz": [
+        477,
+        24.4
+    ],
+    "Bearman": [
+        "Inactive",
+        13.3
+    ],
+    "Magnussen": [
+        82,
+        14.3
+    ],
+    "Hulkenberg": [
+        74,
+        11.8
+    ],
+    "Bottas": [
+        62,
+        7.1
+    ],
+    "Guanyu": [
+        97,
+        9.6
+    ],
+    "Norris": [
+        660,
+        27.5
+    ],
+    "Piastri": [
+        574,
+        25.7
+    ],
+    "Hamilton": [
+        462,
+        25.8
+    ],
+    "Russell": [
+        438,
+        23.2
+    ],
+    "Tsunoda": [
+        61,
+        11.9
+    ],
+    "Ricciardo": [
+        "Inactive",
+        12.0
+    ],
+    "Lawson": [
+        38,
+        10.9
+    ],
+    "Verstappen": [
+        731,
+        32.3
+    ],
+    "Perez": [
+        337,
+        23.2
+    ],
+    "Albon": [
+        -20,
+        8.6
+    ],
+    "Sargeant": [
+        "Inactive",
+        4.6
+    ],
+    "Colapinto": [
+        27,
+        7.4
+    ],
+    "Alpine": [
+        280,
+        12.1
+    ],
+    "Aston Martin": [
+        368,
+        14.4
+    ],
+    "Ferrari": [
+        1262,
+        25.3
+    ],
+    "Haas": [
+        312,
+        12.2
+    ],
+    "Kick Sauber": [
+        147,
+        7.5
+    ],
+    "McLaren": [
+        1365,
+        27.0
+    ],
+    "Mercedes": [
+        1044,
+        25.1
+    ],
+    "RB": [
+        271,
+        12.9
+    ],
+    "Red Bull": [
+        1362,
+        29.7
+    ],
+    "Williams": [
+        78,
+        6.1
+    ]
 }

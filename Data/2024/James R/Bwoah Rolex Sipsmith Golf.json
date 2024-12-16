@@ -154,5 +154,144 @@
         "DRS Boost": "Albon",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Belgium": {
+        "Driver 1": "Ricciardo",
+        "Driver 2": "Albon",
+        "Driver 3": "Bottas",
+        "Driver 4": "Stroll",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Albon",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Netherlands": {
+        "Driver 1": "Ricciardo",
+        "Driver 2": "Albon",
+        "Driver 3": "Bottas",
+        "Driver 4": "Stroll",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Albon",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Italy": {
+        "Driver 1": "Ricciardo",
+        "Driver 2": "Albon",
+        "Driver 3": "Bottas",
+        "Driver 4": "Stroll",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Albon",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Azerbaijan": {
+        "Driver 1": "Ricciardo",
+        "Driver 2": "Bearman",
+        "Driver 3": "Bottas",
+        "Driver 4": "Stroll",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Bearman",
+        "Penalties": 0,
+        "Perks": [
+            "Extra DRS",
+            "Sargeant"
+        ]
+    },
+    "Singapore": {
+        "Driver 1": "Albon",
+        "Driver 2": "Bearman",
+        "Driver 3": "Bottas",
+        "Driver 4": "Stroll",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Sargeant",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Albon",
+        "Driver 2": "Bearman",
+        "Driver 3": "Bottas",
+        "Driver 4": "Ricciardo",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Sargeant",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Mexico": {
+        "Driver 1": "Albon",
+        "Driver 2": "Bearman",
+        "Driver 3": "Lawson",
+        "Driver 4": "Ricciardo",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Sargeant",
+        "Penalties": 0,
+        "Perks": [
+            "Final Fix",
+            "Albon", 2,
+            "Guanyu", 7
+        ]
+    },
+    "Brazil": {
+        "Driver 1": "Lawson",
+        "Driver 2": "Bearman",
+        "Driver 3": "Albon",
+        "Driver 4": "Ricciardo",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Sargeant",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Lawson",
+        "Driver 2": "Bearman",
+        "Driver 3": "Albon",
+        "Driver 4": "Ricciardo",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Sargeant",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Lawson",
+        "Driver 2": "Bearman",
+        "Driver 3": "Albon",
+        "Driver 4": "Ricciardo",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Sargeant",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Ocon",
+        "Driver 2": "Bearman",
+        "Driver 3": "Colapinto",
+        "Driver 4": "Ricciardo",
+        "Driver 5": "Sargeant",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Sargeant",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

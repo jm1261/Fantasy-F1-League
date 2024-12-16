@@ -1,13 +1,14 @@
 import sys
 import src.dataIO as io
 import src.prizes as prize
-import src.plotting as plot
+import plotting as plot
+# import src.old_plotting as plot
 
 from pathlib import Path
 
 
-def managers_prizes(root : str,
-                    year : str) -> None:
+def managers_prizes(root: str,
+                    year: str) -> None:
     """
     Function Details
     ================
@@ -33,120 +34,122 @@ def managers_prizes(root : str,
     """
 
     """ Config Files and Season Info """
-    info_path = Path(f'{root}/Info.json')
-    info_dict = (io.load_json(file_path=info_path))[f'{year}']
-    managers_dict = info_dict["Managers"]
-    data_path = Path(f'{root}/Data/{year}')
-    lineup_dict = io.load_json(
-        file_path=Path(f'{data_path}/Lineup/Results.json'))
-    manager_path = Path(f'{data_path}/Managers')
-    manager_results = io.load_json(
-        file_path=Path(f'{manager_path}/Results.json'))
-    team_points = manager_results["Team Points"]
-    manager_statistics = io.load_json(
-        file_path=Path(f'{manager_path}/Statistics.json'))
-    format_path = Path(f'{root}/Config')
-    results_path = Path(f'{data_path}/Lineup')
-    prizes_path = Path(f'{root}/Prizes')
-    prizes_dict = io.load_json(
-        file_path=Path(f'{prizes_path}/{year}.json'))
-    out_path = Path(f'{data_path}/Figures/Prizes')
-
-    """ Check Complete Races """
-    completed_races = io.get_completed_races(
-        results_path=results_path,
-        info_dictionary=info_dict)
+    config = io.Configuration(
+        root_directory=root,
+        year=year)
+    config.info_dictionary(file_name='Info.json')
+    config.get_completed_races(races=config.info_dict['Races'])
+    config.manager_results(file_name='Results.json')
+    config.managers_statistics(file_name='Statistics.json')
+    config.gets_prizes(file_name=f'{year}.json')
 
     """ Find Potential Prize Categories """
-    prize_categories = prizes_dict.keys()
+    prize_categories = config.prizes.keys()
 
     """ Spot Prizes """
     if "Spot" in prize_categories:
         spot_prize_winners = prize.spot_prizes(
-            team_dictionary=manager_results["Team Points"],
-            spot_prizes=prizes_dict["Spot"],
-            completed_races=completed_races)
-        prizes_dict["Spot"].update(
+            team_dictionary=config.manager_results["Team Points"],
+            spot_prizes=config.prizes["Spot"],
+            completed_races=config.completed_races)
+        config.prizes["Spot"].update(
             {"Spot Winners": spot_prize_winners})
-        for index, race in enumerate(completed_races):
-            sp = prizes_dict["Spot"]
-            if race in sp["Spot Max"] or race in sp["Spot Min"]:
-                plot.prizes_bars(
-                    category_dictionary=team_points,
-                    race_index=index,
-                    race=race,
-                    year=year,
-                    format_dir=format_path,
-                    out_path=out_path,
-                    title=(sp["Spot Names"])[f'{race}'])
+        comp_races = [
+            race
+            for race in
+            config.prizes['Spot']['Spot Max'] +
+            config.prizes['Spot']['Spot Min']
+            if race in config.completed_races]
+        comp_indices = [
+            config.completed_races.index(race)
+            for race in comp_races]
+        prize_names = [
+            config.prizes['Spot']['Spot Names'][f'{race}']
+            for race in comp_races]
+        for index, race, name in zip(comp_indices, comp_races, prize_names):
+            manager_plotter = plot.Manager_Plots(
+                out_path=Path(config.data_path, 'Figures', 'Prizes'),
+                format_dir=config.format_path,
+                year=year)
+            manager_plotter.spotleagueprize(
+                race_index=index,
+                race=race,
+                results_dictionary=config.manager_results,
+                prize=name)
 
     """ Achievement Prizes """
     if "Achievements" in prize_categories:
-        season_goals_dict = prizes_dict["Achievements"]
+        season_goals_dict = config.prizes["Achievements"]
         season_goals = season_goals_dict["Achievement Names"]
         if "Sprint" in season_goals.keys():
             sprint_races = season_goals_dict["Sprint Races"]
-            exists = any(race in sprint_races for race in completed_races)
+            exists = any(
+                race in sprint_races for race in config.completed_races)
             if exists:
                 sprint_dict = prize.short_season_result(
-                    results=team_points,
-                    completed_races=completed_races,
+                    results=config.manager_results['Team Points'],
+                    completed_races=config.completed_races,
                     specific_races=sprint_races)
                 """ Plot manager stuff here """
                 sprintking = prize.findmax(
                     results_dict=sprint_dict["Sum Points"])
-                prizes_dict["Achievements"].update(
+                config.prizes["Achievements"].update(
                     {f'{season_goals["Sprint"]}': sprintking})
-            for index, race in enumerate(sprint_races):
-                if race in completed_races:
-                    races = sprint_races[0: index + 1]
-                    plot.prize_lines(
-                        results_dictionary=sprint_dict,
-                        race=race,
-                        prize=season_goals["Sprint"],
-                        races=races,
-                        format_dir=format_path,
-                        year=year,
-                        out_path=out_path)
+                for index, race in enumerate(sprint_races):
+                    if race in config.completed_races:
+                        races = sprint_races[0: index + 1]
+                        manager_plotter = plot.Manager_Plots(
+                            out_path=Path(
+                                config.data_path, 'Figures', 'Prizes'),
+                            format_dir=config.format_path,
+                            year=year)
+                        manager_plotter.achieve_prize_lines(
+                            races=races,
+                            race=race,
+                            results_dictionary=sprint_dict,
+                            prize=season_goals["Sprint"])
         if "World" in season_goals.keys():
             world_races = season_goals_dict["World Races"]
             exists = any(race in world_races for race in world_races)
             if exists:
                 world_dict = prize.short_season_result(
-                    results=team_points,
-                    completed_races=completed_races,
+                    results=config.manager_results['Team Points'],
+                    completed_races=config.completed_races,
                     specific_races=world_races)
                 """ Plot manager stuff here """
                 champworld = prize.findmax(
                     results_dict=world_dict["Sum Points"])
-                prizes_dict["Achievements"].update(
+                config.prizes["Achievements"].update(
                     {f'{season_goals["World"]}': champworld})
-            for index, race in enumerate(world_races):
-                if race in completed_races:
-                    races = world_races[0: index + 1]
-                    plot.prize_lines(
-                        results_dictionary=world_dict,
-                        race=race,
-                        prize=season_goals["World"],
-                        races=races,
-                        format_dir=format_path,
-                        year=year,
-                        out_path=out_path)
+                for index, race in enumerate(world_races):
+                    if race in config.completed_races:
+                        races = world_races[0: index + 1]
+                        manager_plotter = plot.Manager_Plots(
+                            out_path=Path(
+                                config.data_path, 'Figures', 'Prizes'),
+                            format_dir=config.format_path,
+                            year=year)
+                        manager_plotter.achieve_prize_lines(
+                            races=races,
+                            race=race,
+                            results_dictionary=world_dict,
+                            prize=season_goals["World"])
+
 
     """ Championship """
-    if len(completed_races) == len(info_dict["Races"]):
+    if len(config.completed_races) == len(config.info_dict["Races"]):
 
         """ Highest/Lowest """
         """ Highest Value """
         """ Manager of the Year """
         """ Transfers """
         """ League Totals """
-    return prizes_dict
+    return config.prizes
 
 
 if __name__ == '__main__':
-    #year = 2024
-    year = sys.argv[1]
+    year = 2024
+    # year = sys.argv[1]
     root = Path().absolute()
     prizes_dict = managers_prizes(
         root=root,

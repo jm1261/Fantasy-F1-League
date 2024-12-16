@@ -2,7 +2,7 @@ import numpy as np
 import src.dataIO as io
 import src.filepaths as fp
 import src.analysis as anal
-import src.plotting as plot
+import plotting as plot
 import matplotlib.pyplot as plt
 
 from pathlib import Path
