@@ -1,6 +1,4 @@
-import os
 import logging
-import GeneralUtils.DataIO as io
 
 from pathlib import Path
 from itertools import accumulate, islice
@@ -588,8 +586,12 @@ class PrizeProcessor:
                 avg_prize_dict = self._finds_max_nestdict(
                     dictionary=category_dict["Average Points"]
                 )
-                prize_winners.update({f'{prize_name} Sum': sum_prize_dict})
-                prize_winners.update({f'{prize_name} Average': avg_prize_dict})
+                prize_winners.update(
+                    {f'{prize_name} Sum Points': sum_prize_dict}
+                )
+                prize_winners.update(
+                    {f'{prize_name} Average Points': avg_prize_dict}
+                )
             custom_prizes.update({"Custom Winners": prize_winners})
         return custom_prizes
 

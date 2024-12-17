@@ -15,6 +15,33 @@ logger = logging.getLogger(name=Path(__file__).stem)
 def managers_prizes(root: str,
                     year: str) -> None:
     """
+    Function Details
+    ================
+    Calculate yearly prizes.
+
+    Parameters
+    ----------
+    root: string
+        Path to root directory.
+    year: string
+        Year for data processing and config setups.
+
+    Returns
+    -------
+    None.
+
+    ---------------------------------------------------------------------------
+    Update History
+    ==============
+
+    02/04/2024
+    ----------
+    Created.
+
+    17/12/2024
+    ----------
+    Merged with class methods.
+
     """
     config = io.LoadConfigs(
         root_directory=root,
@@ -49,6 +76,38 @@ def managers_prizes(root: str,
         ),
         dictionary=prizes_dict
     )
+
+    # Plot output
+    manager_plotter = plot.Manager_Plots(
+        out_path=Path(config.data_path, 'Figures', 'Prizes'),
+        format_dir=config.format_path,
+        year=year
+    )
+
+    if "Spot" in prize_keys:
+        comp_races = [
+            race
+            for race in
+            config.prizes["Spot"]["Spot Max"] +
+            config.prizes["Spot"]["Spot Min"]
+        ]
+        comp_indices = [
+            completed_races.index(race)
+            for race in comp_races
+        ]
+        prize_names = [
+            config.prizes["Spot"]["Spot Names"][f'{race}']
+            for race in comp_races
+        ]
+        for index, race, name in zip(comp_indices, comp_races, prize_names):
+            manager_plotter.spotleagueprize(
+                race_index=index,
+                race=race,
+                results_dictionary=config.manager_results,
+                prize=name
+            )
+
+    # Custom races not quite working properly. Need to fix. Also add the others
 
 
 if __name__ == '__main__':
