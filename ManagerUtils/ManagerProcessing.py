@@ -71,13 +71,12 @@ def managerweek(root: str,
         year=year
     )
 
-    # Lost season info and identify completed races
+    # Load season info and identify completed races
     season_info = config.load_seasoninfo(file_name='SeasonInfo.json')
     completed_races = config.get_completed_races(races=season_info['Races'])
     config.managers_results(file_name='Results.json')
     config.managers_statistics(file_name='Statistics.json')
     config.managers_counts(file_name='Counts.json')
-    team_positions = config.get_positions()
     logger.info('Lineup configs loaded successfully')
 
     # Check all teams are correct
@@ -111,6 +110,7 @@ def managerweek(root: str,
             race=race,
             statistics_dictionary=config.manager_statistics
         )
+        team_positions = config.get_positions()
         manager_plotter.leaguecount(
             race_index=index,
             races=completed_races[0: index + 1],

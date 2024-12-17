@@ -345,6 +345,8 @@ class Plot:
     _plots_pies
     generate_bars_datas
     generate_nested_bardata
+    generates_category_bar_data
+    gen_nested_category_bardata
     _generate_bar_plots
 
     Notes
@@ -1446,7 +1448,15 @@ class Plot:
         Created.
 
         """
-        if nested:
+        if nested and categoried:
+            normalized_category = category.replace('Sum ', '')
+            xs, ys, bcs, bbs = self.gen_nested_category_bardata(
+                category_dict=category_dictionary,
+                category=normalized_category,
+                race_index=race_index,
+                context=context
+            )
+        elif nested:
             xs, ys, bcs, bbs = self.generate_nested_bardata(
                 category_dict=category_dictionary,
                 race_index=race_index,
@@ -1455,14 +1465,6 @@ class Plot:
         elif categoried:
             normalized_category = category.replace('Sum ', '')
             xs, ys, bcs, bbs = self.generates_category_bar_data(
-                category_dict=category_dictionary,
-                category=normalized_category,
-                race_index=race_index,
-                context=context
-            )
-        elif nested and categoried:
-            normalized_category = category.replace('Sum ', '')
-            xs, ys, bcs, bbs = self.gen_nested_category_bardata(
                 category_dict=category_dictionary,
                 category=normalized_category,
                 race_index=race_index,
@@ -2479,13 +2481,12 @@ class LeagueBars(Plot):
             'Extra DRS'
         ]
         for category in categories:
+            print(category)
             normalized_category = category.replace('Sum ', '')
             out_file = Path(
                 self.out_path,
                 f'{race}_LeagueCounts_{category}_Bar.png')
             if not out_file.is_file():
-                print(category)
-                print(results_dictionary)
                 category_dict = results_dictionary[f'League {category}']
                 x_values, y_values, bar_colors, bar_borders = [], [], [], []
                 for name, count in category_dict.items():
@@ -2935,7 +2936,7 @@ class LeagueLines(Plot):
                 f'{race}_LeagueManagers_{category}.png'
             )
             if not out_file.is_file():
-                category_dict = results_dictionary[f'Teams {category}']
+                category_dict = results_dictionary[f'Manager {category}']
                 normalized_category = category.replace('Sum ', '')
                 x, y, l_cs, m_cs, l_styles, labels = [], [], [], [], [], []
                 for manager, values in category_dict.items():
@@ -2953,9 +2954,9 @@ class LeagueLines(Plot):
                         year=self.year
                     )
                     l_cs.append(colors['bg_color'])
-                    m_cs.append(colors['color'])
-                    l_styles.append(colors['linestyle'])
-                    labels.append(team)
+                    m_cs.append(colors['bg_color'])
+                    l_styles.append('-')
+                    labels.append(manager)
                 if sort_top:
                     sorted_arrays = sort_top_tuples(
                         arrays=[y, x, l_cs, m_cs, l_styles, labels],
@@ -3237,30 +3238,6 @@ class LeaguePies(Plot):
         -----
         Uses pieplot method.
 
-        Example
-        -------
-        >>> results_dictionary = {}
-        >>> race_index = 0
-        >>> race = 'Race1'
-        >>> format_dir = '/path/to/out_path'
-        >>> year = '2024'
-        >>> out_path = '/path/to/out_path'
-        >>> races = ['Race1', 'Race2']
-        >>> categories = [
-                'Driver',
-                'Constructor',
-                'DRS Boost',
-                'Extra DRS',
-                'Perks']
-
-        >>> league_plotter = LeagueBars(out_path, format_dir, year)
-        >>> league_plotter.leaguecount_pie(
-                categories,
-                results_dictionary,
-                race_index,
-                race,
-                races)
-
         -----------------------------------------------------------------------
         Update History
         ==============
@@ -3496,17 +3473,15 @@ class Manager_Plots(LeagueBars,
             },
             "team_line": {
                 "categories": [
-                    'Sum Points', 'Sum Values', 'Average Points Per Value'],
-                "units": ['[#]', '[$M]', '[#/$M]'],
+                    'Sum Points', 'Average Points Per Value'],
+                "units": ['[#]', '[#/$M]'],
                 "sort_top": sort_top
             },
             "manager_line": {
                 "categories": [
-                    'Sum Average Points',
                     'Sum Points',
-                    'Sum Values',
                     'Average Points Per Value'],
-                "units": ['[#]', '[#]', '[$M]', '[#/$M]'],
+                "units": ['[#]', '[#/$M]'],
                 "sort_top": sort_top
             }
         }

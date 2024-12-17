@@ -138,6 +138,7 @@ class LoadConfigs:
     managers_statistics
     managers_counts
     get_positions
+    gets_prizes
 
     ---------------------------------------------------------------------------
     Update History
@@ -544,22 +545,81 @@ class LoadConfigs:
         ----------
         Copied from ManagerAnalysis.
 
+        17/12/2024
+        ----------
+        Updated for immutability.
+
         """
-        # Determine positions to count 
+        # Base positions
+        positions = ["Driver", "Constructor", "Perks"]
+
+        # Extend positions based on year-specific perks and team data
         year_positions = self.info_dict["Team"]
         year_perks = self.info_dict["Perks"]
-        positions = ["Driver", "Constructor", "Perks"]
-        [
-            positions.append(position)
-            for position in year_perks
-            if position == "Extra DRS" or position == "Mega Driver"
-        ]
-        [
-            positions.append(position)
-            for position in year_positions
-            if position == "DRS Boost" or position == "Turbo"
-        ]
-        return positions
+
+        # Add perks if they match specific values
+        perks_to_add = {"Extra DRS", "Mega Driver"}
+        positions.extend(
+            [
+                perk
+                for perk in year_perks
+                if perk in perks_to_add
+            ]
+        )
+
+        # Add team positions if they match specific values
+        positions_to_add = {"DRS Boost", "Turbo"}
+        positions.extend(
+            [
+                position
+                for position in year_positions
+                if position in positions_to_add
+            ]
+        )
+
+        # Return a copy to ensure immutability
+        return positions[:]
+
+    def gets_prizes(self,
+                    file_name: str) -> dict:
+        """
+        Function Details
+        ================
+        Get prizes dictionary.
+
+        Parameters
+        ----------
+        file_name: string
+            Prizes dictionary name.
+
+        Returns
+        -------
+        prizes: dictionary
+            Prizes for current year.
+
+        See Also
+        --------
+        load_json
+
+        Notes
+        -----
+        None.
+
+        Example
+        -------
+        None.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        22/08/2024
+        ----------
+        Created from info_dictionary.
+
+        """
+        self.prizes = load_json(
+            file_path=Path(f'{self.prizes_path}/{file_name}'))
 
 
 def display_img(file_path: str,

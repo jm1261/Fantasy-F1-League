@@ -109,6 +109,7 @@ class LineupProcessor:
             "Constructor Values": {}
         }
         self.stats_dict = {}
+        logger.info('Lineup processor initialized')
 
     def update_results_dict(self,
                             completed_races: list) -> dict:
