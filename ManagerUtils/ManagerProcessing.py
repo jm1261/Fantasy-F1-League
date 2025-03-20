@@ -1,6 +1,5 @@
-import InitializeManager  # noqa
+# import InitializeManager  # noqa
 
-import sys
 import logging
 import GeneralUtils.DataIO as io
 import ResultsUtils.Plotting as plot
@@ -74,7 +73,7 @@ def managerweek(root: str,
     # Load season info and identify completed races
     season_info = config.load_seasoninfo(file_name='SeasonInfo.json')
     completed_races = config.get_completed_races(races=season_info['Races'])
-    config.managers_results(file_name='Results.json')
+    config.manager_results(file_name='Results.json')
     config.managers_statistics(file_name='Statistics.json')
     config.managers_counts(file_name='Counts.json')
     logger.info('Lineup configs loaded successfully')
@@ -128,8 +127,7 @@ def managerweek(root: str,
 
 
 if __name__ == '__main__':
-    # year = sys.argv[1]
-    year = 2024
+    year = 2025
     root = Path().absolute()
     managerweek(
         root=root,

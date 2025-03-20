@@ -1,0 +1,14 @@
+{
+    "2025": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#161088",
+        "color": "#C8C9CD",
+        "drivers": [
+            "Tsunoda",
+            "Hadjar"
+        ]
+    }
+}

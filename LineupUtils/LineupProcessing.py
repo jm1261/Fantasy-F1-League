@@ -1,10 +1,9 @@
-import InitializeLineup  # noqa
+# import InitializeLineup  # noqa
 
-import sys
 import logging
-import LineupAnalysis as la
 import GeneralUtils.DataIO as io
 import ResultsUtils.Plotting as plot
+import LineupUtils.LineupAnalysis as la
 
 from pathlib import Path
 
@@ -122,8 +121,7 @@ def lineup_week(root: str,
 
 
 if __name__ == '__main__':
-    # year = sys.argv[1]
-    year = 2024
+    year = 2025
     root = Path().absolute()
     lineup_week(
         root=root,

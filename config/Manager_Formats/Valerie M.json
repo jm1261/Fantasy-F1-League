@@ -1,0 +1,12 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "brown",
+    "teams": [
+        "Stroll To The 18th",
+        "Perez For World Champion",
+        "What Arrrgh Ya Doohan"
+    ]
+}

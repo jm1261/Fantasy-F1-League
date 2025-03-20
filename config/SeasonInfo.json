@@ -1,4 +1,146 @@
 {
+    "2025": {
+        "Team": [
+            "Driver 1",
+            "Driver 2",
+            "Driver 3",
+            "Driver 4",
+            "Driver 5",
+            "Constructor 1",
+            "Constructor 2",
+            "DRS Boost",
+            "Penalties",
+            "Perks"
+        ],
+        "Perks": [
+            "Wildcard",
+            "Limitless",
+            "Final Fix",
+            "Auto Pilot",
+            "Extra DRS",
+            "No Negative"
+        ],
+        "Races": [
+            "Australia",
+            "China",
+            "Japan",
+            "Bahrain",
+            "Saudi Arabia",
+            "Miami",
+            "Emilia Romagna",
+            "Monaco",
+            "Spain",
+            "Canada",
+            "Austria",
+            "Great Britain",
+            "Belgium",
+            "Hungary",
+            "Netherlands",
+            "Italy",
+            "Azerbaijan",
+            "Singapore",
+            "United States",
+            "Mexico",
+            "Brazil",
+            "Las Vegas",
+            "Qatar",
+            "Abu Dhabi"
+        ],
+        "Statistics": [
+            "Total",
+            "Total Points/Value",
+            "Average",
+            "Average Points/Value",
+            "Standard Deviation",
+            "Maximum",
+            "Minimum",
+            "Range"
+        ],
+        "Managers": {
+            "Chloe B": [
+                "Miss Fritter Is Back",
+                "No Keys - Push To Start",
+                "Mickeys Roadster Racers"
+            ],
+            "Alfie CJ": [
+                "I Call Patrick Subaru",
+                "Corona Wing Corn",
+                "Cucumberpotatolamborghini"
+            ],
+            "Sam CJ": [
+                "Gran Prix Princesses F1",
+                "Total F1 Performance",
+                "Silverstone Is Red 2025!!"
+            ],
+            "Pete J": [
+                "Monaco Barrier Testers",
+                "Ford Nintendo Racing",
+                "Seagiant F1 Online"
+            ],
+            "Patrick L": [
+                "Coming In Haast Place",
+                "You Hadjar Chance Racing"
+            ],
+            "Jake M": [
+                "Kick Sauber In The Audi",
+                "Red Bull Whats That 2nd",
+                "I Am Stupid Rookie"
+            ],
+            "Josh M": [
+                "HSBC Jaguar Racing",
+                "Expensify APX GP",
+                "Kingfisher Force India F1"
+            ],
+            "Phil M": [
+                "BMW FTW",
+                "BMW Motorrad",
+                "BMW Should Be Here"
+            ],
+            "Sebastian M": [
+                "Bridgestone Toro Rosso F1",
+                "Allianz BMW Williams",
+                "BWT Racing Point F1"
+            ],
+            "Val M": [
+                "Its 'odinge'",
+                "No U Turn",
+                "Limoncello44"
+            ],
+            "Valerie M": [
+                "Stroll To The 18th",
+                "Perez For World Champion",
+                "What Arrrgh Ya Doohan"
+            ],
+            "Madlen P": [
+                "Wet Tyres Are Blue",
+                "Soft Tires Are Red",
+                "Push, Push - Box Now Too"
+            ],
+            "Finn R": [
+                "Ro@d R@ge"
+            ],
+            "James R": [
+                "Bwoah OnlyFans UPS Racing",
+                "Bwoah OnlyFans McD Racing",
+                "Bwoah Schweppes Puma Golf"
+            ],
+            "Will R": [
+                "Dinoco Piston Cup Champs",
+                "Axelrods Allinol Allstars",
+                "The Big One(TM)"
+            ],
+            "Stuart S": [
+                "Taylormade To Lose",
+                "Murder On Zidane's Floor",
+                "Andres Inyasista"
+            ],
+            "Stefanus W": [
+                "Gelael",
+                "Haryanto",
+                "Syahrul"
+            ]
+        }
+    },
     "2024": {
         "Team": [
             "Driver 1",

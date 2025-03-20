@@ -1,7 +1,7 @@
-import InitializeManager  # noqa
+# import InitializeManager  # noqa
 
 import logging
-import ManagerAnalysis as ma
+import ManagerUtils.ManagerAnalysis as ma
 import GeneralUtils.DataIO as io
 
 from pathlib import Path

@@ -181,6 +181,7 @@ def managers_weekly(info_dictionary: Dict,
                 if team_file_path.is_file():
                     team_sheet = load_json(file_path=team_file_path)
                 else:
+                    logger.info(f'Creating {manager} {team} blank sheet')
                     team_sheet = {}
                 if race not in team_sheet:
                     if race_index < len(races):
@@ -203,6 +204,7 @@ def managers_weekly(info_dictionary: Dict,
                             out_path=team_file_path,
                             dictionary=blank_sheet
                         )
+            logger.info(f'Updated {manager} {team}')
 
 
 class RaceScoreCalculator:

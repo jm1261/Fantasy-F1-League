@@ -1,4 +1,16 @@
 {
+    "2025": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#900021",
+        "color": "#153A71",
+        "drivers": [
+            "Leclerc",
+            "Hamilton"
+        ]
+    },
     "2024": {
         "bold": "True",
         "size": 12,

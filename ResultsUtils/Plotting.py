@@ -7,9 +7,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from pathlib import Path
-from src.filepaths import check_dir_exists
+from GeneralUtils.DataIO import check_dir_exists
 from matplotlib.ticker import AutoMinorLocator
-from src.formats import (
+from config.Formats import (
     drivers_colours,
     constructors_colour,
     managers_colour,
@@ -442,7 +442,7 @@ class Plot:
         if plot_style:
             self.default_style.update(plot_style)
 
-        check_dir_exists(dir_path=out_path)
+        check_dir_exists(directory_path=out_path)
 
     def cm_to_inches(self, cm: float) -> float:
         """
@@ -716,16 +716,27 @@ class Plot:
                 self.cm_to_inches(cm=style.get('fig_width', 9))],
             dpi=style.get('dpi', 600))
         for i in range(len(x)):
-            ax.plot(
-                x[i],
-                y[i],
-                label=labels[i],
-                marker=style.get('marker', 'o'),
-                linestyle=styles[i],
-                color=colors[i],
-                mfc=markers[i],
-                markersize=style.get('marker_size', 4),
-                lw=style.get('line_width', 2))
+            try:
+                ax.plot(
+                    x[i],
+                    y[i],
+                    label=labels[i],
+                    marker=style.get('marker', 'o'),
+                    linestyle=styles[i],
+                    color=colors[i],
+                    mfc=markers[i],
+                    markersize=style.get('marker_size', 4),
+                    lw=style.get('line_width', 2))
+            except IndexError:
+                ax.plot(
+                    x[i],
+                    y[i],
+                    label=labels[i],
+                    marker=style.get('marker', 'o'),
+                    linestyle='-',  # Default to solid line
+                    color=colors[i],
+                    markersize=style.get('marker_size', 4),
+                    lw=style.get('line_width', 2))
         ax.legend(
             loc=0,
             ncol=style.get('legend_col', 2),
@@ -802,7 +813,7 @@ class Plot:
         logger.info(f'Plotting {out_file}')
 
         if all(v == 0 for v in data):
-            print(f"No data to plot for {title}. All values are zero.")
+            logger.info(f"No data to plot for {title}. All values are zero.")
             return
 
         threshold = 0.02
@@ -2481,7 +2492,6 @@ class LeagueBars(Plot):
             'Extra DRS'
         ]
         for category in categories:
-            print(category)
             normalized_category = category.replace('Sum ', '')
             out_file = Path(
                 self.out_path,
@@ -2512,32 +2522,35 @@ class LeagueBars(Plot):
                         y_values.append(count[race_index])
                         bar_colors.append(colors['bg_color'])
                         bar_borders.append(colors['color'])
-                if sort_top:
-                    sorted_arrays = sort_top_tuples(
-                            arrays=[
-                                y_values,
-                                x_values,
-                                bar_colors,
-                                bar_borders],
-                            index=sort_top)
+                if len(x_values) == 0:
+                    continue
                 else:
-                    sorted_arrays = sort_tuples(
-                            arrays=[
-                                y_values,
-                                x_values,
-                                bar_colors,
-                                bar_borders])
-                x, y, c, b = sorted_arrays
-                title = f'League {race} {category} Count'
-                self.barplot(
-                    x=x,
-                    y=y,
-                    colors=c,
-                    borders=b,
-                    xlabel='Counts [#]',
-                    ylabel='Names',
-                    title=title,
-                    out_file=out_file)
+                    if sort_top:
+                        sorted_arrays = sort_top_tuples(
+                                arrays=[
+                                    y_values,
+                                    x_values,
+                                    bar_colors,
+                                    bar_borders],
+                                index=sort_top)
+                    else:
+                        sorted_arrays = sort_tuples(
+                                arrays=[
+                                    y_values,
+                                    x_values,
+                                    bar_colors,
+                                    bar_borders])
+                    x, y, c, b = sorted_arrays
+                    title = f'League {race} {category} Count'
+                    self.barplot(
+                        x=x,
+                        y=y,
+                        colors=c,
+                        borders=b,
+                        xlabel='Counts [#]',
+                        ylabel='Names',
+                        title=title,
+                        out_file=out_file)
 
     def spot_prize_bars(self,
                         categories: list,
@@ -3061,30 +3074,33 @@ class LeagueLines(Plot):
                         m_cs.append(colors['color'])
                         l_styles.append('-')
                         labels.append(name)
-                if sort_top:
-                    sorted_arrays = sort_top_tuples(
-                        arrays=[y, x, l_cs, m_cs, l_styles, labels],
-                        index=sort_top,
-                        line=True)
+                if len(y) == 0:
+                    continue
                 else:
-                    sorted_arrays = sort_tuples(
-                        arrays=[y, x, l_cs, m_cs, l_styles, labels])
-                y, x, l_cs, m_cs, l_styles, labels = sorted_arrays
-                if sum_arrays:
-                    title = f'League {race} {category} Sum Count'
-                else:
-                    title = f'League {race} {category} Count'
-                self.lineplt(
-                    x=x,
-                    y=y,
-                    colors=l_cs,
-                    markers=m_cs,
-                    styles=l_styles,
-                    labels=labels,
-                    xlabel='Races',
-                    ylabel='Counts [#]',
-                    title=title,
-                    out_file=out_file)
+                    if sort_top:
+                        sorted_arrays = sort_top_tuples(
+                            arrays=[y, x, l_cs, m_cs, l_styles, labels],
+                            index=sort_top,
+                            line=True)
+                    else:
+                        sorted_arrays = sort_tuples(
+                            arrays=[y, x, l_cs, m_cs, l_styles, labels])
+                    y, x, l_cs, m_cs, l_styles, labels = sorted_arrays
+                    if sum_arrays:
+                        title = f'League {race} {category} Sum Count'
+                    else:
+                        title = f'League {race} {category} Count'
+                    self.lineplt(
+                        x=x,
+                        y=y,
+                        colors=l_cs,
+                        markers=m_cs,
+                        styles=l_styles,
+                        labels=labels,
+                        xlabel='Races',
+                        ylabel='Counts [#]',
+                        title=title,
+                        out_file=out_file)
 
     def league_prizes_lines(self,
                             categories: list,
@@ -3281,27 +3297,30 @@ class LeaguePies(Plot):
                         y_values.append(count[race_index])
                         colors.append(plot_colors['bg_color'])
                         label_colors.append(plot_colors['color'])
-                if sort_top:
-                    sorted_arrays = sort_top_tuples(
-                        arrays=[y_values, x_values, colors, label_colors],
-                        index=sort_top,
-                        pie=True)
+                if len(y_values) == 0:
+                    continue
                 else:
-                    sorted_arrays = sort_tuples(
-                        arrays=[y_values, x_values, colors, label_colors])
-                if sum_arrays:
-                    title = f'League {race} {category} Sum Count'
-                else:
-                    title = f'League {race} {category} Count'
-                y, x, c, lc = sorted_arrays
-                self.pieplot(
-                    data=y,
-                    labels=x,
-                    title=title,
-                    out_file=out_file,
-                    colors=c,
-                    label_colors=lc,
-                    explode=0.1)
+                    if sort_top:
+                        sorted_arrays = sort_top_tuples(
+                            arrays=[y_values, x_values, colors, label_colors],
+                            index=sort_top,
+                            pie=True)
+                    else:
+                        sorted_arrays = sort_tuples(
+                            arrays=[y_values, x_values, colors, label_colors])
+                    if sum_arrays:
+                        title = f'League {race} {category} Sum Count'
+                    else:
+                        title = f'League {race} {category} Count'
+                    y, x, c, lc = sorted_arrays
+                    self.pieplot(
+                        data=y,
+                        labels=x,
+                        title=title,
+                        out_file=out_file,
+                        colors=c,
+                        label_colors=lc,
+                        explode=0.1)
 
 
 class Manager_Plots(LeagueBars,

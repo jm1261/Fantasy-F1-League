@@ -1,4 +1,16 @@
 {
+    "2025": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#000000",
+        "color": "#B6BABD",
+        "drivers": [
+            "Ocon",
+            "Bearman"
+        ]
+    },
     "2024": {
         "bold": "True",
         "size": 12,

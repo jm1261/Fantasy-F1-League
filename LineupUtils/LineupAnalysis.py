@@ -279,11 +279,11 @@ class LineupProcessor:
 
         for key, inputs in weekly_dictionary.items():
             if key in {'Name', 'Race'}:
-                individual_points_dict[key] = inputs
+                individual_points_dict.update({key: inputs})
                 continue
 
             if race_index == 0:
-                individual_points_dict[key] == inputs
+                individual_points_dict.update({key: inputs})
 
             else:
                 previous_results = {

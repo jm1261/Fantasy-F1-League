@@ -1,0 +1,70 @@
+{
+    "Spot": {
+        "Spot Names": {
+            "Saudi Arabia": "Obviously do that Tactically",
+            "Emilia Romagna": "Hamilton's Reverse Gear",
+            "Monaco": "Jewel of the Crown",
+            "Spain": "Madrid Will Be Better",
+            "Hungary": "Bottas Bowling",
+            "Belgium": "The Sauce",
+            "Netherlands": "Super Max",
+            "Azerbaijan": "Well Done Baku",
+            "Singapore": "It's on Purpose",
+            "Las Vegas": "What Happens in Vegas Stays in Vegas"
+        },
+        "Spot Max": [
+            "Saudi Arabia",
+            "Monaco",
+            "Azerbaijan",
+            "Singapore",
+            "Las Vegas"
+        ],
+        "Spot Min": [
+            "Emilia Romagna",
+            "Spain",
+            "Hungary",
+            "Belgium",
+            "Netherlands"
+        ]
+    },
+    "Achievements": {
+        "Achievement Names": {
+            "Highest Weekly": "One Shot Wonder",
+            "Lowest Weekly": "All Baskets in One Egg",
+            "Highest Value": "Cost Cap",
+            "Manager of the Year": "Manager of the Year",
+            "Substitutions": "Hot Seat"
+        }
+    },
+    "Custom Set": {
+        "Custom Set Names": {
+            "Sprint": "Sprint King",
+            "World": "The Continental"
+        },
+        "Sprint Races": [
+            "China",
+            "Miami",
+            "Austria",
+            "United States",
+            "Brazil",
+            "Qatar"
+        ],
+        "World Races": [
+            "Bahrain",
+            "Australia",
+            "Japan",
+            "Canada",
+            "Great Britain",
+            "Italy",
+            "Mexico"
+        ]
+    },
+    "Championship": {
+        "Championship Names": {
+            "0": "Champion of the World",
+            "1": "First of the Losers",
+            "2": "Look Mum I'm on the Podium",
+            "-1": "Golf Champion"
+        }
+    }
+}

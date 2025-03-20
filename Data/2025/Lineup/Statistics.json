@@ -1,0 +1,1412 @@
+{
+    "Driver Sum Points": {
+        "Gasly": [
+            1
+        ],
+        "Doohan": [
+            -20
+        ],
+        "Stroll": [
+            16
+        ],
+        "Alonso": [
+            -20
+        ],
+        "Leclerc": [
+            12
+        ],
+        "Hamilton": [
+            4
+        ],
+        "Ocon": [
+            8
+        ],
+        "Bearman": [
+            2
+        ],
+        "Hulkenberg": [
+            20
+        ],
+        "Bortoleto": [
+            -18
+        ],
+        "Norris": [
+            59
+        ],
+        "Piastri": [
+            10
+        ],
+        "Russell": [
+            25
+        ],
+        "Antonelli": [
+            32
+        ],
+        "Tsunoda": [
+            0
+        ],
+        "Hadjar": [
+            -20
+        ],
+        "Verstappen": [
+            29
+        ],
+        "Lawson": [
+            -17
+        ],
+        "Albon": [
+            17
+        ],
+        "Sainz": [
+            -19
+        ]
+    },
+    "Driver Average Points": {
+        "Gasly": [
+            1.0
+        ],
+        "Doohan": [
+            -20.0
+        ],
+        "Stroll": [
+            16.0
+        ],
+        "Alonso": [
+            -20.0
+        ],
+        "Leclerc": [
+            12.0
+        ],
+        "Hamilton": [
+            4.0
+        ],
+        "Ocon": [
+            8.0
+        ],
+        "Bearman": [
+            2.0
+        ],
+        "Hulkenberg": [
+            20.0
+        ],
+        "Bortoleto": [
+            -18.0
+        ],
+        "Norris": [
+            59.0
+        ],
+        "Piastri": [
+            10.0
+        ],
+        "Russell": [
+            25.0
+        ],
+        "Antonelli": [
+            32.0
+        ],
+        "Tsunoda": [
+            0.0
+        ],
+        "Hadjar": [
+            -20.0
+        ],
+        "Verstappen": [
+            29.0
+        ],
+        "Lawson": [
+            -17.0
+        ],
+        "Albon": [
+            17.0
+        ],
+        "Sainz": [
+            -19.0
+        ]
+    },
+    "Constructor Sum Points": {
+        "Alpine": [
+            -14
+        ],
+        "Aston Martin": [
+            1
+        ],
+        "Ferrari": [
+            36
+        ],
+        "Haas": [
+            14
+        ],
+        "Kick Sauber": [
+            3
+        ],
+        "McLaren": [
+            71
+        ],
+        "Mercedes": [
+            67
+        ],
+        "Racing Bulls": [
+            -10
+        ],
+        "Red Bull": [
+            19
+        ],
+        "Williams": [
+            10
+        ]
+    },
+    "Constructor Average Points": {
+        "Alpine": [
+            -14.0
+        ],
+        "Aston Martin": [
+            1.0
+        ],
+        "Ferrari": [
+            36.0
+        ],
+        "Haas": [
+            14.0
+        ],
+        "Kick Sauber": [
+            3.0
+        ],
+        "McLaren": [
+            71.0
+        ],
+        "Mercedes": [
+            67.0
+        ],
+        "Racing Bulls": [
+            -10.0
+        ],
+        "Red Bull": [
+            19.0
+        ],
+        "Williams": [
+            10.0
+        ]
+    },
+    "Driver Sum Values": {
+        "Gasly": [
+            11.8
+        ],
+        "Doohan": [
+            7.2
+        ],
+        "Stroll": [
+            8.1
+        ],
+        "Alonso": [
+            8.8
+        ],
+        "Leclerc": [
+            25.9
+        ],
+        "Hamilton": [
+            24.2
+        ],
+        "Ocon": [
+            7.3
+        ],
+        "Bearman": [
+            6.7
+        ],
+        "Hulkenberg": [
+            6.4
+        ],
+        "Bortoleto": [
+            6.0
+        ],
+        "Norris": [
+            29.6
+        ],
+        "Piastri": [
+            23.0
+        ],
+        "Russell": [
+            21.0
+        ],
+        "Antonelli": [
+            18.4
+        ],
+        "Tsunoda": [
+            9.6
+        ],
+        "Hadjar": [
+            6.2
+        ],
+        "Verstappen": [
+            28.4
+        ],
+        "Lawson": [
+            18.0
+        ],
+        "Albon": [
+            12.0
+        ],
+        "Sainz": [
+            13.1
+        ]
+    },
+    "Driver Average Values": {
+        "Gasly": [
+            11.8
+        ],
+        "Doohan": [
+            7.2
+        ],
+        "Stroll": [
+            8.1
+        ],
+        "Alonso": [
+            8.8
+        ],
+        "Leclerc": [
+            25.9
+        ],
+        "Hamilton": [
+            24.2
+        ],
+        "Ocon": [
+            7.3
+        ],
+        "Bearman": [
+            6.7
+        ],
+        "Hulkenberg": [
+            6.4
+        ],
+        "Bortoleto": [
+            6.0
+        ],
+        "Norris": [
+            29.6
+        ],
+        "Piastri": [
+            23.0
+        ],
+        "Russell": [
+            21.0
+        ],
+        "Antonelli": [
+            18.4
+        ],
+        "Tsunoda": [
+            9.6
+        ],
+        "Hadjar": [
+            6.2
+        ],
+        "Verstappen": [
+            28.4
+        ],
+        "Lawson": [
+            18.0
+        ],
+        "Albon": [
+            12.0
+        ],
+        "Sainz": [
+            13.1
+        ]
+    },
+    "Constructor Sum Values": {
+        "Alpine": [
+            9.5
+        ],
+        "Aston Martin": [
+            8.5
+        ],
+        "Ferrari": [
+            27.4
+        ],
+        "Haas": [
+            7.0
+        ],
+        "Kick Sauber": [
+            6.2
+        ],
+        "McLaren": [
+            30.0
+        ],
+        "Mercedes": [
+            26.7
+        ],
+        "Racing Bulls": [
+            8.0
+        ],
+        "Red Bull": [
+            25.2
+        ],
+        "Williams": [
+            13.1
+        ]
+    },
+    "Constructor Average Values": {
+        "Alpine": [
+            9.5
+        ],
+        "Aston Martin": [
+            8.5
+        ],
+        "Ferrari": [
+            27.4
+        ],
+        "Haas": [
+            7.0
+        ],
+        "Kick Sauber": [
+            6.2
+        ],
+        "McLaren": [
+            30.0
+        ],
+        "Mercedes": [
+            26.7
+        ],
+        "Racing Bulls": [
+            8.0
+        ],
+        "Red Bull": [
+            25.2
+        ],
+        "Williams": [
+            13.1
+        ]
+    },
+    "Driver Points Per Value": {
+        "Gasly": [
+            0.0847457627118644
+        ],
+        "Doohan": [
+            -2.7777777777777777
+        ],
+        "Stroll": [
+            1.9753086419753088
+        ],
+        "Alonso": [
+            -2.2727272727272725
+        ],
+        "Leclerc": [
+            0.46332046332046334
+        ],
+        "Hamilton": [
+            0.1652892561983471
+        ],
+        "Ocon": [
+            1.095890410958904
+        ],
+        "Bearman": [
+            0.29850746268656714
+        ],
+        "Hulkenberg": [
+            3.125
+        ],
+        "Bortoleto": [
+            -3.0
+        ],
+        "Norris": [
+            1.9932432432432432
+        ],
+        "Piastri": [
+            0.43478260869565216
+        ],
+        "Russell": [
+            1.1904761904761905
+        ],
+        "Antonelli": [
+            1.7391304347826089
+        ],
+        "Tsunoda": [
+            0
+        ],
+        "Hadjar": [
+            -3.225806451612903
+        ],
+        "Verstappen": [
+            1.0211267605633803
+        ],
+        "Lawson": [
+            -0.9444444444444444
+        ],
+        "Albon": [
+            1.4166666666666667
+        ],
+        "Sainz": [
+            -1.450381679389313
+        ]
+    },
+    "Driver Average Points Per Value": {
+        "Gasly": [
+            0.0847457627118644
+        ],
+        "Doohan": [
+            -2.7777777777777777
+        ],
+        "Stroll": [
+            1.9753086419753088
+        ],
+        "Alonso": [
+            -2.2727272727272725
+        ],
+        "Leclerc": [
+            0.46332046332046334
+        ],
+        "Hamilton": [
+            0.1652892561983471
+        ],
+        "Ocon": [
+            1.095890410958904
+        ],
+        "Bearman": [
+            0.29850746268656714
+        ],
+        "Hulkenberg": [
+            3.125
+        ],
+        "Bortoleto": [
+            -3.0
+        ],
+        "Norris": [
+            1.9932432432432432
+        ],
+        "Piastri": [
+            0.43478260869565216
+        ],
+        "Russell": [
+            1.1904761904761905
+        ],
+        "Antonelli": [
+            1.7391304347826089
+        ],
+        "Tsunoda": [
+            0
+        ],
+        "Hadjar": [
+            -3.225806451612903
+        ],
+        "Verstappen": [
+            1.0211267605633803
+        ],
+        "Lawson": [
+            -0.9444444444444444
+        ],
+        "Albon": [
+            1.4166666666666667
+        ],
+        "Sainz": [
+            -1.450381679389313
+        ]
+    },
+    "Driver Sum Points Per Value": {
+        "Gasly": [
+            0.0847457627118644
+        ],
+        "Doohan": [
+            -2.7777777777777777
+        ],
+        "Stroll": [
+            1.9753086419753088
+        ],
+        "Alonso": [
+            -2.2727272727272725
+        ],
+        "Leclerc": [
+            0.46332046332046334
+        ],
+        "Hamilton": [
+            0.1652892561983471
+        ],
+        "Ocon": [
+            1.095890410958904
+        ],
+        "Bearman": [
+            0.29850746268656714
+        ],
+        "Hulkenberg": [
+            3.125
+        ],
+        "Bortoleto": [
+            -3.0
+        ],
+        "Norris": [
+            1.9932432432432432
+        ],
+        "Piastri": [
+            0.43478260869565216
+        ],
+        "Russell": [
+            1.1904761904761905
+        ],
+        "Antonelli": [
+            1.7391304347826089
+        ],
+        "Tsunoda": [
+            0
+        ],
+        "Hadjar": [
+            -3.225806451612903
+        ],
+        "Verstappen": [
+            1.0211267605633803
+        ],
+        "Lawson": [
+            -0.9444444444444444
+        ],
+        "Albon": [
+            1.4166666666666667
+        ],
+        "Sainz": [
+            -1.450381679389313
+        ]
+    },
+    "Constructor Points Per Value": {
+        "Alpine": [
+            -1.4736842105263157
+        ],
+        "Aston Martin": [
+            0.11764705882352941
+        ],
+        "Ferrari": [
+            1.3138686131386863
+        ],
+        "Haas": [
+            2.0
+        ],
+        "Kick Sauber": [
+            0.48387096774193544
+        ],
+        "McLaren": [
+            2.3666666666666667
+        ],
+        "Mercedes": [
+            2.5093632958801497
+        ],
+        "Racing Bulls": [
+            -1.25
+        ],
+        "Red Bull": [
+            0.753968253968254
+        ],
+        "Williams": [
+            0.7633587786259542
+        ]
+    },
+    "Constructor Average Points Per Value": {
+        "Alpine": [
+            -1.4736842105263157
+        ],
+        "Aston Martin": [
+            0.11764705882352941
+        ],
+        "Ferrari": [
+            1.3138686131386863
+        ],
+        "Haas": [
+            2.0
+        ],
+        "Kick Sauber": [
+            0.48387096774193544
+        ],
+        "McLaren": [
+            2.3666666666666667
+        ],
+        "Mercedes": [
+            2.5093632958801497
+        ],
+        "Racing Bulls": [
+            -1.25
+        ],
+        "Red Bull": [
+            0.753968253968254
+        ],
+        "Williams": [
+            0.7633587786259542
+        ]
+    },
+    "Constructor Sum Points Per Value": {
+        "Alpine": [
+            -1.4736842105263157
+        ],
+        "Aston Martin": [
+            0.11764705882352941
+        ],
+        "Ferrari": [
+            1.3138686131386863
+        ],
+        "Haas": [
+            2.0
+        ],
+        "Kick Sauber": [
+            0.48387096774193544
+        ],
+        "McLaren": [
+            2.3666666666666667
+        ],
+        "Mercedes": [
+            2.5093632958801497
+        ],
+        "Racing Bulls": [
+            -1.25
+        ],
+        "Red Bull": [
+            0.753968253968254
+        ],
+        "Williams": [
+            0.7633587786259542
+        ]
+    },
+    "Driver Positive Percentage": {
+        "Gasly": [
+            100.0
+        ],
+        "Doohan": [
+            0.0
+        ],
+        "Stroll": [
+            100.0
+        ],
+        "Alonso": [
+            0.0
+        ],
+        "Leclerc": [
+            100.0
+        ],
+        "Hamilton": [
+            100.0
+        ],
+        "Ocon": [
+            100.0
+        ],
+        "Bearman": [
+            100.0
+        ],
+        "Hulkenberg": [
+            100.0
+        ],
+        "Bortoleto": [
+            0.0
+        ],
+        "Norris": [
+            100.0
+        ],
+        "Piastri": [
+            100.0
+        ],
+        "Russell": [
+            100.0
+        ],
+        "Antonelli": [
+            100.0
+        ],
+        "Tsunoda": [
+            0.0
+        ],
+        "Hadjar": [
+            0.0
+        ],
+        "Verstappen": [
+            100.0
+        ],
+        "Lawson": [
+            0.0
+        ],
+        "Albon": [
+            100.0
+        ],
+        "Sainz": [
+            0.0
+        ]
+    },
+    "Driver Negative Percentage": {
+        "Gasly": [
+            0.0
+        ],
+        "Doohan": [
+            100.0
+        ],
+        "Stroll": [
+            0.0
+        ],
+        "Alonso": [
+            100.0
+        ],
+        "Leclerc": [
+            0.0
+        ],
+        "Hamilton": [
+            0.0
+        ],
+        "Ocon": [
+            0.0
+        ],
+        "Bearman": [
+            0.0
+        ],
+        "Hulkenberg": [
+            0.0
+        ],
+        "Bortoleto": [
+            100.0
+        ],
+        "Norris": [
+            0.0
+        ],
+        "Piastri": [
+            0.0
+        ],
+        "Russell": [
+            0.0
+        ],
+        "Antonelli": [
+            0.0
+        ],
+        "Tsunoda": [
+            0.0
+        ],
+        "Hadjar": [
+            100.0
+        ],
+        "Verstappen": [
+            0.0
+        ],
+        "Lawson": [
+            100.0
+        ],
+        "Albon": [
+            0.0
+        ],
+        "Sainz": [
+            100.0
+        ]
+    },
+    "Constructor Positive Percentage": {
+        "Alpine": [
+            0.0
+        ],
+        "Aston Martin": [
+            100.0
+        ],
+        "Ferrari": [
+            100.0
+        ],
+        "Haas": [
+            100.0
+        ],
+        "Kick Sauber": [
+            100.0
+        ],
+        "McLaren": [
+            100.0
+        ],
+        "Mercedes": [
+            100.0
+        ],
+        "Racing Bulls": [
+            0.0
+        ],
+        "Red Bull": [
+            100.0
+        ],
+        "Williams": [
+            100.0
+        ]
+    },
+    "Constructor Negative Percentage": {
+        "Alpine": [
+            100.0
+        ],
+        "Aston Martin": [
+            0.0
+        ],
+        "Ferrari": [
+            0.0
+        ],
+        "Haas": [
+            0.0
+        ],
+        "Kick Sauber": [
+            0.0
+        ],
+        "McLaren": [
+            0.0
+        ],
+        "Mercedes": [
+            0.0
+        ],
+        "Racing Bulls": [
+            100.0
+        ],
+        "Red Bull": [
+            0.0
+        ],
+        "Williams": [
+            0.0
+        ]
+    },
+    "Driver Std Dev Points": {
+        "Gasly": [
+            0.0
+        ],
+        "Doohan": [
+            0.0
+        ],
+        "Stroll": [
+            0.0
+        ],
+        "Alonso": [
+            0.0
+        ],
+        "Leclerc": [
+            0.0
+        ],
+        "Hamilton": [
+            0.0
+        ],
+        "Ocon": [
+            0.0
+        ],
+        "Bearman": [
+            0.0
+        ],
+        "Hulkenberg": [
+            0.0
+        ],
+        "Bortoleto": [
+            0.0
+        ],
+        "Norris": [
+            0.0
+        ],
+        "Piastri": [
+            0.0
+        ],
+        "Russell": [
+            0.0
+        ],
+        "Antonelli": [
+            0.0
+        ],
+        "Tsunoda": [
+            0.0
+        ],
+        "Hadjar": [
+            0.0
+        ],
+        "Verstappen": [
+            0.0
+        ],
+        "Lawson": [
+            0.0
+        ],
+        "Albon": [
+            0.0
+        ],
+        "Sainz": [
+            0.0
+        ]
+    },
+    "Driver CV Points": {
+        "Gasly": [
+            0.0
+        ],
+        "Doohan": [
+            -0.0
+        ],
+        "Stroll": [
+            0.0
+        ],
+        "Alonso": [
+            -0.0
+        ],
+        "Leclerc": [
+            0.0
+        ],
+        "Hamilton": [
+            0.0
+        ],
+        "Ocon": [
+            0.0
+        ],
+        "Bearman": [
+            0.0
+        ],
+        "Hulkenberg": [
+            0.0
+        ],
+        "Bortoleto": [
+            -0.0
+        ],
+        "Norris": [
+            0.0
+        ],
+        "Piastri": [
+            0.0
+        ],
+        "Russell": [
+            0.0
+        ],
+        "Antonelli": [
+            0.0
+        ],
+        "Tsunoda": [
+            0
+        ],
+        "Hadjar": [
+            -0.0
+        ],
+        "Verstappen": [
+            0.0
+        ],
+        "Lawson": [
+            -0.0
+        ],
+        "Albon": [
+            0.0
+        ],
+        "Sainz": [
+            -0.0
+        ]
+    },
+    "Constructor Std Dev Points": {
+        "Alpine": [
+            0.0
+        ],
+        "Aston Martin": [
+            0.0
+        ],
+        "Ferrari": [
+            0.0
+        ],
+        "Haas": [
+            0.0
+        ],
+        "Kick Sauber": [
+            0.0
+        ],
+        "McLaren": [
+            0.0
+        ],
+        "Mercedes": [
+            0.0
+        ],
+        "Racing Bulls": [
+            0.0
+        ],
+        "Red Bull": [
+            0.0
+        ],
+        "Williams": [
+            0.0
+        ]
+    },
+    "Constructor CV Points": {
+        "Alpine": [
+            -0.0
+        ],
+        "Aston Martin": [
+            0.0
+        ],
+        "Ferrari": [
+            0.0
+        ],
+        "Haas": [
+            0.0
+        ],
+        "Kick Sauber": [
+            0.0
+        ],
+        "McLaren": [
+            0.0
+        ],
+        "Mercedes": [
+            0.0
+        ],
+        "Racing Bulls": [
+            -0.0
+        ],
+        "Red Bull": [
+            0.0
+        ],
+        "Williams": [
+            0.0
+        ]
+    },
+    "Driver Std Dev Values": {
+        "Gasly": [
+            0.0
+        ],
+        "Doohan": [
+            0.0
+        ],
+        "Stroll": [
+            0.0
+        ],
+        "Alonso": [
+            0.0
+        ],
+        "Leclerc": [
+            0.0
+        ],
+        "Hamilton": [
+            0.0
+        ],
+        "Ocon": [
+            0.0
+        ],
+        "Bearman": [
+            0.0
+        ],
+        "Hulkenberg": [
+            0.0
+        ],
+        "Bortoleto": [
+            0.0
+        ],
+        "Norris": [
+            0.0
+        ],
+        "Piastri": [
+            0.0
+        ],
+        "Russell": [
+            0.0
+        ],
+        "Antonelli": [
+            0.0
+        ],
+        "Tsunoda": [
+            0.0
+        ],
+        "Hadjar": [
+            0.0
+        ],
+        "Verstappen": [
+            0.0
+        ],
+        "Lawson": [
+            0.0
+        ],
+        "Albon": [
+            0.0
+        ],
+        "Sainz": [
+            0.0
+        ]
+    },
+    "Driver CV Values": {
+        "Gasly": [
+            0.0
+        ],
+        "Doohan": [
+            0.0
+        ],
+        "Stroll": [
+            0.0
+        ],
+        "Alonso": [
+            0.0
+        ],
+        "Leclerc": [
+            0.0
+        ],
+        "Hamilton": [
+            0.0
+        ],
+        "Ocon": [
+            0.0
+        ],
+        "Bearman": [
+            0.0
+        ],
+        "Hulkenberg": [
+            0.0
+        ],
+        "Bortoleto": [
+            0.0
+        ],
+        "Norris": [
+            0.0
+        ],
+        "Piastri": [
+            0.0
+        ],
+        "Russell": [
+            0.0
+        ],
+        "Antonelli": [
+            0.0
+        ],
+        "Tsunoda": [
+            0.0
+        ],
+        "Hadjar": [
+            0.0
+        ],
+        "Verstappen": [
+            0.0
+        ],
+        "Lawson": [
+            0.0
+        ],
+        "Albon": [
+            0.0
+        ],
+        "Sainz": [
+            0.0
+        ]
+    },
+    "Constructor Std Dev Values": {
+        "Alpine": [
+            0.0
+        ],
+        "Aston Martin": [
+            0.0
+        ],
+        "Ferrari": [
+            0.0
+        ],
+        "Haas": [
+            0.0
+        ],
+        "Kick Sauber": [
+            0.0
+        ],
+        "McLaren": [
+            0.0
+        ],
+        "Mercedes": [
+            0.0
+        ],
+        "Racing Bulls": [
+            0.0
+        ],
+        "Red Bull": [
+            0.0
+        ],
+        "Williams": [
+            0.0
+        ]
+    },
+    "Constructor CV Values": {
+        "Alpine": [
+            0.0
+        ],
+        "Aston Martin": [
+            0.0
+        ],
+        "Ferrari": [
+            0.0
+        ],
+        "Haas": [
+            0.0
+        ],
+        "Kick Sauber": [
+            0.0
+        ],
+        "McLaren": [
+            0.0
+        ],
+        "Mercedes": [
+            0.0
+        ],
+        "Racing Bulls": [
+            0.0
+        ],
+        "Red Bull": [
+            0.0
+        ],
+        "Williams": [
+            0.0
+        ]
+    },
+    "Driver Std Dev Points Per Value": {
+        "Gasly": [
+            0.0
+        ],
+        "Doohan": [
+            0.0
+        ],
+        "Stroll": [
+            0.0
+        ],
+        "Alonso": [
+            0.0
+        ],
+        "Leclerc": [
+            0.0
+        ],
+        "Hamilton": [
+            0.0
+        ],
+        "Ocon": [
+            0.0
+        ],
+        "Bearman": [
+            0.0
+        ],
+        "Hulkenberg": [
+            0.0
+        ],
+        "Bortoleto": [
+            0.0
+        ],
+        "Norris": [
+            0.0
+        ],
+        "Piastri": [
+            0.0
+        ],
+        "Russell": [
+            0.0
+        ],
+        "Antonelli": [
+            0.0
+        ],
+        "Tsunoda": [
+            0.0
+        ],
+        "Hadjar": [
+            0.0
+        ],
+        "Verstappen": [
+            0.0
+        ],
+        "Lawson": [
+            0.0
+        ],
+        "Albon": [
+            0.0
+        ],
+        "Sainz": [
+            0.0
+        ]
+    },
+    "Driver CV Points Per Value": {
+        "Gasly": [
+            0.0
+        ],
+        "Doohan": [
+            -0.0
+        ],
+        "Stroll": [
+            0.0
+        ],
+        "Alonso": [
+            -0.0
+        ],
+        "Leclerc": [
+            0.0
+        ],
+        "Hamilton": [
+            0.0
+        ],
+        "Ocon": [
+            0.0
+        ],
+        "Bearman": [
+            0.0
+        ],
+        "Hulkenberg": [
+            0.0
+        ],
+        "Bortoleto": [
+            -0.0
+        ],
+        "Norris": [
+            0.0
+        ],
+        "Piastri": [
+            0.0
+        ],
+        "Russell": [
+            0.0
+        ],
+        "Antonelli": [
+            0.0
+        ],
+        "Tsunoda": [
+            0
+        ],
+        "Hadjar": [
+            -0.0
+        ],
+        "Verstappen": [
+            0.0
+        ],
+        "Lawson": [
+            -0.0
+        ],
+        "Albon": [
+            0.0
+        ],
+        "Sainz": [
+            -0.0
+        ]
+    },
+    "Constructor Std Dev Points Per Value": {
+        "Alpine": [
+            0.0
+        ],
+        "Aston Martin": [
+            0.0
+        ],
+        "Ferrari": [
+            0.0
+        ],
+        "Haas": [
+            0.0
+        ],
+        "Kick Sauber": [
+            0.0
+        ],
+        "McLaren": [
+            0.0
+        ],
+        "Mercedes": [
+            0.0
+        ],
+        "Racing Bulls": [
+            0.0
+        ],
+        "Red Bull": [
+            0.0
+        ],
+        "Williams": [
+            0.0
+        ]
+    },
+    "Constructor CV Points Per Value": {
+        "Alpine": [
+            -0.0
+        ],
+        "Aston Martin": [
+            0.0
+        ],
+        "Ferrari": [
+            0.0
+        ],
+        "Haas": [
+            0.0
+        ],
+        "Kick Sauber": [
+            0.0
+        ],
+        "McLaren": [
+            0.0
+        ],
+        "Mercedes": [
+            0.0
+        ],
+        "Racing Bulls": [
+            -0.0
+        ],
+        "Red Bull": [
+            0.0
+        ],
+        "Williams": [
+            0.0
+        ]
+    }
+}

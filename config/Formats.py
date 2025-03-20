@@ -1,0 +1,360 @@
+import os
+import random
+import logging
+
+from pathlib import Path
+from GeneralUtils.DataIO import load_json, save_json_dicts
+
+# Logging Parameters
+logger = logging.getLogger(name=Path(__file__).stem)
+
+
+def generate_manager_colors(new_managers: list,
+                            used_colors: list,
+                            directory_path: str) -> None:
+    """
+    Function Details
+    ================
+    Generates manager colour files from a list of all matplotlib colours.
+
+    Parameters
+    ----------
+    new_managers, used_colors: list
+        New managers and used color lists.
+    directory_path: string
+        Path to manager formats directory.
+
+    Returns
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Update to documentation.
+
+    """
+    all_colors = [
+        'dimgrey', 'silver', 'rosybrown', 'lightcoral', 'tomato', 'chocolate',
+        'sandybrown', 'peru', 'darkorange', 'wheat', 'goldenrod', 'khaki',
+        'olive', 'darkolivegreen', 'palegreen', 'lime', 'aquamarine',
+        'turquoise', 'teal', 'cyan', 'skyblue', 'dodgerblue', 'slategrey',
+        'royalblue', 'mediumblue', 'slateblue', 'blueviolet',
+        'indigo', 'thistle', 'plum', 'violet', 'purple', 'magenta', 'orchid',
+        'hotpink', 'crimson', 'brown', 'tan', 'lawngreen', 'cadetblue',
+        'rebeccapurple', 'midnightblue']
+    colors = [color for color in all_colors if color not in used_colors]
+    random.shuffle(colors)
+    for index, manager in enumerate(new_managers):
+        manager_format = {
+            'bold': 'True',
+            'size': 12,
+            'align': 'centre',
+            'font': 'Arial',
+            'bg_color': colors[index],
+            'teams': []}
+        out_path = Path(f'{directory_path}/{manager}.json')
+        save_json_dicts(
+            out_path=out_path,
+            dictionary=manager_format)
+    logger.info('Manager colors generated.')
+
+
+def drivers_formats(format_dir: str,
+                    driver: str,
+                    year: str) -> dict:
+    """
+    Function Details
+    ================
+    Find driver cell formats, from team colors.
+
+    Parameters
+    ----------
+    format_dir, driver, year: string
+        Path to format directory and driver name. Yeah for formats.
+
+    Returns
+    -------
+    format_dict: dictionary
+        Dictionary containing color formats.
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Update to documentation and presentation.
+
+    """
+    team_formats = [
+        Path(f'{format_dir}/{file}')
+        for file in os.listdir(format_dir)
+        if 'Perks.json' not in file]
+    format_dict = {}
+    for team_path in team_formats:
+        team_formats = load_json(file_path=team_path)
+        if f'{year}' in team_formats.keys():
+            team_format = team_formats[f'{year}']
+            if driver in team_format['drivers']:
+                for key, value in team_format.items():
+                    if key == 'drivers':
+                        pass
+                    else:
+                        format_dict.update({key: value})
+    logger.info(f'Driver formats: {format_dict}')
+    return format_dict
+
+
+def drivers_colours(format_dir: str,
+                    driver: str,
+                    year: str) -> dict:
+    """
+    Function Details
+    ================
+    Find driver colors, from team colors.
+
+    Parameters
+    ----------
+    format_dir, driver, year: string
+        Path to format directory and driver name. Year for colour codes.
+
+    Returns
+    -------
+    format_dict: dictionary
+        Dictionary containing color formats.
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Update to documentation and presentation.
+
+    """
+    team_formats = [
+        Path(f'{format_dir}/{file}')
+        for file in os.listdir(format_dir)
+        if 'Perks.json' not in file]
+    format_dict = {}
+    for team_path in team_formats:
+        team_formats = load_json(file_path=team_path)
+        if f'{year}' in team_formats.keys():
+            team_format = team_formats[f'{year}']
+            if driver in team_format['drivers']:
+                for key, value in team_format.items():
+                    format_dict.update({key: value})
+    logger.info(f'Driver colors: {format_dict}')
+    return format_dict
+
+
+def constructors_format(format_dir: str,
+                        constructor: str,
+                        year: str) -> dict:
+    """
+    Function Details
+    ================
+    Find team cell formats, from team colors.
+
+    Parameters
+    ----------
+    format_dir, constructor, year: string
+        Path to format directory and team name. Year for colour code.
+
+    Returns
+    -------
+    format_dict: dictionary
+        Dictionary containing color formats.
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Update to documentation and presentation.
+
+    """
+    paths = [
+        Path(f'{format_dir}/{file}')
+        for file in os.listdir(format_dir)
+        if '.json' in file]
+    teams = [os.path.splitext(os.path.basename(path))[0] for path in paths]
+    format_dict = {}
+    for index, path in enumerate(paths):
+        team_formats = load_json(file_path=path)
+        if f'{year}' in team_formats.keys():
+            team_format = team_formats[f'{year}']
+            if constructor == teams[index]:
+                for key, value in team_format.items():
+                    if key == 'drivers':
+                        pass
+                    else:
+                        format_dict.update({key: value})
+    logger.info(f'Constructor formats: {format_dict}')
+    return format_dict
+
+
+def constructors_colour(format_dir: str,
+                        constructor: str,
+                        year: str) -> dict:
+    """
+    Function Details
+    ================
+    Find team colors, from team colors.
+
+    Parameters
+    ----------
+    format_dir, constructor: string
+        Path to format directory and tea, name.
+
+    Returns
+    -------
+    format_dict: dictionary
+        Dictionary containing color formats.
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Update to documentation and presentation.
+
+    """
+    paths = [
+        Path(f'{format_dir}/{file}')
+        for file in os.listdir(format_dir)
+        if '.json' in file]
+    teams = [os.path.splitext(os.path.basename(path))[0] for path in paths]
+    format_dict = {}
+    for index, path in enumerate(paths):
+        team_formats = load_json(file_path=path)
+        if f'{year}' in team_formats.keys():
+            team_format = team_formats[f'{year}']
+            if constructor == teams[index]:
+                for key, value in team_format.items():
+                    format_dict.update({key: value})
+    logger.info(f'Constructor colors: {format_dict}')
+    return format_dict
+
+
+def perk_colour(format_dir: str,
+                perk: str,
+                year: str) -> dict:
+    """
+    Function Details
+    ================
+    Find perk colors, from perk colors.
+
+    Parameters
+    ----------
+    format_dir, perk, year: string
+        Path to format directory and perk name. Year for colour code.
+
+    Returns
+    -------
+    format_dict: dictionary
+        Dictionary containing color formats.
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Update to documentation and presentation.
+
+    """
+    path = Path(f'{format_dir}/Perks.json')
+    perk_formats = load_json(file_path=path)
+    if f'{year}' in perk_formats.keys():
+        perk_format = perk_formats[f'{year}']
+        all_perks = perk_format['perks']
+        all_colours = perk_format['bg_color']
+        format_dict = {}
+        for key, value in perk_format.items():
+            format_dict.update({key: value})
+        for p, c in zip(all_perks, all_colours):
+            if p == perk:
+                format_dict.update({'bg_color': c})
+    logger.info(f'Perk colors: {format_dict}')
+    return format_dict
+
+
+def team_colour(format_dir: str,
+                team: str,
+                year: str) -> dict:
+    """
+    Function Details
+    ================
+    Find team colors, from manager colors.
+
+    Parameters
+    ----------
+    format_dir, team, year: string
+        Path to format directory and team name. Unused.
+
+    Returns
+    -------
+    format_dict: dictionary
+        Dictionary containing color formats.
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Update to documentation and presentation.
+
+    """
+    paths = [
+        Path(f'{format_dir}/{file}')
+        for file in os.listdir(format_dir)
+        if '.json' in file]
+    format_dict = {}
+    for path in paths: 
+        manager_format = load_json(file_path=path)
+        if team in manager_format['teams']:
+            for key, value in manager_format.items():
+                format_dict.update({key: value})
+    logger.info(f'Team colors: {format_dict}')
+    return format_dict
+
+
+def managers_colour(format_dir: str,
+                    manager: str,
+                    year: str) -> dict:
+    """
+    Function Details
+    ================
+    Find manager colors, from manager colors.
+
+    Parameters
+    ----------
+    format_dir, manager, year: string
+        Path to format directory and manager name. Unused.
+
+    Returns
+    -------
+    format_dict: dictionary
+        Dictionary containing color formats.
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Update to documentation and presentation.
+
+    """
+    format_dict = load_json(
+        file_path=Path(f'{format_dir}/{manager}.json'))
+    logger.info(f'Manager colors: {format_dict}')
+    return format_dict

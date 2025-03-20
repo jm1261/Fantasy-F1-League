@@ -1,0 +1,574 @@
+{
+    "Team Points": {
+        "Chloe B": {
+            "Miss Fritter Is Back": [
+                197
+            ],
+            "No Keys - Push To Start": [
+                37
+            ],
+            "Mickeys Roadster Racers": [
+                20
+            ]
+        },
+        "Alfie CJ": {
+            "I Call Patrick Subaru": [
+                161
+            ],
+            "Corona Wing Corn": [
+                88
+            ],
+            "Cucumberpotatolamborghini": [
+                68
+            ]
+        },
+        "Sam CJ": {
+            "Gran Prix Princesses F1": [
+                142
+            ],
+            "Total F1 Performance": [
+                51
+            ],
+            "Silverstone Is Red 2025!!": [
+                14
+            ]
+        },
+        "Pete J": {
+            "Monaco Barrier Testers": [
+                77
+            ],
+            "Ford Nintendo Racing": [
+                41
+            ],
+            "Seagiant F1 Online": [
+                -35
+            ]
+        },
+        "Patrick L": {
+            "Coming In Haast Place": [
+                61
+            ],
+            "You Hadjar Chance Racing": [
+                51
+            ]
+        },
+        "Jake M": {
+            "Kick Sauber In The Audi": [
+                155
+            ],
+            "Red Bull Whats That 2nd": [
+                105
+            ],
+            "I Am Stupid Rookie": [
+                6
+            ]
+        },
+        "Josh M": {
+            "HSBC Jaguar Racing": [
+                116
+            ],
+            "Expensify APX GP": [
+                104
+            ],
+            "Kingfisher Force India F1": [
+                28
+            ]
+        },
+        "Phil M": {
+            "BMW FTW": [
+                198
+            ],
+            "BMW Motorrad": [
+                43
+            ],
+            "BMW Should Be Here": [
+                24
+            ]
+        },
+        "Sebastian M": {
+            "Bridgestone Toro Rosso F1": [
+                201
+            ],
+            "Allianz BMW Williams": [
+                89
+            ],
+            "BWT Racing Point F1": [
+                19
+            ]
+        },
+        "Val M": {
+            "Its 'odinge'": [
+                186
+            ],
+            "No U Turn": [
+                79
+            ],
+            "Limoncello44": [
+                34
+            ]
+        },
+        "Valerie M": {
+            "Stroll To The 18th": [
+                52
+            ],
+            "Perez For World Champion": [
+                -24
+            ],
+            "What Arrrgh Ya Doohan": [
+                -39
+            ]
+        },
+        "Madlen P": {
+            "Wet Tyres Are Blue": [
+                72
+            ],
+            "Soft Tires Are Red": [
+                59
+            ],
+            "Push, Push - Box Now Too": [
+                37
+            ]
+        },
+        "Finn R": {
+            "Ro@d R@ge": [
+                59
+            ]
+        },
+        "James R": {
+            "Bwoah OnlyFans UPS Racing": [
+                29
+            ],
+            "Bwoah OnlyFans McD Racing": [
+                22
+            ],
+            "Bwoah Schweppes Puma Golf": [
+                -37
+            ]
+        },
+        "Will R": {
+            "Dinoco Piston Cup Champs": [
+                32
+            ],
+            "Axelrods Allinol Allstars": [
+                -10
+            ],
+            "The Big One(TM)": [
+                -13
+            ]
+        },
+        "Stuart S": {
+            "Taylormade To Lose": [
+                -19
+            ],
+            "Murder On Zidane's Floor": [
+                -2
+            ],
+            "Andres Inyasista": [
+                12
+            ]
+        },
+        "Stefanus W": {
+            "Gelael": [
+                47
+            ],
+            "Haryanto": [
+                50
+            ],
+            "Syahrul": [
+                103
+            ]
+        }
+    },
+    "Manager Points": {
+        "Chloe B": [
+            254
+        ],
+        "Alfie CJ": [
+            317
+        ],
+        "Sam CJ": [
+            207
+        ],
+        "Pete J": [
+            83
+        ],
+        "Patrick L": [
+            112
+        ],
+        "Jake M": [
+            266
+        ],
+        "Josh M": [
+            248
+        ],
+        "Phil M": [
+            265
+        ],
+        "Sebastian M": [
+            309
+        ],
+        "Val M": [
+            299
+        ],
+        "Valerie M": [
+            -11
+        ],
+        "Madlen P": [
+            168
+        ],
+        "Finn R": [
+            59
+        ],
+        "James R": [
+            14
+        ],
+        "Will R": [
+            9
+        ],
+        "Stuart S": [
+            -9
+        ],
+        "Stefanus W": [
+            200
+        ]
+    },
+    "Manager Average Points": {
+        "Chloe B": [
+            84.66666666666667
+        ],
+        "Alfie CJ": [
+            105.66666666666667
+        ],
+        "Sam CJ": [
+            69.0
+        ],
+        "Pete J": [
+            27.666666666666668
+        ],
+        "Patrick L": [
+            56.0
+        ],
+        "Jake M": [
+            88.66666666666667
+        ],
+        "Josh M": [
+            82.66666666666667
+        ],
+        "Phil M": [
+            88.33333333333333
+        ],
+        "Sebastian M": [
+            103.0
+        ],
+        "Val M": [
+            99.66666666666667
+        ],
+        "Valerie M": [
+            -3.6666666666666665
+        ],
+        "Madlen P": [
+            56.0
+        ],
+        "Finn R": [
+            59.0
+        ],
+        "James R": [
+            4.666666666666667
+        ],
+        "Will R": [
+            3.0
+        ],
+        "Stuart S": [
+            -3.0
+        ],
+        "Stefanus W": [
+            66.66666666666667
+        ]
+    },
+    "Team Values": {
+        "Chloe B": {
+            "Miss Fritter Is Back": [
+                100.2
+            ],
+            "No Keys - Push To Start": [
+                99.7
+            ],
+            "Mickeys Roadster Racers": [
+                97.1
+            ]
+        },
+        "Alfie CJ": {
+            "I Call Patrick Subaru": [
+                97.3
+            ],
+            "Corona Wing Corn": [
+                99.4
+            ],
+            "Cucumberpotatolamborghini": [
+                103.60000000000001
+            ]
+        },
+        "Sam CJ": {
+            "Gran Prix Princesses F1": [
+                99.30000000000001
+            ],
+            "Total F1 Performance": [
+                98.69999999999999
+            ],
+            "Silverstone Is Red 2025!!": [
+                99.80000000000001
+            ]
+        },
+        "Pete J": {
+            "Monaco Barrier Testers": [
+                96.1
+            ],
+            "Ford Nintendo Racing": [
+                99.3
+            ],
+            "Seagiant F1 Online": [
+                48.0
+            ]
+        },
+        "Patrick L": {
+            "Coming In Haast Place": [
+                47.7
+            ],
+            "You Hadjar Chance Racing": [
+                98.69999999999999
+            ]
+        },
+        "Jake M": {
+            "Kick Sauber In The Audi": [
+                100.10000000000001
+            ],
+            "Red Bull Whats That 2nd": [
+                99.7
+            ],
+            "I Am Stupid Rookie": [
+                99.9
+            ]
+        },
+        "Josh M": {
+            "HSBC Jaguar Racing": [
+                103.4
+            ],
+            "Expensify APX GP": [
+                100.9
+            ],
+            "Kingfisher Force India F1": [
+                99.69999999999999
+            ]
+        },
+        "Phil M": {
+            "BMW FTW": [
+                100.2
+            ],
+            "BMW Motorrad": [
+                100.3
+            ],
+            "BMW Should Be Here": [
+                100.0
+            ]
+        },
+        "Sebastian M": {
+            "Bridgestone Toro Rosso F1": [
+                100.10000000000001
+            ],
+            "Allianz BMW Williams": [
+                99.89999999999999
+            ],
+            "BWT Racing Point F1": [
+                99.4
+            ]
+        },
+        "Val M": {
+            "Its 'odinge'": [
+                99.0
+            ],
+            "No U Turn": [
+                99.4
+            ],
+            "Limoncello44": [
+                99.1
+            ]
+        },
+        "Valerie M": {
+            "Stroll To The 18th": [
+                69.1
+            ],
+            "Perez For World Champion": [
+                63.900000000000006
+            ],
+            "What Arrrgh Ya Doohan": [
+                54.2
+            ]
+        },
+        "Madlen P": {
+            "Wet Tyres Are Blue": [
+                99.7
+            ],
+            "Soft Tires Are Red": [
+                97.69999999999999
+            ],
+            "Push, Push - Box Now Too": [
+                102.7
+            ]
+        },
+        "Finn R": {
+            "Ro@d R@ge": [
+                99.9
+            ]
+        },
+        "James R": {
+            "Bwoah OnlyFans UPS Racing": [
+                99.1
+            ],
+            "Bwoah OnlyFans McD Racing": [
+                98.7
+            ],
+            "Bwoah Schweppes Puma Golf": [
+                45.7
+            ]
+        },
+        "Will R": {
+            "Dinoco Piston Cup Champs": [
+                97.7
+            ],
+            "Axelrods Allinol Allstars": [
+                99.0
+            ],
+            "The Big One(TM)": [
+                48.5
+            ]
+        },
+        "Stuart S": {
+            "Taylormade To Lose": [
+                48.2
+            ],
+            "Murder On Zidane's Floor": [
+                100.0
+            ],
+            "Andres Inyasista": [
+                99.5
+            ]
+        },
+        "Stefanus W": {
+            "Gelael": [
+                100.3
+            ],
+            "Haryanto": [
+                99.9
+            ],
+            "Syahrul": [
+                104.1
+            ]
+        }
+    },
+    "Manager Values": {
+        "Chloe B": [
+            297.0
+        ],
+        "Alfie CJ": [
+            300.3
+        ],
+        "Sam CJ": [
+            297.8
+        ],
+        "Pete J": [
+            243.39999999999998
+        ],
+        "Patrick L": [
+            146.39999999999998
+        ],
+        "Jake M": [
+            299.70000000000005
+        ],
+        "Josh M": [
+            304.0
+        ],
+        "Phil M": [
+            300.5
+        ],
+        "Sebastian M": [
+            299.4
+        ],
+        "Val M": [
+            297.5
+        ],
+        "Valerie M": [
+            187.2
+        ],
+        "Madlen P": [
+            300.1
+        ],
+        "Finn R": [
+            99.9
+        ],
+        "James R": [
+            243.5
+        ],
+        "Will R": [
+            245.2
+        ],
+        "Stuart S": [
+            247.7
+        ],
+        "Stefanus W": [
+            304.3
+        ]
+    },
+    "Manager Average Values": {
+        "Chloe B": [
+            99.0
+        ],
+        "Alfie CJ": [
+            100.10000000000001
+        ],
+        "Sam CJ": [
+            99.26666666666667
+        ],
+        "Pete J": [
+            81.13333333333333
+        ],
+        "Patrick L": [
+            73.19999999999999
+        ],
+        "Jake M": [
+            99.90000000000002
+        ],
+        "Josh M": [
+            101.33333333333333
+        ],
+        "Phil M": [
+            100.16666666666667
+        ],
+        "Sebastian M": [
+            99.8
+        ],
+        "Val M": [
+            99.16666666666667
+        ],
+        "Valerie M": [
+            62.4
+        ],
+        "Madlen P": [
+            100.03333333333335
+        ],
+        "Finn R": [
+            99.9
+        ],
+        "James R": [
+            81.16666666666667
+        ],
+        "Will R": [
+            81.73333333333333
+        ],
+        "Stuart S": [
+            82.56666666666666
+        ],
+        "Stefanus W": [
+            101.43333333333334
+        ]
+    }
+}
