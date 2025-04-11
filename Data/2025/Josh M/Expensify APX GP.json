@@ -10,5 +10,45 @@
         "DRS Boost": "Norris",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "China": {
+        "Driver 1": "Norris",
+        "Driver 2": "Tsunoda RB",
+        "Driver 3": "Ocon",
+        "Driver 4": "Alonso",
+        "Driver 5": "Sainz",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": [
+            "No Negative",
+            "Norris",
+            86,
+            "Tsunoda RB",
+            13,
+            "Ocon",
+            24,
+            "Alonso",
+            4,
+            "Sainz",
+            12,
+            "Mercedes",
+            69,
+            "Aston Martin",
+            24
+        ]
+    },
+    "Japan": {
+        "Driver 1": "Norris",
+        "Driver 2": "Lawson",
+        "Driver 3": "Ocon",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Albon",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Norris",
+        "Penalties": -10,
+        "Perks": "None"
     }
 }

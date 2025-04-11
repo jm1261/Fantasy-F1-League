@@ -1,7 +1,7 @@
 {
     "Australia": {
         "Driver 1": "Piastri",
-        "Driver 2": "Tsunoda",
+        "Driver 2": "Tsunoda RB",
         "Driver 3": "Bearman",
         "Driver 4": "Sainz",
         "Driver 5": "Alonso",
@@ -10,5 +10,29 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "China": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Tsunoda RB",
+        "Driver 3": "Bearman",
+        "Driver 4": "Albon",
+        "Driver 5": "Alonso",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Tsunoda RB",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Japan": {
+        "Driver 1": "Tsunoda",
+        "Driver 2": "Norris",
+        "Driver 3": "Piastri",
+        "Driver 4": "Hamilton",
+        "Driver 5": "Verstappen",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "Mercedes",
+        "DRS Boost": "Tsunoda",
+        "Penalties": 0,
+        "Perks": "Limitless"
     }
 }

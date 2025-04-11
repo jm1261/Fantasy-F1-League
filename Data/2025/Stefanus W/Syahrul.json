@@ -10,5 +10,29 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "China": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Norris",
+        "Driver 3": "Leclerc",
+        "Driver 4": "Hamilton",
+        "Driver 5": "Verstappen",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "Limitless"
+    },
+    "Japan": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Stroll",
+        "Driver 3": "Bearman",
+        "Driver 4": "Russell",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Racing Bulls",
+        "Constructor 2": "Mercedes",
+        "DRS Boost": "Piastri",
+        "Penalties": -10,
+        "Perks": "None"
     }
 }

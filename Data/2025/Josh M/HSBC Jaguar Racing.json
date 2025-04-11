@@ -2,12 +2,52 @@
     "Australia": {
         "Driver 1": "Hamilton",
         "Driver 2": "Piastri",
-        "Driver 3": "Tsunoda",
+        "Driver 3": "Tsunoda RB",
         "Driver 4": "Hulkenberg",
         "Driver 5": "Ocon",
         "Constructor 1": "Mercedes",
         "Constructor 2": "Kick Sauber",
         "DRS Boost": "Hamilton",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "China": {
+        "Driver 1": "Antonelli",
+        "Driver 2": "Piastri",
+        "Driver 3": "Tsunoda RB",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Ocon",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": [
+            "No Negative",
+            "Antonelli",
+            29,
+            "Piastri",
+            90,
+            "Tsunoda RB",
+            13,
+            "Hulkenberg",
+            5,
+            "Ocon",
+            24,
+            "Mercedes",
+            69,
+            "Racing Bulls",
+            53
+        ]
+    },
+    "Japan": {
+        "Driver 1": "Antonelli",
+        "Driver 2": "Piastri",
+        "Driver 3": "Stroll",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Ocon",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
     }

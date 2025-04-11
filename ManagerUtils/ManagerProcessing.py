@@ -41,7 +41,7 @@ def managerweek(root: str,
     -------
     None.
 
-    Notes
+    Notes33838
     -----
     Process the manager data, statistics, and plots for the given year. Can be
     called from main repository, notebooks, or used as __main__.

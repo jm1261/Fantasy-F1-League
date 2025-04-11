@@ -1,4 +1,5 @@
 import logging
+import ResultsUtils.Plotting as plot
 
 from pathlib import Path
 from itertools import accumulate, islice
@@ -34,14 +35,18 @@ class PrizeProcessor:
     _shortseason_result
     _finds_max_dict
     _finds_max_nestdict
+    _finds_min_nestdict
+    _top_bot_nesteddict
     _custom_prizes
     _championship_prizes
     _highest_weekly
     _lowest_weekly
     _highest_value
+    _efficiency_of_the_year
     _manager_of_the_year
     _substitutions
     _achievements_prizes
+    _process_prizes
 
     ---------------------------------------------------------------------------
     Update History
@@ -539,6 +544,97 @@ class PrizeProcessor:
             find_max.update({f'{name}': value})
         return find_max
 
+    def _finds_min_nestdict(self,
+                            dictionary: dict) -> dict:
+        """
+        Function Details
+        ================
+        Find minimum value in a nested dictionary.
+
+        Parameters
+        ----------
+        dictionary: dict
+            Nested dictionary, e.g., {primary: {key: list}}.
+
+        Returns
+        -------
+        find_min: dict
+            Dictionary containing {primary: min(list)} data structure.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        24/03/2025
+        ----------
+        Created.
+
+        """
+        find_min, names, values = {}, [], []
+        for primary, dicts in dictionary.items():
+            for secondary, dict_values in dicts.items():
+                names.append(secondary)
+                values.append(dict_values[-1])
+        tuples = zip(*sorted(zip(values, names)))
+        all_values, all_names = [list(tuple) for tuple in tuples]
+        names_orders = all_names
+        values_orders = all_values
+        for name, value in zip(names_orders, values_orders):
+            find_min.update({f'{name}': value})
+        return find_min
+
+    def _top_bot_nesteddict(self,
+                            dictionary: dict,
+                            slice_index: int = 5) -> dict:
+        """
+        Function Details
+        ================
+        Find the top and bottom values in a nested dictionary.
+
+        Parameters
+        ----------
+        dictionary: dict
+            Dictionary containing nested values.
+        slice_index: int = 5
+            Top and bottom slice index.
+
+        Returns
+        -------
+        return_dict: dict
+            Dictionary containing the top *index* and bottom *index* values.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        25/03/2025
+        ----------
+        Created.
+
+        """
+        top = dict(
+            islice(
+                self._finds_max_nestdict(
+                    dictionary=dictionary
+                ).items(),
+                slice_index
+            )
+        )
+        bot = dict(
+            reversed(
+                list(
+                    self._finds_min_nestdict(
+                        dictionary=dictionary
+                    ).items()
+                )[:slice_index]
+            )
+        )
+        return_dict = dict(
+            top,
+            **bot
+        )
+        return return_dict
+
     def _custom_prizes(self) -> dict:
         """
         Function Details
@@ -569,6 +665,7 @@ class PrizeProcessor:
         prize_winners = {}
         categories = custom_prizes["Custom Set Names"].keys()
         for category in categories:
+            logger.info(f'Processing {category} prizes')
             category_races = custom_prizes[f'{category} Races']
             exists = any(
                 race in category_races
@@ -580,17 +677,37 @@ class PrizeProcessor:
                     results=team_dictionary,
                     specific_races=category_races
                 )
-                sum_prize_dict = self._finds_max_nestdict(
-                    dictionary=category_dict["Sum Points"]
+                winners_sum = self._top_bot_nesteddict(
+                    dictionary=category_dict["Sum Points"],
+                    slice_index=10
                 )
-                avg_prize_dict = self._finds_max_nestdict(
-                    dictionary=category_dict["Average Points"]
+                category_sum_dict = {}
+                for manager, teams in category_dict['Sum Points'].items():
+                    for team, values in teams.items():
+                        if team in winners_sum.keys():
+                            category_sum_dict.update({manager: {team: values}})
+
+                winners_avg = self._top_bot_nesteddict(
+                    dictionary=category_dict["Average Points"],
+                    slice_index=10
+                )
+                category_avg_dict = {}
+                for manager, teams in category_dict['Average Points'].items():
+                    for team, values in teams.items():
+                        if team in winners_avg.keys():
+                            category_avg_dict.update({manager: {team: values}})
+
+                prize_winners.update({f'{prize_name} Sum Points': winners_sum})
+                prize_winners.update(
+                    {f'{prize_name} Average Points': winners_avg}
                 )
                 prize_winners.update(
-                    {f'{prize_name} Sum Points': sum_prize_dict}
-                )
-                prize_winners.update(
-                    {f'{prize_name} Average Points': avg_prize_dict}
+                    {
+                        f'{prize_name} Data': {
+                            "Team Sum Points": category_sum_dict,
+                            "Team Average Points": category_avg_dict
+                        }
+                    }
                 )
             custom_prizes.update({"Custom Winners": prize_winners})
         return custom_prizes
@@ -757,6 +874,40 @@ class PrizeProcessor:
         highest_value = dict(islice(max_value.items(), 3))
         return highest_value
 
+    def _efficiency_of_the_year(self) -> dict:
+        """
+        Function Details
+        ================
+        Find the highest average points per value for a team.
+
+        Parameters
+        ----------
+        None.
+
+        Returns
+        -------
+        highest_efficiency: dict
+            Top three highest average points per value for teams.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        24/03/2025
+        ----------
+        Created.
+
+        """
+        all_efficiency_points = self._finds_max_nestdict(
+            dictionary=self.statistics_dictionary[
+                "Team Average Points Per Value"
+            ]
+        )
+        highest_efficiency_points = dict(
+            islice(all_efficiency_points.items(), 5)
+        )
+        return highest_efficiency_points
+
     def _manager_of_the_year(self) -> dict:
         """
         Function Details
@@ -796,7 +947,7 @@ class PrizeProcessor:
                 highest_averages.update({manager: score})
             else:
                 pass
-        highest_average = dict(islice(highest_averages.items(), 3))
+        highest_average = dict(islice(highest_averages.items(), 5))
         return highest_average
 
     def _substitutions(self) -> dict:
@@ -861,7 +1012,7 @@ class PrizeProcessor:
                 most_subs.update({manager: substitutes})
 
         # Trim
-        most_substitutes = dict(islice(most_subs.items(), 3))
+        most_substitutes = dict(islice(most_subs.items(), 5))
 
         return most_substitutes
 
@@ -898,6 +1049,7 @@ class PrizeProcessor:
             "Lowest Weekly": self._lowest_weekly,
             "Highest Value": self._highest_value,
             "Manager of the Year": self._manager_of_the_year,
+            "Highest Average Points Per Value": self._efficiency_of_the_year,
             "Substitutions": self._substitutions
         }
 
@@ -940,6 +1092,346 @@ class PrizeProcessor:
 
         """
         for category in categories:
+            logger.info(f'Processing {category} prizes')
             winners_dict = self.call_prizes(prize=category)
             self.prizes_dictionary.update({category: winners_dict})
         return self.prizes_dictionary
+
+
+class PrizePlotter:
+    """
+    Class Details
+    =============
+    Prizes plotter method.
+
+    Attributes
+    ----------
+    prizes_dictionary: dict
+    manager_results: dict
+    manager_statistics: dict
+    manager_counts: dict
+    completed_races: list
+    data_path
+    format_path
+    year
+    plotter
+
+    Methods
+    -------
+    __init__
+    call_prizes
+    _spot_prizes
+    _achievement_prizes
+    _substitutions
+    _average_efficiency
+    _custom_prizes
+
+    ---------------------------------------------------------------------------
+    Update History
+    ==============
+
+    25/03/2025
+    ----------
+    Created.
+
+    """
+
+    def __init__(
+            self,
+            prizes_dictionary: dict,
+            manager_results: dict,
+            manager_statistics: dict,
+            manager_counts: dict,
+            completed_races: list,
+            data_path: str,
+            format_path: str,
+            year: str) -> None:
+        """
+        Function Details
+        ================
+        Initialize prize plotting method.
+
+        Parameters
+        ----------
+        prizes_dictionary, manager_results: dict
+            Completed prizes dictionary. Manager results dictionary.
+        manager_statistics, manager_counts: dictionary
+            Manager statistics dictionary. Manager counts dictionary.
+        completed_races: list
+            List of completed races.
+        data_path, format_path, year: str
+            Path to year data. Format path. Year to process.
+
+        Returns
+        -------
+        None.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        25/03/2025
+        ----------
+        Created.
+
+        """
+        self.prizes_dictionary = prizes_dictionary
+        self.manager_results = manager_results
+        self.manager_statistics = manager_statistics
+        self.manager_counts = manager_counts
+        self.completed_races = completed_races
+        self.data_path = data_path
+        self.format_path = format_path
+        self.year = year
+        self.plotter = plot.Manager_Plots(
+            out_path=Path(self.data_path, 'Figures', 'Prizes'),
+            format_dir=self.format_path,
+            year=self.year
+        )
+
+    def call_prizes(self,
+                    prize: str) -> None:
+        """
+        Function Details
+        ================
+        Helper method to handle common logic for determining prizes.
+
+        Parameters
+        ----------
+        prize: str
+            Identifier string for function calling.
+
+        Returns
+        -------
+        None
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        25/03/2025
+        ----------
+        Created.
+
+        """
+        function_map = {
+            "Spot": self._spot_prizes,
+            "Achievements": self._achievement_prizes,
+            "Custom Set": self._custom_prizes
+        }
+        if prize in function_map:
+            function_map[f'{prize}']()
+            logger.info(f'{prize} results plotted')
+        else:
+            logger.error(f'No function mapped for {prize}')
+
+    def _spot_prizes(self):
+        """
+        Function Details
+        ================
+        Plot the spot prize winners for min/max race results at specific races.
+
+        Parameters
+        ----------
+        None.
+
+        Returns
+        -------
+        None.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        25/03/2025
+        ----------
+        Created.
+
+        """
+        # Get competition races and indices
+        comp_races = [
+            race
+            for race in
+            self.prizes_dictionary["Spot"]["Spot Max"] +
+            self.prizes_dictionary["Spot"]["Spot Min"]
+        ]
+        comp_indices = [
+            self.completed_races.index(race)
+            for race in comp_races
+            if race in self.completed_races
+        ]
+
+        # Get competition prize names
+        prize_names = [
+            self.prizes_dictionary["Spot"]["Spot Names"][f'{race}']
+            for race in comp_races
+        ]
+
+        # Loop and plot
+        for index, race, name in zip(comp_races, comp_indices, prize_names):
+            self.plotter.spotleagueprize(
+                race_index=index,
+                race=race,
+                results_dictionary=self.manager_results,
+                prize=name
+            )
+
+    def _achievement_prizes(self) -> None:
+        """
+        Function Details
+        ================
+        Plot the achievement prize winners for a season.
+
+        Parameters
+        ----------
+        None.
+
+        Returns
+        -------
+        None.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        25/03/2025
+        ----------
+        Created.
+
+        """
+        function_map = {
+            "Substitutions": self._substitutions,
+            "Highest Average Points Per Value": self._average_efficiency
+        }
+        for key in self.prizes_dictionary["Achievements"]["Achievement Names"]:
+            if key in function_map:
+                function_map[f'{key}']()
+                logger.info(f'{key} results plotted')
+            else:
+                logger.error(f'No function mapped for {key}')
+
+    def _substitutions(self) -> None:
+        """
+        Function Details
+        ================
+        Plot the achievement prize winners for number of substitutions.
+
+        Parameters
+        ----------
+        None.
+
+        Returns
+        -------
+        None.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        25/03/2025
+        ----------
+        Created.
+
+        """
+        achievements = self.prizes_dictionary["Achievements"]
+        prize_name = achievements["Achievement Names"]["Substitutions"]
+        logger.info(f'Plotting for {prize_name}')
+        for index, race in enumerate(self.completed_races):
+            if index == 0:
+                logger.info('No data for first race, skipping plots')
+                pass
+            else:
+                self.plotter.custom_league_count(
+                    race_index=index,
+                    races=self.completed_races[0: index + 1],
+                    race=race,
+                    counts_dictionary=self.manager_counts,
+                    prize_type='Substitutions',
+                    prize=prize_name
+                )
+
+    def _average_efficiency(self) -> None:
+        """
+        Function Details
+        ================
+        Plot the achievement prize winners for highest average points per
+        value.
+
+        Parameters
+        ----------
+        None.
+
+        Returns
+        -------
+        None.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        25/03/2025
+        ----------
+        Created.
+
+        """
+        achievements = self.prizes_dictionary["Achievements"]
+        names = achievements["Achievement Names"]
+        prize_name = names["Highest Average Points Per Value"]
+        logger.info(f'Plotting for {prize_name}')
+        for index, race in enumerate(self.completed_races):
+            self.plotter.custom_league_stats(
+                race_index=index,
+                races=self.completed_races,
+                race=race,
+                prize=prize_name,
+                categories=['Average Points Per Value'],
+                units=['[#/$M]'],
+                statistics_dictionary=self.manager_statistics
+            )
+
+    def _custom_prizes(self) -> None:
+        """
+        Function Details
+        ================
+        Manage plots for the custom races prize.
+
+        Parameters
+        ----------
+        None.
+
+        Returns
+        -------
+        None.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        25/03/2025
+        ----------
+        Created.
+
+        """
+        custom_prizes = self.prizes_dictionary["Custom Set"]
+        custom_names = custom_prizes["Custom Set Names"]
+        for competition in custom_names.keys():
+            competition_races = [
+                race
+                for race in custom_prizes[f'{competition} Races']
+                if race in self.completed_races
+            ]
+            competition_name = custom_names[f'{competition}']
+            logger.info(f'Plotting for {competition_name}')
+            stats_dict = custom_prizes['Custom Winners']
+            for index, race in enumerate(competition_races):
+                self.plotter.custom_league_stats(
+                    race_index=index,
+                    races=competition_races,
+                    race=race,
+                    prize=competition_name,
+                    categories=['Sum Points', 'Average Points'],
+                    units=['[#]', '[#]'],
+                    statistics_dictionary=stats_dict[
+                        f'{competition_name} Data'
+                    ]
+                )

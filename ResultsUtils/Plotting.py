@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 from GeneralUtils.DataIO import check_dir_exists
 from matplotlib.ticker import AutoMinorLocator
-from config.Formats import (
+from ResultsUtils.Formats import (
     drivers_colours,
     constructors_colour,
     managers_colour,
@@ -992,7 +992,8 @@ class Plot:
                 "team_count_bar": self.teams_count_bar,
                 "manager_count_bar": self.managercountbar,
                 "count_bar": self.leaguecount_bar,
-                "spot_bar": self.spot_prize_bars,
+                "prize_bar": self._prize_bars,
+                "prize_count_bar": self.prize_teamscountbar,
             },
             "line": {
                 "team_line": self.leagueteam_line,
@@ -1000,7 +1001,8 @@ class Plot:
                 "team_count_line": self.team_count_line,
                 "manager_count_line": self.managers_count_line,
                 "count_line": self.leaguecountline,
-                "prize_line": self.league_prizes_lines
+                "prize_line": self.league_prizes_lines,
+                "prize_count_line": self.prize_teamcountline
             },
             "pie": {
                 "count_pie": self.leaguecount_pie
@@ -2552,14 +2554,14 @@ class LeagueBars(Plot):
                         title=title,
                         out_file=out_file)
 
-    def spot_prize_bars(self,
-                        categories: list,
-                        units: list,
-                        results_dictionary: dict,
-                        race_index: int,
-                        race: str,
-                        prize: str,
-                        sort_top: int = None):
+    def _prize_bars(self,
+                    categories: list,
+                    units: list,
+                    results_dictionary: dict,
+                    race_index: int,
+                    race: str,
+                    prize: str,
+                    sort_top: int = None):
         """
         Function Details
         ================
@@ -2612,6 +2614,71 @@ class LeagueBars(Plot):
                     out_file=out_file,
                     sort_top=sort_top,
                     nested=True)
+
+    def prize_teamscountbar(self,
+                            categories: list,
+                            units: list,
+                            results_dictionary: dict,
+                            race_index: int,
+                            race: str,
+                            prize: str,
+                            sort_top: int = None) -> None:
+        """
+        Function Details
+        ================
+        Plot sorted manager teams category counts for each race for count
+        prizes.
+
+        Parameters
+        ----------
+        categories, units: list
+            Category names (dictionary keys), corresponding axis label units.
+        results_dictionary: dict
+            Manager counts dictionary.
+        race_index: int
+            Integer of races array for which to plot.
+        race, prize: str,
+            Race name. Prize name for title.
+        sort_top: int, optional
+            If sort top is an integer, will sort bar graphs to top x and bottom
+            x, where x is the integer, else will just sort all.
+
+        Returns
+        -------
+        None.
+
+        Notes
+        -----
+        Uses plot method. Designed to plot penalties and substitute counts.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        24/03/2025
+        ----------
+        Created.
+
+        """
+        for category, unit in zip(categories, units):
+            out_file = Path(
+                self.out_path,
+                f'{race}_{prize}_{category}_Bar.png'
+            )
+            if not out_file.is_file():
+                category_dict = results_dictionary[f'Teams {category}']
+                self._generate_bar_plots(
+                    category=category,
+                    unit=unit,
+                    category_dictionary=category_dict,
+                    race_index=race_index,
+                    context='team',
+                    title=f'{race} {prize}',
+                    out_file=out_file,
+                    sort_top=sort_top,
+                    nested=True,
+                    categoried=True
+                )
 
 
 class LeagueLines(Plot):
@@ -3154,7 +3221,7 @@ class LeagueLines(Plot):
                 self.out_path,
                 f'{race}_{prize}_{category}.png')
             if not out_file.is_file():
-                category_dict = results_dictionary[f'{category}']
+                category_dict = results_dictionary[f'Team {category}']
                 x, y, l_cs, m_cs, l_styles, labels = [], [], [], [], [], []
                 for manager, teams in category_dict.items():
                     for team, values in teams.items():
@@ -3188,6 +3255,94 @@ class LeagueLines(Plot):
                     xlabel='Races',
                     ylabel=f'{category} {unit}',
                     title=f'{prize} {race} {category}',
+                    out_file=out_file)
+
+    def prize_teamcountline(self,
+                            categories: list,
+                            units: list,
+                            results_dictionary: dict,
+                            race: str,
+                            prize: str,
+                            races: list,
+                            sort_top: int = None) -> None:
+        """
+        Function Details
+        ================
+        Plot league team counts line graphs for prize counts.
+
+        Parameters
+        ----------
+        categories, units, races: list
+            Category names (dictionary keys), corresponding axis label units.
+            List of all race names.
+        results_dictionary: dictionary
+            League results dictionary.
+        race, prize: string
+            Race name. Prize name for title.
+        sort_top: integer, optional
+            If sort top is an integer, will sort bar graphs to top x and bottom
+            x, where x is the integer. Else will just sort all.
+
+        Returns
+        -------
+        None.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        16/12/2024
+        ----------
+        Created.
+
+        """
+        for category, unit in zip(categories, units):
+            out_file = Path(
+                self.out_path,
+                f'{race}_{prize}_{category}.png'
+            )
+            if not out_file.is_file():
+                category_dict = results_dictionary[f'Teams {category}']
+                normalized_category = category.replace('Sum ', '')
+                x, y, l_cs, m_cs, l_styles, labels = [], [], [], [], [], []
+                for manager, teams in category_dict.items():
+                    for team, values in teams.items():
+                        x.append(races)
+                        y.append(
+                            [
+                                (values[f'{normalized_category}'])[i]
+                                for i in range(len(races))
+                            ]
+                        )
+                        colors = plotting_colors(
+                            format_dir=self.format_dir,
+                            context='team',
+                            entity=team,
+                            year=self.year
+                        )
+                        l_cs.append(colors['bg_color'])
+                        m_cs.append(colors['color'])
+                        l_styles.append(colors['linestyle'])
+                        labels.append(team)
+                if sort_top:
+                    sorted_arrays = sort_top_tuples(
+                        arrays=[y, x, l_cs, m_cs, l_styles, labels],
+                        index=sort_top,
+                        line=True)
+                else:
+                    sorted_arrays = sort_tuples(
+                        arrays=[y, x, l_cs, m_cs, l_styles, labels])
+                y, x, l_cs, m_cs, l_styles, labels = sorted_arrays
+                self.lineplt(
+                    x=x,
+                    y=y,
+                    colors=l_cs,
+                    markers=m_cs,
+                    styles=l_styles,
+                    labels=labels,
+                    xlabel='Races',
+                    ylabel=f'{category} {unit}',
+                    title=f'{race} {prize}',
                     out_file=out_file)
 
 
@@ -3702,7 +3857,7 @@ class Manager_Plots(LeagueBars,
 
         """
         results_parameters = {
-            "spot_bar": {
+            "prize_bar": {
                 "categories": ['Points'],
                 "units": ['[#]'],
                 "prize": prize,
@@ -3718,27 +3873,146 @@ class Manager_Plots(LeagueBars,
             additional_parameters=results_parameters
         )
 
-    def achieve_prize_lines(self,
+    def custom_league_count(self,
+                            race_index: int,
                             races: list,
                             race: str,
-                            results_dictionary: dict,
+                            counts_dictionary: dict,
+                            prize_type: str,
                             prize: str,
                             sort_top: int = 10) -> None:
         """
+        Function Details
+        ================
+        Plot manager team counts for prizes.
+
+        Parameters
+        ----------
+        race_index: integer
+            Index of races array for which to plot.
+        races, counts: list
+            List of completed_races. Team sheet list to count.
+        race, prize: string
+            Race name. Prize name.
+        counts_dictionary: dict
+            Counts dictionary.
+
+        Returns
+        -------
+        None.
+
+        Notes
+        -----
+        Uses plot method.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        24/03/2025
+        ----------
+        Created.
+
         """
-        results_parameters = {
+
+        # Substitutions
+        if prize_type == "Substitutions":
+            counts = ['Sum Substitutes', 'Sum Penalties']
+            counts_parameters = {
+                "prize_count_bar": {
+                    "categories": counts,
+                    "units": ['[#]'] * len(counts),
+                    "prize": prize,
+                    "sort_top": sort_top
+                },
+                "prize_count_line": {
+                    "categories": counts,
+                    "units": ['[#]'] * len(counts),
+                    "prize": prize,
+                    "sort_top": sort_top
+                }
+            }
+            self._generate_manager_plots(
+                plot_type='bar',
+                race_index=race_index,
+                races=None,
+                race=race,
+                dictionary=counts_dictionary,
+                additional_parameters=counts_parameters
+            )
+            self._generate_manager_plots(
+                plot_type='line',
+                race_index=None,
+                races=races,
+                race=race,
+                dictionary=counts_dictionary,
+                additional_parameters=counts_parameters
+            )
+
+    def custom_league_stats(self,
+                            race_index: int,
+                            races: list,
+                            race: str,
+                            prize: str,
+                            categories: list,
+                            units: list,
+                            statistics_dictionary: dict,
+                            sort_top: int = 10) -> None:
+        """
+        Function Details
+        ================
+        Plot manager team statistics for custom prizes.
+
+        Parameters
+        ----------
+        race_index: integer
+            Index of races array for which to plot.
+        races, counts: list
+            List of completed_races. Team sheet list to count.
+        race, prize: string
+            Race name. Prize name.
+        categories, units: list
+            List of statistics dictionary keys to plot and corresponding units.
+        counts_dictionary: dict
+            Counts dictionary.
+
+        Returns
+        -------
+        None.
+
+        Notes
+        -----
+        Uses plot method.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        24/03/2025
+        ----------
+        Created.
+
+        """
+        statistics_parameters = {
+            "prize_bar": {
+                "categories": categories,
+                "units": units,
+                "prize": prize,
+                "sort_top": sort_top
+            },
             "prize_line": {
-                "categories": ['Sum Points', 'Average Points'],
-                "units": ['[#]', '[#]'],
+                "categories": categories,
+                "units": units,
                 "prize": prize,
                 "sort_top": sort_top
             }
         }
-        self._generate_manager_plots(
-            plot_type='line',
-            race_index=None,
-            races=races,
-            race=race,
-            dictionary=results_dictionary,
-            additional_parameters=results_parameters
-        )
+        for plot_type in ['bar', 'line']:
+            self._generate_manager_plots(
+                plot_type=plot_type,
+                race_index=race_index if plot_type != 'line' else None,
+                races=None if plot_type != 'line' else races,
+                race=race,
+                dictionary=statistics_dictionary,
+                additional_parameters=statistics_parameters
+            )

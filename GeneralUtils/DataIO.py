@@ -730,8 +730,8 @@ def displays_images(file_paths: list) -> None:
         nrows=number_rows,
         ncols=number_columns,
         figsize=[
-            cm_to_inches(cm=15 * number_columns),
-            cm_to_inches(cm=9 * number_rows)
+            cm_to_inches(cm=30 * number_columns),
+            cm_to_inches(cm=18 * number_rows)
         ]
     )
     axes = axes.flatten()

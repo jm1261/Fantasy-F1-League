@@ -2,7 +2,7 @@ import InitializeGeneralUtils  # noqa
 
 import logging
 import DataIO as io
-import config.Formats as form
+import ResultsUtils.Formats as form
 import ManagerUtils.ManagerAnalysis as ma
 
 from pathlib import Path

@@ -145,12 +145,16 @@
             "Manager of the Year": {
                 "Stefanus W": 5247.333333333333,
                 "Sebastian M": 4314.0,
-                "Josh M": 4191.333333333332
+                "Josh M": 4191.333333333332,
+                "Val M": 4115.666666666666,
+                "Madlen P": 4058.3333333333326
             },
             "Hot Seat": {
                 "Denso Panasonic Toyota F1": 57,
                 "Siemens McLaren West": 55,
-                "Telefonica Minardi Doimo": 53
+                "Telefonica Minardi Doimo": 53,
+                "Vodafone Ferrari Marlboro": 51,
+                "Petrobras Williams RBS F1": 50
             }
         }
     },
@@ -188,51 +192,6 @@
                 "Maxy & The Boys": 1457,
                 "Mater's Mates": 1451,
                 "Siemens McLaren West": 1449,
-                "My Fav'rit Colour Is Blue": 1442,
-                "Hesketh 2.1": 1441,
-                "Vodafone Ferrari Marlboro": 1370,
-                "Petrobras Williams RBS F1": 1369,
-                "Peugeot Over Ford": 1368,
-                "JPS Lotus Renault": 1356,
-                "A Little Team": 1344,
-                "Denso Panasonic Toyota F1": 1328,
-                "Telefonica Minardi Doimo": 1322,
-                "Stuart's snipped balls": 1317,
-                "GHOST IN THE MACHINE": 1311,
-                "Mirror, Signal, Manoeuvre": 1309,
-                "An Oscar for breakfast": 1292,
-                "Just win init": 1285,
-                "A Sauber or Kick or Stake": 1260,
-                "Lights out, got punched": 1256,
-                "PARADISE LOST": 1245,
-                "Dinoco Piston Cup Champs": 1243,
-                "Make A U Turn": 1237,
-                "Toasted eggs": 1236,
-                "Uncle Moe's Family Speedbag": 1210,
-                "Josh's hairy balls": 1207,
-                "Forced to pick Max": 1183,
-                "E l'ora del martello": 1177,
-                "Go Boys Give Us Nothing": 1167,
-                "kicktwitchyoutubepremium": 1162,
-                "not competent or competitive": 1156,
-                "The Lizard Queen": 1134,
-                "Squeshed Nintendo Racing": 1115,
-                "Throw Him In JaYaL": 1112,
-                "THE LONG AND WINDING ROAD": 1112,
-                "BMW Motorrad": 1106,
-                "One Red Bull Car & Gasly": 1102,
-                "BMW Should Be Here": 1101,
-                "Christian's Hornie": 1083,
-                "Push To Pass": 1074,
-                "Matty's snipped balls": 1047,
-                "Ms Fritters Driving Skool": 1021,
-                "Lightning McCars": 1016,
-                "OB Latte": 981,
-                "Grazzi#44": 972,
-                "Mc Sled Dogs": 926,
-                "Ferrari Champions 2026": 882,
-                "I simp for Zak Brown": 817,
-                "No Horners Club": 807,
                 "Hawks at T2": 785,
                 "Haas every name ben taken": 776,
                 "Better Luck Next Time Bud": 658,
@@ -255,51 +214,6 @@
                 "Maxy & The Boys": 242.83,
                 "Mater's Mates": 241.83,
                 "Siemens McLaren West": 241.5,
-                "My Fav'rit Colour Is Blue": 240.33,
-                "Hesketh 2.1": 240.17,
-                "Vodafone Ferrari Marlboro": 228.33,
-                "Petrobras Williams RBS F1": 228.17,
-                "Peugeot Over Ford": 228.0,
-                "JPS Lotus Renault": 226.0,
-                "A Little Team": 224.0,
-                "Denso Panasonic Toyota F1": 221.33,
-                "Telefonica Minardi Doimo": 220.33,
-                "Stuart's snipped balls": 219.5,
-                "GHOST IN THE MACHINE": 218.5,
-                "Mirror, Signal, Manoeuvre": 218.17,
-                "An Oscar for breakfast": 215.33,
-                "Just win init": 214.17,
-                "A Sauber or Kick or Stake": 210.0,
-                "Lights out, got punched": 209.33,
-                "PARADISE LOST": 207.5,
-                "Dinoco Piston Cup Champs": 207.17,
-                "Make A U Turn": 206.17,
-                "Toasted eggs": 206.0,
-                "Uncle Moe's Family Speedbag": 201.67,
-                "Josh's hairy balls": 201.17,
-                "Forced to pick Max": 197.17,
-                "E l'ora del martello": 196.17,
-                "Go Boys Give Us Nothing": 194.5,
-                "kicktwitchyoutubepremium": 193.67,
-                "not competent or competitive": 192.67,
-                "The Lizard Queen": 189.0,
-                "Squeshed Nintendo Racing": 185.83,
-                "Throw Him In JaYaL": 185.33,
-                "THE LONG AND WINDING ROAD": 185.33,
-                "BMW Motorrad": 184.33,
-                "One Red Bull Car & Gasly": 183.67,
-                "BMW Should Be Here": 183.5,
-                "Christian's Hornie": 180.5,
-                "Push To Pass": 179.0,
-                "Matty's snipped balls": 174.5,
-                "Ms Fritters Driving Skool": 170.17,
-                "Lightning McCars": 169.33,
-                "OB Latte": 163.5,
-                "Grazzi#44": 162.0,
-                "Mc Sled Dogs": 154.33,
-                "Ferrari Champions 2026": 147.0,
-                "I simp for Zak Brown": 136.17,
-                "No Horners Club": 134.5,
                 "Hawks at T2": 130.83,
                 "Haas every name ben taken": 129.33,
                 "Better Luck Next Time Bud": 109.67,
@@ -310,6 +224,272 @@
                 "Racing No Points": -0.33,
                 "The Big One": -14.67,
                 "Bwoah Rolex Sipsmith Golf": -23.5
+            },
+            "Sprint King Data": {
+                "Team Sum Points": {
+                    "Josh M": {
+                        "Siemens McLaren West": [
+                            430,
+                            741,
+                            908,
+                            1147,
+                            1317,
+                            1449
+                        ]
+                    },
+                    "Will R": {
+                        "The Big One": [
+                            90,
+                            162,
+                            222,
+                            81,
+                            40,
+                            -88
+                        ]
+                    },
+                    "Adam R": {
+                        "Haas every name ben taken": [
+                            178,
+                            305,
+                            470,
+                            631,
+                            649,
+                            776
+                        ]
+                    },
+                    "James R": {
+                        "Bwoah Rolex Sipsmith Golf": [
+                            38,
+                            202,
+                            280,
+                            137,
+                            8,
+                            -141
+                        ]
+                    },
+                    "Stuart S": {
+                        "Ferrari Strategists": [
+                            76,
+                            214,
+                            284,
+                            347,
+                            374,
+                            477
+                        ]
+                    },
+                    "Andrew F": {
+                        "sBinnala Yacht Club": [
+                            117,
+                            200,
+                            312,
+                            286,
+                            190,
+                            180
+                        ]
+                    },
+                    "Stefanus W": {
+                        "Syahrul": [
+                            298,
+                            656,
+                            853,
+                            1239,
+                            1384,
+                            1637
+                        ]
+                    },
+                    "Madlen P": {
+                        "Maxy & The Boys": [
+                            227,
+                            429,
+                            708,
+                            959,
+                            1126,
+                            1457
+                        ]
+                    },
+                    "Tom C": {
+                        "Hawks at T2": [
+                            168,
+                            359,
+                            496,
+                            611,
+                            719,
+                            785
+                        ]
+                    },
+                    "Patrick L": {
+                        "Racing No Points": [
+                            72,
+                            172,
+                            242,
+                            150,
+                            50,
+                            -2
+                        ]
+                    },
+                    "Joe T": {
+                        "alpine sandbags": [
+                            112,
+                            211,
+                            281,
+                            294,
+                            232,
+                            287
+                        ]
+                    },
+                    "Charlie L": {
+                        "Lee Carvallo's F1 Challen": [
+                            84,
+                            183,
+                            245,
+                            202,
+                            218,
+                            217
+                        ]
+                    },
+                    "Val M": {
+                        "Mater's Mates": [
+                            258,
+                            487,
+                            655,
+                            937,
+                            1107,
+                            1451
+                        ]
+                    }
+                },
+                "Team Average Points": {
+                    "Josh M": {
+                        "Siemens McLaren West": [
+                            430.0,
+                            370.5,
+                            302.67,
+                            286.75,
+                            263.4,
+                            241.5
+                        ]
+                    },
+                    "Will R": {
+                        "The Big One": [
+                            90.0,
+                            81.0,
+                            74.0,
+                            20.25,
+                            8.0,
+                            -14.67
+                        ]
+                    },
+                    "Adam R": {
+                        "Haas every name ben taken": [
+                            178.0,
+                            152.5,
+                            156.67,
+                            157.75,
+                            129.8,
+                            129.33
+                        ]
+                    },
+                    "James R": {
+                        "Bwoah Rolex Sipsmith Golf": [
+                            38.0,
+                            101.0,
+                            93.33,
+                            34.25,
+                            1.6,
+                            -23.5
+                        ]
+                    },
+                    "Stuart S": {
+                        "Ferrari Strategists": [
+                            76.0,
+                            107.0,
+                            94.67,
+                            86.75,
+                            74.8,
+                            79.5
+                        ]
+                    },
+                    "Andrew F": {
+                        "sBinnala Yacht Club": [
+                            117.0,
+                            100.0,
+                            104.0,
+                            71.5,
+                            38.0,
+                            30.0
+                        ]
+                    },
+                    "Stefanus W": {
+                        "Syahrul": [
+                            298.0,
+                            328.0,
+                            284.33,
+                            309.75,
+                            276.8,
+                            272.83
+                        ]
+                    },
+                    "Madlen P": {
+                        "Maxy & The Boys": [
+                            227.0,
+                            214.5,
+                            236.0,
+                            239.75,
+                            225.2,
+                            242.83
+                        ]
+                    },
+                    "Tom C": {
+                        "Hawks at T2": [
+                            168.0,
+                            179.5,
+                            165.33,
+                            152.75,
+                            143.8,
+                            130.83
+                        ]
+                    },
+                    "Patrick L": {
+                        "Racing No Points": [
+                            72.0,
+                            86.0,
+                            80.67,
+                            37.5,
+                            10.0,
+                            -0.33
+                        ]
+                    },
+                    "Joe T": {
+                        "alpine sandbags": [
+                            112.0,
+                            105.5,
+                            93.67,
+                            73.5,
+                            46.4,
+                            47.83
+                        ]
+                    },
+                    "Charlie L": {
+                        "Lee Carvallo's F1 Challen": [
+                            84.0,
+                            91.5,
+                            81.67,
+                            50.5,
+                            43.6,
+                            36.17
+                        ]
+                    },
+                    "Val M": {
+                        "Mater's Mates": [
+                            258.0,
+                            243.5,
+                            218.33,
+                            234.25,
+                            221.4,
+                            241.83
+                        ]
+                    }
+                }
             },
             "The Continental Sum Points": {
                 "Haryanto": 1559,
@@ -322,51 +502,6 @@
                 "Mirror, Signal, Manoeuvre": 1217,
                 "Dinoco Piston Cup Champs": 1194,
                 "Make A U Turn": 1186,
-                "JPS Lotus Renault": 1153,
-                "Peugeot Over Ford": 1133,
-                "Squeshed Nintendo Racing": 1130,
-                "One Red Bull Car & Gasly": 1121,
-                "Hesketh 2.1": 1112,
-                "Josh's hairy balls": 1095,
-                "Lightning McCars": 1084,
-                "Christian's Hornie": 1075,
-                "Denso Panasonic Toyota F1": 1071,
-                "BMW Should Be Here": 1070,
-                "Telefonica Minardi Doimo": 1066,
-                "Les eclairs": 1058,
-                "Petrobras Williams RBS F1": 1050,
-                "Mater's Mates": 1034,
-                "Vodafone Ferrari Marlboro": 1032,
-                "PARADISE LOST": 1031,
-                "Push To Pass": 1028,
-                "Toasted eggs": 1024,
-                "GHOST IN THE MACHINE": 1020,
-                "A Little Team": 1014,
-                "My Fav'rit Colour Is Blue": 1009,
-                "Stuart's snipped balls": 988,
-                "Maxy & The Boys": 980,
-                "Uncle Moe's Family Speedbag": 978,
-                "Lights out, got punched": 969,
-                "THE LONG AND WINDING ROAD": 941,
-                "Ms Fritters Driving Skool": 940,
-                "BMW Motorrad": 935,
-                "Siemens McLaren West": 932,
-                "I simp for Zak Brown": 913,
-                "Mc Sled Dogs": 890,
-                "Matty's snipped balls": 875,
-                "Ferrari Champions 2026": 863,
-                "No Horners Club": 856,
-                "A Sauber or Kick or Stake": 844,
-                "not competent or competitive": 843,
-                "kicktwitchyoutubepremium": 842,
-                "Haas every name ben taken": 835,
-                "Just win init": 819,
-                "An Oscar for breakfast": 815,
-                "E l'ora del martello": 797,
-                "OB Latte": 796,
-                "Forced to pick Max": 775,
-                "Grazzi#44": 767,
-                "Go Boys Give Us Nothing": 734,
                 "Hawks at T2": 678,
                 "Throw Him In JaYaL": 598,
                 "Better Luck Next Time Bud": 598,
@@ -389,51 +524,6 @@
                 "Mirror, Signal, Manoeuvre": 173.86,
                 "Dinoco Piston Cup Champs": 170.57,
                 "Make A U Turn": 169.43,
-                "JPS Lotus Renault": 164.71,
-                "Peugeot Over Ford": 161.86,
-                "Squeshed Nintendo Racing": 161.43,
-                "One Red Bull Car & Gasly": 160.14,
-                "Hesketh 2.1": 158.86,
-                "Josh's hairy balls": 156.43,
-                "Lightning McCars": 154.86,
-                "Christian's Hornie": 153.57,
-                "Denso Panasonic Toyota F1": 153.0,
-                "BMW Should Be Here": 152.86,
-                "Telefonica Minardi Doimo": 152.29,
-                "Les eclairs": 151.14,
-                "Petrobras Williams RBS F1": 150.0,
-                "Mater's Mates": 147.71,
-                "Vodafone Ferrari Marlboro": 147.43,
-                "PARADISE LOST": 147.29,
-                "Push To Pass": 146.86,
-                "Toasted eggs": 146.29,
-                "GHOST IN THE MACHINE": 145.71,
-                "A Little Team": 144.86,
-                "My Fav'rit Colour Is Blue": 144.14,
-                "Stuart's snipped balls": 141.14,
-                "Maxy & The Boys": 140.0,
-                "Uncle Moe's Family Speedbag": 139.71,
-                "Lights out, got punched": 138.43,
-                "THE LONG AND WINDING ROAD": 134.43,
-                "Ms Fritters Driving Skool": 134.29,
-                "BMW Motorrad": 133.57,
-                "Siemens McLaren West": 133.14,
-                "I simp for Zak Brown": 130.43,
-                "Mc Sled Dogs": 127.14,
-                "Matty's snipped balls": 125.0,
-                "Ferrari Champions 2026": 123.29,
-                "No Horners Club": 122.29,
-                "A Sauber or Kick or Stake": 120.57,
-                "not competent or competitive": 120.43,
-                "kicktwitchyoutubepremium": 120.29,
-                "Haas every name ben taken": 119.29,
-                "Just win init": 117.0,
-                "An Oscar for breakfast": 116.43,
-                "E l'ora del martello": 113.86,
-                "OB Latte": 113.71,
-                "Forced to pick Max": 110.71,
-                "Grazzi#44": 109.57,
-                "Go Boys Give Us Nothing": 104.86,
                 "Hawks at T2": 96.86,
                 "Throw Him In JaYaL": 85.43,
                 "Better Luck Next Time Bud": 85.43,
@@ -444,6 +534,298 @@
                 "The Big One": 25.29,
                 "Racing No Points": 21.29,
                 "Bwoah Rolex Sipsmith Golf": 19.0
+            },
+            "The Continental Data": {
+                "Team Sum Points": {
+                    "Will R": {
+                        "The Big One": [
+                            47,
+                            73,
+                            113,
+                            158,
+                            180,
+                            221,
+                            177
+                        ]
+                    },
+                    "Adam R": {
+                        "Better Luck Next Time Bud": [
+                            102,
+                            168,
+                            232,
+                            339,
+                            395,
+                            477,
+                            598
+                        ]
+                    },
+                    "James R": {
+                        "Bwoah Rolex Sipsmith Golf": [
+                            44,
+                            95,
+                            105,
+                            105,
+                            161,
+                            215,
+                            133
+                        ]
+                    },
+                    "Stuart S": {
+                        "Ferrari Strategists": [
+                            49,
+                            82,
+                            98,
+                            120,
+                            176,
+                            230,
+                            238
+                        ]
+                    },
+                    "Andrew F": {
+                        "sBinnala Yacht Club": [
+                            48,
+                            102,
+                            158,
+                            238,
+                            267,
+                            307,
+                            349
+                        ]
+                    },
+                    "Stefanus W": {
+                        "Syahrul": [
+                            231,
+                            435,
+                            706,
+                            732,
+                            854,
+                            1074,
+                            1361
+                        ]
+                    },
+                    "Tom C": {
+                        "Hawks at T2": [
+                            126,
+                            186,
+                            290,
+                            439,
+                            583,
+                            660,
+                            678
+                        ]
+                    },
+                    "Patrick L": {
+                        "Racing No Points": [
+                            40,
+                            64,
+                            86,
+                            116,
+                            156,
+                            204,
+                            149
+                        ]
+                    },
+                    "Joe T": {
+                        "alpine sandbags": [
+                            62,
+                            100,
+                            123,
+                            155,
+                            183,
+                            241,
+                            274
+                        ]
+                    },
+                    "Charlie L": {
+                        "Lee Carvallo's F1 Challen": [
+                            46,
+                            82,
+                            110,
+                            152,
+                            173,
+                            200,
+                            193
+                        ]
+                    },
+                    "Val M": {
+                        "Make A U Turn": [
+                            204,
+                            275,
+                            484,
+                            537,
+                            720,
+                            939,
+                            1186
+                        ]
+                    },
+                    "Matty J": {
+                        "Throw Him In JaYaL": [
+                            138,
+                            143,
+                            228,
+                            390,
+                            488,
+                            561,
+                            598
+                        ]
+                    },
+                    "Sam CJ": {
+                        "Mirror, Signal, Manoeuvre": [
+                            172,
+                            347,
+                            488,
+                            683,
+                            792,
+                            1006,
+                            1217
+                        ]
+                    }
+                },
+                "Team Average Points": {
+                    "Will R": {
+                        "The Big One": [
+                            47.0,
+                            36.5,
+                            37.67,
+                            39.5,
+                            36.0,
+                            36.83,
+                            25.29
+                        ]
+                    },
+                    "Adam R": {
+                        "Better Luck Next Time Bud": [
+                            102.0,
+                            84.0,
+                            77.33,
+                            84.75,
+                            79.0,
+                            79.5,
+                            85.43
+                        ]
+                    },
+                    "James R": {
+                        "Bwoah Rolex Sipsmith Golf": [
+                            44.0,
+                            47.5,
+                            35.0,
+                            26.25,
+                            32.2,
+                            35.83,
+                            19.0
+                        ]
+                    },
+                    "Stuart S": {
+                        "Ferrari Strategists": [
+                            49.0,
+                            41.0,
+                            32.67,
+                            30.0,
+                            35.2,
+                            38.33,
+                            34.0
+                        ]
+                    },
+                    "Andrew F": {
+                        "sBinnala Yacht Club": [
+                            48.0,
+                            51.0,
+                            52.67,
+                            59.5,
+                            53.4,
+                            51.17,
+                            49.86
+                        ]
+                    },
+                    "Stefanus W": {
+                        "Syahrul": [
+                            231.0,
+                            217.5,
+                            235.33,
+                            183.0,
+                            170.8,
+                            179.0,
+                            194.43
+                        ]
+                    },
+                    "Tom C": {
+                        "Hawks at T2": [
+                            126.0,
+                            93.0,
+                            96.67,
+                            109.75,
+                            116.6,
+                            110.0,
+                            96.86
+                        ]
+                    },
+                    "Patrick L": {
+                        "Racing No Points": [
+                            40.0,
+                            32.0,
+                            28.67,
+                            29.0,
+                            31.2,
+                            34.0,
+                            21.29
+                        ]
+                    },
+                    "Joe T": {
+                        "alpine sandbags": [
+                            62.0,
+                            50.0,
+                            41.0,
+                            38.75,
+                            36.6,
+                            40.17,
+                            39.14
+                        ]
+                    },
+                    "Charlie L": {
+                        "Lee Carvallo's F1 Challen": [
+                            46.0,
+                            41.0,
+                            36.67,
+                            38.0,
+                            34.6,
+                            33.33,
+                            27.57
+                        ]
+                    },
+                    "Val M": {
+                        "Make A U Turn": [
+                            204.0,
+                            137.5,
+                            161.33,
+                            134.25,
+                            144.0,
+                            156.5,
+                            169.43
+                        ]
+                    },
+                    "Matty J": {
+                        "Throw Him In JaYaL": [
+                            138.0,
+                            71.5,
+                            76.0,
+                            97.5,
+                            97.6,
+                            93.5,
+                            85.43
+                        ]
+                    },
+                    "Sam CJ": {
+                        "Mirror, Signal, Manoeuvre": [
+                            172.0,
+                            173.5,
+                            162.67,
+                            170.75,
+                            158.4,
+                            167.67,
+                            173.86
+                        ]
+                    }
+                }
             }
         }
     },
