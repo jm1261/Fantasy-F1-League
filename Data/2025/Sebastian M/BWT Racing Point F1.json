@@ -1,0 +1,78 @@
+{
+    "Australia": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Piastri",
+        "Driver 3": "Gasly",
+        "Driver 4": "Alonso",
+        "Driver 5": "Ocon",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "China": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Piastri",
+        "Driver 3": "Gasly",
+        "Driver 4": "Alonso",
+        "Driver 5": "Tsunoda RB",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": [
+            "No Negative",
+            "Leclerc",
+            9,
+            "Piastri",
+            90,
+            "Gasly",
+            12,
+            "Alonso",
+            4,
+            "Tsunoda RB",
+            13,
+            "Williams",
+            32,
+            "Aston Martin",
+            24
+        ]
+    },
+    "Japan": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Piastri",
+        "Driver 3": "Gasly",
+        "Driver 4": "Lawson",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Bahrain": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Piastri",
+        "Driver 3": "Gasly",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Piastri",
+        "Driver 3": "Gasly",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    }
+}

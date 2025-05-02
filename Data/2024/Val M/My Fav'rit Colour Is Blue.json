@@ -154,5 +154,150 @@
         "DRS Boost": "Sainz",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Belgium": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Piastri",
+        "Driver 5": "Albon",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Netherlands": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Piastri",
+        "Driver 5": "Albon",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Italy": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Piastri",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "Alpine",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Azerbaijan": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Ocon",
+        "Driver 4": "Piastri",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "Alpine",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Singapore": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Ocon",
+        "Driver 4": "Piastri",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Lawson",
+        "Driver 4": "Piastri",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": ["Extra DRS", "Piastri"]
+    },
+    "Mexico": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Lawson",
+        "Driver 4": "Piastri",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Verstappen",
+        "Driver 3": "Norris",
+        "Driver 4": "Piastri",
+        "Driver 5": "Sainz",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "Limitless"
+    },
+    "Las Vegas": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Lawson",
+        "Driver 4": "Piastri",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Haas",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "Auto Pilot"
+    },
+    "Qatar": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Lawson",
+        "Driver 4": "Piastri",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Haas",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": [
+            "No Negative",
+            "Leclerc", 76,
+            "Hulkenberg", 8,
+            "Lawson", 9,
+            "Piastri", 36,
+            "Gasly", 22,
+            "Haas", 34,
+            "McLaren", 82
+        ]
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Hulkenberg",
+        "Driver 2": "Doohan",
+        "Driver 3": "Leclerc",
+        "Driver 4": "Gasly",
+        "Driver 5": "Piastri",
+        "Constructor 1": "Haas",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": [
+            "Final Fix",
+            "Leclerc", 0,
+            "Sainz", 19
+        ]
     }
 }

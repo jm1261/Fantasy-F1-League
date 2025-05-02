@@ -1,0 +1,78 @@
+{
+    "Australia": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Doohan",
+        "Driver 3": "Ocon",
+        "Driver 4": "Alonso",
+        "Driver 5": "Sainz",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "China": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Doohan",
+        "Driver 3": "Ocon",
+        "Driver 4": "Tsunoda RB",
+        "Driver 5": "Sainz",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": [
+            "No Negative",
+            "Verstappen",
+            62,
+            "Doohan",
+            15,
+            "Ocon",
+            24,
+            "Tsunoda RB",
+            13,
+            "Sainz",
+            12,
+            "Mercedes",
+            69,
+            "Alpine",
+            25
+        ]
+    },
+    "Japan": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Stroll",
+        "Driver 3": "Ocon",
+        "Driver 4": "Tsunoda RB",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Bahrain": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Norris",
+        "Driver 3": "Piastri",
+        "Driver 4": "Russell",
+        "Driver 5": "Antonelli",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "Limitless"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Stroll",
+        "Driver 3": "Ocon",
+        "Driver 4": "Tsunoda",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    }
+}

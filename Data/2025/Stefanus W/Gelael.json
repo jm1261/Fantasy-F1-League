@@ -1,0 +1,68 @@
+{
+    "Australia": {
+        "Driver 1": "Hadjar",
+        "Driver 2": "Alonso",
+        "Driver 3": "Bearman",
+        "Driver 4": "Stroll",
+        "Driver 5": "Sainz",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "China": {
+        "Driver 1": "Hulkenberg",
+        "Driver 2": "Gasly",
+        "Driver 3": "Bearman",
+        "Driver 4": "Stroll",
+        "Driver 5": "Ocon",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Ocon",
+        "Penalties": -10,
+        "Perks": "Auto Pilot"
+    },
+    "Japan": {
+        "Driver 1": "Hulkenberg",
+        "Driver 2": "Norris",
+        "Driver 3": "Bearman",
+        "Driver 4": "Stroll",
+        "Driver 5": "Ocon",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Bahrain": {
+        "Driver 1": "Hadjar",
+        "Driver 2": "Norris",
+        "Driver 3": "Bearman",
+        "Driver 4": "Stroll",
+        "Driver 5": "Ocon",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": [
+            "Final Fix",
+            "Norris",
+            5,
+            "Leclerc",
+            12
+        ]
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Hadjar",
+        "Driver 2": "Antonelli",
+        "Driver 3": "Bearman",
+        "Driver 4": "Piastri",
+        "Driver 5": "Ocon",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    }
+}

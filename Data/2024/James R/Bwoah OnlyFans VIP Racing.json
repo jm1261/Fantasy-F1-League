@@ -143,13 +143,20 @@
         "Penalties": 0,
         "Perks": [
             "No Negative",
-            "Norris", 52,
-            "Leclerc", 5,
-            "Sargeant", 4,
-            "Magnussen", 11,
-            "Hulkenberg", 14,
-            "Ferrari", 36,
-            "McLaren", 59
+            "Norris",
+            52,
+            "Leclerc",
+            5,
+            "Sargeant",
+            4,
+            "Magnussen",
+            11,
+            "Hulkenberg",
+            14,
+            "Ferrari",
+            36,
+            "McLaren",
+            59
         ]
     },
     "Hungary": {
@@ -162,6 +169,142 @@
         "Constructor 2": "McLaren",
         "DRS Boost": "Norris",
         "Penalties": 0,
+        "Perks": "None"
+    },
+    "Belgium": {
+        "Driver 1": "Norris",
+        "Driver 2": "Leclerc",
+        "Driver 3": "Sargeant",
+        "Driver 4": "Magnussen",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Netherlands": {
+        "Driver 1": "Norris",
+        "Driver 2": "Leclerc",
+        "Driver 3": "Sargeant",
+        "Driver 4": "Magnussen",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Italy": {
+        "Driver 1": "Norris",
+        "Driver 2": "Leclerc",
+        "Driver 3": "Sargeant",
+        "Driver 4": "Magnussen",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Azerbaijan": {
+        "Driver 1": "Norris",
+        "Driver 2": "Leclerc",
+        "Driver 3": "Colapinto",
+        "Driver 4": "Ocon",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Singapore": {
+        "Driver 1": "Norris",
+        "Driver 2": "Leclerc",
+        "Driver 3": "Colapinto",
+        "Driver 4": "Ocon",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Norris",
+        "Driver 2": "Leclerc",
+        "Driver 3": "Colapinto",
+        "Driver 4": "Ocon",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": ["Extra DRS", "Norris"]
+    },
+    "Mexico": {
+        "Driver 1": "Norris",
+        "Driver 2": "Leclerc",
+        "Driver 3": "Colapinto",
+        "Driver 4": "Ocon",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": [
+            "Final Fix",
+            "Ocon", 0,
+            "Magnussen", 11
+        ]
+    },
+    "Brazil": {
+        "Driver 1": "Norris",
+        "Driver 2": "Leclerc",
+        "Driver 3": "Colapinto",
+        "Driver 4": "Ocon",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Ocon",
+        "Penalties": 0,
+        "Perks": "Auto Pilot"
+    },
+    "Las Vegas": {
+        "Driver 1": "Norris",
+        "Driver 2": "Leclerc",
+        "Driver 3": "Colapinto",
+        "Driver 4": "Ocon",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Norris",
+        "Driver 2": "Leclerc",
+        "Driver 3": "Colapinto",
+        "Driver 4": "Ocon",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Norris",
+        "Driver 2": "Piastri",
+        "Driver 3": "Bottas",
+        "Driver 4": "Alonso",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Norris",
+        "Penalties": -10,
         "Perks": "None"
     }
 }

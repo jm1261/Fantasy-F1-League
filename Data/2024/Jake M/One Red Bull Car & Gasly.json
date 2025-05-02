@@ -165,6 +165,145 @@
         "Constructor 2": "Haas",
         "DRS Boost": "Hulkenberg",
         "Penalties": -10,
-        "Perks": ["Extra DRS", "Verstappen"]
+        "Perks": [
+            "Extra DRS",
+            "Verstappen"
+        ]
+    },
+    "Belgium": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Magnussen",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Guanyu",
+        "Driver 5": "Albon",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Netherlands": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Magnussen",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Guanyu",
+        "Driver 5": "Albon",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Italy": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Magnussen",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Guanyu",
+        "Driver 5": "Albon",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Azerbaijan": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Norris",
+        "Driver 5": "Albon",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Singapore": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Tsunoda",
+        "Driver 4": "Norris",
+        "Driver 5": "Albon",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Alonso",
+        "Driver 4": "Norris",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "RB",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Mexico": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Alonso",
+        "Driver 4": "Norris",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "RB",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Lawson",
+        "Driver 4": "Norris",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "Auto Pilot"
+    },
+    "Las Vegas": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Lawson",
+        "Driver 4": "Norris",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Alpine",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Hulkenberg",
+        "Driver 3": "Lawson",
+        "Driver 4": "Norris",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Alpine",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": [
+            "Final Fix",
+            "Lawson", -5,
+            "Tsunoda", 9
+        ]
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Gasly",
+        "Driver 3": "Bottas",
+        "Driver 4": "Norris",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "Wildcard"
     }
 }

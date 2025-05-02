@@ -1,0 +1,62 @@
+{
+    "Australia": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Tsunoda RB",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Bortoleto",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "China": {
+        "Driver 1": "Albon",
+        "Driver 2": "Tsunoda RB",
+        "Driver 3": "Bearman",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Bortoleto",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Albon",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Japan": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Russell",
+        "Driver 3": "Bearman",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Bortoleto",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Piastri",
+        "Penalties": -10,
+        "Perks": "None"
+    },
+    "Bahrain": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Russell",
+        "Driver 3": "Bearman",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Bortoleto",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Russell",
+        "Driver 3": "Doohan",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Bortoleto",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    }
+}

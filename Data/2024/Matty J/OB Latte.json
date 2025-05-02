@@ -69,7 +69,7 @@
         "Constructor 2": "Kick Sauber",
         "DRS Boost": "Norris",
         "Penalties": 0,
-        "Perks": "Wildcard"
+        "Perks": "None"
     },
     "Emilia Romagna": {
         "Driver 1": "Leclerc",
@@ -81,7 +81,7 @@
         "Constructor 2": "Kick Sauber",
         "DRS Boost": "Norris",
         "Penalties": 0,
-        "Perks": "Wildcard"
+        "Perks": "None"
     },
     "Monaco": {
         "Driver 1": "Leclerc",
@@ -93,7 +93,7 @@
         "Constructor 2": "Kick Sauber",
         "DRS Boost": "Norris",
         "Penalties": 0,
-        "Perks": "Wildcard"
+        "Perks": "None"
     },
     "Canada": {
         "Driver 1": "Leclerc",
@@ -105,7 +105,7 @@
         "Constructor 2": "Kick Sauber",
         "DRS Boost": "Norris",
         "Penalties": 0,
-        "Perks": "Wildcard"
+        "Perks": "None"
     },
     "Spain": {
         "Driver 1": "Leclerc",
@@ -117,7 +117,7 @@
         "Constructor 2": "Kick Sauber",
         "DRS Boost": "Norris",
         "Penalties": 0,
-        "Perks": "Wildcard"
+        "Perks": "None"
     },
     "Austria": {
         "Driver 1": "Leclerc",
@@ -129,7 +129,7 @@
         "Constructor 2": "Kick Sauber",
         "DRS Boost": "Norris",
         "Penalties": 0,
-        "Perks": "Wildcard"
+        "Perks": "None"
     },
     "Great Britain": {
         "Driver 1": "Leclerc",
@@ -141,7 +141,7 @@
         "Constructor 2": "Kick Sauber",
         "DRS Boost": "Norris",
         "Penalties": 0,
-        "Perks": "Wildcard"
+        "Perks": "None"
     },
     "Hungary": {
         "Driver 1": "Leclerc",
@@ -153,6 +153,138 @@
         "Constructor 2": "Kick Sauber",
         "DRS Boost": "Norris",
         "Penalties": 0,
-        "Perks": "Wildcard"
+        "Perks": "None"
+    },
+    "Belgium": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Norris",
+        "Driver 3": "Sainz",
+        "Driver 4": "Alonso",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "RB",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Netherlands": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Norris",
+        "Driver 3": "Sainz",
+        "Driver 4": "Alonso",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "RB",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Italy": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Norris",
+        "Driver 3": "Sainz",
+        "Driver 4": "Alonso",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "RB",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Azerbaijan": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Norris",
+        "Driver 3": "Sainz",
+        "Driver 4": "Alonso",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "RB",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Singapore": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Norris",
+        "Driver 3": "Sainz",
+        "Driver 4": "Alonso",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "RB",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Norris",
+        "Driver 3": "Sainz",
+        "Driver 4": "Alonso",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "RB",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Mexico": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Norris",
+        "Driver 3": "Sainz",
+        "Driver 4": "Alonso",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "RB",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Norris",
+        "Driver 3": "Sainz",
+        "Driver 4": "Alonso",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "RB",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Norris",
+        "Driver 3": "Sainz",
+        "Driver 4": "Alonso",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "RB",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Norris",
+        "Driver 3": "Sainz",
+        "Driver 4": "Alonso",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "RB",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Norris",
+        "Driver 3": "Sainz",
+        "Driver 4": "Alonso",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "RB",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

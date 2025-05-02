@@ -1,0 +1,62 @@
+{
+    "Australia": {
+        "Driver 1": "Doohan",
+        "Driver 2": "Stroll",
+        "Driver 3": "Bortoleto",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Albon",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Bortoleto",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "China": {
+        "Driver 1": "Doohan",
+        "Driver 2": "Stroll",
+        "Driver 3": "Bortoleto",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Albon",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Bortoleto",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Japan": {
+        "Driver 1": "Doohan",
+        "Driver 2": "Lawson",
+        "Driver 3": "Bortoleto",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Albon",
+        "Constructor 1": "Alpine",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Bortoleto",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Bahrain": {
+        "Driver 1": "Doohan",
+        "Driver 2": "Lawson",
+        "Driver 3": "Bortoleto",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Bortoleto",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Doohan",
+        "Driver 2": "Lawson",
+        "Driver 3": "Bortoleto",
+        "Driver 4": "Alonso",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Bortoleto",
+        "Penalties": 0,
+        "Perks": "None"
+    }
+}

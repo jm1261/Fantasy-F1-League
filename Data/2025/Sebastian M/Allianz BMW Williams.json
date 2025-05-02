@@ -1,0 +1,78 @@
+{
+    "Australia": {
+        "Driver 1": "Hamilton",
+        "Driver 2": "Norris",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Ocon",
+        "Driver 5": "Sainz",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Hamilton",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "China": {
+        "Driver 1": "Hamilton",
+        "Driver 2": "Norris",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Sainz",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": [
+            "No Negative",
+            "Hamilton",
+            19,
+            "Norris",
+            86,
+            "Hulkenberg",
+            5,
+            "Hadjar",
+            15,
+            "Sainz",
+            12,
+            "Williams",
+            32,
+            "Racing Bulls",
+            53
+        ]
+    },
+    "Japan": {
+        "Driver 1": "Hamilton",
+        "Driver 2": "Norris",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Bahrain": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Norris",
+        "Driver 3": "Ocon",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Norris",
+        "Driver 3": "Ocon",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    }
+}
