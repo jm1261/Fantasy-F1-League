@@ -50,5 +50,29 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Bahrain": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Piastri",
+        "Driver 3": "Gasly",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Piastri",
+        "Driver 3": "Gasly",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

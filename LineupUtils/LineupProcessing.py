@@ -1,4 +1,4 @@
-# import InitializeLineup  # noqa
+import InitializeLineup  # noqa
 
 import logging
 import GeneralUtils.DataIO as io

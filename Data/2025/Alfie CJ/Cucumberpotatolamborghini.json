@@ -34,5 +34,29 @@
         "DRS Boost": "Lawson RBR",
         "Penalties": -30,
         "Perks": "None"
+    },
+    "Bahrain": {
+        "Driver 1": "Bortoleto",
+        "Driver 2": "Sainz",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Lawson RBR",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Lawson RBR",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Bortoleto",
+        "Driver 2": "Sainz",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Lawson RBR",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Bortoleto",
+        "Penalties": 0,
+        "Perks": ["Extra DRS", "Lawson RBR"]
     }
 }

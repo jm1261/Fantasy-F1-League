@@ -347,7 +347,6 @@ class Plot:
             bbox_inches='tight')
         logger.info(f'Plot saved to {outfile}')
         plt.close(fig)
-        plt.cla()
 
     def bar_spacing(self,
                     data: list) -> tuple:

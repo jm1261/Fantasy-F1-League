@@ -34,5 +34,29 @@
         "DRS Boost": "Leclerc",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Bahrain": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Bortoleto",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Bearman",
+        "Driver 5": "Antonelli",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Doohan",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Bearman",
+        "Driver 5": "Antonelli",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

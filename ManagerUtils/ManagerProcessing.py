@@ -1,4 +1,4 @@
-# import InitializeManager  # noqa
+import InitializeManager  # noqa
 
 import logging
 import GeneralUtils.DataIO as io

@@ -34,5 +34,29 @@
         "DRS Boost": "Norris",
         "Penalties": 0,
         "Perks": "Wildcard"
+    },
+    "Bahrain": {
+        "Driver 1": "Norris",
+        "Driver 2": "Piastri",
+        "Driver 3": "Albon",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Piastri",
+        "Penalties": -10,
+        "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Norris",
+        "Driver 2": "Piastri",
+        "Driver 3": "Albon",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

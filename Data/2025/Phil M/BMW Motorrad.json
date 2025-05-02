@@ -34,5 +34,29 @@
         "DRS Boost": "Hamilton",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Bahrain": {
+        "Driver 1": "Russell",
+        "Driver 2": "Albon",
+        "Driver 3": "Ocon",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Alonso",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Russell",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Russell",
+        "Driver 2": "Albon",
+        "Driver 3": "Ocon",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Russell",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

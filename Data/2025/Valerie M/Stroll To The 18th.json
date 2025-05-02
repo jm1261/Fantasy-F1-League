@@ -34,5 +34,29 @@
         "DRS Boost": "Stroll",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Bahrain": {
+        "Driver 1": "Hadjar",
+        "Driver 2": "Ocon",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Bortoleto",
+        "Driver 5": "Doohan",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Hulkenberg",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Hadjar",
+        "Driver 2": "Stroll",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Bortoleto",
+        "Driver 5": "Doohan",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Stroll",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

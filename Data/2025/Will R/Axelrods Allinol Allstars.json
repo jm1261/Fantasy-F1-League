@@ -34,5 +34,29 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Bahrain": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Piastri",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Tsunoda RB",
+        "Driver 5": "Alonso",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Piastri",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Tsunoda RB",
+        "Driver 5": "Alonso",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

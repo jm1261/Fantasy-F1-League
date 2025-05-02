@@ -34,5 +34,29 @@
         "DRS Boost": "Norris",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Bahrain": {
+        "Driver 1": "Norris",
+        "Driver 2": "Tsunoda",
+        "Driver 3": "Bearman",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Antonelli",
+        "Constructor 1": "Racing Bulls",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Saudi Arabia": {
+        "Driver 1": "Norris",
+        "Driver 2": "Tsunoda",
+        "Driver 3": "Bearman",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Antonelli",
+        "Constructor 1": "Racing Bulls",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

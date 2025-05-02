@@ -29,18 +29,18 @@
         },
         "Achievement Winners": {
             "Cost Cappen": {
-                "I Call Patrick Subaru": 2.342597278960751,
-                "Bridgestone Toro Rosso F1": 2.099272718285119,
-                "Its 'odinge'": 2.050950973146095,
-                "HSBC Jaguar Racing": 1.8364111395452323,
-                "BMW FTW": 1.8319987025686366
+                "I Call Patrick Subaru": 2.259936016452712,
+                "Bridgestone Toro Rosso F1": 2.07814429321635,
+                "Its 'odinge'": 2.0057142240516606,
+                "Haryanto": 1.9144907206525172,
+                "HSBC Jaguar Racing": 1.913230330163114
             },
             "Flavio Controls Every Millimeter": {
-                "Syahrul": 11,
-                "Gran Prix Princesses F1": 10,
-                "Mickeys Roadster Racers": 9,
-                "Murder On Zidane's Floor": 7,
-                "I Call Patrick Subaru": 7
+                "Murder On Zidane's Floor": 17,
+                "Mickeys Roadster Racers": 16,
+                "Syahrul": 15,
+                "Andres Inyasista": 14,
+                "I Call Patrick Subaru": 13
             }
         }
     },
@@ -468,431 +468,503 @@
                 }
             },
             "The Triple Header Sum Points": {
-                "I Call Patrick Subaru": 275,
-                "Mickeys Roadster Racers": 226,
-                "Corona Wing Corn": 163,
-                "Total F1 Performance": 160,
-                "Wet Tyres Are Blue": 154,
-                "Push, Push - Box Now Too": 154,
-                "Monaco Barrier Testers": 153,
-                "Murder On Zidane's Floor": 152,
-                "Its 'odinge'": 152,
-                "Bridgestone Toro Rosso F1": 149,
-                "No Keys - Push To Start": 76,
-                "Taylormade To Lose": 30,
-                "The Big One(TM)": 26,
-                "Seagiant F1 Online": 26,
-                "Bwoah Schweppes Puma Golf": 25,
-                "Coming In Haast Place": 24,
-                "What Arrrgh Ya Doohan": 23,
-                "Perez For World Champion": 20,
-                "Stroll To The 18th": 14,
-                "Cucumberpotatolamborghini": -55
+                "I Call Patrick Subaru": 700,
+                "Corona Wing Corn": 687,
+                "Haryanto": 634,
+                "Murder On Zidane's Floor": 601,
+                "Syahrul": 590,
+                "No U Turn": 572,
+                "Andres Inyasista": 571,
+                "HSBC Jaguar Racing": 567,
+                "Push, Push - Box Now Too": 566,
+                "You Hadjar Chance Racing": 559,
+                "Miss Fritter Is Back": 339,
+                "The Big One(TM)": 131,
+                "Seagiant F1 Online": 116,
+                "Bwoah Schweppes Puma Golf": 87,
+                "Coming In Haast Place": 82,
+                "Taylormade To Lose": 76,
+                "What Arrrgh Ya Doohan": 68,
+                "Perez For World Champion": 62,
+                "Stroll To The 18th": 34,
+                "Cucumberpotatolamborghini": -150
             },
             "The Triple Header Average Points": {
-                "I Call Patrick Subaru": 275.0,
-                "Mickeys Roadster Racers": 226.0,
-                "Corona Wing Corn": 163.0,
-                "Total F1 Performance": 160.0,
-                "Wet Tyres Are Blue": 154.0,
-                "Push, Push - Box Now Too": 154.0,
-                "Monaco Barrier Testers": 153.0,
-                "Murder On Zidane's Floor": 152.0,
-                "Its 'odinge'": 152.0,
-                "Bridgestone Toro Rosso F1": 149.0,
-                "No Keys - Push To Start": 76.0,
-                "Taylormade To Lose": 30.0,
-                "The Big One(TM)": 26.0,
-                "Seagiant F1 Online": 26.0,
-                "Bwoah Schweppes Puma Golf": 25.0,
-                "Coming In Haast Place": 24.0,
-                "What Arrrgh Ya Doohan": 23.0,
-                "Perez For World Champion": 20.0,
-                "Stroll To The 18th": 14.0,
-                "Cucumberpotatolamborghini": -55.0
+                "I Call Patrick Subaru": 233.33,
+                "Corona Wing Corn": 229.0,
+                "Haryanto": 211.33,
+                "Murder On Zidane's Floor": 200.33,
+                "Syahrul": 196.67,
+                "No U Turn": 190.67,
+                "Andres Inyasista": 190.33,
+                "HSBC Jaguar Racing": 189.0,
+                "Push, Push - Box Now Too": 188.67,
+                "You Hadjar Chance Racing": 186.33,
+                "Miss Fritter Is Back": 113.0,
+                "The Big One(TM)": 43.67,
+                "Seagiant F1 Online": 38.67,
+                "Bwoah Schweppes Puma Golf": 29.0,
+                "Coming In Haast Place": 27.33,
+                "Taylormade To Lose": 25.33,
+                "What Arrrgh Ya Doohan": 22.67,
+                "Perez For World Champion": 20.67,
+                "Stroll To The 18th": 11.33,
+                "Cucumberpotatolamborghini": -50.0
             },
             "The Triple Header Data": {
                 "Team Sum Points": {
                     "Chloe B": {
-                        "Mickeys Roadster Racers": [
-                            226
+                        "Miss Fritter Is Back": [
+                            119,
+                            238,
+                            339
                         ]
                     },
                     "Alfie CJ": {
                         "Cucumberpotatolamborghini": [
-                            -55
-                        ]
-                    },
-                    "Sam CJ": {
-                        "Total F1 Performance": [
-                            160
+                            -55,
+                            -125,
+                            -150
                         ]
                     },
                     "Pete J": {
                         "Seagiant F1 Online": [
-                            26
+                            26,
+                            77,
+                            116
                         ]
                     },
                     "Patrick L": {
-                        "Coming In Haast Place": [
-                            24
+                        "You Hadjar Chance Racing": [
+                            137,
+                            359,
+                            559
                         ]
                     },
-                    "Sebastian M": {
-                        "Bridgestone Toro Rosso F1": [
-                            149
+                    "Josh M": {
+                        "HSBC Jaguar Racing": [
+                            141,
+                            397,
+                            567
                         ]
                     },
                     "Val M": {
-                        "Its 'odinge'": [
-                            152
+                        "No U Turn": [
+                            143,
+                            386,
+                            572
                         ]
                     },
                     "Valerie M": {
                         "What Arrrgh Ya Doohan": [
-                            23
+                            23,
+                            25,
+                            68
                         ]
                     },
                     "Madlen P": {
                         "Push, Push - Box Now Too": [
-                            154
+                            154,
+                            393,
+                            566
                         ]
                     },
                     "James R": {
                         "Bwoah Schweppes Puma Golf": [
-                            25
+                            25,
+                            40,
+                            87
                         ]
                     },
                     "Will R": {
                         "The Big One(TM)": [
-                            26
+                            26,
+                            88,
+                            131
                         ]
                     },
                     "Stuart S": {
-                        "Murder On Zidane's Floor": [
-                            152
+                        "Andres Inyasista": [
+                            119,
+                            460,
+                            571
+                        ]
+                    },
+                    "Stefanus W": {
+                        "Syahrul": [
+                            133,
+                            365,
+                            590
                         ]
                     }
                 },
                 "Team Average Points": {
                     "Chloe B": {
-                        "Mickeys Roadster Racers": [
-                            226.0
+                        "Miss Fritter Is Back": [
+                            119.0,
+                            119.0,
+                            113.0
                         ]
                     },
                     "Alfie CJ": {
                         "Cucumberpotatolamborghini": [
-                            -55.0
-                        ]
-                    },
-                    "Sam CJ": {
-                        "Total F1 Performance": [
-                            160.0
+                            -55.0,
+                            -62.5,
+                            -50.0
                         ]
                     },
                     "Pete J": {
                         "Seagiant F1 Online": [
-                            26.0
+                            26.0,
+                            38.5,
+                            38.67
                         ]
                     },
                     "Patrick L": {
-                        "Coming In Haast Place": [
-                            24.0
+                        "You Hadjar Chance Racing": [
+                            137.0,
+                            179.5,
+                            186.33
                         ]
                     },
-                    "Sebastian M": {
-                        "Bridgestone Toro Rosso F1": [
-                            149.0
+                    "Josh M": {
+                        "HSBC Jaguar Racing": [
+                            141.0,
+                            198.5,
+                            189.0
                         ]
                     },
                     "Val M": {
-                        "Its 'odinge'": [
-                            152.0
+                        "No U Turn": [
+                            143.0,
+                            193.0,
+                            190.67
                         ]
                     },
                     "Valerie M": {
                         "What Arrrgh Ya Doohan": [
-                            23.0
+                            23.0,
+                            12.5,
+                            22.67
                         ]
                     },
                     "Madlen P": {
                         "Push, Push - Box Now Too": [
-                            154.0
+                            154.0,
+                            196.5,
+                            188.67
                         ]
                     },
                     "James R": {
                         "Bwoah Schweppes Puma Golf": [
-                            25.0
+                            25.0,
+                            20.0,
+                            29.0
                         ]
                     },
                     "Will R": {
                         "The Big One(TM)": [
-                            26.0
+                            26.0,
+                            44.0,
+                            43.67
                         ]
                     },
                     "Stuart S": {
-                        "Murder On Zidane's Floor": [
-                            152.0
+                        "Andres Inyasista": [
+                            119.0,
+                            230.0,
+                            190.33
+                        ]
+                    },
+                    "Stefanus W": {
+                        "Syahrul": [
+                            133.0,
+                            182.5,
+                            196.67
                         ]
                     }
                 }
             },
             "I Forgot I Was Taking Part Sum Points": {
-                "I Call Patrick Subaru": 697,
-                "Bridgestone Toro Rosso F1": 627,
-                "Its 'odinge'": 609,
-                "BMW FTW": 546,
-                "HSBC Jaguar Racing": 540,
-                "Miss Fritter Is Back": 527,
-                "Gran Prix Princesses F1": 510,
-                "Kick Sauber In The Audi": 474,
-                "Push, Push - Box Now Too": 467,
-                "Haryanto": 461,
-                "No Keys - Push To Start": 152,
-                "Dinoco Piston Cup Champs": 138,
-                "Taylormade To Lose": 137,
-                "Perez For World Champion": 129,
-                "Seagiant F1 Online": 127,
-                "Bwoah Schweppes Puma Golf": 127,
-                "Limoncello44": 122,
-                "Cucumberpotatolamborghini": 122,
-                "BMW Should Be Here": 110,
-                "What Arrrgh Ya Doohan": 107
+                "I Call Patrick Subaru": 1122,
+                "Bridgestone Toro Rosso F1": 1036,
+                "Its 'odinge'": 1000,
+                "HSBC Jaguar Racing": 966,
+                "Haryanto": 954,
+                "BMW FTW": 954,
+                "Syahrul": 915,
+                "Corona Wing Corn": 901,
+                "Push, Push - Box Now Too": 879,
+                "No U Turn": 860,
+                "Dinoco Piston Cup Champs": 407,
+                "Coming In Haast Place": 289,
+                "The Big One(TM)": 263,
+                "Seagiant F1 Online": 217,
+                "Stroll To The 18th": 206,
+                "Bwoah Schweppes Puma Golf": 189,
+                "Taylormade To Lose": 183,
+                "Perez For World Champion": 171,
+                "What Arrrgh Ya Doohan": 152,
+                "Cucumberpotatolamborghini": 27
             },
             "I Forgot I Was Taking Part Average Points": {
-                "I Call Patrick Subaru": 232.33,
-                "Bridgestone Toro Rosso F1": 209.0,
-                "Its 'odinge'": 203.0,
-                "BMW FTW": 182.0,
-                "HSBC Jaguar Racing": 180.0,
-                "Miss Fritter Is Back": 175.67,
-                "Gran Prix Princesses F1": 170.0,
-                "Kick Sauber In The Audi": 158.0,
-                "Push, Push - Box Now Too": 155.67,
-                "Haryanto": 153.67,
-                "No Keys - Push To Start": 50.67,
-                "Dinoco Piston Cup Champs": 46.0,
-                "Taylormade To Lose": 45.67,
-                "Perez For World Champion": 43.0,
-                "Seagiant F1 Online": 42.33,
-                "Bwoah Schweppes Puma Golf": 42.33,
-                "Limoncello44": 40.67,
-                "Cucumberpotatolamborghini": 40.67,
-                "BMW Should Be Here": 36.67,
-                "What Arrrgh Ya Doohan": 35.67
+                "I Call Patrick Subaru": 224.4,
+                "Bridgestone Toro Rosso F1": 207.2,
+                "Its 'odinge'": 200.0,
+                "HSBC Jaguar Racing": 193.2,
+                "Haryanto": 190.8,
+                "BMW FTW": 190.8,
+                "Syahrul": 183.0,
+                "Corona Wing Corn": 180.2,
+                "Push, Push - Box Now Too": 175.8,
+                "No U Turn": 172.0,
+                "Dinoco Piston Cup Champs": 81.4,
+                "Coming In Haast Place": 57.8,
+                "The Big One(TM)": 52.6,
+                "Seagiant F1 Online": 43.4,
+                "Stroll To The 18th": 41.2,
+                "Bwoah Schweppes Puma Golf": 37.8,
+                "Taylormade To Lose": 36.6,
+                "Perez For World Champion": 34.2,
+                "What Arrrgh Ya Doohan": 30.4,
+                "Cucumberpotatolamborghini": 5.4
             },
             "I Forgot I Was Taking Part Data": {
                 "Team Sum Points": {
-                    "Chloe B": {
-                        "No Keys - Push To Start": [
-                            37,
-                            76,
-                            152
-                        ]
-                    },
                     "Alfie CJ": {
                         "Cucumberpotatolamborghini": [
                             68,
                             177,
-                            122
-                        ]
-                    },
-                    "Sam CJ": {
-                        "Gran Prix Princesses F1": [
-                            142,
-                            364,
-                            510
+                            122,
+                            52,
+                            27
                         ]
                     },
                     "Pete J": {
                         "Seagiant F1 Online": [
                             -35,
                             101,
-                            127
+                            127,
+                            178,
+                            217
                         ]
                     },
-                    "Jake M": {
-                        "Kick Sauber In The Audi": [
-                            155,
-                            351,
-                            474
+                    "Patrick L": {
+                        "Coming In Haast Place": [
+                            61,
+                            207,
+                            231,
+                            246,
+                            289
                         ]
                     },
                     "Josh M": {
                         "HSBC Jaguar Racing": [
                             116,
                             399,
-                            540
+                            540,
+                            796,
+                            966
                         ]
                     },
                     "Phil M": {
-                        "BMW Should Be Here": [
-                            24,
-                            -1,
-                            110
+                        "BMW FTW": [
+                            198,
+                            401,
+                            546,
+                            764,
+                            954
                         ]
                     },
                     "Sebastian M": {
                         "Bridgestone Toro Rosso F1": [
                             201,
                             478,
-                            627
+                            627,
+                            862,
+                            1036
                         ]
                     },
                     "Val M": {
-                        "Limoncello44": [
-                            34,
-                            7,
-                            122
+                        "No U Turn": [
+                            79,
+                            288,
+                            431,
+                            674,
+                            860
                         ]
                     },
                     "Valerie M": {
                         "What Arrrgh Ya Doohan": [
                             -39,
                             84,
-                            107
+                            107,
+                            109,
+                            152
                         ]
                     },
                     "Madlen P": {
                         "Push, Push - Box Now Too": [
                             37,
                             313,
-                            467
+                            467,
+                            706,
+                            879
                         ]
                     },
                     "James R": {
                         "Bwoah Schweppes Puma Golf": [
                             -37,
                             102,
-                            127
+                            127,
+                            142,
+                            189
                         ]
                     },
                     "Will R": {
-                        "Dinoco Piston Cup Champs": [
-                            32,
-                            32,
-                            138
+                        "The Big One(TM)": [
+                            -13,
+                            132,
+                            158,
+                            220,
+                            263
                         ]
                     },
                     "Stuart S": {
                         "Taylormade To Lose": [
                             -19,
                             107,
-                            137
+                            137,
+                            176,
+                            183
                         ]
                     },
                     "Stefanus W": {
-                        "Haryanto": [
-                            50,
-                            320,
-                            461
+                        "Syahrul": [
+                            103,
+                            325,
+                            458,
+                            690,
+                            915
                         ]
                     }
                 },
                 "Team Average Points": {
-                    "Chloe B": {
-                        "No Keys - Push To Start": [
-                            37.0,
-                            38.0,
-                            50.67
-                        ]
-                    },
                     "Alfie CJ": {
                         "Cucumberpotatolamborghini": [
                             68.0,
                             88.5,
-                            40.67
-                        ]
-                    },
-                    "Sam CJ": {
-                        "Gran Prix Princesses F1": [
-                            142.0,
-                            182.0,
-                            170.0
+                            40.67,
+                            13.0,
+                            5.4
                         ]
                     },
                     "Pete J": {
                         "Seagiant F1 Online": [
                             -35.0,
                             50.5,
-                            42.33
+                            42.33,
+                            44.5,
+                            43.4
                         ]
                     },
-                    "Jake M": {
-                        "Kick Sauber In The Audi": [
-                            155.0,
-                            175.5,
-                            158.0
+                    "Patrick L": {
+                        "Coming In Haast Place": [
+                            61.0,
+                            103.5,
+                            77.0,
+                            61.5,
+                            57.8
                         ]
                     },
                     "Josh M": {
                         "HSBC Jaguar Racing": [
                             116.0,
                             199.5,
-                            180.0
+                            180.0,
+                            199.0,
+                            193.2
                         ]
                     },
                     "Phil M": {
-                        "BMW Should Be Here": [
-                            24.0,
-                            -0.5,
-                            36.67
+                        "BMW FTW": [
+                            198.0,
+                            200.5,
+                            182.0,
+                            191.0,
+                            190.8
                         ]
                     },
                     "Sebastian M": {
                         "Bridgestone Toro Rosso F1": [
                             201.0,
                             239.0,
-                            209.0
+                            209.0,
+                            215.5,
+                            207.2
                         ]
                     },
                     "Val M": {
-                        "Limoncello44": [
-                            34.0,
-                            3.5,
-                            40.67
+                        "No U Turn": [
+                            79.0,
+                            144.0,
+                            143.67,
+                            168.5,
+                            172.0
                         ]
                     },
                     "Valerie M": {
                         "What Arrrgh Ya Doohan": [
                             -39.0,
                             42.0,
-                            35.67
+                            35.67,
+                            27.25,
+                            30.4
                         ]
                     },
                     "Madlen P": {
                         "Push, Push - Box Now Too": [
                             37.0,
                             156.5,
-                            155.67
+                            155.67,
+                            176.5,
+                            175.8
                         ]
                     },
                     "James R": {
                         "Bwoah Schweppes Puma Golf": [
                             -37.0,
                             51.0,
-                            42.33
+                            42.33,
+                            35.5,
+                            37.8
                         ]
                     },
                     "Will R": {
-                        "Dinoco Piston Cup Champs": [
-                            32.0,
-                            16.0,
-                            46.0
+                        "The Big One(TM)": [
+                            -13.0,
+                            66.0,
+                            52.67,
+                            55.0,
+                            52.6
                         ]
                     },
                     "Stuart S": {
                         "Taylormade To Lose": [
                             -19.0,
                             53.5,
-                            45.67
+                            45.67,
+                            44.0,
+                            36.6
                         ]
                     },
                     "Stefanus W": {
-                        "Haryanto": [
-                            50.0,
-                            160.0,
-                            153.67
+                        "Syahrul": [
+                            103.0,
+                            162.5,
+                            152.67,
+                            172.5,
+                            183.0
                         ]
                     }
                 }
@@ -909,19 +981,19 @@
         "Championship Winners": {
             "Champion of the World": [
                 "I Call Patrick Subaru",
-                697
+                1122
             ],
             "If You're Not First, You're Last": [
                 "Bridgestone Toro Rosso F1",
-                627
+                1036
             ],
             "Alpine Podium": [
                 "Its 'odinge'",
-                609
+                1000
             ],
             "Above Par": [
-                "What Arrrgh Ya Doohan",
-                107
+                "Cucumberpotatolamborghini",
+                27
             ]
         }
     }
