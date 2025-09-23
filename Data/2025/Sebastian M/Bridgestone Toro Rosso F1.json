@@ -74,5 +74,143 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Miami": {
+        "Driver 1": "Norris",
+        "Driver 2": "Piastri",
+        "Driver 3": "Verstappen",
+        "Driver 4": "Russell",
+        "Driver 5": "Antonelli",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "Limitless"
+    },
+    "Emilia Romagna": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Antonelli",
+        "Driver 3": "Colapinto",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Gasly",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "Wildcard"
+    },
+    "Monaco": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Antonelli",
+        "Driver 3": "Colapinto",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Gasly",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": [
+            "Final Fix",
+            "Antonelli",
+            0,
+            "Albon",
+            3
+        ]
+    },
+    "Spain": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Antonelli",
+        "Driver 3": "Colapinto",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Gasly",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Canada": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Russell",
+        "Driver 3": "Colapinto",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Austria": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Russell",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Alonso",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Great Britain": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Russell",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Alonso",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Belgium": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Russell",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Hungary": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Lawson",
+        "Driver 3": "Leclerc",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Netherlands": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Lawson",
+        "Driver 3": "Russell",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Ocon",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Italy": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Hamilton",
+        "Driver 3": "Lawson",
+        "Driver 4": "Gasly",
+        "Driver 5": "Ocon",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

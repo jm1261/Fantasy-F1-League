@@ -1,6 +1,18 @@
+###############################################################################
+###############################################################################
+#                            File: Lineup Analysis                            #
+#                             Author: Joshua Male                             #
+#               Description: Process weekly lineup and all plots              #
+#                         Project: Fantasy F1 League                          #
+#                              Date: 02/05/2025                               #
+#                           Copyright © Joshua Male                           #
+###############################################################################
+###############################################################################
+
+# Imports
 import os
 import logging
-import GeneralUtils.DataIO as io
+import GeneralUtils.DEV_DataIO as io
 import GeneralUtils.StatisticalAnalysis as sa
 
 from pathlib import Path
@@ -98,7 +110,10 @@ class LineupProcessor:
         Created.
 
         """
-        self.format_path = Path(format_path, 'Lineup_Formats')
+        self.format_path = Path(
+            format_path,
+            'Lineup_Formats'
+        )
         self.results_path = Path(results_path)
         self.year = f'{year}'
         self.races = races
@@ -109,10 +124,51 @@ class LineupProcessor:
             "Constructor Values": {}
         }
         self.stats_dict = {}
-        logger.info('Lineup processor initialized')
+        logger.info('LineupProcessor initialized successfully')
+
+    def get_constructors_drivers(self) -> list:
+        """
+        Function Details
+        ================
+
+        Parameters
+        ----------
+        self
+
+        Returns
+        -------
+        constructors, drivers: list
+            List of current constructors and drivers.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        03/11/2024
+        ----------
+        Branched from another function.
+
+        04/11/2024
+        ----------
+        Integration into class method.
+
+        """
+        constructors, drivers = [], []
+        for file in os.listdir(self.format_path):
+            if 'Perks.json' not in file:
+                data = io.load_json(
+                    file_path=Path(
+                        self.format_path,
+                        file
+                    )
+                )
+                if self.year in data:
+                    constructors.append(Path(file).stem)
+                    drivers.extend(data[self.year]['drivers'])
+        return constructors, drivers
 
     def update_results_dict(self,
-                            completed_races: list) -> dict:
+                            completed_races: list) -> None:
         """
         Function Details
         ================
@@ -159,22 +215,30 @@ class LineupProcessor:
 
         """
         constructors, drivers = self.get_constructors_drivers()
+
         for i, race in enumerate(completed_races):
             race_results = io.load_json(
-                file_path=Path(self.results_path, f'{race}_Results.json')
+                file_path=Path(
+                    self.results_path,
+                    f'{race}_Results.json'
+                )
             )
+
             for key, values in race_results.items():
                 if key == 'Name' or key == 'Race':
                     continue
                 if key in drivers or key in constructors:
                     points_key = (
-                        "Driver Points" if key in drivers
-                        else "Constructor Points"
+                        'Driver Points'
+                        if key in drivers
+                        else 'Constructor Points'
                     )
                     values_key = (
-                        "Driver Values" if key in drivers
-                        else "Constructor Values"
+                        'Driver Values'
+                        if key in drivers
+                        else 'Constructor Values'
                     )
+
                     if key not in self.results_dict[points_key]:
                         self.results_dict[points_key][key] = (
                             [0] * i + [values[0]]
@@ -183,50 +247,16 @@ class LineupProcessor:
                             [values[1]] * i + [values[1]]
                         )
                         logger.info(f'New driver/constructor added: {key}')
+
                     else:
                         self.results_dict[points_key][key].append(values[0])
                         self.results_dict[values_key][key].append(values[1])
-        logger.info('Lineup results dictionary updated')
+
+        logger.info('Lineup results dictionary updated successfully')
         return self.results_dict
 
-    def get_constructors_drivers(self) -> list:
-        """
-        Function Details
-        ================
-
-        Parameters
-        ----------
-        self
-
-        Returns
-        -------
-        constructors, drivers: list
-            List of current constructors and drivers.
-
-        -----------------------------------------------------------------------
-        Update History
-        ==============
-
-        03/11/2024
-        ----------
-        Branched from another function.
-
-        04/11/2024
-        ----------
-        Integration into class method.
-
-        """
-        constructors, drivers = [], []
-        for file in os.listdir(self.format_path):
-            if 'Perks.json' not in file:
-                data = io.load_json(file_path=Path(self.format_path, file))
-                if self.year in data:
-                    constructors.append(Path(file).stem)
-                    drivers.extend(data[self.year]['drivers'])
-        return constructors, drivers
-
     def corrects_weekly(self,
-                        weekly_dictionary: dict) -> dict:
+                        weekly_dictionary: dict) -> None:
         """
         Function Details
         ================
@@ -261,6 +291,11 @@ class LineupProcessor:
         weekend, they miss race, qualifying, and sprint race with a -20, -5,
         and -20 points tally. Not sure why no negative for sprint qualifying.
 
+        23/09/2025
+        ----------
+        Updated inactive sprint points to -45 points tally. Updated results
+        dictionary to the updated to avoid saving problems.
+
         """
         race = weekly_dictionary['Race'][0]
         individual_points_dict = {}
@@ -287,15 +322,15 @@ class LineupProcessor:
 
             else:
                 previous_results = {
-                    **self.results_dict["Driver Points"],
-                    **self.results_dict["Constructor Points"]
+                    **self.updated_results["Driver Points"],
+                    **self.updated_results["Constructor Points"]
                 }
                 if inputs[0] == 'N/A':
                     new_points, new_values = 0, 0
                 elif inputs[0] == 'Inactive':
                     new_points, new_values = -25, inputs[1]
                 elif inputs[0] == 'Inactive Sprint':
-                    new_points, new_values = -25, inputs[1]
+                    new_points, new_values = -45, inputs[1]
                 else:
                     previous_points = previous_results[key]
                     new_points = inputs[0] - sum(previous_points)
@@ -339,18 +374,28 @@ class LineupProcessor:
         ----------
         Refactored.
 
+        23/09/2025
+        ----------
+        Updated to use self.updated_results to avoid saving problems.
+
         """
 
         # Update lineup results directory based on weekly score sheets
-        self.update_results_dict(completed_races=completed_races)
+        self.updated_results = self.update_results_dict(
+            completed_races=completed_races
+        )
 
         # Correct weekly lineup scores
         corrected_weekly_lineup = self.corrects_weekly(
-            weekly_dictionary=weekly_dictionary)
+            weekly_dictionary=weekly_dictionary
+        )
 
         # Check if corrected weekly lineup is already a file
         race = corrected_weekly_lineup['Race'][0]
-        out_path = Path(self.results_path, f'{race}_Results.json')
+        out_path = Path(
+            self.results_path,
+            f'{race}_Results.json'
+        )
 
         if out_path.is_file():
             logger.info(f'{out_path} is file, results not saved')
@@ -363,10 +408,17 @@ class LineupProcessor:
 
             # Refresh the results dictionary in case new data added
             completed_races.append(race)
-            self.update_results_dict(completed_races=completed_races)
+            self.updated_results = self.update_results_dict(
+                completed_races=completed_races
+            )
+
+        self.results_dict = self.updated_results
 
         # Save the full results dictionary
-        results_out_path = Path(self.results_path, 'Results.json')
+        results_out_path = Path(
+            self.results_path,
+            'Results.json'
+        )
         io.save_json_dicts(
             out_path=results_out_path,
             dictionary=self.results_dict
