@@ -41,11 +41,18 @@
                 "Stroll To The 18th",
                 -49
             ],
+            "It's on Purpose": [
+                "Singapore",
+                "Stuart S",
+                "Taylormade To Lose",
+                -41
+            ],
             "Max Ties": [
                 [],
                 []
             ],
             "Min Ties": [
+                [],
                 [],
                 []
             ]
@@ -59,18 +66,18 @@
         },
         "Achievement Winners": {
             "Cost Cappen": {
-                "You Hadjar Chance Racing": 2.0383036781745325,
-                "Syahrul": 2.036853627804269,
-                "Bridgestone Toro Rosso F1": 1.9864432791005753,
-                "I Call Patrick Subaru": 1.974617763278512,
-                "Expensify APX GP": 1.94136561983337
+                "You Hadjar Chance Racing": 1.919817808036345,
+                "Syahrul": 1.8992911248219602,
+                "I Call Patrick Subaru": 1.8719315569363733,
+                "Bridgestone Toro Rosso F1": 1.850069325099276,
+                "BMW FTW": 1.8161471623627778
             },
             "Flavio Controls Every Millimeter": {
-                "Haryanto": 38,
-                "Gelael": 38,
-                "Kingfisher Force India F1": 35,
-                "Expensify APX GP": 35,
-                "BWT Racing Point F1": 33
+                "Gelael": 42,
+                "Haryanto": 41,
+                "Kingfisher Force India F1": 39,
+                "Expensify APX GP": 39,
+                "BWT Racing Point F1": 37
             }
         }
     },
@@ -356,48 +363,48 @@
                 }
             },
             "The Continental Sum Points": {
-                "Bridgestone Toro Rosso F1": 552,
-                "BMW FTW": 530,
-                "Kick Sauber In The Audi": 527,
-                "Syahrul": 492,
-                "Expensify APX GP": 467,
-                "Allianz BMW Williams": 445,
-                "Miss Fritter Is Back": 424,
-                "I Call Patrick Subaru": 387,
-                "Gran Prix Princesses F1": 382,
-                "Gelael": 376,
-                "Dinoco Piston Cup Champs": 166,
-                "Coming In Haast Place": 107,
-                "Cucumberpotatolamborghini": 79,
-                "Stroll To The 18th": 27,
-                "The Big One(TM)": 20,
-                "Seagiant F1 Online": -16,
-                "What Arrrgh Ya Doohan": -51,
-                "Perez For World Champion": -54,
-                "Bwoah Schweppes Puma Golf": -91,
-                "Taylormade To Lose": -132
+                "Ro@d R@ge": 617,
+                "Bridgestone Toro Rosso F1": 599,
+                "Kick Sauber In The Audi": 576,
+                "BMW FTW": 569,
+                "Miss Fritter Is Back": 551,
+                "Syahrul": 524,
+                "Allianz BMW Williams": 519,
+                "Total F1 Performance": 505,
+                "Gran Prix Princesses F1": 469,
+                "Expensify APX GP": 468,
+                "Dinoco Piston Cup Champs": 234,
+                "Coming In Haast Place": 146,
+                "Cucumberpotatolamborghini": 120,
+                "The Big One(TM)": 47,
+                "Seagiant F1 Online": 12,
+                "Stroll To The 18th": 4,
+                "Perez For World Champion": -41,
+                "What Arrrgh Ya Doohan": -85,
+                "Bwoah Schweppes Puma Golf": -92,
+                "Taylormade To Lose": -128
             },
             "The Continental Average Points": {
-                "Bridgestone Toro Rosso F1": 184.0,
-                "BMW FTW": 176.67,
-                "Kick Sauber In The Audi": 175.67,
-                "Syahrul": 164.0,
-                "Expensify APX GP": 155.67,
-                "Allianz BMW Williams": 148.33,
-                "Miss Fritter Is Back": 141.33,
-                "I Call Patrick Subaru": 129.0,
-                "Gran Prix Princesses F1": 127.33,
-                "Gelael": 125.33,
-                "Dinoco Piston Cup Champs": 55.33,
-                "Coming In Haast Place": 35.67,
-                "Cucumberpotatolamborghini": 26.33,
-                "Stroll To The 18th": 9.0,
-                "The Big One(TM)": 6.67,
-                "Seagiant F1 Online": -5.33,
-                "What Arrrgh Ya Doohan": -17.0,
-                "Perez For World Champion": -18.0,
-                "Bwoah Schweppes Puma Golf": -30.33,
-                "Taylormade To Lose": -44.0
+                "Ro@d R@ge": 154.25,
+                "Bridgestone Toro Rosso F1": 149.75,
+                "Kick Sauber In The Audi": 144.0,
+                "BMW FTW": 142.25,
+                "Miss Fritter Is Back": 137.75,
+                "Syahrul": 131.0,
+                "Allianz BMW Williams": 129.75,
+                "Total F1 Performance": 126.25,
+                "Gran Prix Princesses F1": 117.25,
+                "Expensify APX GP": 117.0,
+                "Dinoco Piston Cup Champs": 58.5,
+                "Coming In Haast Place": 36.5,
+                "Cucumberpotatolamborghini": 30.0,
+                "The Big One(TM)": 11.75,
+                "Seagiant F1 Online": 3.0,
+                "Stroll To The 18th": 1.0,
+                "Perez For World Champion": -10.25,
+                "What Arrrgh Ya Doohan": -21.25,
+                "Bwoah Schweppes Puma Golf": -23.0,
+                "Taylormade To Lose": -32.0
             },
             "The Continental Data": {
                 "Team Sum Points": {
@@ -405,98 +412,120 @@
                         "Miss Fritter Is Back": [
                             197,
                             353,
-                            424
+                            424,
+                            551
                         ]
                     },
                     "Alfie CJ": {
                         "Cucumberpotatolamborghini": [
                             68,
                             98,
-                            79
+                            79,
+                            120
                         ]
                     },
                     "Sam CJ": {
-                        "Gran Prix Princesses F1": [
-                            142,
-                            225,
-                            382
+                        "Total F1 Performance": [
+                            51,
+                            187,
+                            276,
+                            505
                         ]
                     },
                     "Pete J": {
                         "Seagiant F1 Online": [
                             -35,
                             28,
-                            -16
+                            -16,
+                            12
                         ]
                     },
                     "Patrick L": {
                         "Coming In Haast Place": [
                             61,
                             93,
-                            107
+                            107,
+                            146
                         ]
                     },
                     "Jake M": {
                         "Kick Sauber In The Audi": [
                             155,
                             334,
-                            527
+                            527,
+                            576
                         ]
                     },
                     "Josh M": {
                         "Expensify APX GP": [
                             104,
                             300,
-                            467
+                            467,
+                            468
                         ]
                     },
                     "Phil M": {
                         "BMW FTW": [
                             198,
                             308,
-                            530
+                            530,
+                            569
                         ]
                     },
                     "Sebastian M": {
                         "Allianz BMW Williams": [
                             89,
                             284,
-                            445
+                            445,
+                            519
                         ]
                     },
                     "Valerie M": {
                         "What Arrrgh Ya Doohan": [
                             -39,
                             -28,
-                            -51
+                            -51,
+                            -85
+                        ]
+                    },
+                    "Finn R": {
+                        "Ro@d R@ge": [
+                            59,
+                            227,
+                            370,
+                            617
                         ]
                     },
                     "James R": {
                         "Bwoah Schweppes Puma Golf": [
                             -37,
                             -34,
-                            -91
+                            -91,
+                            -92
                         ]
                     },
                     "Will R": {
                         "The Big One(TM)": [
                             -13,
                             30,
-                            20
+                            20,
+                            47
                         ]
                     },
                     "Stuart S": {
                         "Taylormade To Lose": [
                             -19,
                             -23,
-                            -132
+                            -132,
+                            -128
                         ]
                     },
                     "Stefanus W": {
                         "Syahrul": [
                             103,
                             242,
-                            492
+                            492,
+                            524
                         ]
                     }
                 },
@@ -505,98 +534,120 @@
                         "Miss Fritter Is Back": [
                             197.0,
                             176.5,
-                            141.33
+                            141.33,
+                            137.75
                         ]
                     },
                     "Alfie CJ": {
                         "Cucumberpotatolamborghini": [
                             68.0,
                             49.0,
-                            26.33
+                            26.33,
+                            30.0
                         ]
                     },
                     "Sam CJ": {
-                        "Gran Prix Princesses F1": [
-                            142.0,
-                            112.5,
-                            127.33
+                        "Total F1 Performance": [
+                            51.0,
+                            93.5,
+                            92.0,
+                            126.25
                         ]
                     },
                     "Pete J": {
                         "Seagiant F1 Online": [
                             -35.0,
                             14.0,
-                            -5.33
+                            -5.33,
+                            3.0
                         ]
                     },
                     "Patrick L": {
                         "Coming In Haast Place": [
                             61.0,
                             46.5,
-                            35.67
+                            35.67,
+                            36.5
                         ]
                     },
                     "Jake M": {
                         "Kick Sauber In The Audi": [
                             155.0,
                             167.0,
-                            175.67
+                            175.67,
+                            144.0
                         ]
                     },
                     "Josh M": {
                         "Expensify APX GP": [
                             104.0,
                             150.0,
-                            155.67
+                            155.67,
+                            117.0
                         ]
                     },
                     "Phil M": {
                         "BMW FTW": [
                             198.0,
                             154.0,
-                            176.67
+                            176.67,
+                            142.25
                         ]
                     },
                     "Sebastian M": {
                         "Allianz BMW Williams": [
                             89.0,
                             142.0,
-                            148.33
+                            148.33,
+                            129.75
                         ]
                     },
                     "Valerie M": {
                         "What Arrrgh Ya Doohan": [
                             -39.0,
                             -14.0,
-                            -17.0
+                            -17.0,
+                            -21.25
+                        ]
+                    },
+                    "Finn R": {
+                        "Ro@d R@ge": [
+                            59.0,
+                            113.5,
+                            123.33,
+                            154.25
                         ]
                     },
                     "James R": {
                         "Bwoah Schweppes Puma Golf": [
                             -37.0,
                             -17.0,
-                            -30.33
+                            -30.33,
+                            -23.0
                         ]
                     },
                     "Will R": {
                         "The Big One(TM)": [
                             -13.0,
                             15.0,
-                            6.67
+                            6.67,
+                            11.75
                         ]
                     },
                     "Stuart S": {
                         "Taylormade To Lose": [
                             -19.0,
                             -11.5,
-                            -44.0
+                            -44.0,
+                            -32.0
                         ]
                     },
                     "Stefanus W": {
                         "Syahrul": [
                             103.0,
                             121.0,
-                            164.0
+                            164.0,
+                            131.0
                         ]
                     }
                 }
@@ -1390,121 +1441,145 @@
                 }
             },
             "Zak's Master Plan Sum Points": {
-                "You Hadjar Chance Racing": 485,
-                "I Call Patrick Subaru": 443,
-                "Expensify APX GP": 432,
-                "Push, Push - Box Now Too": 428,
-                "Wet Tyres Are Blue": 426,
-                "Bridgestone Toro Rosso F1": 406,
-                "Syahrul": 404,
-                "Bwoah OnlyFans McD Racing": 391,
-                "Murder On Zidane's Floor": 386,
-                "No U Turn": 381,
-                "Dinoco Piston Cup Champs": 160,
-                "The Big One(TM)": 133,
-                "Coming In Haast Place": 125,
-                "Seagiant F1 Online": 73,
-                "Cucumberpotatolamborghini": 43,
-                "Bwoah Schweppes Puma Golf": 22,
-                "Perez For World Champion": 17,
-                "What Arrrgh Ya Doohan": 12,
-                "Taylormade To Lose": 7,
-                "Stroll To The 18th": 3
+                "You Hadjar Chance Racing": 711,
+                "Wet Tyres Are Blue": 704,
+                "Total F1 Performance": 704,
+                "Ro@d R@ge": 686,
+                "I Call Patrick Subaru": 659,
+                "Gran Prix Princesses F1": 642,
+                "Push, Push - Box Now Too": 619,
+                "Corona Wing Corn": 617,
+                "BMW FTW": 604,
+                "Syahrul": 602,
+                "Dinoco Piston Cup Champs": 327,
+                "Coming In Haast Place": 171,
+                "The Big One(TM)": 163,
+                "Seagiant F1 Online": 158,
+                "Cucumberpotatolamborghini": 66,
+                "Perez For World Champion": 19,
+                "Bwoah Schweppes Puma Golf": 11,
+                "Stroll To The 18th": -10,
+                "Taylormade To Lose": -30,
+                "What Arrrgh Ya Doohan": -51
             },
             "Zak's Master Plan Average Points": {
-                "You Hadjar Chance Racing": 242.5,
-                "I Call Patrick Subaru": 221.5,
-                "Expensify APX GP": 216.0,
-                "Push, Push - Box Now Too": 214.0,
-                "Wet Tyres Are Blue": 213.0,
-                "Bridgestone Toro Rosso F1": 203.0,
-                "Syahrul": 202.0,
-                "Bwoah OnlyFans McD Racing": 195.5,
-                "Murder On Zidane's Floor": 193.0,
-                "No U Turn": 190.5,
-                "Dinoco Piston Cup Champs": 80.0,
-                "The Big One(TM)": 66.5,
-                "Coming In Haast Place": 62.5,
-                "Seagiant F1 Online": 36.5,
-                "Cucumberpotatolamborghini": 21.5,
-                "Bwoah Schweppes Puma Golf": 11.0,
-                "Perez For World Champion": 8.5,
-                "What Arrrgh Ya Doohan": 6.0,
-                "Taylormade To Lose": 3.5,
-                "Stroll To The 18th": 1.5
+                "You Hadjar Chance Racing": 177.75,
+                "Wet Tyres Are Blue": 176.0,
+                "Total F1 Performance": 176.0,
+                "Ro@d R@ge": 171.5,
+                "I Call Patrick Subaru": 164.75,
+                "Gran Prix Princesses F1": 160.5,
+                "Push, Push - Box Now Too": 154.75,
+                "Corona Wing Corn": 154.25,
+                "BMW FTW": 151.0,
+                "Syahrul": 150.5,
+                "Dinoco Piston Cup Champs": 81.75,
+                "Coming In Haast Place": 42.75,
+                "The Big One(TM)": 40.75,
+                "Seagiant F1 Online": 39.5,
+                "Cucumberpotatolamborghini": 16.5,
+                "Perez For World Champion": 4.75,
+                "Bwoah Schweppes Puma Golf": 2.75,
+                "Stroll To The 18th": -2.5,
+                "Taylormade To Lose": -7.5,
+                "What Arrrgh Ya Doohan": -12.75
             },
             "Zak's Master Plan Data": {
                 "Team Sum Points": {
                     "Alfie CJ": {
                         "Cucumberpotatolamborghini": [
                             51,
-                            43
+                            43,
+                            84,
+                            66
+                        ]
+                    },
+                    "Sam CJ": {
+                        "Total F1 Performance": [
+                            183,
+                            297,
+                            526,
+                            704
                         ]
                     },
                     "Pete J": {
                         "Seagiant F1 Online": [
                             77,
-                            73
+                            73,
+                            101,
+                            158
                         ]
                     },
                     "Patrick L": {
                         "You Hadjar Chance Racing": [
                             235,
-                            485
+                            485,
+                            548,
+                            711
                         ]
                     },
-                    "Josh M": {
-                        "Expensify APX GP": [
-                            248,
-                            432
-                        ]
-                    },
-                    "Sebastian M": {
-                        "Bridgestone Toro Rosso F1": [
-                            223,
-                            406
-                        ]
-                    },
-                    "Val M": {
-                        "No U Turn": [
-                            229,
-                            381
+                    "Phil M": {
+                        "BMW FTW": [
+                            220,
+                            355,
+                            394,
+                            604
                         ]
                     },
                     "Valerie M": {
                         "What Arrrgh Ya Doohan": [
                             50,
-                            12
+                            12,
+                            -22,
+                            -51
                         ]
                     },
                     "Madlen P": {
                         "Push, Push - Box Now Too": [
                             234,
-                            428
+                            428,
+                            470,
+                            619
+                        ]
+                    },
+                    "Finn R": {
+                        "Ro@d R@ge": [
+                            183,
+                            301,
+                            548,
+                            686
                         ]
                     },
                     "James R": {
                         "Bwoah Schweppes Puma Golf": [
                             53,
-                            22
+                            22,
+                            21,
+                            11
                         ]
                     },
                     "Will R": {
                         "The Big One(TM)": [
                             113,
-                            133
+                            133,
+                            160,
+                            163
                         ]
                     },
                     "Stuart S": {
-                        "Murder On Zidane's Floor": [
-                            265,
-                            386
+                        "Taylormade To Lose": [
+                            22,
+                            7,
+                            11,
+                            -30
                         ]
                     },
                     "Stefanus W": {
                         "Syahrul": [
                             180,
-                            404
+                            404,
+                            436,
+                            602
                         ]
                     }
                 },
@@ -1512,73 +1587,97 @@
                     "Alfie CJ": {
                         "Cucumberpotatolamborghini": [
                             51.0,
-                            21.5
+                            21.5,
+                            28.0,
+                            16.5
+                        ]
+                    },
+                    "Sam CJ": {
+                        "Total F1 Performance": [
+                            183.0,
+                            148.5,
+                            175.33,
+                            176.0
                         ]
                     },
                     "Pete J": {
                         "Seagiant F1 Online": [
                             77.0,
-                            36.5
+                            36.5,
+                            33.67,
+                            39.5
                         ]
                     },
                     "Patrick L": {
                         "You Hadjar Chance Racing": [
                             235.0,
-                            242.5
+                            242.5,
+                            182.67,
+                            177.75
                         ]
                     },
-                    "Josh M": {
-                        "Expensify APX GP": [
-                            248.0,
-                            216.0
-                        ]
-                    },
-                    "Sebastian M": {
-                        "Bridgestone Toro Rosso F1": [
-                            223.0,
-                            203.0
-                        ]
-                    },
-                    "Val M": {
-                        "No U Turn": [
-                            229.0,
-                            190.5
+                    "Phil M": {
+                        "BMW FTW": [
+                            220.0,
+                            177.5,
+                            131.33,
+                            151.0
                         ]
                     },
                     "Valerie M": {
                         "What Arrrgh Ya Doohan": [
                             50.0,
-                            6.0
+                            6.0,
+                            -7.33,
+                            -12.75
                         ]
                     },
                     "Madlen P": {
                         "Push, Push - Box Now Too": [
                             234.0,
-                            214.0
+                            214.0,
+                            156.67,
+                            154.75
+                        ]
+                    },
+                    "Finn R": {
+                        "Ro@d R@ge": [
+                            183.0,
+                            150.5,
+                            182.67,
+                            171.5
                         ]
                     },
                     "James R": {
                         "Bwoah Schweppes Puma Golf": [
                             53.0,
-                            11.0
+                            11.0,
+                            7.0,
+                            2.75
                         ]
                     },
                     "Will R": {
                         "The Big One(TM)": [
                             113.0,
-                            66.5
+                            66.5,
+                            53.33,
+                            40.75
                         ]
                     },
                     "Stuart S": {
-                        "Murder On Zidane's Floor": [
-                            265.0,
-                            193.0
+                        "Taylormade To Lose": [
+                            22.0,
+                            3.5,
+                            3.67,
+                            -7.5
                         ]
                     },
                     "Stefanus W": {
                         "Syahrul": [
                             180.0,
-                            202.0
+                            202.0,
+                            145.33,
+                            150.5
                         ]
                     }
                 }
@@ -1595,19 +1694,19 @@
         "Championship Winners": {
             "Champion of the World": [
                 "Syahrul",
-                3532
+                3730
             ],
             "If You're Not First, You're Last": [
                 "You Hadjar Chance Racing",
-                3321
+                3547
             ],
             "Alpine Podium": [
                 "Bridgestone Toro Rosso F1",
-                3280
+                3453
             ],
             "Above Par": [
                 "Taylormade To Lose",
-                5
+                -32
             ]
         }
     }

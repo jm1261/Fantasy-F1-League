@@ -190,5 +190,29 @@
         "DRS Boost": "Doohan",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Azerbaijan": {
+        "Driver 1": "Colapinto",
+        "Driver 2": "Stroll",
+        "Driver 3": "Ocon",
+        "Driver 4": "Lawson",
+        "Driver 5": "Doohan",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Doohan",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Singapore": {
+        "Driver 1": "Colapinto",
+        "Driver 2": "Stroll",
+        "Driver 3": "Ocon",
+        "Driver 4": "Gasly",
+        "Driver 5": "Doohan",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Doohan",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

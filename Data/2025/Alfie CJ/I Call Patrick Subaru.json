@@ -206,5 +206,29 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Azerbaijan": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Piastri",
+        "Driver 3": "Ocon",
+        "Driver 4": "Alonso",
+        "Driver 5": "Hadjar",
+        "Constructor 1": "Racing Bulls",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Singapore": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Piastri",
+        "Driver 3": "Ocon",
+        "Driver 4": "Alonso",
+        "Driver 5": "Hadjar",
+        "Constructor 1": "Racing Bulls",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

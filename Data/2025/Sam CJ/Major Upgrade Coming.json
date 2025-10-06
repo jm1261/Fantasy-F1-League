@@ -206,5 +206,29 @@
         "DRS Boost": "Hamilton",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Azerbaijan": {
+        "Driver 1": "Hamilton",
+        "Driver 2": "Alonso",
+        "Driver 3": "Russell",
+        "Driver 4": "Colapinto",
+        "Driver 5": "Hadjar",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Hamilton",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Singapore": {
+        "Driver 1": "Hamilton",
+        "Driver 2": "Alonso",
+        "Driver 3": "Russell",
+        "Driver 4": "Colapinto",
+        "Driver 5": "Hadjar",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Hamilton",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

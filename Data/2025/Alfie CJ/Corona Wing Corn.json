@@ -190,5 +190,29 @@
         "DRS Boost": "Albon",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Azerbaijan": {
+        "Driver 1": "Alonso",
+        "Driver 2": "Sainz",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Albon",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Albon",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Singapore": {
+        "Driver 1": "Alonso",
+        "Driver 2": "Sainz",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Albon",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Albon",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

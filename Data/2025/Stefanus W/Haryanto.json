@@ -212,5 +212,29 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "Wildcard"
+    },
+    "Azerbaijan": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Albon",
+        "Driver 3": "Leclerc",
+        "Driver 4": "Lawson",
+        "Driver 5": "Hadjar",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Singapore": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Albon",
+        "Driver 3": "Leclerc",
+        "Driver 4": "Sainz",
+        "Driver 5": "Hadjar",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

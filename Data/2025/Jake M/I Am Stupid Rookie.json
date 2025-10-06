@@ -190,5 +190,29 @@
         "DRS Boost": "Leclerc",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Azerbaijan": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Hadjar",
+        "Driver 3": "Lawson",
+        "Driver 4": "Bearman",
+        "Driver 5": "Antonelli",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Singapore": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Hadjar",
+        "Driver 3": "Lawson",
+        "Driver 4": "Bearman",
+        "Driver 5": "Antonelli",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

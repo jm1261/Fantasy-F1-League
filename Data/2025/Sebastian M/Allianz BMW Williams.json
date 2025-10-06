@@ -215,5 +215,29 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "Wildcard"
+    },
+    "Azerbaijan": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Norris",
+        "Driver 3": "Sainz",
+        "Driver 4": "Alonso",
+        "Driver 5": "Leclerc",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Singapore": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Norris",
+        "Driver 3": "Sainz",
+        "Driver 4": "Alonso",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Mercedes",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

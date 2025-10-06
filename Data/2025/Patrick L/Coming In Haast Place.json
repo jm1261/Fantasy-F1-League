@@ -190,5 +190,29 @@
         "DRS Boost": "Ocon",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Azerbaijan": {
+        "Driver 1": "Colapinto",
+        "Driver 2": "Stroll",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Bearman",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Colapinto",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Singapore": {
+        "Driver 1": "Colapinto",
+        "Driver 2": "Bortoleto",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Bearman",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Colapinto",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

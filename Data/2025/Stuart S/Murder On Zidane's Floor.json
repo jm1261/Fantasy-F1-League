@@ -209,5 +209,29 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Azerbaijan": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Bearman",
+        "Driver 3": "Piastri",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Hadjar",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Singapore": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Bearman",
+        "Driver 3": "Piastri",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Hadjar",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

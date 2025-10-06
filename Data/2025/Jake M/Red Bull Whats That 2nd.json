@@ -190,5 +190,29 @@
         "DRS Boost": "Norris",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "Azerbaijan": {
+        "Driver 1": "Norris",
+        "Driver 2": "Albon",
+        "Driver 3": "Ocon",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Russell",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Singapore": {
+        "Driver 1": "Norris",
+        "Driver 2": "Albon",
+        "Driver 3": "Ocon",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Russell",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }
