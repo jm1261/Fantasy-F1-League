@@ -3,10 +3,10 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "lime",
+    "bg_color": "cornsilk",
     "teams": [
         "Emmie Emster",
-        "Constructor Big Boys",
-        "The Girlies"
+        "The Girlies",
+        "Constructor Big Boys"
     ]
 }

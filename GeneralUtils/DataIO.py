@@ -1,18 +1,27 @@
+###############################################################################
+###############################################################################
+#                           File: Data Input/Output                           #
+#                             Author: Joshua Male                             #
+#     Description: Functions for general data input, output, and handling     #
+#                         Project: Fantasy F1 League                          #
+#                              Date: 02/05/2025                               #
+#                           Copyright © Joshua Male                           #
+###############################################################################
+###############################################################################
+
+# Imports
 import os
 import json
 import logging
 import numpy as np
-import matplotlib.pyplot as plt
 
 from pathlib import Path
-from matplotlib.image import imread
-from IPython.display import display, Image
 
-# Logging Parameters
+# Logging parameters
 logger = logging.getLogger(name=Path(__file__).stem)
 
 
-def load_json(file_path: os.PathLike) -> dict:
+def load_json(file_path: Path) -> dict:
     """
     Function Details
     ================
@@ -72,7 +81,7 @@ def convert(o: str) -> TypeError:
     raise TypeError
 
 
-def save_json_dicts(out_path: os.PathLike,
+def save_json_dicts(out_path: Path,
                     dictionary: dict) -> None:
     """
     Function Details
@@ -107,11 +116,77 @@ def save_json_dicts(out_path: os.PathLike,
         logger.info(f'{out_path} saved successfully')
 
 
+def check_dir_exists(directory_path: os.PathLike) -> None:
+    """
+    Function Details
+    ================
+    Checks directory path exists.
+
+    Parameters
+    ----------
+    directory_path: os.PathLike
+        Path to directory.
+
+    Returns
+    -------
+    None.
+
+    ---------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Updated documentation.
+
+    """
+    if os.path.isdir(directory_path) is False:
+        os.mkdir(directory_path)
+        logger.info(f'{directory_path} created successfully')
+
+
+def extractfile(directory_path: str,
+                file_string: str) -> list:
+    """
+    Function Details
+    ================
+    Find all files in a target directory.
+
+    Parameters
+    ----------
+    directory_path, file_string: string
+        Path to target directory. Target file string in file names.
+
+    Returns
+    -------
+    list: list
+        List of all files in the target directory that contain the desired file
+        string.
+
+    Notes
+    -----
+    Target file string can be any string contained within the file, it could be
+    a file name identifier (e.g., "Sample_A1"), a number (such as a date or
+    time string, e.g., "240516"), or a file extension (e.g., ".png").
+
+    ---------------------------------------------------------------------------
+    Update History
+    ==============
+
+    16/05/2024
+    ----------
+    Added to repository. Function has been part of a larger resource for a few
+    years.
+
+    """
+    return [file for file in os.listdir(directory_path) if file_string in file]
+
+
 class LoadConfigs:
     """
     Class Details
     =============
-    Loads the basic config files required to run the code.
+    Loads basic config files required to run the code.
 
     Attributes
     ----------
@@ -133,14 +208,6 @@ class LoadConfigs:
     load_seasoninfo
     get_completed_races
     _has_race_completed
-    get_lineup_results
-    get_weekly_lineup_score
-    get_lineup_stat
-    manager_results
-    managers_statistics
-    managers_counts
-    get_positions
-    gets_prizes
 
     ---------------------------------------------------------------------------
     Update History
@@ -156,10 +223,7 @@ class LoadConfigs:
 
     """
 
-    def __init__(
-            self,
-            root_directory: os.PathLike,
-            year: str) -> None:
+    def __init__(self, root_path: Path, year: str) -> None:
         """
         Function Details
         ================
@@ -185,15 +249,31 @@ class LoadConfigs:
         Created.
 
         """
-        self.root = Path(root_directory)
-        self.year = f'{year}'
-        self.data_path = Path(self.root, 'Data', self.year)
-        self.lineup_path = Path(self.data_path, 'Lineup')
-        self.format_path = Path(self.root, 'config')
-        self.manager_path = Path(self.data_path, 'Managers')
-        self.prizes_path = Path(self.root, 'Prizes')
+        self.root = root_path
+        self.year = year
+        self.data_path = Path(
+            self.root,
+            'Data',
+            self.year
+        )
+        self.lineup_path = Path(
+            self.data_path,
+            'Lineup'
+        )
+        self.format_path = Path(
+            self.root,
+            'config'
+        )
+        self.manager_path = Path(
+            self.data_path,
+            'Managers'
+        )
+        self.prizes_path = Path(
+            self.root,
+            'Prizes'
+        )
         self.info_dict = {}
-        logger.info('LoadConfigs initialized')
+        logger.info('LoadConfigs initialized successfully')
 
     def load_seasoninfo(self,
                         file_name: str) -> dict:
@@ -228,7 +308,7 @@ class LoadConfigs:
             )
         )
         self.info_dict = info_dictionary[f'{self.year}']
-        logger.info('Season info dictionary assigned')
+        logger.info(f'Season info dictionary assigned: {self.year}')
         return self.info_dict
 
     def get_completed_races(self,
@@ -307,37 +387,6 @@ class LoadConfigs:
         race_file = Path(self.lineup_path, f'{race}_Results.json')
         return race_file.is_file()
 
-    def get_lineups_results(self,
-                            file_name: str) -> dict:
-        """
-        Function Details
-        ================
-        Get lineup results dictionary.
-
-        Parameters
-        ----------
-        file_name: string
-            Lineup results dictionary name.
-
-        Returns
-        -------
-        lineup_results: dictionary
-            Lineup results for current year.
-
-        -----------------------------------------------------------------------
-        Update History
-        ==============
-
-        22/08/2024
-        ----------
-        Created from info_dictionary.
-
-        """
-        self.lineup_results = load_json(
-            file_path=Path(f'{self.lineup_path}/{file_name}'))
-        logger.info('Lineup results successfully assigned')
-        return self.lineup_results
-
     def get_weekly_lineup_score(self,
                                 file_name: str) -> dict:
         """
@@ -365,659 +414,250 @@ class LoadConfigs:
 
         """
         self.weekly_lineup = load_json(
-            file_path=Path(f'{self.data_path}/{file_name}'))
+            file_path=Path(
+                f'{self.data_path}',
+                f'{file_name}'))
         logger.info('Weekly lineup results successfully assigned')
         return self.weekly_lineup
 
-    def get_lineup_stat(self,
-                        file_name: str) -> dict:
-        """
-        Function Details
-        ================
-        Get lineup statistics dictionary.
 
-        Parameters
-        ----------
-        file_name: string
-            Lineup statistics dictionary name.
-
-        Returns
-        -------
-        lineup_stats: dictionary
-            Lineup statistics for current year.
-
-        -----------------------------------------------------------------------
-        Update History
-        ==============
-
-        05/11/2024
-        ----------
-        Created from get_lineup_results.
-
-        """
-        self.lineup_stats = load_json(
-            file_path=Path(f'{self.lineup_path}', f'{file_name}')
-        )
-        return self.lineup_stats
-
-    def manager_results(self,
-                        file_name: str) -> dict:
-        """
-        Function Details
-        ================
-        Get manager results dictionary.
-
-        Parameters
-        ----------
-        file_name: string
-            Manager dictionary name.
-
-        Returns
-        -------
-        manager_results: dictionary
-            Manager results for current year.
-
-        See Also
-        --------
-        load_json
-
-        Notes
-        -----
-        None.
-
-        Example
-        -------
-        None.
-
-        -----------------------------------------------------------------------
-        Update History
-        ==============
-
-        22/08/2024
-        ----------
-        Created from info_dictionary.
-
-        """
-        self.manager_results = load_json(
-            file_path=Path(f'{self.manager_path}/{file_name}'))
-
-    def managers_statistics(self,
-                            file_name: str) -> dict:
-        """
-        Function Details
-        ================
-        Get manager statistics dictionary.
-
-        Parameters
-        ----------
-        file_name: string
-            Manager dictionary name.
-
-        Returns
-        -------
-        manager_results: dictionary
-            Manager statistics for current year.
-
-        See Also
-        --------
-        load_json
-
-        Notes
-        -----
-        None.
-
-        Example
-        -------
-        None.
-
-        -----------------------------------------------------------------------
-        Update History
-        ==============
-
-        22/08/2024
-        ----------
-        Created from info_dictionary.
-
-        """
-        self.manager_statistics = load_json(
-            file_path=Path(f'{self.manager_path}/{file_name}'))
-
-    def managers_counts(self,
-                        file_name: str) -> dict:
-        """
-        Function Details
-        ================
-        Get manager counts dictionary.
-
-        Parameters
-        ----------
-        file_name: string
-            Manager dictionary name.
-
-        Returns
-        -------
-        manager_results: dictionary
-            Manager counts for current year.
-
-        See Also
-        --------
-        load_json
-
-        Notes
-        -----
-        None.
-
-        Example
-        -------
-        None.
-
-        -----------------------------------------------------------------------
-        Update History
-        ==============
-
-        22/08/2024
-        ----------
-        Created from info_dictionary.
-
-        """
-        self.manager_counts = load_json(
-            file_path=Path(f'{self.manager_path}/{file_name}'))
-
-    def get_positions(self) -> list:
-        """
-        Function Details
-        ================
-        Build a list of team positions to plot based on season info dictionary
-        list.
-
-        Parameters
-        ----------
-        None.
-
-        Returns
-        -------
-        positions: list
-            List of team sheet positions to plot.
-
-        -----------------------------------------------------------------------
-        Update History
-        ==============
-
-        16/12/2024
-        ----------
-        Copied from ManagerAnalysis.
-
-        17/12/2024
-        ----------
-        Updated for immutability.
-
-        """
-        # Base positions
-        positions = ["Driver", "Constructor", "Perks"]
-
-        # Extend positions based on year-specific perks and team data
-        year_positions = self.info_dict["Team"]
-        year_perks = self.info_dict["Perks"]
-
-        # Add perks if they match specific values
-        perks_to_add = {"Extra DRS", "Mega Driver"}
-        positions.extend(
-            [
-                perk
-                for perk in year_perks
-                if perk in perks_to_add
-            ]
-        )
-
-        # Add team positions if they match specific values
-        positions_to_add = {"DRS Boost", "Turbo"}
-        positions.extend(
-            [
-                position
-                for position in year_positions
-                if position in positions_to_add
-            ]
-        )
-
-        # Return a copy to ensure immutability
-        return positions[:]
-
-    def gets_prizes(self,
-                    file_name: str) -> dict:
-        """
-        Function Details
-        ================
-        Get prizes dictionary.
-
-        Parameters
-        ----------
-        file_name: string
-            Prizes dictionary name.
-
-        Returns
-        -------
-        prizes: dictionary
-            Prizes for current year.
-
-        See Also
-        --------
-        load_json
-
-        Notes
-        -----
-        None.
-
-        Example
-        -------
-        None.
-
-        -----------------------------------------------------------------------
-        Update History
-        ==============
-
-        22/08/2024
-        ----------
-        Created from info_dictionary.
-
-        """
-        self.prizes = load_json(
-            file_path=Path(f'{self.prizes_path}/{file_name}'))
-
-
-def display_img(file_path: str,
-                width: int,
-                height: int) -> None:
+class SeasonLaunch:
     """
-    Function Details
-    ================
-    Display image file as text.
+    Class Details
+    =============
+    Launches the season by creating necessary directories, manager configs,
+    team files, and lineup files.
 
-    Display image file as text in Jupyter notebook (or elsewhere).
-
-    Parameters
+    Attributes
     ----------
-    file_path: string
-        Path to image.
-
-    Returns
-    -------
-    Display
-        Prints a display to a Jupyter notebook
-
-    See Also
-    --------
-
-    Notes
-    -----
-    Uses the Ipython library to display an image file as a printed cell output
-    in Jupyter notebooks. The returned cell output is then displayed in the
-    html export.
-
-    Example
-    -------
-    None
-
-    ----------------------------------------------------------------------------
-    Update History
-    ==============
-
-    01/03/2024
-    ----------
-    Copied and documentation update.
-
-    03/05/2024
-    ----------
-    Removed height and width optionality.
-
-    """
-    display(Image(filename=file_path, width=width, height=height))
-
-
-def cm_to_inches(cm: float) -> float:
-    """
-    Returns centimeters as inches.
-
-    Parameters
-    ----------
-    cm : float
-        Value in centimeters.
-
-    Returns
-    -------
-    inches : float
-        Value in inches.
-
-    ----------------------------------------------------------------------------
-    Update History
-    ==============
-
-    24/07/2024
-    ----------
-    Update to documentation and conversion scalar.
-
-    """
-    return round(cm / 2.45, 2)
-
-
-def displays_images(file_paths: list) -> None:
-    """
-    Function Details
-    ================
-    Build a figure containing multiple images to Jupyter display.
-
-    Parameters
-    ----------
-    file_paths: list
-        List of image file paths.
-
-    Returns
-    -------
-    None.
-
-    ---------------------------------------------------------------------------
-    Update History
-    ==============
-
-    15/02/2025
-    ----------
-    Created.
-
-    """
-    number_images = len(file_paths)
-    number_columns = 2
-    number_rows = (number_images + number_columns - 1) // number_columns
-    fig, axes = plt.subplots(
-        nrows=number_rows,
-        ncols=number_columns,
-        figsize=[
-            cm_to_inches(cm=30 * number_columns),
-            cm_to_inches(cm=18 * number_rows)
-        ]
-    )
-    axes = axes.flatten()
-    for index, image_path in enumerate(file_paths):
-        image = imread(fname=image_path)
-        ax = axes[index]
-        ax.imshow(image)
-        ax.axis('off')
-    [fig.delaxes(axes[j]) for j in range(number_images, len(axes))]
-    fig.tight_layout()
-    plt.show()
-
-
-def mismatched_team(statistics_dictionary: dict,
-                    league_records: dict) -> dict:
-    """
-    Function Details
-    ================
-    Identify teams with mismatched points between statistics and the league
-    records.
-
-    Parameters
-    ----------
-    statistics_dictionary, league_records: dict
-        Manager statistics dictionary. League check dictionary, manual input.
-
-    Returns
-    -------
-    mismatched_teams: list
-        List of teams that do not match.
-
-    Notes
-    -----
-    Built on old manager_checked function.
-
-    ---------------------------------------------------------------------------
-    Update History
-    ==============
-
-    01/03/2024
-    ----------
-    Update to documentation.
-
-    13/12/2024
-    ----------
-    Change to function name and refactoring.
-
-    """
-    # Extract team names and their latest points
-    team_points = {
-        team: points[-1]
-        for teams in statistics_dictionary.get("Team Sum Points", {}).values()
-        for team, points in teams.items()
-    }
-
-    # Find teams with mismatched points
-    mismatched_teams = [
-        team for team, points in team_points.items()
-        if league_records.get(team) != points
-    ]
-
-    return mismatched_teams
-
-
-def check_dir_exists(directory_path: os.PathLike) -> None:
-    """
-    Function Details
-    ================
-    Checks directory path exists.
-
-    Parameters
-    ----------
-    directory_path: os.PathLike
-        Path to directory.
-
-    Returns
-    -------
-    None.
-
-    ---------------------------------------------------------------------------
-    Update History
-    ==============
-
-    01/03/2024
-    ----------
-    Updated documentation.
-
-    """
-    if os.path.isdir(directory_path) is False:
-        os.mkdir(directory_path)
-
-
-def seasons_directories(directory_path: str,
-                        managers: list) -> None:
-    """
-    Function Details
-    =================
-    Create essential directories for a new league.
-
-    Parameters
-    ----------
-    directory_path: string
-        Path to data directory.
-    managers: list
-        List of partaking managers.
-
-    Returns
-    -------
-    None.
-
-    ---------------------------------------------------------------------------
-    Update History
-    ==============
-
-    01/03/2024
-    ----------
-    Updated documentation.
-
-    """
-    [
-        check_dir_exists(
-            directory_path=Path(f'{directory_path}/{manager}'))
-        for manager in managers
-    ]
-    check_dir_exists(directory_path=Path(f'{directory_path}/Figures'))
-    check_dir_exists(directory_path=Path(f'{directory_path}/Lineup'))
-    check_dir_exists(directory_path=Path(f'{directory_path}/Managers'))
-    logger.info(
-        f'Season directories created: {directory_path}, '
-        f'/Figures, /Lineup, /Managers'
-    )
-
-
-def check_manager_exist(directory_path: str,
-                        managers: list) -> list:
-    """
-    Function Details
-    ================
-    Check to see if there are any new managers.
-
-    Parameters
-    ----------
-    directory_path: string
-        Path to manager format files.
-    managers: list
-        List of managers.
-
-    Returns
-    -------
+    root_path: Path
+        Path to root directory.
+    year: string
+        Year of season to launch.
     new_managers: list
-        List of all new managers.
-
-    ---------------------------------------------------------------------------
-    Update History
-    ==============
-
-    01/03/2024
-    ----------
-    Created.
-
-    """
-    new_managers = []
-    for manager in managers:
-        manager_path = Path(f'{directory_path}/{manager}.json')
-        if manager_path.is_file():
-            pass
-        else:
-            new_managers.append(manager)
-    logger.info(f'New managers: {new_managers}')
-    return new_managers
-
-
-def extractfile(directory_path: str,
-                file_string: str) -> list:
-    """
-    Function Details
-    ================
-    Find all files in a target directory.
-
-    Parameters
-    ----------
-    directory_path, file_string: string
-        Path to target directory. Target file string in file names.
-
-    Returns
-    -------
-    list: list
-        List of all files in the target directory that contain the desired file
-        string.
-
-    Notes
-    -----
-    Target file string can be any string contained within the file, it could be
-    a file name identifier (e.g., "Sample_A1"), a number (such as a date or
-    time string, e.g., "240516"), or a file extension (e.g., ".png").
-
-    ---------------------------------------------------------------------------
-    Update History
-    ==============
-
-    16/05/2024
-    ----------
-    Added to repository. Function has been part of a larger resource for a few
-    years.
-
-    """
-    return [file for file in os.listdir(directory_path) if file_string in file]
-
-
-def get_used_colors(directory_path: str) -> list:
-    """
-    Function Details
-    ================
-    Get a list of used manager format colors.
-
-    Parameters
-    ----------
-    directory_path: string
-        Path to manager format files.
-
-    Returns
-    -------
+        List of new managers to create format files for.
     used_colors: list
-        List of used colors.
+        List of used colors to avoid when creating new manager format files.
+
+    Methods
+    -------
+    __init__
+    _season_directories
+    check_manager_exists
+    get_used_colors
+    _adds_managers_team
 
     ---------------------------------------------------------------------------
     Update History
     ==============
 
-    01/03/2024
+    11/03/2026
     ----------
     Created.
 
     """
-    used_colors = []
-    manager_formats = extractfile(
-        directory_path=directory_path,
-        file_string='.json'
-    )
-    for file in manager_formats:
-        file_path = Path(f'{directory_path}', f'{file}')
-        manager_format = load_json(file_path=file_path)
-        used_colors.append(manager_format['bg_color'])
-    logger.info(f'Used colors: {used_colors}')
-    return used_colors
 
+    def __init__(self, root_path: Path, year: str) -> None:
+        """
+        Function Details
+        ================
+        Initialize SeasonLaunch class.
 
-def adds_managers_teams(directory_path: str,
-                        manager_dict: dict) -> None:
-    """
-    Function Details
-    ================
-    Add manager teams to manager format files.
+        Parameters
+        ----------
 
-    Parameters
-    ----------
-    directory_path: string
-        Path to manager formats.
-    manager_dict: dictionary
-        Manager and teams dictionary.
+        Returns
+        -------
+        None.
 
-    Returns
-    -------
-    None
+        -----------------------------------------------------------------------
+        Update History
+        ==============
 
-    ---------------------------------------------------------------------------
-    Update History
-    ==============
+        11/03/2026
+        ----------
+        Created.
 
-    19/03/2025
-    ----------
-    Documentation updated.
+        """
+        self.root = root_path
+        self.year = year
+        self.data_path = Path(
+            self.root,
+            'Data',
+            self.year
+        )
 
-    """
-    for manager, teams in manager_dict.items():
-        format_path = Path(f'{directory_path}/{manager}.json')
-        format_dict = load_json(file_path=format_path)
-        for team in teams:
-            if team in format_dict['teams']:
+    def _season_directories(self,
+                            managers: list) -> None:
+        """
+        Function Details
+        =================
+        Create essential directories for a new league.
+
+        Parameters
+        ----------
+        managers: list
+            List of partaking managers.
+
+        Returns
+        -------
+        None.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        01/03/2024
+        ----------
+        Updated documentation.
+
+        11/03/2026
+        ----------
+        Merged into class.
+
+        """
+        [
+            check_dir_exists(
+                directory_path=Path(f'{self.data_path}/{manager}'))
+            for manager in managers
+        ]
+        check_dir_exists(directory_path=Path(f'{self.data_path}/Figures'))
+        check_dir_exists(directory_path=Path(f'{self.data_path}/Lineup'))
+        check_dir_exists(directory_path=Path(f'{self.data_path}/Managers'))
+        logger.info(
+            f'Season directories created: {self.data_path}, '
+            f'/Figures, /Lineup, /Managers'
+        )
+
+    def check_manager_exist(self,
+                            config_path: Path,
+                            managers: list) -> None:
+        """
+        Function Details
+        ================
+        Check to see if there are any new managers.
+
+        Parameters
+        ----------
+        config_path: Path
+            Path to manager format files.
+        managers: list
+            List of managers.
+
+        Returns
+        -------
+        None.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        01/03/2024
+        ----------
+        Created.
+
+        11/03/2026
+        ----------
+        Merged into class.
+
+        """
+        self.new_managers = []
+        for manager in managers:
+            manager_path = Path(f'{config_path}/{manager}.json')
+            if manager_path.is_file():
                 pass
             else:
-                format_dict['teams'].append(team)
-        save_json_dicts(
-            out_path=format_path,
-            dictionary=format_dict)
-    logger.info('Manager teams added to format files')
+                self.new_managers.append(manager)
+        logger.info(f'New managers: {self.new_managers}')
+
+    def get_used_colors(self,
+                        config_path: Path) -> None:
+        """
+        Function Details
+        ================
+        Get a list of used manager format colors.
+
+        Parameters
+        ----------
+        directory_path: string
+            Path to manager format files.
+
+        Returns
+        -------
+        None.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        01/03/2024
+        ----------
+        Created.
+
+        11/03/2026
+        ----------
+        Merged into class.
+
+        """
+        self.used_colors = []
+        manager_formats = extractfile(
+            directory_path=config_path,
+            file_string='.json'
+        )
+        for file in manager_formats:
+            file_path = Path(f'{config_path}', f'{file}')
+            manager_format = load_json(file_path=file_path)
+            self.used_colors.append(manager_format['bg_color'])
+        logger.info(f'Used colors: {self.used_colors}')
+
+    def _adds_managers_team(self,
+                            config_path: Path,
+                            manager_dict: dict) -> None:
+        """
+        Function Details
+        ================
+        Add manager teams to manager format files.
+
+        Parameters
+        ----------
+        directory_path: string
+            Path to manager formats.
+        manager_dict: dictionary
+            Manager and teams dictionary.
+
+        Returns
+        -------
+        None
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        19/03/2025
+        ----------
+        Documentation updated.
+
+        11/03/2026
+        ----------
+        Merged into class.
+
+        """
+
+        for manager, teams in manager_dict.items():
+            format_path = Path(f'{config_path}/{manager}.json')
+            format_dict = load_json(file_path=format_path)
+
+            # Convert existing teams to a set for O(1) lookups and easy union
+            existing_teams = set(format_dict.get('teams', []))
+            new_teams = set(teams)
+
+            # Combine them and convert back to a list
+            format_dict['teams'] = list(existing_teams | new_teams)
+
+            save_json_dicts(
+                out_path=format_path,
+                dictionary=format_dict)
+        logger.info('Manager teams added to format files')
 
 
 def creates_driver_team_results(lineup_path: str,

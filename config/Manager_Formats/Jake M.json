@@ -3,20 +3,13 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "crimson",
+    "bg_color": "gray",
     "teams": [
-        "Meme Lords No Longer",
-        "2000s Ferrari copy 16",
-        "Fuck Daniel Ricciardo",
-        "A Sauber or Kick or Stake",
-        "An Oscar for breakfast",
-        "One Red Bull Car & Gasly",
-        "Brawn GP No_1",
-        "Kick Sauber In The Audi",
         "Red Bull Whats That 2nd",
-        "I Am Stupid Rookie",
-        "19th Times the Charm",
         "Norr2s Supremacy",
-        "Rory Eat Your Heart Out"
+        "Kick Sauber In The Audi",
+        "I Am Stupid Rookie",
+        "Rory Eat Your Heart Out",
+        "19th Times the Charm"
     ]
 }

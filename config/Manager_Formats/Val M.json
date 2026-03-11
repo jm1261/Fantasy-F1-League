@@ -3,18 +3,13 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "goldenrod",
+    "bg_color": "beige",
     "teams": [
-        "I Am Stubborn & Impatient",
-        "Time Is A One Way Street",
-        "My Fav'rit Colour Is Blue",
-        "Lap Time Deleted",
-        "Make A U Turn",
-        "Mater's Mates",
-        "Its 'odinge'",
         "No U Turn",
         "Limoncello44",
         "Toto's boy wonder",
-        "Red is the new black"
+        "Its 'odinge'",
+        "Red is the new black",
+        "My Fav'rit Colour Is Blue"
     ]
 }

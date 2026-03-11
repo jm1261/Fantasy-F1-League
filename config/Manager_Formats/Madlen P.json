@@ -3,18 +3,13 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "palegreen",
+    "bg_color": "papayawhip",
     "teams": [
-        "Go Boys Give Us Nothing",
-        "Asini rossi",
-        "Team Lemonade",
-        "Les eclairs",
-        "Maxy & The Boys",
-        "Wet Tyres Are Blue",
-        "Soft Tyres Are Red",
-        "Push, Push - Box Now Too",
-        "We are the champions",
         "Best of the rest",
-        "Is this our year"
+        "Soft Tyres Are Red",
+        "Is this our year",
+        "Push, Push - Box Now Too",
+        "Wet Tyres Are Blue",
+        "We are the champions"
     ]
 }

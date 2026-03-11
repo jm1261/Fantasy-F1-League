@@ -3,13 +3,11 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "teal",
+    "bg_color": "fuchsia",
     "teams": [
-        "Johnny UniHaas",
-        "Racing No Points",
-        "Coming In Haast Place",
+        "In Haast Place",
         "You Hadjar Chance Racing",
         "Charles' Eclair F1",
-        "In Haast Place"
+        "Coming In Haast Place"
     ]
 }

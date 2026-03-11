@@ -3,17 +3,12 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "sandybrown",
+    "bg_color": "lightblue",
     "teams": [
-        "Dinoco Piston Champions",
-        "Dinoco Piston Cup Champs",
-        "The Big One (TM)",
-        "Boogity Boogity Boogity",
-        "Push To Pass",
-        "The Big One",
+        "VER is Inevitable",
+        "Pay Drivers",
         "Axelrods Allinol Allstars",
         "The Big One(TM)",
-        "VER is Inevitable",
-        "Pay Drivers"
+        "Dinoco Piston Cup Champs"
     ]
 }

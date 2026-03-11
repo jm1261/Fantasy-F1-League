@@ -3,14 +3,12 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "blueviolet",
+    "bg_color": "tab:brown",
     "teams": [
-        "BMW Missed Opportunity",
         "BMW Should Be Here",
-        "BMW Motorrad",
-        "A Little Team",
         "BMW FTW",
-        "Loaded Arrows",
-        "Tangerine Dream"
+        "Tangerine Dream",
+        "BMW Motorrad",
+        "Loaded Arrows"
     ]
 }

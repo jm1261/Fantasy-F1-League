@@ -85,7 +85,7 @@ def launches_new_season(root: Path,
 
     # Initialize configuration instance and load season information
     config = io.LoadConfigs(
-        root_directory=root,
+        root_path=root,
         year=year
     )
 
@@ -95,24 +95,25 @@ def launches_new_season(root: Path,
 
     # Create Manager Folders
     managers = season_info['Managers'].keys()
-    io.seasons_directories(
-        directory_path=year_path,
+    launcher = io.SeasonLaunch(
+        root_path=root,
+        year=year
+    )
+    launcher._season_directories(managers=managers)
+    launcher.check_manager_exist(
+        config_path=Path(config.format_path, 'Manager_Formats'),
         managers=managers
     )
-    new_managers = io.check_manager_exist(
-        directory_path=Path(config.format_path, 'Manager_Formats'),
-        managers=managers
-    )
-    used_colors = io.get_used_colors(
-        directory_path=Path(config.format_path, 'Manager_Formats')
+    launcher.get_used_colors(
+        config_path=Path(config.format_path, 'Manager_Formats')
     )
     form.generate_manager_colors(
-        new_managers=new_managers,
-        used_colors=used_colors,
+        new_managers=launcher.new_managers,
+        used_colors=launcher.used_colors,
         directory_path=Path(config.format_path, 'Manager_Formats')
     )
-    io.adds_managers_teams(
-        directory_path=Path(config.format_path, 'Manager_Formats'),
+    launcher._adds_managers_team(
+        config_path=Path(config.format_path, 'Manager_Formats'),
         manager_dict=season_info['Managers']
     )
 

@@ -52,7 +52,6 @@ def generate_manager_colors(new_managers: list,
     colors = [color for color in all_colors if color not in used_colors]
     random.shuffle(colors)
     for index, manager in enumerate(new_managers):
-        print(manager, colors)
         manager_format = {
             'bold': 'True',
             'size': 12,
