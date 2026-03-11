@@ -220,5 +220,86 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Norris",
+        "Driver 2": "Lawson",
+        "Driver 3": "Alonso",
+        "Driver 4": "Piastri",
+        "Driver 5": "Sainz",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Mexico": {
+        "Driver 1": "Norris",
+        "Driver 2": "Lawson",
+        "Driver 3": "Alonso",
+        "Driver 4": "Verstappen",
+        "Driver 5": "Sainz",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Norris",
+        "Driver 2": "Bortoleto",
+        "Driver 3": "Alonso",
+        "Driver 4": "Verstappen",
+        "Driver 5": "Sainz",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Norris",
+        "Driver 2": "Bortoleto",
+        "Driver 3": "Alonso",
+        "Driver 4": "Antonelli",
+        "Driver 5": "Sainz",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Norris",
+        "Driver 2": "Bortoleto",
+        "Driver 3": "Alonso",
+        "Driver 4": "Piastri",
+        "Driver 5": "Lawson",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Piastri",
+        "Penalties": -10,
+        "Perks": ["Extra DRS", "Norris"]
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Norris",
+        "Driver 2": "Hadjar",
+        "Driver 3": "Alonso",
+        "Driver 4": "Piastri",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": [
+            "No Negative",
+            "Norris", 60,
+            "Hadjar", 6,
+            "Alonso", 17,
+            "Piastri", 28,
+            "Colapinto", 0,
+            "Mercedes", 37,
+            "Red Bull", 56
+        ]
     }
 }

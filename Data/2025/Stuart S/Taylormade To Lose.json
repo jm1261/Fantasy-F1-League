@@ -217,5 +217,77 @@
         "DRS Boost": "Doohan",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Bortoleto",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Doohan",
+        "Driver 4": "Lawson",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Doohan",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Mexico": {
+        "Driver 1": "Bortoleto",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Doohan",
+        "Driver 4": "Lawson",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Doohan",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Bortoleto",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Doohan",
+        "Driver 4": "Lawson",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Doohan",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Bortoleto",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Doohan",
+        "Driver 4": "Lawson",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Doohan",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Bortoleto",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Doohan",
+        "Driver 4": "Lawson",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Doohan",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Bortoleto",
+        "Driver 2": "Colapinto",
+        "Driver 3": "Doohan",
+        "Driver 4": "Lawson",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Doohan",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

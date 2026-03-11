@@ -1,0 +1,12 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "lemonchiffon",
+    "teams": [
+        "BandH Jordan F1",
+        "QNET Marussia F1",
+        "JPS Lotus F1"
+    ]
+}

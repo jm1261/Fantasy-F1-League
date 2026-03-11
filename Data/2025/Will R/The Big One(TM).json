@@ -214,5 +214,77 @@
         "DRS Boost": "Bortoleto",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Bortoleto",
+        "Driver 2": "Stroll",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Doohan",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Bortoleto",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Mexico": {
+        "Driver 1": "Bortoleto",
+        "Driver 2": "Stroll",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Doohan",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Bortoleto",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Bortoleto",
+        "Driver 2": "Stroll",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Doohan",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Bortoleto",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Bortoleto",
+        "Driver 2": "Stroll",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Doohan",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Bortoleto",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Bortoleto",
+        "Driver 2": "Stroll",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Doohan",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Bortoleto",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Bortoleto",
+        "Driver 2": "Stroll",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Doohan",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Bortoleto",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

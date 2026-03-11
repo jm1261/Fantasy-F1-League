@@ -214,5 +214,77 @@
         "DRS Boost": "Bortoleto",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Alonso",
+        "Driver 2": "Doohan",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Bortoleto",
+        "Driver 5": "Sainz",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Bortoleto",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Mexico": {
+        "Driver 1": "Alonso",
+        "Driver 2": "Doohan",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Bortoleto",
+        "Driver 5": "Sainz",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Bortoleto",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Alonso",
+        "Driver 2": "Doohan",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Bortoleto",
+        "Driver 5": "Sainz",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Bortoleto",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Alonso",
+        "Driver 2": "Doohan",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Bortoleto",
+        "Driver 5": "Sainz",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Bortoleto",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Alonso",
+        "Driver 2": "Doohan",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Bortoleto",
+        "Driver 5": "Sainz",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Bortoleto",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Alonso",
+        "Driver 2": "Doohan",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Bortoleto",
+        "Driver 5": "Sainz",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Bortoleto",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

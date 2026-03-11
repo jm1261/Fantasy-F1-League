@@ -239,5 +239,77 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Russell",
+        "Driver 2": "Alonso",
+        "Driver 3": "Sainz",
+        "Driver 4": "Lawson",
+        "Driver 5": "Piastri",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Russell",
+        "Penalties": 0,
+        "Perks": "Auto Pilot"
+    },
+    "Mexico": {
+        "Driver 1": "Russell",
+        "Driver 2": "Alonso",
+        "Driver 3": "Sainz",
+        "Driver 4": "Verstappen",
+        "Driver 5": "Gasly",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Russell",
+        "Driver 2": "Alonso",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Verstappen",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Russell",
+        "Driver 2": "Alonso",
+        "Driver 3": "Lawson",
+        "Driver 4": "Verstappen",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Lawson",
+        "Driver 2": "Alonso",
+        "Driver 3": "Norris",
+        "Driver 4": "Leclerc",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Lawson",
+        "Driver 2": "Alonso",
+        "Driver 3": "Norris",
+        "Driver 4": "Verstappen",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

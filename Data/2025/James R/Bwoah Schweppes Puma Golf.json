@@ -214,5 +214,77 @@
         "DRS Boost": "Doohan",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Bortoleto",
+        "Driver 2": "Hadjar",
+        "Driver 3": "Ocon",
+        "Driver 4": "Lawson",
+        "Driver 5": "Doohan",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Doohan",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Mexico": {
+        "Driver 1": "Bortoleto",
+        "Driver 2": "Hadjar",
+        "Driver 3": "Ocon",
+        "Driver 4": "Lawson",
+        "Driver 5": "Doohan",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Doohan",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Bortoleto",
+        "Driver 2": "Hadjar",
+        "Driver 3": "Ocon",
+        "Driver 4": "Lawson",
+        "Driver 5": "Doohan",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Doohan",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Bortoleto",
+        "Driver 2": "Hadjar",
+        "Driver 3": "Ocon",
+        "Driver 4": "Lawson",
+        "Driver 5": "Doohan",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Doohan",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Bortoleto",
+        "Driver 2": "Hadjar",
+        "Driver 3": "Ocon",
+        "Driver 4": "Lawson",
+        "Driver 5": "Doohan",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Doohan",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Bortoleto",
+        "Driver 2": "Hadjar",
+        "Driver 3": "Ocon",
+        "Driver 4": "Lawson",
+        "Driver 5": "Doohan",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Doohan",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

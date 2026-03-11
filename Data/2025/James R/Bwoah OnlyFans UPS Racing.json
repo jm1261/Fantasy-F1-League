@@ -214,5 +214,77 @@
         "DRS Boost": "Sainz",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Hulkenberg",
+        "Driver 2": "Bortoleto",
+        "Driver 3": "Gasly",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Sainz",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Mexico": {
+        "Driver 1": "Hulkenberg",
+        "Driver 2": "Bortoleto",
+        "Driver 3": "Gasly",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Sainz",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Hulkenberg",
+        "Driver 2": "Bortoleto",
+        "Driver 3": "Gasly",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Sainz",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Hulkenberg",
+        "Driver 2": "Bortoleto",
+        "Driver 3": "Gasly",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Sainz",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Hulkenberg",
+        "Driver 2": "Bortoleto",
+        "Driver 3": "Gasly",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Sainz",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Hulkenberg",
+        "Driver 2": "Bortoleto",
+        "Driver 3": "Gasly",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Sainz",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Ferrari",
+        "DRS Boost": "Sainz",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

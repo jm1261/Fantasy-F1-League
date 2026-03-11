@@ -214,5 +214,77 @@
         "DRS Boost": "Colapinto",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Colapinto",
+        "Driver 2": "Ocon",
+        "Driver 3": "Stroll",
+        "Driver 4": "Bearman",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Colapinto",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Mexico": {
+        "Driver 1": "Colapinto",
+        "Driver 2": "Ocon",
+        "Driver 3": "Stroll",
+        "Driver 4": "Bortoleto",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Colapinto",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Colapinto",
+        "Driver 2": "Ocon",
+        "Driver 3": "Stroll",
+        "Driver 4": "Bearman",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Colapinto",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Colapinto",
+        "Driver 2": "Bortoleto",
+        "Driver 3": "Stroll",
+        "Driver 4": "Ocon",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Colapinto",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Colapinto",
+        "Driver 2": "Bortoleto",
+        "Driver 3": "Stroll",
+        "Driver 4": "Ocon",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Colapinto",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Colapinto",
+        "Driver 2": "Bortoleto",
+        "Driver 3": "Stroll",
+        "Driver 4": "Ocon",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "Alpine",
+        "DRS Boost": "Colapinto",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

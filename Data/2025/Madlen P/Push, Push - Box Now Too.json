@@ -233,5 +233,77 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Albon",
+        "Driver 3": "Alonso",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Antonelli",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Mexico": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Albon",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Antonelli",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Albon",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Antonelli",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Albon",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Antonelli",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Verstappen",
+        "Driver 3": "Norris",
+        "Driver 4": "Russell",
+        "Driver 5": "Antonelli",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "Limitless"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Albon",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Antonelli",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "Auto Pilot"
     }
 }

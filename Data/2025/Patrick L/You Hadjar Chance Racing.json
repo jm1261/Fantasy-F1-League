@@ -214,5 +214,96 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Sainz",
+        "Driver 3": "Piastri",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Bortoleto",
+        "Constructor 1": "Alpine",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": [
+            "No Negative",
+            "Verstappen",
+            48,
+            "Sainz",
+            17,
+            "Piastri",
+            36,
+            "Hadjar",
+            8,
+            "Bortoleto",
+            19,
+            "Alpine",
+            25,
+            "McLaren",
+            62
+        ]
+    },
+    "Mexico": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Gasly",
+        "Driver 3": "Norris",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "Alpine",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Gasly",
+        "Driver 3": "Norris",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "Kick Sauber",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": [
+            "Extra DRS",
+            "Norris"
+        ]
+    },
+    "Las Vegas": {
+        "Driver 1": "Antonelli",
+        "Driver 2": "Gasly",
+        "Driver 3": "Leclerc",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "Wildcard"
+    },
+    "Qatar": {
+        "Driver 1": "Antonelli",
+        "Driver 2": "Gasly",
+        "Driver 3": "Leclerc",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Antonelli",
+        "Driver 2": "Alonso",
+        "Driver 3": "Piastri",
+        "Driver 4": "Hulkenberg",
+        "Driver 5": "Hadjar",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "Auto Pilot"
     }
 }

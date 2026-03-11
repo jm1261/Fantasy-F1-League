@@ -236,5 +236,80 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Piastri",
+        "Driver 3": "Lawson",
+        "Driver 4": "Sainz",
+        "Driver 5": "Hadjar",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": [
+            "Extra DRS",
+            "Verstappen"
+        ]
+    },
+    "Mexico": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Piastri",
+        "Driver 3": "Lawson",
+        "Driver 4": "Sainz",
+        "Driver 5": "Tsunoda",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Norris",
+        "Driver 3": "Lawson",
+        "Driver 4": "Sainz",
+        "Driver 5": "Bortoleto",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Antonelli",
+        "Driver 2": "Norris",
+        "Driver 3": "Lawson",
+        "Driver 4": "Sainz",
+        "Driver 5": "Ocon",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Mercedes",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Norris",
+        "Driver 3": "Lawson",
+        "Driver 4": "Sainz",
+        "Driver 5": "Ocon",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Norris",
+        "Driver 3": "Lawson",
+        "Driver 4": "Antonelli",
+        "Driver 5": "Ocon",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

@@ -1,6 +1,7 @@
 import os
 import random
 import logging
+import matplotlib.colors as mcolors
 
 from pathlib import Path
 from GeneralUtils.DataIO import load_json, save_json_dicts
@@ -37,18 +38,21 @@ def generate_manager_colors(new_managers: list,
     Update to documentation.
 
     """
-    all_colors = [
-        'dimgrey', 'silver', 'rosybrown', 'lightcoral', 'tomato', 'chocolate',
-        'sandybrown', 'peru', 'darkorange', 'wheat', 'goldenrod', 'khaki',
-        'olive', 'darkolivegreen', 'palegreen', 'lime', 'aquamarine',
-        'turquoise', 'teal', 'cyan', 'skyblue', 'dodgerblue', 'slategrey',
-        'royalblue', 'mediumblue', 'slateblue', 'blueviolet',
-        'indigo', 'thistle', 'plum', 'violet', 'purple', 'magenta', 'orchid',
-        'hotpink', 'crimson', 'brown', 'tan', 'lawngreen', 'cadetblue',
-        'rebeccapurple', 'midnightblue']
+
+    # This dictionary contains all CSS4 named colors
+    all_named_colors = list(mcolors.CSS4_COLORS.keys())
+
+    # This includes the shorthand base colors (like 'r', 'g', 'b')
+    base_colors = list(mcolors.BASE_COLORS.keys())
+
+    # This includes the Tableau palette
+    tableau_colors = list(mcolors.TABLEAU_COLORS.keys())
+
+    all_colors = all_named_colors + base_colors + tableau_colors
     colors = [color for color in all_colors if color not in used_colors]
     random.shuffle(colors)
     for index, manager in enumerate(new_managers):
+        print(manager, colors)
         manager_format = {
             'bold': 'True',
             'size': 12,

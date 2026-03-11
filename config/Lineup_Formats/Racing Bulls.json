@@ -1,4 +1,16 @@
 {
+    "2026": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#163c92",
+        "color": "#e5e7eb",
+        "drivers": [
+            "Linblad",
+            "Lawson"
+        ]
+    },
     "2025": {
         "bold": "True",
         "size": 12,

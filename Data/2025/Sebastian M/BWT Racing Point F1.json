@@ -239,5 +239,77 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Norris",
+        "Driver 2": "Piastri",
+        "Driver 3": "Lawson",
+        "Driver 4": "Albon",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Aston Martin",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Albon",
+        "Penalties": 0,
+        "Perks": "Auto Pilot"
+    },
+    "Mexico": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Russell",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Albon",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "Wildcard"
+    },
+    "Brazil": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Russell",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Norris",
+        "Driver 2": "Russell",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Lawson",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Norris",
+        "Driver 2": "Piastri",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Lawson",
+        "Driver 5": "Sainz",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Norris",
+        "Driver 2": "Piastri",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Lawson",
+        "Driver 5": "Sainz",
+        "Constructor 1": "Racing Bulls",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

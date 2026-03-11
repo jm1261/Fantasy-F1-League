@@ -214,5 +214,77 @@
         "DRS Boost": "Albon",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Alonso",
+        "Driver 2": "Sainz",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Albon",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Albon",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Mexico": {
+        "Driver 1": "Alonso",
+        "Driver 2": "Sainz",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Albon",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Albon",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Alonso",
+        "Driver 2": "Sainz",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Albon",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Albon",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Alonso",
+        "Driver 2": "Sainz",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Albon",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Albon",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Alonso",
+        "Driver 2": "Sainz",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Albon",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Albon",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Alonso",
+        "Driver 2": "Sainz",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Albon",
+        "Driver 5": "Colapinto",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "McLaren",
+        "DRS Boost": "Albon",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

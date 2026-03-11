@@ -214,5 +214,77 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Piastri",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Tsunoda RB",
+        "Driver 5": "Alonso",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Mexico": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Piastri",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Tsunoda RB",
+        "Driver 5": "Alonso",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Piastri",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Tsunoda RB",
+        "Driver 5": "Alonso",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Piastri",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Tsunoda RB",
+        "Driver 5": "Alonso",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Piastri",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Tsunoda RB",
+        "Driver 5": "Alonso",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Piastri",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Tsunoda RB",
+        "Driver 5": "Alonso",
+        "Constructor 1": "Williams",
+        "Constructor 2": "Red Bull",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

@@ -214,5 +214,77 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Piastri",
+        "Driver 3": "Alonso",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Gasly",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Mexico": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Piastri",
+        "Driver 3": "Alonso",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Gasly",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Piastri",
+        "Driver 3": "Alonso",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Gasly",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Piastri",
+        "Driver 3": "Alonso",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Gasly",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Piastri",
+        "Driver 3": "Alonso",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Gasly",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Sainz",
+        "Driver 2": "Piastri",
+        "Driver 3": "Alonso",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Gasly",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

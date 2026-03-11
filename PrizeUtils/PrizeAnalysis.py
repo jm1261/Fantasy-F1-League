@@ -65,6 +65,7 @@ class PrizeProcessor:
             manager_results: dict,
             manager_statistics: dict,
             manager_counts: dict,
+            lineup_results: dict,
             completed_races: list) -> None:
         """
         Function Details
@@ -77,6 +78,8 @@ class PrizeProcessor:
             Season info dictionary, season prizes dictionary.
         manager_results, manager_statistics, manager_counts: dict
             Manager results, statistics, and counts dictionaries.
+        lineup_results: dict
+            Dictionary containing lineup results.
         completed_races: list
             List of completed_races.
 
@@ -98,6 +101,7 @@ class PrizeProcessor:
         self.results_dictionary = manager_results
         self.statistics_dictionary = manager_statistics
         self.counts_dictionary = manager_counts
+        self.lineup_results = lineup_results
         self.completed_races = completed_races
         logger.info('Prize processor initialized')
 
@@ -1016,6 +1020,94 @@ class PrizeProcessor:
 
         return most_substitutes
 
+    def _extra_drs(self) -> dict:
+        """
+        Function Details
+        ================
+        Find the team with the highest score for extra DRS use in a year.
+
+        Parameters
+        ----------
+        None.
+
+        Returns
+        -------
+        most_extra_drs: dict
+            Dictionary containing top three teams with highest extra DRS use.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        09/12/2025
+        ----------
+        Created.
+
+        """
+        # Find index of Extra DRS use
+        team_extra_drs_counts = {}
+        team_extra_drs = self.counts_dictionary["Teams Extra DRS"]
+        for manager, teams in team_extra_drs.items():
+            if not teams:
+                pass
+
+            if manager not in team_extra_drs_counts:
+                team_extra_drs_counts[manager] = {}
+
+            for team, driver_dict in teams.items():
+                try:
+                    driver_name, one_list = next(iter(driver_dict.items()))
+                except StopIteration:
+                    continue
+
+                index_of_use = one_list.index(1)
+
+                # Store the index of use (which is the race index)
+                team_extra_drs_counts[manager][team] = {
+                    driver_name: index_of_use
+                }
+
+        # Find scores for that use
+        team_extra_drs_scores = {}
+        for manager, team_dict in team_extra_drs_counts.items():
+            if not team_dict:
+                print(f'{manager} has no extra DRS use')
+                continue
+
+            for team, driver_index_dict in team_dict.items():
+
+                for driver_name, use_index in driver_index_dict.items():
+
+                    # 1. Get the actual score
+                    driver_points = self.lineup_results['Driver Points']
+                    if driver_name not in driver_points or use_index >= len(driver_points[driver_name]):
+                        print(f"Warning: Missing driver points data for {driver_name} at index {use_index}. Skipping.")
+                        continue
+                    driver_score = (driver_points[driver_name][use_index])
+                    triple_score = driver_score * 3
+
+                    # 2. Get the Race Name using the index
+                    try:
+                        race_name = self.completed_races[use_index]
+                    except IndexError:
+                        race_name = f"Race Index {use_index} (Error)"
+
+                    # 3. Store the result, using the UNIQUE 'team' name as key
+                    team_extra_drs_scores[team] = {
+                        'score': triple_score,
+                        'race': race_name,
+                        'driver': driver_name,
+                        'manager': manager
+                    }
+
+        # Sort dict
+        sorted_scores = sorted(
+            team_extra_drs_scores.items(),
+            key=lambda item: item[1]['score'],
+            reverse=True
+        )
+        return sorted_scores
+
     def _achievements_prizes(self) -> dict:
         """
         Function Details
@@ -1050,7 +1142,8 @@ class PrizeProcessor:
             "Highest Value": self._highest_value,
             "Manager of the Year": self._manager_of_the_year,
             "Highest Average Points Per Value": self._efficiency_of_the_year,
-            "Substitutions": self._substitutions
+            "Substitutions": self._substitutions,
+            "Extra DRS": self._extra_drs
         }
 
         prize_winners = {}

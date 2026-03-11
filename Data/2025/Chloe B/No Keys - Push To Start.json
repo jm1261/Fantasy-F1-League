@@ -230,5 +230,77 @@
         "DRS Boost": "Hamilton",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Hamilton",
+        "Driver 2": "Bearman",
+        "Driver 3": "Lawson",
+        "Driver 4": "Sainz",
+        "Driver 5": "Albon",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Hamilton",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Mexico": {
+        "Driver 1": "Hamilton",
+        "Driver 2": "Bearman",
+        "Driver 3": "Lawson",
+        "Driver 4": "Sainz",
+        "Driver 5": "Albon",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Hamilton",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Hamilton",
+        "Driver 2": "Bearman",
+        "Driver 3": "Lawson",
+        "Driver 4": "Sainz",
+        "Driver 5": "Albon",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Hamilton",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Hamilton",
+        "Driver 2": "Bearman",
+        "Driver 3": "Lawson",
+        "Driver 4": "Sainz",
+        "Driver 5": "Albon",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Hamilton",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Hamilton",
+        "Driver 2": "Bearman",
+        "Driver 3": "Lawson",
+        "Driver 4": "Sainz",
+        "Driver 5": "Albon",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Hamilton",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Hamilton",
+        "Driver 2": "Bearman",
+        "Driver 3": "Lawson",
+        "Driver 4": "Sainz",
+        "Driver 5": "Albon",
+        "Constructor 1": "Ferrari",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Hamilton",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

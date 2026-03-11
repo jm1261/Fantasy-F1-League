@@ -1,4 +1,161 @@
 {
+    "2026": {
+        "Team": [
+            "Driver 1",
+            "Driver 2",
+            "Driver 3",
+            "Driver 4",
+            "Driver 5",
+            "Constructor 1",
+            "Constructor 2",
+            "DRS Boost",
+            "Penalties",
+            "Perks"
+        ],
+        "Perks": [
+            "Wildcard",
+            "Limitless",
+            "Final Fix",
+            "Auto Pilot",
+            "Extra DRS",
+            "No Negative"
+        ],
+        "Races": [
+            "Australia",
+            "China",
+            "Japan",
+            "Bahrain",
+            "Saudi Arabia",
+            "Miami",
+            "Canada",
+            "Monaco",
+            "Barcelona",
+            "Austria",
+            "Great Britain",
+            "Belgium",
+            "Hungary",
+            "Netherlands",
+            "Italy",
+            "Spain",
+            "Azerbaijan",
+            "Singapore",
+            "United States",
+            "Mexico",
+            "Brazil",
+            "Las Vegas",
+            "Qatar",
+            "Abu Dhabi"
+        ],
+        "Statistics": [
+            "Total",
+            "Total Points/Value",
+            "Average",
+            "Average Points/Value",
+            "Standard Deviation",
+            "Maximum",
+            "Minimum",
+            "Range"
+        ],
+        "Managers": {
+            "Phil M": [
+                "BMW Should Be Here",
+                "Loaded Arrows",
+                "Tangerine Dream"
+            ],
+            "Val M": [
+                "My Fav'rit Colour Is Blue",
+                "Toto's boy wonder",
+                "Red is the new black"
+            ],
+            "Stefanus W": [
+                "Gelael",
+                "Syahrul",
+                "Haryanto"
+            ],
+            "Stuart S": [
+                "Jackie Stewarts TartanCap",
+                "Lotus Side Skirt",
+                "Tyrell P34 6 wheel buggy"
+            ],
+            "Leah M": [
+                "Emmie Emster",
+                "Constructor Big Boys",
+                "The Girlies"
+            ],
+            "Katie T": [
+                "OreoTheStretfordCat",
+                "DenverDogg",
+                "WeasyWoo"
+            ],
+            "Patrick L": [
+                "Charles' Eclair F1",
+                "In Haast Place"
+            ],
+            "Samuel F": [
+                "P2 and Last",
+                "Midfielde Running",
+                "Kimi's angles"
+            ],
+            "Cameron M": [
+                "compression",
+                "lights out and awaywego",
+                "pink power"
+            ],
+            "Maximilian M": [
+                "BandH Jordan F1",
+                "QNET Marussia F1",
+                "JPS Lotus F1"
+            ],
+            "Darren C": [
+                "Norfolkandchance"
+            ],
+            "Will R": [
+                "Dinoco Piston Cup Champs",
+                "VER is Inevitable",
+                "Pay Drivers"
+            ],
+            "Madlen P": [
+                "We are the champions",
+                "Best of the rest",
+                "Is this our year"
+            ],
+            "Matty J": [
+                "Bang Average Senna",
+                "Softbulls",
+                "4 out of 10"
+            ],
+            "Sam CJ": [
+                "HassleClack",
+                "TeamGain",
+                "PadCocks"
+            ],
+            "Jessica A": [
+                "Behlel",
+                "Medley Zon",
+                "Emien Rays"
+            ],
+            "Josh M": [
+                "Kingfisher Force India",
+                "Panasonic Toyota Racing",
+                "HSBC Jaguar Racing"
+            ],
+            "Jake M": [
+                "19th Times the Charm",
+                "Norr2s Supremacy",
+                "Rory Eat Your Heart Out"
+            ],
+            "Chloe B": [
+                "RusteezeRacers",
+                "Old Man Club",
+                "No Strolling Here"
+            ],
+            "Valerie M": [
+                "Stroll to the 18th",
+                "Perez for world champion",
+                "Audi boys"
+            ]
+        }
+    },
     "2025": {
         "Team": [
             "Driver 1",

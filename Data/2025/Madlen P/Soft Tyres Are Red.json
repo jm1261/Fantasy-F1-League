@@ -217,5 +217,86 @@
         "DRS Boost": "Leclerc",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Sainz",
+        "Driver 3": "Alonso",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Albon",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Mexico": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Sainz",
+        "Driver 3": "Bearman",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Albon",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Sainz",
+        "Driver 3": "Bearman",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Albon",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Sainz",
+        "Driver 3": "Bearman",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Albon",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Russell",
+        "Driver 3": "Norris",
+        "Driver 4": "Verstappen",
+        "Driver 5": "Piastri",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Mercedes",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "Limitless"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Sainz",
+        "Driver 3": "Bearman",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Albon",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": [
+            "No Negative",
+            "Leclerc", 70,
+            "Sainz", 4,
+            "Bearman", 7,
+            "Hadjar", 6,
+            "Albon", 10,
+            "McLaren", 77,
+            "Racing Bulls", 19
+        ]
     }
 }

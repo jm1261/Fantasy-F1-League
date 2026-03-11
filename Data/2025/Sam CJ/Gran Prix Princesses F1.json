@@ -230,5 +230,77 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Russell",
+        "Driver 2": "Piastri",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Alonso",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Mexico": {
+        "Driver 1": "Russell",
+        "Driver 2": "Piastri",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Alonso",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Russell",
+        "Driver 2": "Piastri",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Alonso",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Russell",
+        "Driver 2": "Piastri",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Alonso",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Russell",
+        "Driver 2": "Piastri",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Alonso",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Russell",
+        "Driver 2": "Piastri",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Alonso",
+        "Driver 5": "Gasly",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "Aston Martin",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

@@ -1,0 +1,12 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "lime",
+    "teams": [
+        "Emmie Emster",
+        "Constructor Big Boys",
+        "The Girlies"
+    ]
+}

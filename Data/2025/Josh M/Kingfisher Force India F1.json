@@ -239,5 +239,77 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Verstappen",
+        "Driver 3": "Hadjar",
+        "Driver 4": "Sainz",
+        "Driver 5": "Ocon",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "Auto Pilot"
+    },
+    "Mexico": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Verstappen",
+        "Driver 3": "Gasly",
+        "Driver 4": "Sainz",
+        "Driver 5": "Alonso",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Verstappen",
+        "Driver 3": "Bearman",
+        "Driver 4": "Sainz",
+        "Driver 5": "Alonso",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Norris",
+        "Driver 3": "Bearman",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Alonso",
+        "Constructor 1": "Mercedes",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Norris",
+        "Driver 3": "Bortoleto",
+        "Driver 4": "Hadjar",
+        "Driver 5": "Alonso",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Norris",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Sainz",
+        "Driver 5": "Alonso",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "Kick Sauber",
+        "DRS Boost": "Norris",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

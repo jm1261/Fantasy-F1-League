@@ -230,5 +230,77 @@
         "DRS Boost": "Verstappen",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Hadjar",
+        "Driver 3": "Colapinto",
+        "Driver 4": "Sainz",
+        "Driver 5": "Bearman",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Mexico": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Hadjar",
+        "Driver 3": "Lawson",
+        "Driver 4": "Sainz",
+        "Driver 5": "Bearman",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Piastri",
+        "Driver 3": "Norris",
+        "Driver 4": "Russell",
+        "Driver 5": "Leclerc",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Mercedes",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "Limitless"
+    },
+    "Las Vegas": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Hadjar",
+        "Driver 3": "Lawson",
+        "Driver 4": "Sainz",
+        "Driver 5": "Bearman",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Hadjar",
+        "Driver 3": "Lawson",
+        "Driver 4": "Sainz",
+        "Driver 5": "Bearman",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Verstappen",
+        "Penalties": 0,
+        "Perks": ["Final Fix", "Lawson", 4, "Alonso", 13]
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Verstappen",
+        "Driver 2": "Hadjar",
+        "Driver 3": "Lawson",
+        "Driver 4": "Sainz",
+        "Driver 5": "Bearman",
+        "Constructor 1": "McLaren",
+        "Constructor 2": "Williams",
+        "DRS Boost": "Hadjar",
+        "Penalties": 0,
+        "Perks": ["Extra DRS", "Verstappen"]
     }
 }

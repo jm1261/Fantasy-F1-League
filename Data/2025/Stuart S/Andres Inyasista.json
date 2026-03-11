@@ -233,5 +233,77 @@
         "DRS Boost": "Piastri",
         "Penalties": 0,
         "Perks": "None"
+    },
+    "United States": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Norris",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Stroll",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Mexico": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Norris",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Stroll",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Brazil": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Norris",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Stroll",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Las Vegas": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Norris",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Stroll",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Qatar": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Norris",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Stroll",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "Abu Dhabi": {
+        "Driver 1": "Piastri",
+        "Driver 2": "Norris",
+        "Driver 3": "Hulkenberg",
+        "Driver 4": "Stroll",
+        "Driver 5": "Bearman",
+        "Constructor 1": "Haas",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Piastri",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

@@ -1,0 +1,14 @@
+{
+    "2026": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#010a13",
+        "color": "#cbdfde",
+        "drivers": [
+            "Perez",
+            "Bottas"
+        ]
+    }
+}
