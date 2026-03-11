@@ -52,6 +52,7 @@ def managers_prizes(root: str,
     config.manager_results(file_name='Results.json')
     config.managers_statistics(file_name='Statistics.json')
     config.managers_counts(file_name='Counts.json')
+    config.get_lineups_results(file_name='Results.json')
     logger.info('Lineup configs loaded successfully')
 
     # Get Prizes
@@ -66,6 +67,7 @@ def managers_prizes(root: str,
         manager_results=config.manager_results,
         manager_statistics=config.manager_statistics,
         manager_counts=config.manager_counts,
+        lineup_results=config.lineup_results,
         completed_races=completed_races
     )
     prizes_dict = prizes_processor._process_prizes(categories=prize_keys)

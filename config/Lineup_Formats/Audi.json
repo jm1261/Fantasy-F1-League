@@ -1,0 +1,14 @@
+{
+    "2026": {
+        "bold": "True",
+        "size": 12,
+        "align": "centre",
+        "font": "Arial",
+        "bg_color": "#000000",
+        "color": "#fc3a18",
+        "drivers": [
+            "Hulkenberg",
+            "Bortoleto"
+        ]
+    }
+}

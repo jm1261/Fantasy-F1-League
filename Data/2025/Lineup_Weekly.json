@@ -4,134 +4,138 @@
         "Value"
     ],
     "Race": [
-        "Saudi Arabia"
+        "Brazil"
     ],
     "Gasly": [
-        -11,
-        9.4
+        54,
+        4.7
     ],
     "Doohan": [
-        0,
-        5.6
-    ],
-    "Stroll": [
-        43,
-        9.7
-    ],
-    "Alonso": [
-        -20,
-        6.8
-    ],
-    "Leclerc": [
-        65,
-        24.7
-    ],
-    "Hamilton": [
-        66,
-        23.2
-    ],
-    "Ocon": [
-        54,
-        9.3
-    ],
-    "Bearman": [
-        53,
-        7.9
-    ],
-    "Hulkenberg": [
-        6,
-        7.2
-    ],
-    "Bortoleto": [
-        -6,
+        "Inactive Sprint",
         4.5
     ],
+    "Colapinto": [
+        2,
+        4.7
+    ],
+    "Stroll": [
+        144,
+        8.5
+    ],
+    "Alonso": [
+        27,
+        5.5
+    ],
+    "Leclerc": [
+        344,
+        23.3
+    ],
+    "Hamilton": [
+        335,
+        22.8
+    ],
+    "Ocon": [
+        141,
+        6.5
+    ],
+    "Bearman": [
+        207,
+        8.3
+    ],
+    "Hulkenberg": [
+        130,
+        6.8
+    ],
+    "Bortoleto": [
+        53,
+        7.3
+    ],
     "Norris": [
-        195,
-        30.0
+        663,
+        30.4
     ],
     "Piastri": [
-        162,
-        23.4
-    ],
-    "Russell": [
-        125,
-        22.0
-    ],
-    "Antonelli": [
-        113,
-        19.7
-    ],
-    "Tsunoda RB": [
-        "Inactive",
-        9.0
-    ],
-    "Lawson": [
-        12,
-        7.2
-    ],
-    "Hadjar": [
-        12,
-        5.1
-    ],
-    "Verstappen": [
-        155,
-        28.8
-    ],
-    "Tsunoda": [
-        5,
-        16.4
-    ],
-    "Lawson RBR": [
-        "Inactive",
-        17.4
-    ],
-    "Albon": [
-        61,
-        12.8
-    ],
-    "Sainz": [
-        -4,
-        10.7
-    ],
-    "Alpine": [
-        5,
-        7.9
-    ],
-    "Aston Martin": [
-        43,
-        7.7
-    ],
-    "Ferrari": [
-        206,
-        27.3
-    ],
-    "Haas": [
-        123,
-        9.4
-    ],
-    "Kick Sauber": [
-        3,
-        5.4
-    ],
-    "McLaren": [
-        421,
-        31.2
-    ],
-    "Mercedes": [
-        298,
-        23.9
-    ],
-    "Racing Bulls": [
-        86,
-        9.2
-    ],
-    "Red Bull": [
-        199,
+        584,
         26.0
     ],
+    "Russell": [
+        508,
+        23.4
+    ],
+    "Antonelli": [
+        251,
+        16.3
+    ],
+    "Tsunoda RB": [
+        "Inactive Sprint",
+        5.9
+    ],
+    "Lawson": [
+        48,
+        6.5
+    ],
+    "Hadjar": [
+        96,
+        5.9
+    ],
+    "Verstappen": [
+        619,
+        29.2
+    ],
+    "Tsunoda": [
+        155,
+        10.8
+    ],
+    "Lawson RBR": [
+        "Inactive Sprint",
+        9.8
+    ],
+    "Albon": [
+        200,
+        13.2
+    ],
+    "Sainz": [
+        84,
+        6.3
+    ],
+    "Alpine": [
+        144,
+        9.1
+    ],
+    "Aston Martin": [
+        284,
+        11.7
+    ],
+    "Ferrari": [
+        992,
+        31.5
+    ],
+    "Haas": [
+        429,
+        13.8
+    ],
+    "Kick Sauber": [
+        271,
+        10.5
+    ],
+    "McLaren": [
+        1605,
+        35.6
+    ],
+    "Mercedes": [
+        1016,
+        27.5
+    ],
+    "Racing Bulls": [
+        404,
+        14.4
+    ],
+    "Red Bull": [
+        1023,
+        30.2
+    ],
     "Williams": [
-        95,
-        14.7
+        418,
+        18.6
     ]
 }

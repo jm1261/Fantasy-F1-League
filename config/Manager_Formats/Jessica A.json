@@ -1,0 +1,12 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "deeppink",
+    "teams": [
+        "Behlel",
+        "Medley Zon",
+        "Emien Rays"
+    ]
+}

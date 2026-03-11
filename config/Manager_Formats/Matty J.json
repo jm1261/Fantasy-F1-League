@@ -3,14 +3,10 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "cyan",
+    "bg_color": "darkseagreen",
     "teams": [
-        "The Stopwatch Never Lies",
-        "Checo Perez MMD",
-        "Danny Rics Barmy Army",
-        "OB Latte",
-        "The Lizard Queen",
-        "Throw Him In JaYaL",
-        "Roy's Croppers"
+        "Softbulls",
+        "Bang Average Senna",
+        "4 out of 10"
     ]
 }

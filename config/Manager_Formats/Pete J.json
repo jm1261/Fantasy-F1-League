@@ -3,13 +3,8 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "indigo",
+    "bg_color": "darkorange",
     "teams": [
-        "Rooteen Inspekshun",
-        "Just Shut Up And Listen",
-        "Lightning McCars",
-        "Peugeot Over Ford",
-        "Squeshed Nintendo Racing",
         "Monaco Barrier Testers",
         "Ford Nintendo Racing",
         "Seagiant F1 Online"

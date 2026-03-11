@@ -3,20 +3,12 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "orchid",
+    "bg_color": "honeydew",
     "teams": [
-        "Rhino's Midland F1 Racing",
-        "Be On Edge Jordan F1 TATA",
-        "Etihad Spyker Aldar-AD F1",
-        "Oracle RedBull Ford-EcoPT",
-        "Panasonic Toyota GRMN F1",
-        "Becks Jaguar HSBC Racing",
-        "Petrobras Williams RBS F1",
-        "Siemens McLaren West",
-        "Vodafone Ferrari Marlboro",
-        "Blue Flag Come On",
-        "HSBC Jaguar Racing",
+        "Kingfisher Force India",
         "Expensify APX GP",
-        "Kingfisher Force India F1"
+        "Kingfisher Force India F1",
+        "HSBC Jaguar Racing",
+        "Panasonic Toyota Racing"
     ]
 }

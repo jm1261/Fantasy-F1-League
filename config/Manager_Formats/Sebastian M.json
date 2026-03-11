@@ -3,13 +3,13 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "olive",
+    "bg_color": "darkgreen",
     "teams": [
-        "Denso Panasonic Toyota F1",
-        "JPS Lotus Renault",
-        "Telefonica Minardi Doimo",
+        "HP BMW Williams",
         "Bridgestone Toro Rosso F1",
         "Allianz BMW Williams",
-        "BWT Racing Point F1"
+        "BWT Racing Point F1",
+        "7UP Benetton F1",
+        "Virgin Brawn GP"
     ]
 }

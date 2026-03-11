@@ -3,11 +3,13 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "thistle",
+    "bg_color": "tab:blue",
     "teams": [
-        "Ms Fritters Driving Skool",
-        "Miss Fritter Is Back",
         "No Keys - Push To Start",
-        "Mickeys Roadster Racers"
+        "Mickeys Roadster Racers",
+        "Miss Fritter Is Back",
+        "No Strolling Here",
+        "Old Man Club",
+        "RusteezeRacers"
     ]
 }

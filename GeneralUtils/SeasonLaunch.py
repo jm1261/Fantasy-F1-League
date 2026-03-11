@@ -1,9 +1,21 @@
+###############################################################################
+###############################################################################
+#                             File: Season Launch                             #
+#                             Author: Joshua Male                             #
+#              Description: Script for launching a new F1 season              #
+#                         Project: Fantasy F1 League                          #
+#                              Date: 11/03/2025                               #
+#                           Copyright © Joshua Male                           #
+###############################################################################
+###############################################################################
+
+# Imports
 import InitializeGeneralUtils  # noqa
 
 import logging
 import DataIO as io
-import ResultsUtils.Formats as form
 import ManagerUtils.ManagerAnalysis as ma
+import ResultsUtils.FormatUtilities as form
 
 from pathlib import Path
 
@@ -11,7 +23,7 @@ from pathlib import Path
 logger = logging.getLogger(name=Path(__file__).stem)
 
 
-def launches_new_season(root: str,
+def launches_new_season(root: Path,
                         year: str) -> None:
     """
     Function Details
@@ -22,8 +34,10 @@ def launches_new_season(root: str,
 
     Parameters
     ----------
-    root, year: string
-        Path to root directory, year for data storage.
+    root: Path
+        Path to root directory.
+    year: string
+        Year for data storage.
 
     Returns
     -------
@@ -64,14 +78,14 @@ def launches_new_season(root: str,
 
     """
 
-    # Create Year Path
+    # Check path exists
     year_path = Path(f'{root}', 'Data', f'{year}')
     io.check_dir_exists(directory_path=year_path)
     logger.info(f'Year Path Created: {year_path}')
 
     # Initialize configuration instance and load season information
     config = io.LoadConfigs(
-        root_directory=root,
+        root_path=root,
         year=year
     )
 
@@ -81,24 +95,25 @@ def launches_new_season(root: str,
 
     # Create Manager Folders
     managers = season_info['Managers'].keys()
-    io.seasons_directories(
-        directory_path=year_path,
+    launcher = io.SeasonLaunch(
+        root_path=root,
+        year=year
+    )
+    launcher._season_directories(managers=managers)
+    launcher.check_manager_exist(
+        config_path=Path(config.format_path, 'Manager_Formats'),
         managers=managers
     )
-    new_managers = io.check_manager_exist(
-        directory_path=Path(config.format_path, 'Manager_Formats'),
-        managers=managers
-    )
-    used_colors = io.get_used_colors(
-        directory_path=Path(config.format_path, 'Manager_Formats')
+    launcher.get_used_colors(
+        config_path=Path(config.format_path, 'Manager_Formats')
     )
     form.generate_manager_colors(
-        new_managers=new_managers,
-        used_colors=used_colors,
+        new_managers=launcher.new_managers,
+        used_colors=launcher.used_colors,
         directory_path=Path(config.format_path, 'Manager_Formats')
     )
-    io.adds_managers_teams(
-        directory_path=Path(config.format_path, 'Manager_Formats'),
+    launcher._adds_managers_team(
+        config_path=Path(config.format_path, 'Manager_Formats'),
         manager_dict=season_info['Managers']
     )
 
@@ -141,8 +156,7 @@ def launches_new_season(root: str,
 
 
 if __name__ == '__main__':
-    # Test the function
     launches_new_season(
         root=Path().absolute(),
-        year='2025'
+        year='2026'
     )

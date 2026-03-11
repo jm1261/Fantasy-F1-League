@@ -1,0 +1,12 @@
+{
+    "bold": "True",
+    "size": 12,
+    "align": "centre",
+    "font": "Arial",
+    "bg_color": "darkmagenta",
+    "teams": [
+        "Kimi's angles",
+        "Midfielde Running",
+        "P2 and Last"
+    ]
+}

@@ -3,11 +3,13 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "peru",
+    "bg_color": "yellow",
     "teams": [
-        "Mirror, Signal, Manoeuvre",
         "Gran Prix Princesses F1",
         "Total F1 Performance",
-        "Silverstone Is Red 2025!!"
+        "HassleClack",
+        "TeamGain",
+        "PadCocks",
+        "Major Upgrade Coming"
     ]
 }

@@ -50,6 +50,10 @@ def lineup_week(root: str,
     ----------
     Move to new directory and improved documentation/work flow.
 
+    23/05/2025
+    ----------
+    Added time to sleep to allow for file writing.
+
     """
 
     # Initialize configuration instance and load season information
