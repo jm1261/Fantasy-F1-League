@@ -3,13 +3,10 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "navajowhite",
+    "bg_color": "blueviolet",
     "teams": [
-        "Tyrell P34 6 wheel buggy",
-        "Taylormade To Lose",
         "Lotus Side Skirt",
         "Jackie Stewarts TartanCap",
-        "Murder On Zidane's Floor",
-        "Andres Inyasista"
+        "Tyrell P34 6 wheel buggy"
     ]
 }

@@ -3,13 +3,10 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "papayawhip",
+    "bg_color": "brown",
     "teams": [
-        "Best of the rest",
-        "Soft Tyres Are Red",
         "Is this our year",
-        "Push, Push - Box Now Too",
-        "Wet Tyres Are Blue",
+        "Best of the rest",
         "We are the champions"
     ]
 }

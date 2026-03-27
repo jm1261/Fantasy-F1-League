@@ -3,10 +3,10 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "blue",
+    "bg_color": "slateblue",
     "teams": [
-        "Syahrul",
         "Gelael",
-        "Haryanto"
+        "Haryanto",
+        "Syahrul"
     ]
 }

@@ -3,13 +3,10 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "yellow",
+    "bg_color": "darkviolet",
     "teams": [
-        "Gran Prix Princesses F1",
-        "Total F1 Performance",
-        "HassleClack",
-        "TeamGain",
         "PadCocks",
-        "Major Upgrade Coming"
+        "TeamGain",
+        "HassleClack"
     ]
 }

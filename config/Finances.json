@@ -1,0 +1,161 @@
+{
+    "2026": {},
+    "2025": {
+        "Paid In": {
+            "Will R": 5,
+            "Patrick L": 5,
+            "Pete J": 5,
+            "Stefanus W": 5,
+            "James R": 5,
+            "Val M": 5,
+            "Phil M": 5,
+            "Jake M": 5,
+            "Stuart S": 5,
+            "Chloe B": 5,
+            "Sam CJ": 5,
+            "Alfie CJ": 5,
+            "Valerie M": 5,
+            "Josh M": 5,
+            "Sebastian M": 5
+        },
+        "Winnings": {
+            "Stefanus W": "£31.50",
+            "Phil M": "£11.25",
+            "Patrick L": "£3.75",
+            "Stuart S": "£21.50",
+            "Josh M": "£2.50",
+            "Finn R": "£3.75",
+            "Val M": "£0.75"
+        }
+    },
+    "2024": {
+        "Paid In": {
+            "Madlen P": 5,
+            "James R": 15,
+            "Tom C": 5,
+            "Charlie L": 5,
+            "Andrew F": 5,
+            "Joe T": 5,
+            "Josh M": 5,
+            "Sebastian M": 5,
+            "Will R": 5,
+            "Patrick L": 5,
+            "Val M": 5,
+            "Jake M": 5,
+            "Phil M": 5,
+            "Chloe B": 5,
+            "Sam CJ": 5,
+            "Jo H": 5,
+            "Stefanus W": 5,
+            "Tim W": 5,
+            "Toby P": 5,
+            "Stuart S": 5,
+            "Cameron M": 15,
+            "Pete J": 5,
+            "Pierce C": 5,
+            "Adam R": 5,
+            "Matty J": 5
+        },
+        "Winnings": {}
+    },
+    "2023": {
+        "Paid In": {
+            "Madlen P": 3,
+            "Stuart S": 6.04,
+            "Andrew F": 5,
+            "Val M": 10,
+            "Phil M": 5,
+            "Josh M": 10,
+            "James R": 12.08,
+            "Will R": 10,
+            "Cameron M": 10,
+            "Matty J": 5,
+            "Charlie L": 2,
+            "Jo H": 3,
+            "Jake M": 5,
+            "Pierce C": 3,
+            "Patrick L": 5,
+            "Ollie O": 3,
+            "Toby P": 3,
+            "Pete J": 2,
+            "Josh H": 8,
+            "Matt H": 1,
+            "Tess M": 1,
+            "Tom M": 1,
+            "Joe T": 3,
+            "Tom C": 3,
+            "Sam B": 3
+        },
+        "Winnings": {
+            "Sam B": 1.22,
+            "Val M": 8.55,
+            "Joe T": 1.22,
+            "Will R": 1.22,
+            "Jo H": 1.22,
+            "Charlie L": 2.44,
+            "James R": 25.64,
+            "Patrick L": 37.86,
+            "Pierce C": 24.43,
+            "Tom C": 6.11,
+            "Andrew F": 6.11,
+            "Toby P": 6.11
+        }
+    },
+    "2022": {
+        "Paid In": {
+            "Madlen P": 3,
+            "Stuart S": 3,
+            "Andrew F": 5,
+            "Val M": 5,
+            "Phil M": 5,
+            "Josh M": 5,
+            "James R": 10,
+            "Will R": 10,
+            "Cameron M": 10,
+            "Matty J": 3,
+            "Charlie L": 2,
+            "Jake M": 5,
+            "Pierce C": 3,
+            "Pete J": 4,
+            "Josh H": 5,
+            "Matt H": 3,
+            "Tom M": 5,
+            "Joe T": 2,
+            "Nick VL": 3,
+            "Sam F": 5,
+            "Nathan W": 3,
+            "Fred B": 5
+        },
+        "Winnings": {
+            "Phil M": 26,
+            "Andrew F": 26,
+            "Madlen P": 17.68,
+            "Val M": 12.48,
+            "Jake M": 6.24,
+            "Pierce C": 6.24,
+            "Will R": 5.20,
+            "James R": 2.08,
+            "Stuart S": 1.04,
+            "Josh M": 1.04
+        }
+    },
+    "2021": {
+        "Paid In": {
+            "unknown": "unknown"
+        },
+        "Winnings": {
+            "Stuart S": 28.58,
+            "Madlen P": 14.75,
+            "Josh H": 9.22,
+            "Will R": 25.35,
+            "James R": 7.83,
+            "Val M": 1.84,
+            "Jake M": 0.92,
+            "Nathan W": 0.92,
+            "Nick VL": 0.92,
+            "Josh M": 1.84
+        }
+    },
+    "2020": {},
+    "2019": {}
+}

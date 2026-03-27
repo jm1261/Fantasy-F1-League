@@ -3,11 +3,9 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "honeydew",
+    "bg_color": "orange",
     "teams": [
         "Kingfisher Force India",
-        "Expensify APX GP",
-        "Kingfisher Force India F1",
         "HSBC Jaguar Racing",
         "Panasonic Toyota Racing"
     ]

@@ -3,13 +3,10 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "gray",
+    "bg_color": "darkturquoise",
     "teams": [
-        "Red Bull Whats That 2nd",
-        "Norr2s Supremacy",
-        "Kick Sauber In The Audi",
-        "I Am Stupid Rookie",
         "Rory Eat Your Heart Out",
-        "19th Times the Charm"
+        "19th Times the Charm",
+        "Norr2s Supremacy"
     ]
 }

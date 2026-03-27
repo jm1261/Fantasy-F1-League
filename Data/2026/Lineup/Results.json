@@ -1,76 +1,274 @@
 {
     "Driver Points": {
-        "Gasly": [],
-        "Colapinto": [],
-        "Stroll": [],
-        "Alonso": [],
-        "Hulkenberg": [],
-        "Bortoleto": [],
-        "Perez": [],
-        "Bottas": [],
-        "Leclerc": [],
-        "Hamilton": [],
-        "Ocon": [],
-        "Bearman": [],
-        "Norris": [],
-        "Piastri": [],
-        "Russell": [],
-        "Antonelli": [],
-        "Linblad": [],
-        "Lawson": [],
-        "Verstappen": [],
-        "Hadjar": [],
-        "Albon": [],
-        "Sainz": []
+        "Gasly": [
+            11,
+            20
+        ],
+        "Colapinto": [
+            6,
+            18
+        ],
+        "Stroll": [
+            -23,
+            -14
+        ],
+        "Alonso": [
+            -14,
+            -7
+        ],
+        "Hulkenberg": [
+            -20,
+            7
+        ],
+        "Bortoleto": [
+            13,
+            -14
+        ],
+        "Perez": [
+            4,
+            20
+        ],
+        "Bottas": [
+            -16,
+            3
+        ],
+        "Leclerc": [
+            29,
+            51
+        ],
+        "Hamilton": [
+            25,
+            48
+        ],
+        "Ocon": [
+            9,
+            24
+        ],
+        "Bearman": [
+            20,
+            34
+        ],
+        "Norris": [
+            21,
+            -10
+        ],
+        "Piastri": [
+            -14,
+            -7
+        ],
+        "Russell": [
+            39,
+            45
+        ],
+        "Antonelli": [
+            32,
+            68
+        ],
+        "Lindblad": [
+            15,
+            7
+        ],
+        "Lawson": [
+            5,
+            35
+        ],
+        "Verstappen": [
+            50,
+            14
+        ],
+        "Hadjar": [
+            -8,
+            19
+        ],
+        "Albon": [
+            8,
+            -7
+        ],
+        "Sainz": [
+            9,
+            28
+        ]
     },
     "Driver Values": {
-        "Gasly": [],
-        "Colapinto": [],
-        "Stroll": [],
-        "Alonso": [],
-        "Hulkenberg": [],
-        "Bortoleto": [],
-        "Perez": [],
-        "Bottas": [],
-        "Leclerc": [],
-        "Hamilton": [],
-        "Ocon": [],
-        "Bearman": [],
-        "Norris": [],
-        "Piastri": [],
-        "Russell": [],
-        "Antonelli": [],
-        "Linblad": [],
-        "Lawson": [],
-        "Verstappen": [],
-        "Hadjar": [],
-        "Albon": [],
-        "Sainz": []
+        "Gasly": [
+            12.0,
+            12.2
+        ],
+        "Colapinto": [
+            6.2,
+            6.4
+        ],
+        "Stroll": [
+            8.0,
+            7.4
+        ],
+        "Alonso": [
+            10.0,
+            9.4
+        ],
+        "Hulkenberg": [
+            6.8,
+            6.2
+        ],
+        "Bortoleto": [
+            6.4,
+            7.0
+        ],
+        "Perez": [
+            6.0,
+            5.8
+        ],
+        "Bottas": [
+            5.9,
+            5.3
+        ],
+        "Leclerc": [
+            22.8,
+            23.1
+        ],
+        "Hamilton": [
+            22.5,
+            22.6
+        ],
+        "Ocon": [
+            7.3,
+            7.9
+        ],
+        "Bearman": [
+            7.4,
+            8.0
+        ],
+        "Norris": [
+            27.2,
+            27.1
+        ],
+        "Piastri": [
+            25.5,
+            25.2
+        ],
+        "Russell": [
+            27.4,
+            27.7
+        ],
+        "Antonelli": [
+            23.2,
+            23.5
+        ],
+        "Lindblad": [
+            6.2,
+            6.8
+        ],
+        "Lawson": [
+            6.5,
+            6.3
+        ],
+        "Verstappen": [
+            27.7,
+            28.0
+        ],
+        "Hadjar": [
+            15.1,
+            14.5
+        ],
+        "Albon": [
+            11.6,
+            11.4
+        ],
+        "Sainz": [
+            11.8,
+            11.6
+        ]
     },
-    "Team Points": {
-        "Alpine": [],
-        "Aston Martin": [],
-        "Audi": [],
-        "Cadillac": [],
-        "Ferrari": [],
-        "Haas": [],
-        "McLaren": [],
-        "Mercedes": [],
-        "Racing Bulls": [],
-        "Red Bull": [],
-        "Williams": []
+    "Constructor Points": {
+        "Alpine": [
+            22,
+            45
+        ],
+        "Aston Martin": [
+            -38,
+            -20
+        ],
+        "Audi": [
+            0,
+            -4
+        ],
+        "Cadillac": [
+            -13,
+            22
+        ],
+        "Ferrari": [
+            69,
+            119
+        ],
+        "Haas": [
+            34,
+            65
+        ],
+        "McLaren": [
+            19,
+            -7
+        ],
+        "Mercedes": [
+            96,
+            115
+        ],
+        "Racing Bulls": [
+            35,
+            50
+        ],
+        "Red Bull": [
+            42,
+            45
+        ],
+        "Williams": [
+            20,
+            22
+        ]
     },
-    "Team Values": {
-        "Alpine": [],
-        "Aston Martin": [],
-        "Audi": [],
-        "Cadillac": [],
-        "Ferrari": [],
-        "Haas": [],
-        "McLaren": [],
-        "Mercedes": [],
-        "Racing Bulls": [],
-        "Red Bull": [],
-        "Williams": []
+    "Constructor Values": {
+        "Alpine": [
+            12.5,
+            13.1
+        ],
+        "Aston Martin": [
+            10.3,
+            9.7
+        ],
+        "Audi": [
+            6.6,
+            6.0
+        ],
+        "Cadillac": [
+            6.0,
+            5.4
+        ],
+        "Ferrari": [
+            23.3,
+            23.6
+        ],
+        "Haas": [
+            7.4,
+            8.0
+        ],
+        "McLaren": [
+            28.9,
+            28.8
+        ],
+        "Mercedes": [
+            29.3,
+            29.6
+        ],
+        "Racing Bulls": [
+            6.3,
+            6.9
+        ],
+        "Red Bull": [
+            28.5,
+            28.5
+        ],
+        "Williams": [
+            12.0,
+            12.6
+        ]
     }
 }

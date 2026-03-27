@@ -1,16 +1,26 @@
 {
     "Australia": {
-        "Australia": {
-            "Driver 1": "",
-            "Driver 2": "",
-            "Driver 3": "",
-            "Driver 4": "",
-            "Driver 5": "",
-            "Constructor 1": "",
-            "Constructor 2": "",
-            "DRS Boost": "",
-            "Penalties": "",
-            "Perks": ""
-        }
+        "Driver 1": "Leclerc",
+        "Driver 2": "Hadjar",
+        "Driver 3": "Bearman",
+        "Driver 4": "Sainz",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "Haas",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
+    },
+    "China": {
+        "Driver 1": "Leclerc",
+        "Driver 2": "Hadjar",
+        "Driver 3": "Bearman",
+        "Driver 4": "Lindblad",
+        "Driver 5": "Hulkenberg",
+        "Constructor 1": "Red Bull",
+        "Constructor 2": "Racing Bulls",
+        "DRS Boost": "Leclerc",
+        "Penalties": 0,
+        "Perks": "None"
     }
 }

@@ -3,12 +3,10 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "tab:brown",
+    "bg_color": "k",
     "teams": [
+        "Loaded Arrows",
         "BMW Should Be Here",
-        "BMW FTW",
-        "Tangerine Dream",
-        "BMW Motorrad",
-        "Loaded Arrows"
+        "Tangerine Dream"
     ]
 }
