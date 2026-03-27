@@ -1,6 +1,6 @@
 ###############################################################################
 ###############################################################################
-#                           File: InitializeManager                           #
+#                           File: InitializeReports                           #
 #                             Author: Joshua Male                             #
 #                    Description: Initialize Sub Directory                    #
 #                         Project: Fantasy F1 League                          #
@@ -31,4 +31,4 @@ logging.config.fileConfig(
 logger = logging.getLogger(name=Path(__file__).stem)
 
 # Check logger working
-logger.info('Manager Utils logging initialized successfully')
+logger.info('Report Utils logging initialized successfully')
