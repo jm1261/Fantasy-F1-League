@@ -1,0 +1,914 @@
+{
+    "Team Points": {
+        "Phil M": {
+            "BMW Should Be Here": [
+                270,
+                327
+            ],
+            "Loaded Arrows": [
+                238,
+                344
+            ],
+            "Tangerine Dream": [
+                163,
+                336
+            ]
+        },
+        "Val M": {
+            "My Fav'rit Colour's Blue": [
+                255,
+                309
+            ],
+            "Toto's boy wonder": [
+                182,
+                362
+            ],
+            "Red is the new black": [
+                135,
+                264
+            ]
+        },
+        "Stefanus W": {
+            "Gelael": [
+                253,
+                411
+            ],
+            "Syahrul": [
+                213,
+                334
+            ],
+            "Haryanto": [
+                191,
+                481
+            ]
+        },
+        "Stuart S": {
+            "Jackie Stewarts TartanCap": [
+                241,
+                286
+            ],
+            "Lotus Side Skirt": [
+                203,
+                265
+            ],
+            "Tyrell P34 6 wheel buggy": [
+                -70,
+                -3
+            ]
+        },
+        "Leah M": {
+            "Emmie Emster": [
+                236,
+                320
+            ],
+            "Constructor Big Boys": [
+                204,
+                340
+            ],
+            "The Girlies": [
+                132,
+                248
+            ]
+        },
+        "Katie T": {
+            "OreoTheStretfordCat": [
+                232,
+                337
+            ],
+            "DenverDogg": [
+                217,
+                280
+            ],
+            "WeasyWoo": [
+                115,
+                379
+            ]
+        },
+        "Patrick L": {
+            "Charles' Eclair F1": [
+                231,
+                464
+            ],
+            "In Haast Place": [
+                -110,
+                40
+            ]
+        },
+        "Samuel F": {
+            "P2 and Last": [
+                230,
+                192
+            ],
+            "Midfielde Running": [
+                181,
+                297
+            ],
+            "Kimi's angles": [
+                137,
+                266
+            ]
+        },
+        "Cameron M": {
+            "compression": [
+                225,
+                349
+            ],
+            "lights out and awaywego": [
+                199,
+                413
+            ],
+            "pink power": [
+                178,
+                357
+            ]
+        },
+        "Maximilian M": {
+            "BandH Jordan F1": [
+                207,
+                324
+            ],
+            "QNET Marussia F1": [
+                187,
+                168
+            ],
+            "JPS Lotus F1": [
+                154,
+                244
+            ]
+        },
+        "Darren C": {
+            "Norfolkandchance": [
+                203,
+                410
+            ]
+        },
+        "Will R": {
+            "Dinoco Piston Cup Champs": [
+                191,
+                345
+            ],
+            "VER is Inevitable": [
+                165,
+                184
+            ],
+            "Pay Drivers": [
+                -106,
+                -5
+            ]
+        },
+        "Madlen P": {
+            "We are the champions": [
+                189,
+                207
+            ],
+            "Best of the rest": [
+                188,
+                342
+            ],
+            "Is this our year": [
+                166,
+                402
+            ]
+        },
+        "Matty J": {
+            "Bang Average Senna": [
+                185,
+                360
+            ],
+            "Softbulls": [
+                182,
+                218
+            ],
+            "4 out of 10": [
+                152,
+                289
+            ]
+        },
+        "Sam CJ": {
+            "HassleClack": [
+                182,
+                187
+            ],
+            "TeamGain": [
+                25,
+                124
+            ],
+            "PadCocks": [
+                -39,
+                -1
+            ]
+        },
+        "Jessica A": {
+            "Behlel": [
+                170,
+                336
+            ],
+            "Medley Zon": [
+                164,
+                363
+            ],
+            "Emien Rays": [
+                -12,
+                360
+            ]
+        },
+        "Josh M": {
+            "Kingfisher Force India": [
+                164,
+                348
+            ],
+            "Panasonic Toyota Racing": [
+                132,
+                441
+            ],
+            "HSBC Jaguar Racing": [
+                131,
+                435
+            ]
+        },
+        "Jake M": {
+            "19th Times the Charm": [
+                153,
+                366
+            ],
+            "Norr2s Supremacy": [
+                84,
+                37
+            ],
+            "Rory Eat Your Heart Out": [
+                -6,
+                -26
+            ]
+        },
+        "Chloe B": {
+            "RusteezeRacers": [
+                129,
+                154
+            ],
+            "Old Man Club": [
+                110,
+                291
+            ],
+            "No Strolling Here": [
+                88,
+                172
+            ]
+        },
+        "Valerie M": {
+            "Stroll to the 18th": [
+                24,
+                -34
+            ],
+            "Perez for world champion": [
+                -7,
+                9
+            ],
+            "Audi boys": [
+                -7,
+                9
+            ]
+        },
+        "Sebastian M": {
+            "HP BMW Williams": [
+                246,
+                383
+            ],
+            "Virgin Brawn GP": [
+                182,
+                260
+            ],
+            "7UP Benetton F1": [
+                157,
+                336
+            ]
+        }
+    },
+    "Manager Points": {
+        "Phil M": [
+            671,
+            1007
+        ],
+        "Val M": [
+            572,
+            935
+        ],
+        "Stefanus W": [
+            657,
+            1226
+        ],
+        "Stuart S": [
+            374,
+            548
+        ],
+        "Leah M": [
+            572,
+            908
+        ],
+        "Katie T": [
+            564,
+            996
+        ],
+        "Patrick L": [
+            121,
+            504
+        ],
+        "Samuel F": [
+            548,
+            755
+        ],
+        "Cameron M": [
+            602,
+            1119
+        ],
+        "Maximilian M": [
+            548,
+            736
+        ],
+        "Darren C": [
+            203,
+            410
+        ],
+        "Will R": [
+            250,
+            524
+        ],
+        "Madlen P": [
+            543,
+            951
+        ],
+        "Matty J": [
+            519,
+            867
+        ],
+        "Sam CJ": [
+            168,
+            310
+        ],
+        "Jessica A": [
+            322,
+            1059
+        ],
+        "Josh M": [
+            427,
+            1224
+        ],
+        "Jake M": [
+            231,
+            377
+        ],
+        "Chloe B": [
+            327,
+            617
+        ],
+        "Valerie M": [
+            10,
+            -16
+        ],
+        "Sebastian M": [
+            585,
+            979
+        ]
+    },
+    "Manager Average Points": {
+        "Phil M": [
+            223.66666666666666,
+            335.6666666666667
+        ],
+        "Val M": [
+            190.66666666666666,
+            311.6666666666667
+        ],
+        "Stefanus W": [
+            219.0,
+            408.6666666666667
+        ],
+        "Stuart S": [
+            124.66666666666667,
+            182.66666666666666
+        ],
+        "Leah M": [
+            190.66666666666666,
+            302.6666666666667
+        ],
+        "Katie T": [
+            188.0,
+            332.0
+        ],
+        "Patrick L": [
+            60.5,
+            252.0
+        ],
+        "Samuel F": [
+            182.66666666666666,
+            251.66666666666666
+        ],
+        "Cameron M": [
+            200.66666666666666,
+            373.0
+        ],
+        "Maximilian M": [
+            182.66666666666666,
+            245.33333333333334
+        ],
+        "Darren C": [
+            203.0,
+            410.0
+        ],
+        "Will R": [
+            83.33333333333333,
+            174.66666666666666
+        ],
+        "Madlen P": [
+            181.0,
+            317.0
+        ],
+        "Matty J": [
+            173.0,
+            289.0
+        ],
+        "Sam CJ": [
+            56.0,
+            103.33333333333333
+        ],
+        "Jessica A": [
+            107.33333333333333,
+            353.0
+        ],
+        "Josh M": [
+            142.33333333333334,
+            408.0
+        ],
+        "Jake M": [
+            77.0,
+            125.66666666666667
+        ],
+        "Chloe B": [
+            109.0,
+            205.66666666666666
+        ],
+        "Valerie M": [
+            3.3333333333333335,
+            -5.333333333333333
+        ],
+        "Sebastian M": [
+            195.0,
+            326.3333333333333
+        ]
+    },
+    "Team Values": {
+        "Phil M": {
+            "BMW Should Be Here": [
+                100.0,
+                103.0
+            ],
+            "Loaded Arrows": [
+                99.5,
+                101.1
+            ],
+            "Tangerine Dream": [
+                100.0,
+                100.7
+            ]
+        },
+        "Val M": {
+            "My Fav'rit Colour's Blue": [
+                100.0,
+                102.1
+            ],
+            "Toto's boy wonder": [
+                99.2,
+                99.6
+            ],
+            "Red is the new black": [
+                99.8,
+                94.0
+            ]
+        },
+        "Stefanus W": {
+            "Gelael": [
+                99.9,
+                101.0
+            ],
+            "Syahrul": [
+                99.80000000000001,
+                100.4
+            ],
+            "Haryanto": [
+                99.9,
+                100.0
+            ]
+        },
+        "Stuart S": {
+            "Jackie Stewarts TartanCap": [
+                100.0,
+                96.6
+            ],
+            "Lotus Side Skirt": [
+                99.0,
+                101.5
+            ],
+            "Tyrell P34 6 wheel buggy": [
+                52.400000000000006,
+                49.2
+            ]
+        },
+        "Leah M": {
+            "Emmie Emster": [
+                95.5,
+                95.6
+            ],
+            "Constructor Big Boys": [
+                97.7,
+                100.9
+            ],
+            "The Girlies": [
+                97.69999999999999,
+                95.30000000000001
+            ]
+        },
+        "Katie T": {
+            "OreoTheStretfordCat": [
+                96.30000000000001,
+                100.80000000000001
+            ],
+            "DenverDogg": [
+                99.9,
+                101.69999999999999
+            ],
+            "WeasyWoo": [
+                99.10000000000001,
+                98.30000000000001
+            ]
+        },
+        "Patrick L": {
+            "Charles' Eclair F1": [
+                100.0,
+                100.30000000000001
+            ],
+            "In Haast Place": [
+                52.599999999999994,
+                54.4
+            ]
+        },
+        "Samuel F": {
+            "P2 and Last": [
+                99.5,
+                101.1
+            ],
+            "Midfielde Running": [
+                98.19999999999999,
+                98.0
+            ],
+            "Kimi's angles": [
+                98.3,
+                99.2
+            ]
+        },
+        "Cameron M": {
+            "compression": [
+                96.5,
+                98.1
+            ],
+            "lights out and awaywego": [
+                97.10000000000001,
+                98.80000000000001
+            ],
+            "pink power": [
+                99.3,
+                100.9
+            ]
+        },
+        "Maximilian M": {
+            "BandH Jordan F1": [
+                96.1,
+                98.6
+            ],
+            "QNET Marussia F1": [
+                98.0,
+                101.1
+            ],
+            "JPS Lotus F1": [
+                99.7,
+                101.0
+            ]
+        },
+        "Darren C": {
+            "Norfolkandchance": [
+                100.0,
+                96.8
+            ]
+        },
+        "Will R": {
+            "Dinoco Piston Cup Champs": [
+                95.3,
+                96.9
+            ],
+            "VER is Inevitable": [
+                99.7,
+                100.9
+            ],
+            "Pay Drivers": [
+                52.599999999999994,
+                50.4
+            ]
+        },
+        "Madlen P": {
+            "We are the champions": [
+                95.5,
+                96.80000000000001
+            ],
+            "Best of the rest": [
+                99.1,
+                100.0
+            ],
+            "Is this our year": [
+                96.7,
+                99.19999999999999
+            ]
+        },
+        "Matty J": {
+            "Bang Average Senna": [
+                99.9,
+                100.8
+            ],
+            "Softbulls": [
+                100.3,
+                100.80000000000001
+            ],
+            "4 out of 10": [
+                98.5,
+                98.9
+            ]
+        },
+        "Sam CJ": {
+            "HassleClack": [
+                99.5,
+                100.30000000000001
+            ],
+            "TeamGain": [
+                98.6,
+                97.1
+            ],
+            "PadCocks": [
+                53.099999999999994,
+                52.1
+            ]
+        },
+        "Jessica A": {
+            "Behlel": [
+                99.4,
+                98.30000000000001
+            ],
+            "Medley Zon": [
+                99.7,
+                100.6
+            ],
+            "Emien Rays": [
+                97.19999999999999,
+                98.4
+            ]
+        },
+        "Josh M": {
+            "Kingfisher Force India": [
+                98.7,
+                100.4
+            ],
+            "Panasonic Toyota Racing": [
+                100.0,
+                97.69999999999999
+            ],
+            "HSBC Jaguar Racing": [
+                99.10000000000001,
+                100.30000000000001
+            ]
+        },
+        "Jake M": {
+            "19th Times the Charm": [
+                99.2,
+                95.6
+            ],
+            "Norr2s Supremacy": [
+                94.7,
+                95.1
+            ],
+            "Rory Eat Your Heart Out": [
+                99.69999999999999,
+                49.2
+            ]
+        },
+        "Chloe B": {
+            "RusteezeRacers": [
+                96.80000000000001,
+                96.80000000000001
+            ],
+            "Old Man Club": [
+                88.3,
+                86.5
+            ],
+            "No Strolling Here": [
+                99.4,
+                99.2
+            ]
+        },
+        "Valerie M": {
+            "Stroll to the 18th": [
+                43.300000000000004,
+                50.0
+            ],
+            "Perez for world champion": [
+                43.300000000000004,
+                46.3
+            ],
+            "Audi boys": [
+                43.300000000000004,
+                46.3
+            ]
+        },
+        "Sebastian M": {
+            "HP BMW Williams": [
+                97.1,
+                100.30000000000001
+            ],
+            "Virgin Brawn GP": [
+                100.3,
+                101.6
+            ],
+            "7UP Benetton F1": [
+                99.9,
+                99.6
+            ]
+        }
+    },
+    "Manager Values": {
+        "Phil M": [
+            299.5,
+            304.8
+        ],
+        "Val M": [
+            299.0,
+            295.7
+        ],
+        "Stefanus W": [
+            299.6,
+            301.4
+        ],
+        "Stuart S": [
+            251.4,
+            247.3
+        ],
+        "Leah M": [
+            290.9,
+            291.8
+        ],
+        "Katie T": [
+            295.3,
+            300.8
+        ],
+        "Patrick L": [
+            152.6,
+            154.70000000000002
+        ],
+        "Samuel F": [
+            296.0,
+            298.3
+        ],
+        "Cameron M": [
+            292.9,
+            297.8
+        ],
+        "Maximilian M": [
+            293.8,
+            300.7
+        ],
+        "Darren C": [
+            100.0,
+            96.8
+        ],
+        "Will R": [
+            247.6,
+            248.20000000000002
+        ],
+        "Madlen P": [
+            291.3,
+            296.0
+        ],
+        "Matty J": [
+            298.7,
+            300.5
+        ],
+        "Sam CJ": [
+            251.2,
+            249.5
+        ],
+        "Jessica A": [
+            296.3,
+            297.3
+        ],
+        "Josh M": [
+            297.8,
+            298.4
+        ],
+        "Jake M": [
+            293.6,
+            239.89999999999998
+        ],
+        "Chloe B": [
+            284.5,
+            282.5
+        ],
+        "Valerie M": [
+            129.9,
+            142.6
+        ],
+        "Sebastian M": [
+            297.3,
+            301.5
+        ]
+    },
+    "Manager Average Values": {
+        "Phil M": [
+            99.83333333333333,
+            101.60000000000001
+        ],
+        "Val M": [
+            99.66666666666667,
+            98.56666666666666
+        ],
+        "Stefanus W": [
+            99.86666666666667,
+            100.46666666666665
+        ],
+        "Stuart S": [
+            83.8,
+            82.43333333333334
+        ],
+        "Leah M": [
+            96.96666666666665,
+            97.26666666666667
+        ],
+        "Katie T": [
+            98.43333333333334,
+            100.26666666666667
+        ],
+        "Patrick L": [
+            76.3,
+            77.35000000000001
+        ],
+        "Samuel F": [
+            98.66666666666667,
+            99.43333333333334
+        ],
+        "Cameron M": [
+            97.63333333333333,
+            99.26666666666667
+        ],
+        "Maximilian M": [
+            97.93333333333334,
+            100.23333333333333
+        ],
+        "Darren C": [
+            100.0,
+            96.8
+        ],
+        "Will R": [
+            82.53333333333333,
+            82.73333333333333
+        ],
+        "Madlen P": [
+            97.10000000000001,
+            98.66666666666667
+        ],
+        "Matty J": [
+            99.56666666666666,
+            100.16666666666667
+        ],
+        "Sam CJ": [
+            83.73333333333333,
+            83.16666666666667
+        ],
+        "Jessica A": [
+            98.76666666666667,
+            99.10000000000001
+        ],
+        "Josh M": [
+            99.26666666666667,
+            99.46666666666665
+        ],
+        "Jake M": [
+            97.86666666666667,
+            79.96666666666665
+        ],
+        "Chloe B": [
+            94.83333333333333,
+            94.16666666666667
+        ],
+        "Valerie M": [
+            43.300000000000004,
+            47.53333333333333
+        ],
+        "Sebastian M": [
+            99.10000000000001,
+            100.5
+        ]
+    }
+}

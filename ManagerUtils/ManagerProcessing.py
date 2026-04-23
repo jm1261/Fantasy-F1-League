@@ -66,7 +66,7 @@ def managerweek(root: str,
 
     # Initialize configuration instance and load season information
     config = io.LoadConfigs(
-        root_directory=root,
+        root_path=root,
         year=year
     )
 
@@ -127,9 +127,9 @@ def managerweek(root: str,
 
 
 if __name__ == '__main__':
-    year = 2025
+    year = 2026
     root = Path().absolute()
     managerweek(
         root=root,
-        year=year
+        year=f'{year}'
     )

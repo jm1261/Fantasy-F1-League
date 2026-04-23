@@ -3,10 +3,10 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "darkseagreen",
+    "bg_color": "tab:brown",
     "teams": [
         "Softbulls",
-        "Bang Average Senna",
-        "4 out of 10"
+        "4 out of 10",
+        "Bang Average Senna"
     ]
 }

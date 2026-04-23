@@ -13,57 +13,56 @@ logger = logging.getLogger(name=Path(__file__).stem)
 def generate_manager_colors(new_managers: list,
                             used_colors: list,
                             directory_path: str) -> None:
-    """
-    Function Details
-    ================
-    Generates manager colour files from a list of all matplotlib colours.
+    # 1. Combine all color dictionaries to get Name -> Hex mapping
+    # This avoids the "duplicates" issue from your previous version
+    color_map = {
+        **mcolors.CSS4_COLORS,
+        **mcolors.TABLEAU_COLORS,
+        **mcolors.BASE_COLORS
+    }
 
-    Parameters
-    ----------
-    new_managers, used_colors: list
-        New managers and used color lists.
-    directory_path: string
-        Path to manager formats directory.
+    # 2. Filter for unique, unused, and DARK enough colors
+    LUMINANCE_THRESHOLD = 0.75  # 0.0 (Black) to 1.0 (White). Adjust as needed.
 
-    Returns
-    -------
-    None
+    valid_colors = []
+    for name, hex_val in color_map.items():
+        if name in used_colors:
+            continue
 
-    ----------------------------------------------------------------------------
-    Update History
-    ==============
+        # Convert to RGB (values 0.0 - 1.0)
+        r, g, b = mcolors.to_rgb(hex_val)
 
-    01/03/2024
-    ----------
-    Update to documentation.
+        # Calculate Perceived Luminance
+        luminance = 0.2126*r + 0.7152*g + 0.0722*b
 
-    """
+        if luminance < LUMINANCE_THRESHOLD:
+            valid_colors.append(name)
 
-    # This dictionary contains all CSS4 named colors
-    all_named_colors = list(mcolors.CSS4_COLORS.keys())
+    # 3. Shuffle and Assign
+    random.shuffle(valid_colors)
 
-    # This includes the shorthand base colors (like 'r', 'g', 'b')
-    base_colors = list(mcolors.BASE_COLORS.keys())
+    if len(valid_colors) < len(new_managers):
+        logger.warning(
+            "Not enough dark colors found. Consider raising threshold."
+        )
 
-    # This includes the Tableau palette
-    tableau_colors = list(mcolors.TABLEAU_COLORS.keys())
-
-    all_colors = all_named_colors + base_colors + tableau_colors
-    colors = [color for color in all_colors if color not in used_colors]
-    random.shuffle(colors)
     for index, manager in enumerate(new_managers):
+        # Prevent index errors by cycling if necessary
+        color = valid_colors[index % len(valid_colors)]
+
         manager_format = {
             'bold': 'True',
             'size': 12,
             'align': 'centre',
             'font': 'Arial',
-            'bg_color': colors[index],
-            'teams': []}
-        out_path = Path(f'{directory_path}/{manager}.json')
-        save_json_dicts(
-            out_path=out_path,
-            dictionary=manager_format)
-    logger.info('Manager colors generated.')
+            'bg_color': color,
+            'teams': []
+        }
+
+        out_path = Path(directory_path) / f"{manager}.json"
+        save_json_dicts(out_path=out_path, dictionary=manager_format)
+
+    logger.info(f'Manager colors generated for {len(new_managers)} managers.')
 
 
 def plotting_colors(format_dir: Path,

@@ -71,7 +71,7 @@ def checks_managers(root: str,
 
     # Initialize configuration instance and load season information
     config = io.LoadConfigs(
-        root_directory=root,
+        root_path=root,
         year=year
     )
 

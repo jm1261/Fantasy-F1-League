@@ -3,10 +3,10 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "darkmagenta",
+    "bg_color": "indigo",
     "teams": [
-        "Kimi's angles",
         "Midfielde Running",
+        "Kimi's angles",
         "P2 and Last"
     ]
 }

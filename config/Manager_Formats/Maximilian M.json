@@ -3,10 +3,10 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "ghostwhite",
+    "bg_color": "limegreen",
     "teams": [
+        "JPS Lotus F1",
         "QNET Marussia F1",
-        "BandH Jordan F1",
-        "JPS Lotus F1"
+        "BandH Jordan F1"
     ]
 }

@@ -3,12 +3,10 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "lightblue",
+    "bg_color": "plum",
     "teams": [
-        "VER is Inevitable",
         "Pay Drivers",
-        "Axelrods Allinol Allstars",
-        "The Big One(TM)",
+        "VER is Inevitable",
         "Dinoco Piston Cup Champs"
     ]
 }

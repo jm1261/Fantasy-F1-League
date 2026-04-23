@@ -3,12 +3,9 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "darkgreen",
+    "bg_color": "indianred",
     "teams": [
         "HP BMW Williams",
-        "Bridgestone Toro Rosso F1",
-        "Allianz BMW Williams",
-        "BWT Racing Point F1",
         "7UP Benetton F1",
         "Virgin Brawn GP"
     ]

@@ -3,13 +3,10 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "slategray",
+    "bg_color": "b",
     "teams": [
-        "Perez For World Champion",
-        "Audi boys",
         "Stroll to the 18th",
         "Perez for world champion",
-        "Stroll To The 18th",
-        "What Arrrgh Ya Doohan"
+        "Audi boys"
     ]
 }

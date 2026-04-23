@@ -42,7 +42,7 @@ def managers_prizes(root: str,
 
     """
     config = io.LoadConfigs(
-        root_directory=root,
+        root_path=root,
         year=year
     )
 
@@ -56,7 +56,7 @@ def managers_prizes(root: str,
     logger.info('Lineup configs loaded successfully')
 
     # Get Prizes
-    config.gets_prizes(file_name=f'{year}.json')
+    config.gets_prizes(file_name='Prizes.json')
     prize_keys = config.prizes.keys()
     logger.info('Prizes loaded successfully')
 
@@ -116,5 +116,5 @@ if __name__ == '__main__':
     root = Path().absolute()
     managers_prizes(
         root=root,
-        year='2025'
+        year='2026'
     )

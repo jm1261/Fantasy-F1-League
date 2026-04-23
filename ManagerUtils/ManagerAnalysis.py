@@ -1602,6 +1602,7 @@ class ManagerProcessor:
             f'Constructor {category}'
         ]
         for manager, teams in self.info_dict['Managers'].items():
+            print(manager, teams)
             results, sums, average = self.managers_scores(
                 category=category,
                 manager=manager,

@@ -3,13 +3,10 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "beige",
+    "bg_color": "g",
     "teams": [
-        "No U Turn",
-        "Limoncello44",
-        "Toto's boy wonder",
-        "Its 'odinge'",
         "Red is the new black",
-        "My Fav'rit Colour Is Blue"
+        "Toto's boy wonder",
+        "My Fav'rit Colour's Blue"
     ]
 }

@@ -3,10 +3,10 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "gainsboro",
+    "bg_color": "blue",
     "teams": [
-        "pink power",
+        "lights out and awaywego",
         "compression",
-        "lights out and awaywego"
+        "pink power"
     ]
 }

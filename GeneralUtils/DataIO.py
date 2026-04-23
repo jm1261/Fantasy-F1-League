@@ -14,8 +14,11 @@ import os
 import json
 import logging
 import numpy as np
+import matplotlib.pyplot as plt
 
 from pathlib import Path
+from matplotlib.image import imread
+from IPython.display import display, Image
 
 # Logging parameters
 logger = logging.getLogger(name=Path(__file__).stem)
@@ -208,6 +211,7 @@ class LoadConfigs:
     load_seasoninfo
     get_completed_races
     _has_race_completed
+    get_weekly_lineup_score
 
     ---------------------------------------------------------------------------
     Update History
@@ -270,7 +274,7 @@ class LoadConfigs:
         )
         self.prizes_path = Path(
             self.root,
-            'Prizes'
+            'config'
         )
         self.info_dict = {}
         logger.info('LoadConfigs initialized successfully')
@@ -308,7 +312,7 @@ class LoadConfigs:
             )
         )
         self.info_dict = info_dictionary[f'{self.year}']
-        logger.info(f'Season info dictionary assigned: {self.year}')
+        logger.info('Season info dictionary assigned')
         return self.info_dict
 
     def get_completed_races(self,
@@ -387,6 +391,37 @@ class LoadConfigs:
         race_file = Path(self.lineup_path, f'{race}_Results.json')
         return race_file.is_file()
 
+    def get_lineups_results(self,
+                            file_name: str) -> dict:
+        """
+        Function Details
+        ================
+        Get lineup results dictionary.
+
+        Parameters
+        ----------
+        file_name: string
+            Lineup results dictionary name.
+
+        Returns
+        -------
+        lineup_results: dictionary
+            Lineup results for current year.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        22/08/2024
+        ----------
+        Created from info_dictionary.
+
+        """
+        self.lineup_results = load_json(
+            file_path=Path(f'{self.lineup_path}/{file_name}'))
+        logger.info('Lineup results successfully assigned')
+        return self.lineup_results
+
     def get_weekly_lineup_score(self,
                                 file_name: str) -> dict:
         """
@@ -414,11 +449,264 @@ class LoadConfigs:
 
         """
         self.weekly_lineup = load_json(
-            file_path=Path(
-                f'{self.data_path}',
-                f'{file_name}'))
+            file_path=Path(f'{self.data_path}/{file_name}'))
         logger.info('Weekly lineup results successfully assigned')
         return self.weekly_lineup
+
+    def get_lineup_stat(self,
+                        file_name: str) -> dict:
+        """
+        Function Details
+        ================
+        Get lineup statistics dictionary.
+
+        Parameters
+        ----------
+        file_name: string
+            Lineup statistics dictionary name.
+
+        Returns
+        -------
+        lineup_stats: dictionary
+            Lineup statistics for current year.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        05/11/2024
+        ----------
+        Created from get_lineup_results.
+
+        """
+        self.lineup_stats = load_json(
+            file_path=Path(f'{self.lineup_path}', f'{file_name}')
+        )
+        return self.lineup_stats
+
+    def manager_results(self,
+                        file_name: str) -> dict:
+        """
+        Function Details
+        ================
+        Get manager results dictionary.
+
+        Parameters
+        ----------
+        file_name: string
+            Manager dictionary name.
+
+        Returns
+        -------
+        manager_results: dictionary
+            Manager results for current year.
+
+        See Also
+        --------
+        load_json
+
+        Notes
+        -----
+        None.
+
+        Example
+        -------
+        None.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        22/08/2024
+        ----------
+        Created from info_dictionary.
+
+        """
+        self.manager_results = load_json(
+            file_path=Path(f'{self.manager_path}/{file_name}'))
+
+    def managers_statistics(self,
+                            file_name: str) -> dict:
+        """
+        Function Details
+        ================
+        Get manager statistics dictionary.
+
+        Parameters
+        ----------
+        file_name: string
+            Manager dictionary name.
+
+        Returns
+        -------
+        manager_results: dictionary
+            Manager statistics for current year.
+
+        See Also
+        --------
+        load_json
+
+        Notes
+        -----
+        None.
+
+        Example
+        -------
+        None.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        22/08/2024
+        ----------
+        Created from info_dictionary.
+
+        """
+        self.manager_statistics = load_json(
+            file_path=Path(f'{self.manager_path}/{file_name}'))
+
+    def managers_counts(self,
+                        file_name: str) -> dict:
+        """
+        Function Details
+        ================
+        Get manager counts dictionary.
+
+        Parameters
+        ----------
+        file_name: string
+            Manager dictionary name.
+
+        Returns
+        -------
+        manager_results: dictionary
+            Manager counts for current year.
+
+        See Also
+        --------
+        load_json
+
+        Notes
+        -----
+        None.
+
+        Example
+        -------
+        None.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        22/08/2024
+        ----------
+        Created from info_dictionary.
+
+        """
+        self.manager_counts = load_json(
+            file_path=Path(f'{self.manager_path}/{file_name}'))
+
+    def get_positions(self) -> list:
+        """
+        Function Details
+        ================
+        Build a list of team positions to plot based on season info dictionary
+        list.
+
+        Parameters
+        ----------
+        None.
+
+        Returns
+        -------
+        positions: list
+            List of team sheet positions to plot.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        16/12/2024
+        ----------
+        Copied from ManagerAnalysis.
+
+        17/12/2024
+        ----------
+        Updated for immutability.
+
+        """
+        # Base positions
+        positions = ["Driver", "Constructor", "Perks"]
+
+        # Extend positions based on year-specific perks and team data
+        year_positions = self.info_dict["Team"]
+        year_perks = self.info_dict["Perks"]
+
+        # Add perks if they match specific values
+        perks_to_add = {"Extra DRS", "Mega Driver"}
+        positions.extend(
+            [
+                perk
+                for perk in year_perks
+                if perk in perks_to_add
+            ]
+        )
+
+        # Add team positions if they match specific values
+        positions_to_add = {"DRS Boost", "Turbo"}
+        positions.extend(
+            [
+                position
+                for position in year_positions
+                if position in positions_to_add
+            ]
+        )
+
+        # Return a copy to ensure immutability
+        return positions[:]
+
+    def gets_prizes(self,
+                    file_name: str) -> dict:
+        """
+        Function Details
+        ================
+        Get prizes dictionary.
+
+        Parameters
+        ----------
+        file_name: string
+            Prizes dictionary name.
+
+        Returns
+        -------
+        prizes: dictionary
+            Prizes for current year.
+
+        See Also
+        --------
+        load_json
+
+        Notes
+        -----
+        None.
+
+        Example
+        -------
+        None.
+
+        -----------------------------------------------------------------------
+        Update History
+        ==============
+
+        22/08/2024
+        ----------
+        Created from info_dictionary.
+
+        """
+        prizes_file = load_json(
+            file_path=Path(f'{self.prizes_path}/{file_name}'))
+        self.prizes = prizes_file[f'{self.year}']
 
 
 class SeasonLaunch:
@@ -877,3 +1165,175 @@ def create_drivers_teams_weekly(lineup_path: str,
     [weekly_dictionary.update({team: []}) for team in teams]
     logger.info('Weekly lineup dictionary Created')
     return weekly_dictionary
+
+
+def display_img(file_path: str,
+                width: int,
+                height: int) -> None:
+    """
+    Function Details
+    ================
+    Display image file as text.
+
+    Display image file as text in Jupyter notebook (or elsewhere).
+
+    Parameters
+    ----------
+    file_path: string
+        Path to image.
+
+    Returns
+    -------
+    Display
+        Prints a display to a Jupyter notebook
+
+    See Also
+    --------
+
+    Notes
+    -----
+    Uses the Ipython library to display an image file as a printed cell output
+    in Jupyter notebooks. The returned cell output is then displayed in the
+    html export.
+
+    Example
+    -------
+    None
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Copied and documentation update.
+
+    03/05/2024
+    ----------
+    Removed height and width optionality.
+
+    """
+    display(Image(filename=file_path, width=width, height=height))
+
+
+def cm_to_inches(cm: float) -> float:
+    """
+    Returns centimeters as inches.
+
+    Parameters
+    ----------
+    cm : float
+        Value in centimeters.
+
+    Returns
+    -------
+    inches : float
+        Value in inches.
+
+    ----------------------------------------------------------------------------
+    Update History
+    ==============
+
+    24/07/2024
+    ----------
+    Update to documentation and conversion scalar.
+
+    """
+    return round(cm / 2.45, 2)
+
+
+def displays_images(file_paths: list) -> None:
+    """
+    Function Details
+    ================
+    Build a figure containing multiple images to Jupyter display.
+
+    Parameters
+    ----------
+    file_paths: list
+        List of image file paths.
+
+    Returns
+    -------
+    None.
+
+    ---------------------------------------------------------------------------
+    Update History
+    ==============
+
+    15/02/2025
+    ----------
+    Created.
+
+    """
+    number_images = len(file_paths)
+    number_columns = 2
+    number_rows = (number_images + number_columns - 1) // number_columns
+    fig, axes = plt.subplots(
+        nrows=number_rows,
+        ncols=number_columns,
+        figsize=[
+            cm_to_inches(cm=30 * number_columns),
+            cm_to_inches(cm=18 * number_rows)
+        ]
+    )
+    axes = axes.flatten()
+    for index, image_path in enumerate(file_paths):
+        image = imread(fname=image_path)
+        ax = axes[index]
+        ax.imshow(image)
+        ax.axis('off')
+    [fig.delaxes(axes[j]) for j in range(number_images, len(axes))]
+    fig.tight_layout()
+    plt.show()
+
+
+def mismatched_team(statistics_dictionary: dict,
+                    league_records: dict) -> dict:
+    """
+    Function Details
+    ================
+    Identify teams with mismatched points between statistics and the league
+    records.
+
+    Parameters
+    ----------
+    statistics_dictionary, league_records: dict
+        Manager statistics dictionary. League check dictionary, manual input.
+
+    Returns
+    -------
+    mismatched_teams: list
+        List of teams that do not match.
+
+    Notes
+    -----
+    Built on old manager_checked function.
+
+    ---------------------------------------------------------------------------
+    Update History
+    ==============
+
+    01/03/2024
+    ----------
+    Update to documentation.
+
+    13/12/2024
+    ----------
+    Change to function name and refactoring.
+
+    """
+    # Extract team names and their latest points
+    team_points = {
+        team: points[-1]
+        for teams in statistics_dictionary.get("Team Sum Points", {}).values()
+        for team, points in teams.items()
+    }
+
+    # Find teams with mismatched points
+    mismatched_teams = [
+        team for team, points in team_points.items()
+        if league_records.get(team) != points
+    ]
+
+    return mismatched_teams

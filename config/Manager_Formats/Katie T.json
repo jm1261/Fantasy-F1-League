@@ -3,10 +3,10 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "olive",
+    "bg_color": "peru",
     "teams": [
+        "WeasyWoo",
         "DenverDogg",
-        "OreoTheStretfordCat",
-        "WeasyWoo"
+        "OreoTheStretfordCat"
     ]
 }

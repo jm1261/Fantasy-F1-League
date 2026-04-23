@@ -3,13 +3,10 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "tab:blue",
+    "bg_color": "darkorchid",
     "teams": [
-        "No Keys - Push To Start",
-        "Mickeys Roadster Racers",
-        "Miss Fritter Is Back",
+        "RusteezeRacers",
         "No Strolling Here",
-        "Old Man Club",
-        "RusteezeRacers"
+        "Old Man Club"
     ]
 }

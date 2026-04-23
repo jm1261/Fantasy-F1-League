@@ -3,11 +3,9 @@
     "size": 12,
     "align": "centre",
     "font": "Arial",
-    "bg_color": "fuchsia",
+    "bg_color": "lightseagreen",
     "teams": [
-        "In Haast Place",
-        "You Hadjar Chance Racing",
         "Charles' Eclair F1",
-        "Coming In Haast Place"
+        "In Haast Place"
     ]
 }
